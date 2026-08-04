@@ -399,9 +399,22 @@ class TFFeatureAnalyzer:
         upset_analyzer = UpSetAnalyzer(input_dir=self.input_dir, output_dir=self.plot_dir)
         return upset_analyzer.plot_motif_upset(category=category)
 
+    def run_interface_analysis(self) -> dict:
+        """
+        Executes structural interface property analysis (BSA, FNP, FBU, LD)
+        and exports multi-sheet Excel workbook for PNA and PP datasets.
+        """
+        try:
+            from script.tf_interface_analysis import TFInterfaceAnalyzer
+        except ImportError:
+            from tf_interface_analysis import TFInterfaceAnalyzer
+        out_dir = self.plot_dir.parent / "Interface"
+        interface_analyzer = TFInterfaceAnalyzer(output_dir=out_dir)
+        return interface_analyzer.run_all()
+
     def run_all(self):
         """
-        Runs all feature analyses and generates figures into dna/, rna/, and all/ directories.
+        Runs all feature and interface analyses and generates figures into dna/, rna/, and all/ directories.
         """
         logger.info("Executing Complete TF-NRD Feature Analysis Pipeline for DNA, RNA, and Combined datasets...")
 
@@ -415,7 +428,10 @@ class TFFeatureAnalyzer:
             self.plot_domain_upset(category=category)
             self.plot_motif_upset(category=category)
 
-        logger.info("TF-NRD Feature Analysis Pipeline Completed Successfully for DNA, RNA, and Combined Datasets!")
+        logger.info("Running Interface Analysis Pipeline...")
+        self.run_interface_analysis()
+
+        logger.info("TF-NRD Feature Analysis & Interface Pipeline Completed Successfully for DNA, RNA, and Combined Datasets!")
 
 
 def main():
@@ -428,6 +444,7 @@ def main():
     parser.add_argument("--kegg", action="store_true", help="Generate KEGG Disease Pathways plot")
     parser.add_argument("--domain-upset", action="store_true", help="Generate PFAM Domain UpSet plot")
     parser.add_argument("--motif-upset", action="store_true", help="Generate Motif UpSet plot")
+    parser.add_argument("--interface", action="store_true", help="Run Interface Analysis and export multi-sheet Excel for PNA & PP")
     parser.add_argument("--category", choices=["dna", "rna", "all"], default="all", help="Dataset category focus ('dna', 'rna', or 'all')")
     parser.add_argument("-i", "--input-dir", default=None, help="Input data directory path")
     parser.add_argument("-o", "--output-dir", default=None, help="Output plot directory path")
@@ -457,10 +474,13 @@ def main():
             analyzer.plot_domain_upset(category=cat)
         if args.motif_upset:
             analyzer.plot_motif_upset(category=cat)
-        if not any([args.subcellular, args.domains, args.motifs, args.motif_logos, args.kegg, args.domain_upset, args.motif_upset]):
+        if args.interface:
+            analyzer.run_interface_analysis()
+        if not any([args.subcellular, args.domains, args.motifs, args.motif_logos, args.kegg, args.domain_upset, args.motif_upset, args.interface]):
             analyzer.run_all()
 
 
 if __name__ == "__main__":
     main()
+
 

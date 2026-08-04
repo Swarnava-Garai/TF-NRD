@@ -38,11 +38,13 @@ def _safe_plot_matrix(self, ax):
     n_cats = data.index.nlevels
     inclusion = data.index.to_frame().values
 
+    other_dots = str(self._other_dots_color) if isinstance(self._other_dots_color, (int, float)) else self._other_dots_color
+
     styles = [
         [
             self.subset_styles[i]
             if inclusion[i, j]
-            else {'facecolor': self._other_dots_color, 'linewidth': 0}
+            else {'facecolor': other_dots, 'linewidth': 0}
             for j in range(n_cats)
         ]
         for i in range(len(data))
@@ -98,6 +100,14 @@ def _safe_plot_matrix(self, ax):
     ax.spines['left'].set_visible(False)
 
 upp.UpSet.plot_matrix = _safe_plot_matrix
+
+
+def _fix_text_positions(plot_res):
+    """Fix array text positions for Matplotlib 3.11 compatibility."""
+    for ax_name, ax in plot_res.items():
+        for t in ax.texts:
+            x, y = t.get_position()
+            t.set_position((float(np.ravel(x)[0]), float(np.ravel(y)[0])))
 
 
 class UpSetAnalyzer:
@@ -177,7 +187,7 @@ class UpSetAnalyzer:
             facecolor='darkblue',
             shading_color='lightgray',
             element_size=None,
-            other_dots_color=0.4,
+            other_dots_color='0.4',
             intersection_plot_elements=10,
             totals_plot_elements=2
         )
@@ -187,6 +197,8 @@ class UpSetAnalyzer:
         upset.style_subsets(min_degree=3, facecolor="gold", edgecolor="black", linewidth=0.5)
 
         plot_res = upset.plot(fig)
+        _fix_text_positions(plot_res)
+
         plot_res['intersections'].set_ylabel('Number of PFAM Domains', fontweight='bold', fontsize=14)
         plot_res['totals'].set_xlabel('Total Domains \nper Category', fontweight='bold', fontsize=12)
 
@@ -269,7 +281,7 @@ class UpSetAnalyzer:
             facecolor='darkblue',
             shading_color='lightgray',
             element_size=None,
-            other_dots_color=0.4,
+            other_dots_color='0.4',
             intersection_plot_elements=10,
             totals_plot_elements=2
         )
@@ -279,6 +291,8 @@ class UpSetAnalyzer:
         upset_m.style_subsets(min_degree=3, facecolor="gold", edgecolor="black", linewidth=0.5)
 
         plot_res_m = upset_m.plot(fig)
+        _fix_text_positions(plot_res_m)
+
         plot_res_m['intersections'].set_ylabel('Number of unique Motifs', fontweight='bold', fontsize=14)
         plot_res_m['totals'].set_xlabel('Total Motifs \nper Category', fontweight='bold', fontsize=12)
 
