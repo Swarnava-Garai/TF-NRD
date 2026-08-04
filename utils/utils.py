@@ -641,3 +641,146 @@ def plot_architecture_advanced(protein_id, protein_df, feature_df, pdb_df, outpu
     plt.tight_layout()
     plt.savefig(output_file, dpi=600, bbox_inches='tight')
     plt.close()
+
+# =========================================================
+# 11. AUTOMATED PDB/CIF CHAIN IDENTIFICATION UTILITIES
+# =========================================================
+from pathlib import Path
+
+# Dynamically add rota_assign/utils to sys.path for mmcif_clean_reader
+_ROTA_UTILS_DIR = Path(__file__).resolve().parents[2] / "rota_assign" / "utils"
+if _ROTA_UTILS_DIR.exists() and str(_ROTA_UTILS_DIR) not in sys.path:
+    sys.path.insert(0, str(_ROTA_UTILS_DIR))
+
+try:
+    from mmcif_clean_reader import parse_file
+except ImportError:
+    parse_file = None
+
+AA_LIST = {
+    "ALA", "ARG", "ASN", "ASP", "CYS", "GLU", "GLN", "GLY", "HIS", "ILE",
+    "LEU", "LYS", "MET", "PHE", "SER", "THR", "TRP", "TYR", "VAL",
+    "MSE", "SEC", "PYL"
+}
+
+RNA_LIST = {
+    "A", "U", "C", "G", "  A", "  U", "  C", "  G", "A  ", "U  ", "C  ", "G  ",
+    "RA", "RU", "RC", "RG"
+}
+
+DNA_LIST = {
+    "DA", "DT", "DC", "DG", "  T", " DA", " DT", " DC", " DG", "DA ", "DT ", "DC ", "DG ",
+    "T"
+}
+
+def identify_chains(structure_input):
+    """
+    Automated identification of protein, RNA, DNA, and ligand chain IDs in a structure file or file handle (.pdb, .cif, .mmcif).
+
+    Parameters:
+        structure_input (str | Path | file object): Path to PDB/CIF file or open file object.
+
+    Returns:
+        dict: {
+            'protein': [chain_ids...],
+            'rna': [chain_ids...],
+            'dna': [chain_ids...],
+            'ligand': [chain_ids...]
+        }
+    """
+    filepath = None
+    if isinstance(structure_input, (str, Path)):
+        filepath = str(structure_input)
+    elif hasattr(structure_input, 'name') and os.path.exists(getattr(structure_input, 'name', '')):
+        filepath = str(structure_input.name)
+
+    pChnList, rChnList, dChnList, lChnList = [], [], [], []
+
+    rows = None
+    if filepath and parse_file is not None:
+        try:
+            cols, rows = parse_file(filepath)
+        except Exception:
+            rows = None
+
+    if rows is not None:
+        for row in rows:
+            chain = (row.get("_atom_site.auth_asym_id") or row.get("_atom_site.label_asym_id") or "").strip()
+            resname = (row.get("_atom_site.auth_comp_id") or row.get("_atom_site.label_comp_id") or "").strip()
+            group = (row.get("_atom_site.group_PDB") or "ATOM").strip()
+            if not chain:
+                continue
+
+            if resname in AA_LIST:
+                if chain not in pChnList:
+                    pChnList.append(chain)
+            elif resname in RNA_LIST or resname in {r.strip() for r in RNA_LIST}:
+                if chain not in rChnList:
+                    rChnList.append(chain)
+            elif resname in DNA_LIST or resname in {d.strip() for d in DNA_LIST}:
+                if chain not in dChnList:
+                    dChnList.append(chain)
+            elif group == "HETATM" and resname not in ("HOH", "WAT", "D2O", "DOD"):
+                if chain not in lChnList:
+                    lChnList.append(chain)
+    else:
+        # Fallback for open file handles or missing parser
+        lines = []
+        if isinstance(structure_input, (str, Path)) and os.path.exists(str(structure_input)):
+            with open(str(structure_input), 'r') as f:
+                lines = f.readlines()
+        elif hasattr(structure_input, 'readlines'):
+            if hasattr(structure_input, 'seek'):
+                try:
+                    structure_input.seek(0)
+                except Exception:
+                    pass
+            lines = structure_input.readlines()
+        elif hasattr(structure_input, '__iter__'):
+            lines = list(structure_input)
+
+        for line in lines:
+            if line.startswith(('ATOM', 'HETATM')):
+                resname = line[17:20].strip()
+                chain = line[21].strip()
+                if not chain:
+                    continue
+                if resname in AA_LIST:
+                    if chain not in pChnList:
+                        pChnList.append(chain)
+                elif resname in RNA_LIST or line[17:20] in RNA_LIST or resname in {r.strip() for r in RNA_LIST}:
+                    if chain not in rChnList:
+                        rChnList.append(chain)
+                elif resname in DNA_LIST or line[17:20] in DNA_LIST or resname in {d.strip() for d in DNA_LIST}:
+                    if chain not in dChnList:
+                        dChnList.append(chain)
+                elif line.startswith('HETATM') and resname not in ("HOH", "WAT", "D2O", "DOD"):
+                    if chain not in lChnList:
+                        lChnList.append(chain)
+
+    return {
+        'protein': pChnList,
+        'rna': rChnList,
+        'dna': dChnList,
+        'ligand': lChnList
+    }
+
+def get_proChainIDs(structure_input):
+    """Returns list of protein chain IDs in PDB or CIF file."""
+    chains = identify_chains(structure_input)
+    return chains['protein']
+
+def get_rnaChainIDs(structure_input):
+    """Returns (protein_chains, rna_chains) tuple for PDB or CIF file."""
+    chains = identify_chains(structure_input)
+    return chains['protein'], chains['rna']
+
+def get_dnaChainIDs(structure_input):
+    """Returns (protein_chains, dna_chains) tuple for PDB or CIF file."""
+    chains = identify_chains(structure_input)
+    return chains['protein'], chains['dna']
+
+def get_hybridChainIDs(structure_input):
+    """Returns (protein_chains, rna_chains, dna_chains) tuple for PDB or CIF file."""
+    chains = identify_chains(structure_input)
+    return chains['protein'], chains['rna'], chains['dna']
