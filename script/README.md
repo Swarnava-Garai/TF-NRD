@@ -175,6 +175,57 @@ python script/upset_analysis.py --domain-upset --category rna
 
 ---
 
+## 5. Metadata Curation Suite (`utils.py`)
+
+[`utils.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/utils/utils.py) provides Section 12 RCSB PDB custom report curation, chain combining, entity counting, oligomeric state extraction, BSA calculation, and complex table construction.
+
+### Key Functions in `utils.py`
+
+- **`read_rcsb_custom_report(csv_path: str | Path) -> pd.DataFrame`**
+  Intelligently reads RCSB PDB custom report CSV files, automatically detecting single-header vs two-header formats.
+
+- **`combine_asym_ids(df: pd.DataFrame, condition_dict=None, chain_sep='') -> pd.DataFrame`**
+  Combines asymmetric chain IDs for identical macromolecule entities within a PDB entry.
+
+- **`filter_complete_complexes(df: pd.DataFrame, min_protein_len=30, min_na_len=5) -> pd.DataFrame`**
+  Filters PDB entries to retain complete complexes containing qualifying protein ($\ge 30$ AA) and nucleic acid ($\ge 5$ nt).
+
+- **`abbreviate_organism(name: str) -> str`**
+  Abbreviates binomial species names (e.g., `Homo sapiens` $\rightarrow$ `H. sapiens`, `Escherichia coli` $\rightarrow$ `E. coli`).
+
+- **`calculate_bsa_from_int(filepath: str | Path) -> float`**
+  Calculates total Buried Surface Area (BSA in $\text{\AA}^2$) from PRince `.int` interface output files.
+
+- **`build_complex_table(df: pd.DataFrame, prince_results_dir=None) -> pd.DataFrame`**
+  Constructs a 1-row-per-Entry-ID complex summary table containing:
+  - Entity counts: **`Protein Entities`**, **`RNA Entities`**, **`DNA Entities`**
+  - Assembly metadata: **`Oligomeric State`**, `Refinement Resolution (\AA)`, `Source Organism`
+  - Interface metrics: **`BSA_complex`**, **`BSA_protein`**, **`BSA_DNA`**, **`BSA_RNA`**
+
+- **`clean_and_merge_custom_reports(struct_csv_path, seq_csv_path, prince_results_dir=None) -> (pd.DataFrame, pd.DataFrame)`**
+  End-to-end master pipeline reading custom RCSB reports, forward-filling multi-entity fields, merging sequence metadata, combining chain IDs, filtering complexes, and exporting cleaned metadata and complex summary tables.
+
+### Python Usage Example
+
+```python
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path("../utils").resolve()))
+from utils import clean_and_merge_custom_reports
+
+struct_csv = "TFNRD_EM_structure_custom_report.csv"
+seq_csv = "TFNRD_EM_sequence.csv"
+
+# Execute master cleaning & merging pipeline
+merged_df, complex_df = clean_and_merge_custom_reports(struct_csv, seq_csv)
+
+# Export cleaned outputs
+merged_df.to_csv("TFNRDv1.0_EM_cleaned_merged_metadata.csv", index=False)
+complex_df.to_csv("TFNRDv1.0_EM_complex_table.csv", index=False)
+```
+
+---
+
 ## 🚀 Environment Requirements
 
 - Python 3.8+

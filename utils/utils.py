@@ -784,3 +784,235 @@ def get_hybridChainIDs(structure_input):
     """Returns (protein_chains, rna_chains, dna_chains) tuple for PDB or CIF file."""
     chains = identify_chains(structure_input)
     return chains['protein'], chains['rna'], chains['dna']
+
+# =========================================================
+# 12. RCSB PDB CUSTOM REPORT CLEANING & MERGING UTILITIES
+# =========================================================
+
+def read_rcsb_custom_report(csv_path):
+    """
+    Reads RCSB PDB custom report CSV files (auto-detects 1-header or 2-header RCSB CSV structures).
+    """
+    csv_path = str(csv_path)
+    if not os.path.exists(csv_path):
+        raise FileNotFoundError(f"Custom report CSV file not found: {csv_path}")
+
+    with open(csv_path, 'r', encoding='utf-8', errors='replace') as f:
+        l1 = f.readline().strip()
+        l2 = f.readline().strip()
+
+    if any(k in l2 for k in ['Entry ID', 'Auth Asym ID', 'Entity ID', 'Accession Code', 'Refinement Resolution']):
+        df = pd.read_csv(csv_path, skiprows=1, header=0, low_memory=False)
+    else:
+        df = pd.read_csv(csv_path, header=0, low_memory=False)
+
+    df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+    return df
+
+def combine_asym_ids(df, condition_dict):
+    """
+    Combines 'Auth Asym ID' for rows matching condition_dict,
+    grouping by 'Entry ID', 'Entity Macromolecule Type', 'Polymer Entity Sequence Length'.
+    """
+    df_copy = df.copy()
+    mask = pd.Series([True] * len(df_copy), index=df_copy.index)
+    for col, val in condition_dict.items():
+        if col in df_copy.columns:
+            mask &= (df_copy[col] == val)
+
+    group_cols = ['Entry ID', 'Entity Macromolecule Type', 'Polymer Entity Sequence Length']
+    group_cols = [c for c in group_cols if c in df_copy.columns]
+
+    agg_dict = {'Auth Asym ID': lambda x: ''.join(sorted(set(str(v) for v in x.dropna() if str(v).strip() not in ['nan', 'None', ''])))}
+    agg_dict.update({col: 'first' for col in df_copy.columns if col not in ['Auth Asym ID'] + group_cols})
+
+    df_filtered = df_copy[mask].groupby(group_cols, as_index=False).agg(agg_dict).reset_index(drop=True)
+    df_non_matching = df_copy[~mask]
+
+    result = pd.concat([df_non_matching, df_filtered], ignore_index=True)
+    if 'Entry ID' in result.columns and 'Entity Macromolecule Type' in result.columns:
+        result = result.sort_values(['Entry ID', 'Entity Macromolecule Type']).reset_index(drop=True)
+    return result
+
+def filter_complete_complexes(df, min_protein_len=30, min_na_len=5):
+    """
+    Keep Entry IDs with BOTH qualifying protein (length >= min_protein_len)
+    AND qualifying nucleic acid (DNA or RNA, length >= min_na_len).
+    """
+    cond_poly = (df['Entity Macromolecule Type'] == 'polypeptide(L)') & (df['Polymer Entity Sequence Length'] >= min_protein_len)
+    cond_rna = (df['Entity Macromolecule Type'] == 'polyribonucleotide') & (df['Polymer Entity Sequence Length'] >= min_na_len)
+    cond_dna = (df['Entity Macromolecule Type'] == 'polydeoxyribonucleotide') & (df['Polymer Entity Sequence Length'] >= min_na_len)
+
+    poly_ids = set(df[cond_poly]['Entry ID'].unique()) if not df[cond_poly].empty else set()
+    na_ids = set(df[cond_rna | cond_dna]['Entry ID'].unique()) if not df[cond_rna | cond_dna].empty else set()
+    valid_ids = poly_ids & na_ids
+
+    if not valid_ids:
+        logging.warning("No Entry IDs contain both qualifying protein and nucleic acid macromolecule types.")
+        return df.iloc[0:0].copy()
+
+    result = df[df['Entry ID'].isin(valid_ids)].copy().reset_index(drop=True)
+    return result
+
+def abbreviate_organism(val):
+    """
+    Abbreviates Source Organism strings (e.g. Escherichia coli -> E. coli, Homo sapiens -> H. sapiens).
+    """
+    if pd.isna(val) or not str(val).strip() or str(val).strip() in ['nan', 'None', 'Unknown']:
+        return 'Unknown'
+    parts = str(val).strip().split()
+    if len(parts) == 1:
+        return parts[0]
+    return f"{parts[0][0].upper()}. {' '.join(parts[1:])}"
+
+def calculate_bsa_from_int(filepath):
+    """
+    Calculates total Buried Surface Area (BSA) from a PRince .int file.
+    """
+    filepath = Path(filepath)
+    if not filepath.exists():
+        return 0.0
+    total_bsa = 0.0
+    with open(filepath, 'r', encoding='utf-8', errors='replace') as intf:
+        for line in intf:
+            if line.startswith('ATOM'):
+                parts = line.split()
+                if len(parts) >= 10:
+                    try:
+                        bsa = float(parts[-1])
+                        total_bsa += bsa
+                    except ValueError:
+                        pass
+    return round(total_bsa, 2)
+
+def build_complex_table(df, prince_results_dir=None):
+    """
+    Constructs a 1-row-per-Entry-ID summary table of TF-DNA / TF-RNA complexes.
+    Includes entity counts for Protein Entities, RNA Entities, and DNA Entities, Oligomeric State, and BSA metrics.
+    """
+    df_copy = df.copy()
+    df_copy['seq_len_str'] = pd.to_numeric(df_copy['Polymer Entity Sequence Length'], errors='coerce').astype('Int64').astype(str)
+
+    base_info_cols = {'Refinement Resolution (Å)': 'first', 'Source Organism': 'first'}
+    if 'Oligomeric State' in df_copy.columns:
+        base_info_cols['Oligomeric State'] = 'first'
+
+    base_info = df_copy.groupby('Entry ID').agg(base_info_cols)
+
+    def count_entities(mac_type):
+        subset = df_copy[df_copy['Entity Macromolecule Type'] == mac_type]
+        if subset.empty:
+            return pd.Series(0, index=base_info.index)
+        if 'Entity ID' in subset.columns and subset['Entity ID'].notnull().any():
+            return subset.groupby('Entry ID')['Entity ID'].nunique()
+        else:
+            return subset.groupby('Entry ID')['Auth Asym ID'].nunique()
+
+    protein_ent = count_entities('polypeptide(L)').rename('Protein Entities')
+    rna_ent = count_entities('polyribonucleotide').rename('RNA Entities')
+    dna_ent = count_entities('polydeoxyribonucleotide').rename('DNA Entities')
+
+    def aggregate_type(mac_type, prefix):
+        subset = df_copy[df_copy['Entity Macromolecule Type'] == mac_type]
+        if subset.empty:
+            return pd.DataFrame()
+        return subset.groupby('Entry ID').agg({
+            'Macromolecule Name': lambda x: '+'.join(sorted(set(str(v) for v in x.dropna() if str(v).strip() not in ['nan', 'None', '']))),
+            'seq_len_str': lambda x: '+'.join(sorted(set(str(v) for v in x.dropna() if str(v).strip() not in ['nan', 'None', '']))),
+            'Auth Asym ID': lambda x: ''.join(sorted(set(str(v) for v in x.dropna() if str(v).strip() not in ['nan', 'None', ''])))
+        }).rename(columns={
+            'Macromolecule Name': f'{prefix}_name',
+            'seq_len_str': f'{prefix}_length',
+            'Auth Asym ID': f'{prefix}_chain'
+        })
+
+    protein = aggregate_type('polypeptide(L)', 'protein')
+    dna = aggregate_type('polydeoxyribonucleotide', 'DNA')
+    rna = aggregate_type('polyribonucleotide', 'RNA')
+
+    output_df = base_info.join([protein_ent, rna_ent, dna_ent, protein, dna, rna]).reset_index()
+    output_df['Protein Entities'] = output_df['Protein Entities'].fillna(0).astype(int)
+    output_df['RNA Entities'] = output_df['RNA Entities'].fillna(0).astype(int)
+    output_df['DNA Entities'] = output_df['DNA Entities'].fillna(0).astype(int)
+
+    chain_cols = [c for c in ['protein_chain', 'DNA_chain', 'RNA_chain'] if c in output_df.columns]
+    output_df['Chains'] = output_df[chain_cols].fillna('').agg(':'.join, axis=1).str.strip(':')
+
+    if 'Source Organism' in output_df.columns:
+        output_df['Source Organism'] = output_df['Source Organism'].apply(abbreviate_organism)
+
+    # Attach BSA metrics from prince_results if available
+    prince_dir = Path(prince_results_dir) if prince_results_dir else Path('/home/labuser/Projects/PhD_projects/swarnava_TF_work/Interface/Revision/prince_results')
+    
+    bsa_complex, bsa_protein, bsa_dna, bsa_rna = [], [], [], []
+    for entry_id in output_df['Entry ID']:
+        pdb_id = str(entry_id).strip().upper()
+        na_dir = prince_dir / f'{pdb_id}_NA'
+        comp_int = na_dir / f'{pdb_id}.int'
+        pro_int = na_dir / f'{pdb_id}P.int'
+        dna_int = na_dir / f'{pdb_id}D.int'
+        rna_int = na_dir / f'{pdb_id}R.int'
+
+        bc = calculate_bsa_from_int(comp_int)
+        bp = calculate_bsa_from_int(pro_int)
+        bd = calculate_bsa_from_int(dna_int)
+        br = calculate_bsa_from_int(rna_int)
+
+        bsa_complex.append(bc if bc > 0 else '-')
+        bsa_protein.append(bp if bp > 0 else '-')
+        bsa_dna.append(bd if bd > 0 else '-')
+        bsa_rna.append(br if br > 0 else '-')
+
+    output_df['BSA_complex'] = bsa_complex
+    output_df['BSA_protein'] = bsa_protein
+    output_df['BSA_DNA'] = bsa_dna
+    output_df['BSA_RNA'] = bsa_rna
+
+    cols_order = ['Entry ID', 'Chains', 'protein_name', 'protein_length', 'DNA_name', 'DNA_length', 'RNA_name', 'RNA_length', 'Protein Entities', 'RNA Entities', 'DNA Entities', 'Oligomeric State', 'Refinement Resolution (Å)', 'Source Organism', 'BSA_complex', 'BSA_protein', 'BSA_DNA', 'BSA_RNA']
+    cols_order = [c for c in cols_order if c in output_df.columns] + [c for c in output_df.columns if c not in cols_order and c not in ['protein_chain', 'DNA_chain', 'RNA_chain']]
+
+    return output_df[cols_order]
+
+def clean_and_merge_custom_reports(struct_csv_path, seq_csv_path, prince_results_dir=None):
+    """
+    Cleans and merges sequence and structure metadata from custom reports.
+    Returns (merged_df, complex_table_df).
+    """
+    struct_df = read_rcsb_custom_report(struct_csv_path)
+    seq_df = read_rcsb_custom_report(seq_csv_path)
+
+    struct_df['Entry ID'] = struct_df['Entry ID'].ffill()
+    seq_df['Entry ID'] = seq_df['Entry ID'].ffill()
+
+    ffill_cols = ['Refinement Resolution (Å)', 'Experimental Method', 'Source Organism', 'Expression Host', 
+                  'Total Number of Polymer Residues per Assembly', 'Total Number of Polymer Instances (Chains) per Assembly',
+                  'Oligomeric Count', 'Assembly ID', 'Kind', 'Oligomeric State', 'Stoichiometry', 'Symbol', 'Type']
+    for col in ffill_cols:
+        if col in struct_df.columns:
+            struct_df[col] = struct_df[col].ffill()
+
+    struct_clean = struct_df.dropna(subset=['Auth Asym ID', 'Entity Macromolecule Type', 'Polymer Entity Sequence Length']).copy()
+    if 'Expression Host' in struct_clean.columns:
+        struct_clean['Expression Host'] = struct_clean['Expression Host'].fillna('Unknown')
+
+    seq_cols = [c for c in ['Entry ID', 'Auth Asym ID', 'Database Name', 'Accession Code(s)', 'Sequence', 'Molecular Weight (Entity)'] if c in seq_df.columns]
+    seq_sub = seq_df[seq_cols].drop_duplicates()
+
+    merged_df = pd.merge(struct_clean, seq_sub, on=['Entry ID', 'Auth Asym ID'], how='left')
+
+    if 'Sequence_x' in merged_df.columns and 'Sequence_y' in merged_df.columns:
+        merged_df['Sequence'] = merged_df['Sequence_y'].fillna(merged_df['Sequence_x'])
+        merged_df.drop(columns=['Sequence_x', 'Sequence_y'], inplace=True)
+
+    conditions = [
+        {'Entity Macromolecule Type': 'polypeptide(L)'},
+        {'Entity Macromolecule Type': 'polydeoxyribonucleotide'},
+        {'Entity Macromolecule Type': 'polyribonucleotide'}
+    ]
+    for cond in conditions:
+        merged_df = combine_asym_ids(merged_df, cond)
+
+    filtered_df = filter_complete_complexes(merged_df, min_protein_len=30, min_na_len=5)
+    complex_table = build_complex_table(filtered_df, prince_results_dir=prince_results_dir)
+
+    return filtered_df, complex_table
