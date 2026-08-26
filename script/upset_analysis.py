@@ -101,6 +101,42 @@ def _safe_plot_matrix(self, ax):
 
 upp.UpSet.plot_matrix = _safe_plot_matrix
 
+def _safe_label_sizes(self, ax, rects, where):
+    if not self._show_counts and not self._show_percentages:
+        return
+    count_fmt = '{:.0f}' if self._show_counts is True else self._show_counts
+    if count_fmt and '%' in count_fmt and '{' not in count_fmt:
+        count_fmt = count_fmt.replace('%d', '{:d}').replace('%f', '{:.0f}')
+    pct_fmt = '{:.1%}' if self._show_percentages is True else self._show_percentages
+
+    if count_fmt and pct_fmt:
+        fmt = f'{count_fmt}\n({pct_fmt})' if where == 'top' else f'{count_fmt} ({pct_fmt})'
+        def make_args(val): return int(round(val)), val / self.total
+    elif count_fmt:
+        fmt = count_fmt
+        def make_args(val): return (int(round(val)),)
+    else:
+        fmt = pct_fmt
+        def make_args(val): return (val / self.total,)
+
+    if where == 'right':
+        margin = float(0.01 * abs(np.diff(ax.get_xlim())[0]))
+        for rect in rects:
+            width = float(rect.get_width() + rect.get_x())
+            ax.text(width + margin, rect.get_y() + rect.get_height() * 0.5, fmt.format(*make_args(width)), ha='left', va='center')
+    elif where == 'left':
+        margin = float(0.01 * abs(np.diff(ax.get_xlim())[0]))
+        for rect in rects:
+            width = float(rect.get_width() + rect.get_x())
+            ax.text(width + margin, rect.get_y() + rect.get_height() * 0.5, fmt.format(*make_args(width)), ha='right', va='center')
+    elif where == 'top':
+        margin = float(0.01 * abs(np.diff(ax.get_ylim())[0]))
+        for rect in rects:
+            height = float(rect.get_height() + rect.get_y())
+            ax.text(rect.get_x() + rect.get_width() * 0.5, height + margin, fmt.format(*make_args(height)), ha='center', va='bottom')
+
+upp.UpSet._label_sizes = _safe_label_sizes
+
 
 def _fix_text_positions(plot_res):
     """Fix array text positions for Matplotlib 3.11 compatibility."""
@@ -118,17 +154,47 @@ class UpSetAnalyzer:
 
     def __init__(self, input_dir: str = "input_data", output_dir: str = "results/Figures"):
         self.base_dir = Path(__file__).resolve().parent.parent
-        self.input_dir = self.base_dir / input_dir
-        self.output_dir = self.base_dir / output_dir
+
+        inp = Path(input_dir)
+        if inp.is_absolute():
+            resolved_input = inp
+        else:
+            resolved_input = (Path.cwd() / inp).resolve()
+            if not resolved_input.exists():
+                resolved_input = (self.base_dir / inp).resolve()
+
+        if resolved_input.is_file():
+            resolved_input = resolved_input.parent
+
+        if resolved_input.name in ('domain', 'motif', 'subcellular_location'):
+            resolved_input = resolved_input.parent
+
+        self.input_dir = resolved_input
+
+        out = Path(output_dir)
+        if out.is_absolute():
+            self.output_dir = out
+        else:
+            self.output_dir = (Path.cwd() / out).resolve()
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-    def plot_domain_upset(self) -> Path:
+    def plot_domain_upset(self, category: str = "all") -> Path:
         """
         Maps structure subcellular localization categories ('ON', 'OC', 'NC', 'NO', 'CO', 'OO')
         with PFAM domain accessions from standard_start_end_domain.xlsx and plots UpSet plot.
         """
+        out_dir = self.output_dir / category.lower() if self.output_dir.name != category.lower() else self.output_dir
+        out_dir.mkdir(parents=True, exist_ok=True)
+
         str_subcell_file = self.input_dir / 'subcellular_location' / 'Structure_subcellular_location_detailed.xlsx'
         dom_file = self.input_dir / 'domain' / 'standard_start_end_domain.xlsx'
+
+        if not str_subcell_file.exists():
+            alt = self.input_dir / 'Structure_subcellular_location_detailed.xlsx'
+            if alt.exists(): str_subcell_file = alt
+        if not dom_file.exists():
+            alt = self.input_dir / 'standard_start_end_domain.xlsx'
+            if alt.exists(): dom_file = alt
 
         if not str_subcell_file.exists() or not dom_file.exists():
             logger.warning(f"Required files for Domain UpSet plot not found: {str_subcell_file} or {dom_file}")
@@ -137,11 +203,12 @@ class UpSetAnalyzer:
         str_subcell = pd.read_excel(str_subcell_file)
         dom_df = pd.read_excel(dom_file)
 
-        on_pdbs = set(str_subcell['Only_Nucleus'].dropna())
-        oc_pdbs = set(str_subcell['Only_Cytoplasm'].dropna())
-        nc_pdbs = set(str_subcell['Nucleus_Cytoplasm_Both'].dropna())
-        no_pdbs = set(str_subcell['Nucleus_with_Other_not_Cytoplasm'].dropna())
-        co_pdbs = set(str_subcell['Cytoplasm_with_Other_not_Nucleus'].dropna())
+        cols = str_subcell.columns.tolist()
+        on_pdbs = set(str_subcell[cols[0]].dropna())
+        oc_pdbs = set(str_subcell[cols[1]].dropna())
+        nc_pdbs = set(str_subcell[cols[2]].dropna())
+        no_pdbs = set(str_subcell[cols[3]].dropna())
+        co_pdbs = set(str_subcell[cols[4]].dropna())
 
         def get_str_loc(pdb):
             if pdb in on_pdbs: return 'ON'
@@ -202,8 +269,8 @@ class UpSetAnalyzer:
         plot_res['intersections'].set_ylabel('Number of PFAM Domains', fontweight='bold', fontsize=14)
         plot_res['totals'].set_xlabel('Total Domains \nper Category', fontweight='bold', fontsize=12)
 
-        p_png = self.output_dir / 'TFNRD_Domain_UpSet.png'
-        p_svg = self.output_dir / 'TFNRD_Domain_UpSet.svg'
+        p_png = out_dir / 'TFNRD_Domain_UpSet.png'
+        p_svg = out_dir / 'TFNRD_Domain_UpSet.svg'
 
         plt.subplots_adjust(left=0.1, right=0.98, top=0.95, bottom=0.15)
         plt.savefig(p_png, format='png', dpi=600, bbox_inches='tight', facecolor='white')
@@ -213,13 +280,23 @@ class UpSetAnalyzer:
         logger.info(f"Successfully generated Domain UpSet Plot: {p_png}")
         return p_png
 
-    def plot_motif_upset(self) -> Path:
+    def plot_motif_upset(self, category: str = "all") -> Path:
         """
         Maps sequence subcellular location categories ('ON', 'OC', 'NC', 'NO', 'CO', 'OO')
         with InterPro motif accessions from nr_sequence_dataset_motif_details.xlsx and plots UpSet plot.
         """
+        out_dir = self.output_dir / category.lower() if self.output_dir.name != category.lower() else self.output_dir
+        out_dir.mkdir(parents=True, exist_ok=True)
+
         motif_file = self.input_dir / 'motif' / 'nr_sequence_dataset_motif_details.xlsx'
         seq_subcell_file = self.input_dir / 'subcellular_location' / 'Sequence_subcellular_location_detailed.xlsx'
+
+        if not motif_file.exists():
+            alt = self.input_dir / 'nr_sequence_dataset_motif_details.xlsx'
+            if alt.exists(): motif_file = alt
+        if not seq_subcell_file.exists():
+            alt = self.input_dir / 'Sequence_subcellular_location_detailed.xlsx'
+            if alt.exists(): seq_subcell_file = alt
 
         if not motif_file.exists() or not seq_subcell_file.exists():
             logger.warning(f"Required files for Motif UpSet plot not found: {motif_file} or {seq_subcell_file}")
@@ -229,11 +306,12 @@ class UpSetAnalyzer:
         df_m = pd.read_excel(motif_file)
         df_m['Entry_clean'] = df_m['Entry'].astype(str).str.strip()
 
-        seq_on = set(seq_subcell['Only_Nucleus'].dropna().astype(str).str.strip())
-        seq_oc = set(seq_subcell['Only_Cytoplasm'].dropna().astype(str).str.strip())
-        seq_nc = set(seq_subcell['Nucleus_Cytoplasm_Both'].dropna().astype(str).str.strip())
-        seq_no = set(seq_subcell['Nucleus_with_Other_not_Cytoplasm'].dropna().astype(str).str.strip())
-        seq_co = set(seq_subcell['Cytoplasm_with_Other_not_Nucleus'].dropna().astype(str).str.strip())
+        cols = seq_subcell.columns.tolist()
+        seq_on = set(seq_subcell[cols[0]].dropna().astype(str).str.strip())
+        seq_oc = set(seq_subcell[cols[1]].dropna().astype(str).str.strip())
+        seq_nc = set(seq_subcell[cols[2]].dropna().astype(str).str.strip())
+        seq_no = set(seq_subcell[cols[3]].dropna().astype(str).str.strip())
+        seq_co = set(seq_subcell[cols[4]].dropna().astype(str).str.strip())
 
         def get_seq_loc(entry):
             if entry in seq_on: return 'ON'
@@ -296,8 +374,8 @@ class UpSetAnalyzer:
         plot_res_m['intersections'].set_ylabel('Number of unique Motifs', fontweight='bold', fontsize=14)
         plot_res_m['totals'].set_xlabel('Total Motifs \nper Category', fontweight='bold', fontsize=12)
 
-        p_png = self.output_dir / 'TFNRD_Motif_distribution.png'
-        p_svg = self.output_dir / 'TFNRD_Motif_distribution.svg'
+        p_png = out_dir / 'TFNRD_Motif_distribution.png'
+        p_svg = out_dir / 'TFNRD_Motif_distribution.svg'
 
         plt.subplots_adjust(left=0.1, right=0.98, top=0.95, bottom=0.15)
         plt.savefig(p_png, format='png', dpi=600, bbox_inches='tight', facecolor='white')
@@ -319,8 +397,8 @@ def main():
     parser.add_argument("--all", action="store_true", help="Run UpSet analysis for domain and motif datasets")
     parser.add_argument("--domain-upset", action="store_true", help="Generate UpSet plot for PFAM domains")
     parser.add_argument("--motif-upset", action="store_true", help="Generate UpSet plot for InterPro motifs")
-    parser.add_argument("--input-dir", default="input_data", help="Directory containing input data")
-    parser.add_argument("--output-dir", default="results/Figures", help="Directory to save figures")
+    parser.add_argument("-i", "--input-dir", default="input_data", help="Directory containing input data")
+    parser.add_argument("-o", "--output-dir", default="results/Figures", help="Directory to save figures")
 
     args = parser.parse_args()
     analyzer = UpSetAnalyzer(input_dir=args.input_dir, output_dir=args.output_dir)
@@ -338,3 +416,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

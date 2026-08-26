@@ -77,7 +77,8 @@ class TFFeatureAnalyzer:
 
     def plot_subcellular_location(self, category: str = "all") -> Path:
         """
-        Generates comparison bar plot for Sequence TFs vs Structure TFs across subcellular locations.
+        Generates comparison bar plot for Sequence TFs vs Structure TFs across subcellular locations
+        with a broken Y-axis to cleanly display high (2158) vs lower (7-552) values matching Figure 6.
         """
         out_dir = self._get_target_dir(category)
         data = {
@@ -87,41 +88,112 @@ class TFFeatureAnalyzer:
         }
         df = pd.DataFrame(data)
 
-        fig, ax = plt.subplots(figsize=(8, 6), dpi=600)
+        # Create broken y-axis subplot grid
+        fig, (ax1, ax2) = plt.subplots(
+            2, 1,
+            sharex=True,
+            figsize=(8.5, 6),
+            dpi=600,
+            gridspec_kw={'height_ratios': [1, 3.2], 'hspace': 0.08}
+        )
+
         x = np.arange(len(df))
-        bar_width = 0.38
+        bar_width = 0.36
 
-        bar_color_seq = "#1F3B73" if category.lower() != "rna" else "#C44536"
-        bars_seq = ax.bar(x - bar_width/2, df['Count_Seq'], width=bar_width, label='Sequence TFs', color=bar_color_seq)
-        bars_str = ax.bar(x + bar_width/2, df['Count_Str'], width=bar_width, label='Structure TFs', color="#2B4C7E")
+        # Colors matching Figure_6.png: Dark Navy Blue for Sequence TFs, Terracotta Red for Structure TFs
+        color_seq = "#1F386B"
+        color_str = "#C0432E"
 
-        for bars in [bars_seq, bars_str]:
-            for bar in bars:
-                height = bar.get_height()
-                ax.text(
-                    bar.get_x() + bar.get_width()/2,
-                    height + max(df['Count_Seq']) * 0.01,
-                    f"{int(height):,}",
-                    ha='center',
-                    va='bottom',
-                    fontsize=12
+        # Plot bars on both axes
+        for ax in (ax1, ax2):
+            ax.bar(x - bar_width/2, df['Count_Seq'], width=bar_width, label='Sequence TFs', color=color_seq)
+            ax.bar(x + bar_width/2, df['Count_Str'], width=bar_width, label='Structure TFs', color=color_str)
+
+        # Set Y-axis limits for broken axis
+        ax1.set_ylim(2000, 2200)  # Top panel for 2,158
+        ax2.set_ylim(0, 650)      # Bottom panel for 0-600
+
+        # Y-ticks
+        ax1.set_yticks([2000, 2100, 2200])
+        ax2.set_yticks([0, 100, 200, 300, 400, 500, 600])
+        ax1.tick_params(labelsize=13)
+        ax2.tick_params(labelsize=13)
+
+        # Hide spines between ax1 and ax2
+        ax1.spines['bottom'].set_visible(False)
+        ax2.spines['top'].set_visible(False)
+        ax1.spines['top'].set_visible(False)
+        ax1.spines['right'].set_visible(False)
+        ax2.spines['right'].set_visible(False)
+
+        ax1.xaxis.tick_top()
+        ax1.tick_params(top=False, labeltop=False)  # don't put tick labels at the top
+        ax2.xaxis.tick_bottom()
+
+        # Grid lines
+        ax1.yaxis.grid(True, linestyle='--', linewidth=0.5, alpha=0.5, color='#CCCCCC')
+        ax2.yaxis.grid(True, linestyle='--', linewidth=0.5, alpha=0.5, color='#CCCCCC')
+
+        # Add slant break marks on Y-axis
+        d = .015  # diagonal break mark length
+        kwargs = dict(transform=ax1.transAxes, color='k', clip_on=False, linewidth=1.2)
+        ax1.plot((-d, +d), (-d * 3.2, +d * 3.2), **kwargs)
+
+        kwargs.update(transform=ax2.transAxes)
+        ax2.plot((-d, +d), (1 - d, 1 + d), **kwargs)
+
+        # Add data labels on top of bars
+        for i in range(len(df)):
+            seq_val = df.loc[i, 'Count_Seq']
+            str_val = df.loc[i, 'Count_Str']
+
+            # Label for Sequence TF
+            if seq_val > 2000:
+                ax1.text(
+                    x[i] - bar_width/2, seq_val + 15,
+                    f"{seq_val:,}", ha='center', va='bottom', fontsize=13, color='black'
+                )
+            else:
+                ax2.text(
+                    x[i] - bar_width/2, seq_val + 10,
+                    f"{seq_val:,}", ha='center', va='bottom', fontsize=13, color='black'
                 )
 
-        ax.set_xticks(x)
-        ax.set_xticklabels(df['Subcellular_Location'], fontsize=14)
-        ax.set_ylabel('Number of Transcription Factors', fontweight='bold', fontsize=14)
-        ax.set_xlabel('Subcellular Location', fontweight='bold', fontsize=14)
-        ax.spines['top'].set_visible(False)
-        ax.spines['right'].set_visible(False)
-        ax.yaxis.grid(True, linestyle='--', linewidth=0.6, alpha=0.6)
-        ax.legend(frameon=False, fontsize=14)
+            # Label for Structure TF
+            ax2.text(
+                x[i] + bar_width/2, str_val + 10,
+                f"{str_val:,}", ha='center', va='bottom', fontsize=13, color='black'
+            )
 
-        legend_text = "\n".join([f"{k}: {v}" for k, v in SUBCELLULAR_LOCATION_MAP.items()])
-        plt.figtext(0.52, 0.75, legend_text, ha='left', va='top', fontsize=10, linespacing=1.4)
+        # Set X-ticks
+        ax2.set_xticks(x)
+        ax2.set_xticklabels(df['Subcellular_Location'], fontsize=14)
+        ax2.set_xlabel('Subcellular Location', fontweight='bold', fontsize=15, labelpad=8)
 
-        plt.tight_layout()
-        output_fig = out_dir / "Subcellular_location_bar_plot.png"
+        # Y-axis label centered vertically across both subplots
+        fig.text(0.02, 0.5, 'Number of Transcription Factors', va='center', rotation='vertical', fontweight='bold', fontsize=15)
+
+        # Add legend in ax1 (top right)
+        ax1.legend(frameon=False, fontsize=13.5, loc='upper right')
+
+        # Add Subcellular Location Map legend text as a unified block starting in ax1
+        legend_lines = [f"{k}: {v}" for k, v in SUBCELLULAR_LOCATION_MAP.items()]
+        legend_text = "\n".join(legend_lines)
+
+        ax1.text(
+            0.65, 2185, legend_text,
+            ha='left', va='top',
+            fontsize=11.5,
+            linespacing=1.28,
+            clip_on=False
+        )
+
+        plt.subplots_adjust(left=0.12, right=0.96, top=0.96, bottom=0.12)
+
+        # Subcellular_location_bar_plot.png -> Figure_6.png
+        output_fig = out_dir / "Figure_6.png"
         plt.savefig(output_fig, bbox_inches="tight", dpi=600)
+        plt.savefig(out_dir / "Subcellular_location_bar_plot.png", bbox_inches="tight", dpi=600)
         plt.close()
 
         logger.info(f"Successfully generated Subcellular Location Bar Plot ({category.upper()}): {output_fig}")
@@ -374,7 +446,8 @@ class TFFeatureAnalyzer:
 
         plt.subplots_adjust(left=0.45)
         plt.tight_layout()
-        output_fig = out_dir / "KEGG_pathway_bar_plot.png"
+        # KEGG_pathway_bar_plot.png -> Figure_9.png
+        output_fig = out_dir / "Figure_9.png"
         plt.savefig(output_fig, bbox_inches="tight", dpi=600)
         plt.close()
 
