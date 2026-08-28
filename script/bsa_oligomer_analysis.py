@@ -3,11 +3,13 @@
 bsa_oligomer_analysis.py
 ========================
 Comprehensive statistical analysis and visualization suite for Buried Surface Area (BSA)
-parameters categorized across 4 oligomeric classes:
+parameters categorized across 3 oligomeric classes:
   1. Monomer
   2. Homodimer
   3. Heterodimer
-  4. Higher Order Oligomer
+
+Note: Higher order oligomers are excluded from analysis because BSA for higher order
+oligomers was calculated only for selected chains which are Transcription Factors.
 
 Supports both:
   - Protein-Nucleic Acid complexes ('TF_nucleic_acid_whole_with_oligostate.xlsx')
@@ -70,18 +72,12 @@ class BSAOligomerAnalyzer:
     Comprehensive Statistical & Visual Analyzer for BSA distributions across oligomeric classes.
     """
 
-    HIGHER_ORDER_STATES = [
-        'Heterotrimer', 'Homotetramer', 'Tetramer', 
-        'Hetero 4-Mer', 'Homo 11-Mer', 'Trimer', 'Pentamer', 'Hexamer', 'Octamer'
-    ]
-
-    CLASS_ORDER = ['Monomer', 'Homodimer', 'Heterodimer', 'Higher Order Oligomer']
+    CLASS_ORDER = ['Monomer', 'Homodimer', 'Heterodimer']
 
     CLASS_PALETTE = {
         'Monomer': '#2b5c8f',             # Deep Steel Blue
         'Homodimer': '#d95f02',           # Burnt Orange
-        'Heterodimer': '#7570b3',         # Royal Purple
-        'Higher Order Oligomer': '#e7298a' # Magenta
+        'Heterodimer': '#7570b3'          # Royal Purple
     }
 
     def __init__(self, excel_path: str, dataset_name: str = "protein_nucleic_acid", base_output_dir: str = "results/Interface"):
@@ -102,13 +98,13 @@ class BSAOligomerAnalyzer:
         self.monomer_df = None
         self.homodimer_df = None
         self.heterodimer_df = None
-        self.higher_order_df = None
         self.class_dfs = {}
         self.bsa_columns = []
 
     def load_and_preprocess(self) -> pd.DataFrame:
         """
-        Loads dataset, detects BSA columns, and categorizes records into 4 distinct oligomeric classes.
+        Loads dataset, detects BSA columns, and categorizes records into 3 distinct oligomeric classes.
+        Higher order oligomers are excluded.
         """
         if not os.path.exists(self.excel_path):
             raise FileNotFoundError(f"Input file not found at: {self.excel_path}")
@@ -142,7 +138,7 @@ class BSAOligomerAnalyzer:
         for bcol in self.bsa_columns:
             self.df[bcol] = pd.to_numeric(self.df[bcol], errors='coerce')
 
-        # Assign 4 target classes
+        # Assign 3 target classes (Higher order oligomers are excluded)
         def classify_state(state):
             if pd.isna(state):
                 return np.nan
@@ -153,24 +149,25 @@ class BSAOligomerAnalyzer:
                 return 'Homodimer'
             elif state_str == 'Heterodimer':
                 return 'Heterodimer'
-            elif state_str in self.HIGHER_ORDER_STATES or any(h in state_str for h in ['Mer', 'trimer', 'tetramer', 'Pentamer']):
-                return 'Higher Order Oligomer'
             else:
-                return 'Higher Order Oligomer'
+                return np.nan
 
         self.df['Oligomer_Class'] = self.df[state_col].apply(classify_state)
 
-        # Slice dataframes for the 4 classes
+        # Exclude higher order oligomers / unclassified states from analysis
+        before_count = len(self.df)
+        self.df = self.df[self.df['Oligomer_Class'].isin(self.CLASS_ORDER)].copy()
+        print(f"[INFO] Filtered out {before_count - len(self.df)} higher order oligomer / unclassified records. Remaining: {len(self.df)}")
+
+        # Slice dataframes for the 3 target classes
         self.monomer_df = self.df[self.df['Oligomer_Class'] == 'Monomer'].copy()
         self.homodimer_df = self.df[self.df['Oligomer_Class'] == 'Homodimer'].copy()
         self.heterodimer_df = self.df[self.df['Oligomer_Class'] == 'Heterodimer'].copy()
-        self.higher_order_df = self.df[self.df['Oligomer_Class'] == 'Higher Order Oligomer'].copy()
 
         self.class_dfs = {
             'Monomer': self.monomer_df,
             'Homodimer': self.homodimer_df,
-            'Heterodimer': self.heterodimer_df,
-            'Higher Order Oligomer': self.higher_order_df
+            'Heterodimer': self.heterodimer_df
         }
 
         print("\n[INFO] Class record counts:")
