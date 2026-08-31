@@ -456,7 +456,7 @@ class BSAOligomerAnalyzer:
 
         # Dedicated Focused Plot for BSA_Complex
         if 'BSA_Complex' in self.df.columns:
-            plt.figure(figsize=(9, 6.5))
+            plt.figure(figsize=(9.5, 7.0))
             col = 'BSA_Complex'
             clean_df = self.df.dropna(subset=[col, 'Oligomer_Class'])
 
@@ -504,6 +504,36 @@ class BSAOligomerAnalyzer:
                 edgecolor='black',
                 ax=ax
             )
+
+            # Annotate Mean ± SD and sample size (N) for each active oligomeric class
+            y_max = clean_df[col].max()
+            y_min = clean_df[col].min()
+            y_range = y_max - y_min
+            ax.set_ylim(bottom=max(0, y_min - 0.05 * y_range), top=y_max + 0.18 * y_range)
+
+            for i, c in enumerate(active_classes):
+                sub_vals = clean_df[clean_df['Oligomer_Class'] == c][col].dropna()
+                m_val = sub_vals.mean()
+                sd_val = sub_vals.std()
+                n_val = len(sub_vals)
+                
+                badge_text = f"Mean: {round(m_val)} ± {round(sd_val)} Å²\n(N = {n_val})"
+                ax.text(
+                    i, 
+                    y_max + 0.04 * y_range, 
+                    badge_text,
+                    ha='center', 
+                    va='bottom',
+                    fontsize=10.5,
+                    fontweight='bold',
+                    bbox=dict(
+                        boxstyle='round,pad=0.45',
+                        facecolor='white',
+                        edgecolor=self.CLASS_PALETTE.get(c, '#333333'),
+                        alpha=0.95,
+                        linewidth=1.6
+                    )
+                )
 
             clean_y_label = self.format_col_label(col)
             plt.xlabel("Oligomeric Class", fontsize=13, fontweight='bold')
