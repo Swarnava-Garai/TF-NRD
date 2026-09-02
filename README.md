@@ -12,6 +12,7 @@
 Transcription factors (TFs) are key regulators of gene expression. They form intricate biological assemblies interacting with diverse macromolecular partners, including **DNA**, **RNA**, **DNA–RNA hybrids**, and **protein co-regulators**.
 
 The **TF-NRD pipeline** provides standardized datasets, structural interface properties, domain/motif distributions, and automated visualization suites to facilitate:
+
 - **Macromolecular Interface Characterization**: Quantifying Buried Surface Area (BSA), Fraction of Nonpolar Atoms (FNP), Fraction of Buried Uncharged Residues (FBU), and Linker Density (LD).
 - **Subcellular & Taxonomic Profiling**: Categorizing TFs across 6 subcellular locations (`ON`, `OC`, `NC`, `NO`, `CO`, `OO`) and taxonomic domains of life (Eukaryota, Bacteria, Archaea, Viruses).
 - **Functional Enrichment & Motif Signature Analysis**: Mapping PFAM domains, InterPro sequence motifs, Logomaker sequence logos, and KEGG human disease pathways.
@@ -96,7 +97,9 @@ TF-NRD/
 ## 📂 Detailed Folder Descriptions
 
 ### 1. `script/`
+
 Contains modular, executable Python scripts powering the TF-NRD pipeline:
+
 - **`sequence_curator.py`**: Static method suite for quality filtering FASTA records (protein length $\ge 30$, nucleic acid $\ge 5$), chain ID normalization, and multi-entity complex table construction.
 - **`tf_feature_analysis.py`**: Master visualization suite generating broken y-axis subcellular localization plots (Figure 6), horizontal top-10 PFAM domain bar plots, Logomaker sequence logos, and KEGG pathway bar plots (Figure 9).
 - **`tf_interface_analysis.py`**: Analyzes structural interface property metrics (BSA, FNP, FBU, LD) across Protein–Nucleic Acid (PNA) and Protein–Protein (PP) interfaces.
@@ -104,29 +107,38 @@ Contains modular, executable Python scripts powering the TF-NRD pipeline:
 - **`generate_supplementary_json.py`**: Automates JSON export for all 17 tables in `Supplementary.xlsx`.
 
 ### 2. `utils/`
+
 Shared core modules imported across analysis scripts:
+
 - **`utils.py`**: Custom RCSB PDB report parser, chain ID combiner, oligomeric state builder, and master cleaning pipeline (`clean_and_merge_custom_reports`).
 - **`mmcif_clean_reader.py`**: Robust parser for multi-entity mmCIF/PDB custom metadata reports.
 
 ### 3. `Supplementary/`
+
 Contains the complete manuscript supplementary dataset:
+
 - **`Supplementary.xlsx`**: Master Excel workbook containing 17 sheets (`Table S1.A` to `Table S15`).
 - **`*.json`**: Machine-readable JSON exports corresponding to each sheet in the workbook (`Table S1.A.json` – `Table S15.json`).
 
 ### 4. `input_data/` *(To be pushed after verification)*
+
 Contains raw input datasets used for feature extraction and structural analysis:
+
 - **`RCSB_PDB/`**: Raw custom reports from RCSB PDB.
 - **`UniProtKB/`**: UniProt annotations and cross-references.
 - **`bsa/`**: Raw PRince interface atomic surface area calculation (`.int`) files.
 - **`domains/`**, **`motif/`**, **`kegg/`**, **`disease/`**, **`subcellular_location/`**, **`domain_of_life/`**: Domain-specific input tables.
 
 ### 5. `results/` *(To be pushed after verification)*
+
 Contains all generated outputs:
+
 - **`Figures/`**: 600 DPI publication figures (PNG and SVG format) organized by category (`dna/`, `rna/`, `all/`).
 - **`Interface/`**: Exported multi-sheet Excel files, statistical tests, and summary metrics for PNA and PP interfaces.
 - **`Structures/`**, **`Sequences/`**, **`domains/`**, **`kegg/`**, **`motif/`**: Processed summary tables.
 
 ### 6. `notebook/`
+
 Jupyter notebooks for interactive exploration, metadata validation, and supplementary table parsing (`Parse_supp.ipynb`, `clean_rcsb_metadata.ipynb`).
 
 ---
@@ -134,6 +146,7 @@ Jupyter notebooks for interactive exploration, metadata validation, and suppleme
 ## 🚀 Quick Start
 
 ### Environment Requirements
+
 - Python 3.8+
 - `pandas`, `numpy`, `matplotlib`, `logomaker`, `upsetplot`, `openpyxl`
 
@@ -155,7 +168,7 @@ python script/generate_supplementary_json.py
 
 ---
 
-## 🌐 Webserver & Availability
+## 🌐 Website & Data Availability
 
 The TF-NRD dataset and webserver interface are publicly available at:
 
