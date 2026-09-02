@@ -11,8 +11,7 @@ TF-NRD/script/
 ├── README.md                    # Documentation for script directory
 ├── sequence_curator.py          # Sequence curation & quality filtering suite (SequenceCurator class)
 ├── tf_feature_analysis.py       # Feature analysis & visualization suite (TFFeatureAnalyzer class)
-├── upset_analysis.py            # UpSet plot visualization suite (UpSetAnalyzer class)
-└── create_fasta_from_pdb_csv.py # Backward-compatibility wrapper for sequence_curator.py
+└── upset_analysis.py            # UpSet plot visualization suite (UpSetAnalyzer class)
 ```
 
 ---
@@ -112,8 +111,8 @@ analyzer = TFFeatureAnalyzer(input_dir="input_data", plot_dir="results/Figures")
 - **`analyzer.plot_kegg_pathways(category='all', min_hits=10)`**
   Generates horizontal bar plots of top KEGG disease pathways.
 
-- **`analyzer.run_all()`**
-  Executes complete analysis suite for `dna/`, `rna/`, and `all/` categories.
+- **`analyzer.run_all(include_motifs=False)`**
+  Executes feature analysis suite (subcellular, PFAM domains, KEGG pathways, domain UpSet, interface) across `dna/`, `rna/`, and `all/` categories. Sequence motif figures are excluded by default and from `--all` unless `include_motifs=True` or explicit motif flags are passed.
 
 ### Target Directory Output Structure
 
@@ -125,11 +124,11 @@ Figures are automatically saved into category subdirectories:
 ### Command-Line Usage
 
 ```bash
-# Run full analysis suite across DNA, RNA, and combined datasets
+# Run feature analysis suite (subcellular, PFAM domains, KEGG, domain UpSet, interface) excluding sequence motifs
 python script/tf_feature_analysis.py --all
 
-# Run specific analysis for DNA category
-python script/tf_feature_analysis.py --motifs --motif-logos --category dna
+# Sequence motif figures are kept as totally separate arguments:
+python script/tf_feature_analysis.py --motifs --motif-logos --motif-upset --category dna
 ```
 
 ---
@@ -169,13 +168,7 @@ python script/upset_analysis.py --domain-upset --category rna
 
 ---
 
-## 4. `create_fasta_from_pdb_csv.py`
-
-[`create_fasta_from_pdb_csv.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/create_fasta_from_pdb_csv.py) is a **backward-compatibility wrapper** that imports and re-exports all methods from `sequence_curator.py`. Existing pipelines referencing `create_fasta_from_pdb_csv.py` continue to work seamlessly.
-
----
-
-## 5. Metadata Curation Suite (`utils.py`)
+## 4. Metadata Curation Suite (`utils.py`)
 
 [`utils.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/utils/utils.py) provides Section 12 RCSB PDB custom report curation, chain combining, entity counting, oligomeric state extraction, BSA calculation, and complex table construction.
 
