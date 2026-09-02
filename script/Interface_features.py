@@ -32,28 +32,66 @@ Usage:
 import os
 import sys
 import csv
+import json
 import argparse
 import logging
 import subprocess
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import Dict, List, Optional, Any, Union
 import pandas as pd
 import numpy as np
 from scipy.spatial import cKDTree
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+SCRIPT_PATH = Path(__file__).resolve()
+SCRIPT_DIR = SCRIPT_PATH.parent
+PROJECT_ROOT = SCRIPT_DIR.parent
+LOG_FILE = SCRIPT_PATH.with_suffix(".log")
+
+# Configure logging to stdout and script-named log file
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%H:%M:%S",
+    handlers=[
+        logging.StreamHandler(sys.stdout),
+        logging.FileHandler(LOG_FILE, mode="a", encoding="utf-8")
+    ]
+)
+logger = logging.getLogger(SCRIPT_PATH.stem)
 
 # Default global paths
 PRINCE_BIN_DEFAULT = Path('/home/labuser/Projects/PRince/bin/prince')
-BASE_DIR_DEFAULT = Path('/home/labuser/Projects/PhD_projects/swarnava_TF_work/Interface/Revision')
-CIF_DIR_DEFAULT = BASE_DIR_DEFAULT / 'cif'
-EXCEL_PATH_DEFAULT = BASE_DIR_DEFAULT / 'nr_EM_TF_with_chain.xlsx'
+BASE_DIR_DEFAULT = PROJECT_ROOT / 'test'
+CIF_DIR_DEFAULT = BASE_DIR_DEFAULT
+EXCEL_PATH_DEFAULT = BASE_DIR_DEFAULT / 'test_nr_EM_TF_with_chain.xlsx'
 OUTPUT_XLSX_DEFAULT = BASE_DIR_DEFAULT / 'prince_interface_features.xlsx'
+OUTPUT_JSON_DEFAULT = BASE_DIR_DEFAULT / 'prince_interface_features.json'
 
 
 # ==============================================================================
 # Helper Functions & Parsers
 # ==============================================================================
+
+def load_input_table(file_path: Union[str, Path], sheet_name: Optional[str] = None) -> pd.DataFrame:
+    """Loads input table supporting Excel (.xlsx, .xls), CSV, TSV, or JSON."""
+    p = Path(file_path).resolve()
+    if not p.exists():
+        raise FileNotFoundError(f"Input table file not found: {p}")
+    ext = p.suffix.lower()
+    if ext in ('.xlsx', '.xls', '.xlsm'):
+        excel_file = pd.ExcelFile(p)
+        if sheet_name and sheet_name in excel_file.sheet_names:
+            return pd.read_excel(p, sheet_name=sheet_name)
+        return pd.read_excel(p, sheet_name=0)
+    elif ext == '.csv':
+        return pd.read_csv(p)
+    elif ext == '.tsv':
+        return pd.read_csv(p, sep='\t')
+    elif ext == '.json':
+        return pd.read_json(p)
+    else:
+        raise ValueError(f"Unsupported table format: {ext}")
 
 def extract_chain_chars(chain_str):
     """
@@ -210,19 +248,19 @@ def run_batch_task(task_data):
 
 
 def execute_batch_mode(prince_bin, excel_path, cif_dir, output_base_dir, num_workers):
-    """Executes standard batch PRince calculations based on sheet 'Interface_NA'."""
+    """Executes standard batch PRince calculations based on sheet 'Interface_NA' or generic table."""
     sheet_name = 'Interface_NA'
     out_dir_base = output_base_dir / 'prince_results'
     out_dir_base.mkdir(parents=True, exist_ok=True)
 
-    print(f"\n" + "=" * 70)
-    print(f"MODE: Standard Batch Interface Calculation (Sheet: '{sheet_name}')")
-    print("=" * 70)
+    logger.info("=" * 60)
+    logger.info(f"MODE: Standard Batch Interface Calculation (Source: '{excel_path.name}')")
+    logger.info("=" * 60)
 
     try:
-        df = pd.read_excel(excel_path, sheet_name=sheet_name)
+        df = load_input_table(excel_path, sheet_name=sheet_name)
     except Exception as e:
-        print(f"[ERROR] Failed to read sheet '{sheet_name}' from {excel_path}: {e}", file=sys.stderr)
+        logger.error(f"Failed to read input table from {excel_path}: {e}")
         return
 
     total_rows = len(df)
@@ -236,7 +274,7 @@ def execute_batch_mode(prince_bin, excel_path, cif_dir, output_base_dir, num_wor
 
         cif_path = cif_dir / f"{pdb_id}.cif"
         if not cif_path.exists():
-            print(f"[{row_num}/{total_rows}] [{pdb_id}] [SKIP] CIF file missing: {cif_path}")
+            logger.warning(f"[{row_num}/{total_rows}] [{pdb_id}] [SKIP] CIF file missing: {cif_path}")
             continue
 
         raw_p = row.get('Protein_chain')
@@ -262,7 +300,7 @@ def execute_batch_mode(prince_bin, excel_path, cif_dir, output_base_dir, num_wor
             tasks.append((prince_bin, row_num, total_rows, pdb_id, 'PP', p_chars, d_chars, r_chars, p1_chars, p2_chars, cif_path, pp_out_dir))
 
     summary_records = []
-    print(f"Executing {len(tasks)} batch PRince runs using {num_workers} parallel worker threads...")
+    logger.info(f"Executing {len(tasks)} batch PRince runs using {num_workers} parallel worker threads...")
 
     with ThreadPoolExecutor(max_workers=num_workers) as executor:
         futures = [executor.submit(run_batch_task, task) for task in tasks]
@@ -271,16 +309,20 @@ def execute_batch_mode(prince_bin, excel_path, cif_dir, output_base_dir, num_wor
                 res = future.result()
                 summary_records.append(res)
             except Exception as exc:
-                print(f"[ERROR] Worker generated an exception: {exc}", file=sys.stderr)
+                logger.error(f"Worker generated an exception: {exc}")
 
     summary_csv = out_dir_base / 'prince_batch_summary.csv'
+    summary_json = out_dir_base / 'prince_batch_summary.json'
     fieldnames = ['PDB_ID', 'Interface_Type', 'Protein_chain', 'DNA_chain', 'RNA_chain', 'Subunit1_Chains', 'Subunit2_Chains', 'Status', 'Output_Directory', 'BSA_Summary']
-    with open(summary_csv, 'w', newline='') as f:
+    with open(summary_csv, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(summary_records)
 
-    print(f"[COMPLETE] Standard Batch execution finished. Summary saved to {summary_csv}")
+    with open(summary_json, 'w', encoding='utf-8') as jf:
+        json.dump(summary_records, jf, indent=2)
+
+    logger.info(f"Standard Batch execution finished. Summary saved to {summary_csv} and {summary_json}")
 
 
 def run_unique_na_task(task_data):
@@ -594,13 +636,13 @@ def calculate_interface_metrics(filepath):
 
 
 def load_excel_na_lookup(excel_path):
-    """Loads metadata fallback lookup from nr_EM_TF_with_chain.xlsx."""
+    """Loads metadata fallback lookup from Excel/CSV/JSON."""
     lookup = {}
     excel_path = Path(excel_path)
     if not excel_path.exists():
         return lookup
     try:
-        df_excel = pd.read_excel(excel_path, sheet_name='Interface_NA')
+        df_excel = load_input_table(excel_path, sheet_name='Interface_NA')
         for _, r in df_excel.iterrows():
             pid = str(r.get('PDB_ID', r.get('PDB ID', ''))).strip().upper()
             if pid and pid.lower() not in ('nan', 'none', 'null'):
@@ -610,7 +652,7 @@ def load_excel_na_lookup(excel_path):
                     'RNA_chain': r.get('RNA_chain'),
                 }
     except Exception as e:
-        logging.warning(f"Could not parse Excel lookup from {excel_path}: {e}")
+        logger.warning(f"Could not parse lookup from {excel_path}: {e}")
     return lookup
 
 
@@ -952,15 +994,19 @@ def generate_summary_statistics(dfs):
     return pd.DataFrame(summary_rows)
 
 
-def collect_features(active_modes, output_base_dir, excel_path, output_xlsx):
-    """Collects features across all executed and existing directories and outputs multi-sheet Excel file."""
-    print(f"\n" + "=" * 70)
-    print(f"COLLECTING CALCULATED INTERFACE FEATURES")
-    print("=" * 70)
+def collect_features(active_modes, output_base_dir, excel_path, output_xlsx, output_json=None):
+    """Collects features across all executed and existing directories and outputs multi-sheet Excel and JSON files."""
+    logger.info("=" * 60)
+    logger.info("COLLECTING CALCULATED INTERFACE FEATURES")
+    logger.info("=" * 60)
 
     dfs = {}
     out_base = Path(output_base_dir)
     output_xlsx = Path(output_xlsx)
+    if output_json is None:
+        output_json = output_xlsx.with_suffix(".json")
+    else:
+        output_json = Path(output_json)
 
     # 1. Read existing sheets from Excel workbook if it already exists
     existing_sheets = {}
@@ -971,7 +1017,7 @@ def collect_features(active_modes, output_base_dir, excel_path, output_xlsx):
                 if sname != 'Summary_Statistics':
                     existing_sheets[sname] = pd.read_excel(excel_file, sheet_name=sname)
         except Exception as e:
-            logging.warning(f"Could not read existing Excel workbook {output_xlsx}: {e}")
+            logger.warning(f"Could not read existing Excel workbook {output_xlsx}: {e}")
 
     # 2. Check all potential result directories on disk (whether from current or previous runs)
     batch_dir = out_base / 'prince_results'
@@ -1001,31 +1047,37 @@ def collect_features(active_modes, output_base_dir, excel_path, output_xlsx):
     dfs = {k: v for k, v in dfs.items() if not v.empty}
 
     if not dfs:
-        print("[WARNING] No interface calculation directories or existing sheets found for feature collection.")
+        logger.warning("No interface calculation directories or existing sheets found for feature collection.")
         return
 
     df_stats = generate_summary_statistics(dfs)
 
     output_xlsx.parent.mkdir(parents=True, exist_ok=True)
 
-    logging.info(f"Writing Excel workbook to: {output_xlsx}")
+    logger.info(f"Writing Excel workbook to: {output_xlsx}")
     with pd.ExcelWriter(output_xlsx, engine='openpyxl') as writer:
         for sname, df in dfs.items():
             if not df.empty:
                 df.to_excel(writer, sheet_name=sname, index=False)
-                logging.info(f"Wrote {len(df)} rows to sheet '{sname}'")
+                logger.info(f"Wrote {len(df)} rows to sheet '{sname}'")
 
         if not df_stats.empty:
             df_stats.to_excel(writer, sheet_name='Summary_Statistics', index=False)
-            logging.info(f"Wrote {len(df_stats)} rows to sheet 'Summary_Statistics'")
+            logger.info(f"Wrote {len(df_stats)} rows to sheet 'Summary_Statistics'")
 
-    print("\n" + "=" * 70)
-    print("PRINCE INTERFACE FEATURE COLLECTION COMPLETE")
-    print("=" * 70)
+    # Save JSON output
+    output_json.parent.mkdir(parents=True, exist_ok=True)
+    json_export = {sname: df.to_dict(orient="records") for sname, df in dfs.items()}
+    if not df_stats.empty:
+        json_export['Summary_Statistics'] = df_stats.to_dict(orient="records")
+
+    with open(output_json, 'w', encoding='utf-8') as jf:
+        json.dump(json_export, jf, indent=2)
+    logger.info(f"Saved structured JSON export -> {output_json}")
+
+    logger.info("PRINCE INTERFACE FEATURE COLLECTION COMPLETE")
     for sname, df in dfs.items():
-        print(f"  {sname}: {len(df)} entries")
-    print(f"  Output Excel Workbook: {output_xlsx.resolve()}")
-    print("=" * 70 + "\n")
+        logger.info(f"  {sname}: {len(df)} entries")
 
 
 # ==============================================================================
@@ -1059,15 +1111,15 @@ def main():
         help=f"Number of parallel CPU worker threads for PRince execution (default: {default_workers})."
     )
     parser.add_argument(
-        "--excel_path", type=Path, default=EXCEL_PATH_DEFAULT,
-        help=f"Path to input Excel spreadsheet (default: {EXCEL_PATH_DEFAULT})."
+        "-i", "--input", "--excel_path", dest="excel_path", type=Path, default=EXCEL_PATH_DEFAULT,
+        help=f"Path to input Excel/CSV/JSON table (default: {EXCEL_PATH_DEFAULT})."
     )
     parser.add_argument(
-        "--cif_dir", type=Path, default=CIF_DIR_DEFAULT,
+        "-c", "--cif_dir", type=Path, default=CIF_DIR_DEFAULT,
         help=f"Path to directory containing structure CIF files (default: {CIF_DIR_DEFAULT})."
     )
     parser.add_argument(
-        "--output_dir", type=Path, default=BASE_DIR_DEFAULT,
+        "-o", "--output_dir", type=Path, default=BASE_DIR_DEFAULT,
         help=f"Base output directory for results (default: {BASE_DIR_DEFAULT})."
     )
     parser.add_argument(
@@ -1077,6 +1129,10 @@ def main():
     parser.add_argument(
         "--output_xlsx", type=Path, default=OUTPUT_XLSX_DEFAULT,
         help=f"Target Excel path for collected features (default: {OUTPUT_XLSX_DEFAULT})."
+    )
+    parser.add_argument(
+        "-j", "--json", dest="output_json", type=Path, default=OUTPUT_JSON_DEFAULT,
+        help=f"Target JSON path for collected features (default: {OUTPUT_JSON_DEFAULT})."
     )
     parser.add_argument(
         "--skip_collect", action="store_true",
@@ -1096,26 +1152,32 @@ def main():
 
     prince_bin = Path(args.prince_bin)
     if not prince_bin.exists():
-        print(f"[ERROR] PRince binary executable not found at: {prince_bin}", file=sys.stderr)
+        logger.error(f"PRince binary executable not found at: {prince_bin}")
         sys.exit(1)
 
     excel_path = Path(args.excel_path)
     if not excel_path.exists():
-        print(f"[ERROR] Input Excel file not found at: {excel_path}", file=sys.stderr)
+        # Fallback check
+        if (PROJECT_ROOT / "test" / "test_nr_EM_TF_with_chain.csv").exists():
+            excel_path = PROJECT_ROOT / "test" / "test_nr_EM_TF_with_chain.csv"
+        elif (PROJECT_ROOT / "test" / "test_nr_EM_TF_with_chain.xlsx").exists():
+            excel_path = PROJECT_ROOT / "test" / "test_nr_EM_TF_with_chain.xlsx"
+
+    if not excel_path.exists():
+        logger.error(f"Input table file not found at: {excel_path}")
         sys.exit(1)
 
     cif_dir = Path(args.cif_dir)
     output_dir = Path(args.output_dir)
 
-    print("=" * 70)
-    print("PRINCE UNIFIED INTERFACE FRAMEWORK")
-    print("=" * 70)
-    print(f"Selected Mode: {selected_mode}")
-    print(f"PRince Binary: {prince_bin}")
-    print(f"Input Excel  : {excel_path}")
-    print(f"CIF Directory: {cif_dir}")
-    print(f"Worker Threads: {args.num_workers}")
-    print("=" * 70)
+    logger.info("=" * 60)
+    logger.info("PRINCE UNIFIED INTERFACE FRAMEWORK")
+    logger.info("=" * 60)
+    logger.info(f"Selected Mode  : {selected_mode}")
+    logger.info(f"PRince Binary  : {prince_bin}")
+    logger.info(f"Input Table    : {excel_path}")
+    logger.info(f"CIF Directory  : {cif_dir}")
+    logger.info(f"Worker Threads : {args.num_workers}")
 
     modes_to_run = []
     if selected_mode == 'all':
@@ -1132,7 +1194,7 @@ def main():
             execute_unique_pp_mode(prince_bin, excel_path, cif_dir, output_dir, args.num_workers)
 
     if not args.skip_collect:
-        collect_features(modes_to_run if selected_mode != 'all' else ['all'], output_dir, excel_path, args.output_xlsx)
+        collect_features(modes_to_run if selected_mode != 'all' else ['all'], output_dir, excel_path, args.output_xlsx, args.output_json)
 
 
 if __name__ == '__main__':
