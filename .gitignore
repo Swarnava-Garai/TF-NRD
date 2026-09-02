@@ -3,3 +3,6 @@ output_data/
 results/Figures/
 results/Domains/
 results/Motifs/
+*.log
+*.log.*
+__pycache__/
