@@ -18,22 +18,25 @@ import numpy as np
 import matplotlib.pyplot as plt
 import logomaker
 
-# Logging setup
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('tf_feature_analysis.log'),
-        logging.StreamHandler()
-    ]
-)
-logger = logging.getLogger("TFFeatureAnalyzer")
-
-SCRIPT_DIR = Path(__file__).parent.resolve()
-PROJECT_DIR = SCRIPT_DIR.parent.resolve()
+SCRIPT_PATH = Path(__file__).resolve()
+SCRIPT_DIR = SCRIPT_PATH.parent
+PROJECT_DIR = SCRIPT_DIR.parent
 INPUT_DATA = PROJECT_DIR / "input_data"
 RESULTS_DIR = PROJECT_DIR / "results"
 PLOT_DIR = RESULTS_DIR / "Figures"
+LOG_FILE = SCRIPT_PATH.with_suffix(".log")
+
+# Logging setup
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%H:%M:%S",
+    handlers=[
+        logging.StreamHandler(sys.stdout),
+        logging.FileHandler(LOG_FILE, mode="a", encoding="utf-8")
+    ]
+)
+logger = logging.getLogger(SCRIPT_PATH.stem)
 
 # Global plotting style configuration
 PLT_STYLE = {
@@ -190,31 +193,47 @@ class TFFeatureAnalyzer:
 
         plt.subplots_adjust(left=0.12, right=0.96, top=0.96, bottom=0.12)
 
-        # Subcellular_location_bar_plot.png -> Figure_6.png
+        # Figure 6: Subcellular distribution of TFs
         output_fig = out_dir / "Figure_6.png"
+        output_pdf = out_dir / "Figure_6.pdf"
         plt.savefig(output_fig, bbox_inches="tight", dpi=600)
+        plt.savefig(output_pdf, bbox_inches="tight", dpi=600)
         plt.savefig(out_dir / "Subcellular_location_bar_plot.png", bbox_inches="tight", dpi=600)
+
+        main_fig = self.plot_dir / "Figure_6.png"
+        main_pdf = self.plot_dir / "Figure_6.pdf"
+        plt.savefig(main_fig, bbox_inches="tight", dpi=600)
+        plt.savefig(main_pdf, bbox_inches="tight", dpi=600)
         plt.close()
 
-        logger.info(f"Successfully generated Subcellular Location Bar Plot ({category.upper()}): {output_fig}")
-        return output_fig
+        logger.info(f"Successfully generated Subcellular Location Bar Plot Figure 6 ({category.upper()}): {main_fig}")
+        return main_fig
 
     def plot_top_pfam_domains(self, category: str = "all", top_n: int = 10) -> Path:
         """
         Generates horizontal bar plot of top N PFAM structure domains.
         """
         out_dir = self._get_target_dir(category)
-        domain_file = self.input_dir / "domain" / "domain_stat_structure_dataset_total.xlsx"
+        domain_file = self.input_dir / "domains" / "domain_stat_structure_dataset_total.xlsx"
         if not domain_file.exists():
-            logger.error(f"PFAM Domain file not found: {domain_file}")
+            domain_file = PROJECT_DIR / "results" / "domains" / "domain_stat_structure_dataset_total.xlsx"
+        if not domain_file.exists():
+            domain_file = PROJECT_DIR / "results" / "domains" / "domain_stat_structure_dataset_TF_NRD_final_377.xlsx"
+        if not domain_file.exists():
+            domain_file = self.input_dir / "domain" / "domain_stat_structure_dataset_total.xlsx"
+
+        if not domain_file.exists():
+            logger.error(f"PFAM Domain file not found in input_data or results: {domain_file}")
             return None
 
         df = pd.read_excel(domain_file)
-        df = df.rename(columns={df.columns[0]: "PFAM_NAME", df.columns[2]: "Number_of_PDBs"})
-        df_filtered = df.sort_values(by="Number_of_PDBs", ascending=True).tail(top_n)
+        name_col = "PFAM_NAME" if "PFAM_NAME" in df.columns else (df.columns[1] if len(df.columns) > 1 else df.columns[0])
+        val_col = "Number_of_PDBs" if "Number_of_PDBs" in df.columns else (df.columns[2] if len(df.columns) > 2 else df.columns[-1])
 
-        labels = df_filtered["PFAM_NAME"]
-        values = df_filtered["Number_of_PDBs"].tolist()
+        df_filtered = df.sort_values(by=val_col, ascending=False).head(top_n)
+
+        labels = [str(label) for label in df_filtered[name_col]]
+        values = [int(v) for v in df_filtered[val_col]]
 
         bar_color = "#1F3B73" if category.lower() == "dna" else ("#C44536" if category.lower() == "rna" else "#4C72B0")
 
@@ -228,6 +247,7 @@ class TFFeatureAnalyzer:
         ax.set_xlim(0, max(values) * 1.15)
         ax.tick_params(axis='x', labelsize=10)
         ax.tick_params(axis='y', labelsize=10)
+        ax.invert_yaxis()
         ax.spines['top'].set_visible(False)
         ax.spines['right'].set_visible(False)
         ax.set_xlabel("Number of PDB Structures", fontweight='bold', fontsize=14)
@@ -235,7 +255,9 @@ class TFFeatureAnalyzer:
 
         plt.tight_layout()
         output_fig = out_dir / "Top10_PFAM_bar_plot.png"
+        output_pdf = out_dir / "Top10_PFAM_bar_plot.pdf"
         plt.savefig(output_fig, bbox_inches="tight", dpi=600)
+        plt.savefig(output_pdf, bbox_inches="tight", dpi=600)
         plt.close()
 
         logger.info(f"Successfully generated Top PFAM Bar Plot ({category.upper()}): {output_fig}")
@@ -252,7 +274,9 @@ class TFFeatureAnalyzer:
         elif category.lower() == "rna":
             motif_file = self.input_dir / "motif" / "Motifs_rna_359_dataset.csv"
         else:
-            motif_file = self.input_dir / "motif" / "nr_sequence_dataset_motif_stat.xlsx"
+            motif_file = PROJECT_DIR / "results" / "motif" / "nr_sequence_dataset_motif_stat.xlsx"
+            if not motif_file.exists():
+                motif_file = self.input_dir / "motif" / "nr_sequence_dataset_motif_stat.xlsx"
 
         if not motif_file.exists():
             logger.warning(f"Motif dataset file missing for {category}: {motif_file}")
@@ -305,16 +329,25 @@ class TFFeatureAnalyzer:
 
         if category.lower() == "dna":
             motif_csv = self.input_dir / "motif" / "Motifs_dna_519_dataset.csv"
+            df_motifs = pd.read_csv(motif_csv) if motif_csv.exists() else pd.DataFrame()
         elif category.lower() == "rna":
             motif_csv = self.input_dir / "motif" / "Motifs_rna_359_dataset.csv"
+            df_motifs = pd.read_csv(motif_csv) if motif_csv.exists() else pd.DataFrame()
         else:
-            motif_csv = None
+            dna_csv = self.input_dir / "motif" / "Motifs_dna_519_dataset.csv"
+            rna_csv = self.input_dir / "motif" / "Motifs_rna_359_dataset.csv"
+            dfs = []
+            if dna_csv.exists():
+                dfs.append(pd.read_csv(dna_csv))
+            if rna_csv.exists():
+                dfs.append(pd.read_csv(rna_csv))
+            df_motifs = pd.concat(dfs, ignore_index=True) if dfs else pd.DataFrame()
 
-        if motif_csv and motif_csv.exists():
-            df_motifs = pd.read_csv(motif_csv)
-        else:
+        if df_motifs.empty:
             # Fallback to extracting from fasta & motif_details.xlsx
-            fasta_file = self.input_dir / "sequences" / "nr_final_sequence_dataset_3570.fasta"
+            fasta_file = self.input_dir / "sequences" / "TF_NRD_Sequence_3570.fasta"
+            if not fasta_file.exists():
+                fasta_file = PROJECT_DIR / "results" / "Sequences" / "TF_Sequence_dataset_3570.fasta"
             motif_details_file = self.input_dir / "motif" / "nr_sequence_dataset_motif_details.xlsx"
             if not fasta_file.exists() or not motif_details_file.exists():
                 logger.error(f"Missing FASTA or motif details file for {category} logos.")
@@ -409,50 +442,63 @@ class TFFeatureAnalyzer:
 
         return generated_logos
 
-    def plot_kegg_pathways(self, category: str = "all", min_hits: int = 10) -> Path:
+    def plot_kegg_pathways(self, category: str = "all", top_n: int = 10) -> Path:
         """
-        Generates horizontal bar plot of top KEGG disease pathways.
+        Generates horizontal bar plot of top 10 KEGG disease pathways (Figure 9).
+        Viral carcinogenesis (28) and Neutrophil extracellular trap formation (28) top the distribution.
         """
         out_dir = self._get_target_dir(category)
         kegg_file = self.input_dir / "kegg" / "TF_NRD_KEGG_pathways_combined_final.xlsx"
+        if not kegg_file.exists():
+            kegg_file = PROJECT_DIR / "results" / "kegg" / "TF_NRD_KEGG_pathways_classified.xlsx"
+
         if not kegg_file.exists():
             logger.error(f"KEGG pathway file not found: {kegg_file}")
             return None
 
         df = pd.read_excel(kegg_file)
         df = df.rename(columns={df.columns[0]: "KEGG_ID", df.columns[1]: "Pathway_Name", df.columns[2]: "Number_of_Hits"})
-        df_filtered = df[df["Number_of_Hits"] > min_hits].sort_values(by="Number_of_Hits", ascending=False)
+        df_filtered = df.sort_values(by="Number_of_Hits", ascending=False).head(top_n)
 
-        labels = [textwrap.fill(str(label), 25) for label in df_filtered["Pathway_Name"]]
+        labels = [textwrap.fill(str(label), 32) for label in df_filtered["Pathway_Name"]]
         values = df_filtered["Number_of_Hits"].tolist()
 
         bar_color = "#1F3B73" if category.lower() == "dna" else ("#C44536" if category.lower() == "rna" else "#4C72B0")
 
-        fig, ax = plt.subplots(figsize=(7, 5), dpi=600)
+        fig, ax = plt.subplots(figsize=(8.0, 5.5), dpi=600)
         ax.barh(labels, values, color=bar_color, edgecolor="black", linewidth=0.6)
 
-        offset = max(values) * 0.01
+        offset = max(values) * 0.015
         for i, v in enumerate(values):
-            ax.text(v + offset, i, str(v), va='center', ha='left', fontsize=10)
+            ax.text(v + offset, i, str(v), va='center', ha='left', fontsize=11, fontweight='bold')
 
         ax.set_xlim(0, max(values) * 1.15)
-        ax.tick_params(axis='x', labelsize=10)
-        ax.tick_params(axis='y', labelsize=10)
+        ax.tick_params(axis='x', labelsize=11)
+        ax.tick_params(axis='y', labelsize=11)
         ax.invert_yaxis()
         ax.spines['top'].set_visible(False)
         ax.spines['right'].set_visible(False)
-        ax.set_xlabel("Number of Transcription Factors", fontweight='bold', fontsize=14)
-        ax.set_ylabel("Disease Pathway", fontweight='bold', fontsize=14)
+        ax.set_xlabel("Number of Transcription Factors", fontweight='bold', fontsize=13)
+        ax.set_ylabel("Disease Pathway", fontweight='bold', fontsize=13)
 
         plt.subplots_adjust(left=0.45)
         plt.tight_layout()
-        # KEGG_pathway_bar_plot.png -> Figure_9.png
+
+        # Figure 9: Functional enrichment of TFs in human disease pathways
         output_fig = out_dir / "Figure_9.png"
+        output_pdf = out_dir / "Figure_9.pdf"
         plt.savefig(output_fig, bbox_inches="tight", dpi=600)
+        plt.savefig(output_pdf, bbox_inches="tight", dpi=600)
+        plt.savefig(out_dir / "KEGG_pathway_bar_plot.png", bbox_inches="tight", dpi=600)
+
+        main_fig = self.plot_dir / "Figure_9.png"
+        main_pdf = self.plot_dir / "Figure_9.pdf"
+        plt.savefig(main_fig, bbox_inches="tight", dpi=600)
+        plt.savefig(main_pdf, bbox_inches="tight", dpi=600)
         plt.close()
 
-        logger.info(f"Successfully generated KEGG Pathway Bar Plot ({category.upper()}): {output_fig}")
-        return output_fig
+        logger.info(f"Successfully generated KEGG Pathway Bar Plot Figure 9 ({category.upper()}): {main_fig}")
+        return main_fig
 
     def plot_domain_upset(self, category: str = "all") -> Path:
         """Generates UpSet plot for PFAM domain distribution across subcellular locations."""
@@ -485,21 +531,23 @@ class TFFeatureAnalyzer:
         interface_analyzer = TFInterfaceAnalyzer(output_dir=out_dir)
         return interface_analyzer.run_all()
 
-    def run_all(self):
+    def run_all(self, include_motifs: bool = False):
         """
-        Runs all feature and interface analyses and generates figures into dna/, rna/, and all/ directories.
+        Runs feature and interface analyses and generates figures into dna/, rna/, and all/ directories.
+        Sequence motif figures are excluded by default and from --all unless include_motifs=True.
         """
-        logger.info("Executing Complete TF-NRD Feature Analysis Pipeline for DNA, RNA, and Combined datasets...")
+        logger.info("Executing TF-NRD Feature Analysis Pipeline for DNA, RNA, and Combined datasets...")
 
         for category in ["dna", "rna", "all"]:
             logger.info(f"Processing Category: {category.upper()}")
             self.plot_subcellular_location(category=category)
             self.plot_top_pfam_domains(category=category)
-            self.plot_top_motifs(category=category)
-            self.plot_motif_sequence_logos(category=category)
             self.plot_kegg_pathways(category=category)
             self.plot_domain_upset(category=category)
-            self.plot_motif_upset(category=category)
+            if include_motifs:
+                self.plot_top_motifs(category=category)
+                self.plot_motif_sequence_logos(category=category)
+                self.plot_motif_upset(category=category)
 
         logger.info("Running Interface Analysis Pipeline...")
         self.run_interface_analysis()
@@ -509,14 +557,14 @@ class TFFeatureAnalyzer:
 
 def main():
     parser = argparse.ArgumentParser(description="TF-NRD Feature Analysis & Visualization Suite.")
-    parser.add_argument("--all", action="store_true", help="Run all feature analyses and generate figures into dna, rna, and all dirs")
+    parser.add_argument("--all", action="store_true", help="Run feature analyses (subcellular, PFAM domains, KEGG, domain UpSet, interface) excluding sequence motifs into dna, rna, and all dirs")
     parser.add_argument("--subcellular", action="store_true", help="Generate Subcellular Localization plot")
     parser.add_argument("--domains", action="store_true", help="Generate Top PFAM Domains plot")
-    parser.add_argument("--motifs", action="store_true", help="Generate Top Motifs plot")
-    parser.add_argument("--motif-logos", action="store_true", help="Generate Logomaker Motif Sequence Logos")
+    parser.add_argument("--motifs", action="store_true", help="Generate Top Motifs plot (sequence motif, separate argument)")
+    parser.add_argument("--motif-logos", action="store_true", help="Generate Logomaker Motif Sequence Logos (sequence motif, separate argument)")
     parser.add_argument("--kegg", action="store_true", help="Generate KEGG Disease Pathways plot")
     parser.add_argument("--domain-upset", action="store_true", help="Generate PFAM Domain UpSet plot")
-    parser.add_argument("--motif-upset", action="store_true", help="Generate Motif UpSet plot")
+    parser.add_argument("--motif-upset", action="store_true", help="Generate Motif UpSet plot (sequence motif, separate argument)")
     parser.add_argument("--interface", action="store_true", help="Run Interface Analysis and export multi-sheet Excel for PNA & PP")
     parser.add_argument("--category", choices=["dna", "rna", "all"], default="all", help="Dataset category focus ('dna', 'rna', or 'all')")
     parser.add_argument("-i", "--input-dir", default=None, help="Input data directory path")
@@ -530,30 +578,53 @@ def main():
     analyzer = TFFeatureAnalyzer(input_dir=input_d, plot_dir=plot_d)
 
     if args.all:
-        analyzer.run_all()
+        analyzer.run_all(include_motifs=False)
+        cat = args.category
+        if args.motifs:
+            for c in (["dna", "rna", "all"] if cat == "all" else [cat]):
+                analyzer.plot_top_motifs(category=c)
+        if args.motif_logos:
+            for c in (["dna", "rna", "all"] if cat == "all" else [cat]):
+                analyzer.plot_motif_sequence_logos(category=c)
+        if args.motif_upset:
+            for c in (["dna", "rna", "all"] if cat == "all" else [cat]):
+                analyzer.plot_motif_upset(category=c)
     else:
         cat = args.category
+        ran_any = False
         if args.subcellular:
             analyzer.plot_subcellular_location(category=cat)
+            ran_any = True
         if args.domains:
             analyzer.plot_top_pfam_domains(category=cat)
-        if args.motifs:
-            analyzer.plot_top_motifs(category=cat)
-        if args.motif_logos:
-            analyzer.plot_motif_sequence_logos(category=cat)
+            ran_any = True
         if args.kegg:
             analyzer.plot_kegg_pathways(category=cat)
+            ran_any = True
         if args.domain_upset:
             analyzer.plot_domain_upset(category=cat)
-        if args.motif_upset:
-            analyzer.plot_motif_upset(category=cat)
+            ran_any = True
         if args.interface:
             analyzer.run_interface_analysis()
-        if not any([args.subcellular, args.domains, args.motifs, args.motif_logos, args.kegg, args.domain_upset, args.motif_upset, args.interface]):
-            analyzer.run_all()
+            ran_any = True
+
+        # Sequence motif options are separate arguments
+        if args.motifs:
+            analyzer.plot_top_motifs(category=cat)
+            ran_any = True
+        if args.motif_logos:
+            analyzer.plot_motif_sequence_logos(category=cat)
+            ran_any = True
+        if args.motif_upset:
+            analyzer.plot_motif_upset(category=cat)
+            ran_any = True
+
+        if not ran_any:
+            analyzer.run_all(include_motifs=False)
 
 
 if __name__ == "__main__":
     main()
+
 
 
