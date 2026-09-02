@@ -1,0 +1,4146 @@
+[
+  {
+    "PDB ID": "1C9S",
+    "Chain": "M",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "J",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "I",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "L",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "E",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "O",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "P",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "V",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "C",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "T",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "A",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "H",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "S",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "K",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "Q",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "D",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "F",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "R",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "U",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "G",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "B",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain": "N",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1ETF",
+    "Chain": "B",
+    "Domain_range": "33-55",
+    "Domain_Name": "REV",
+    "PFAM_ID": "PF00424",
+    "UniProt_ID": "P05866"
+  },
+  {
+    "PDB ID": "1ETG",
+    "Chain": "B",
+    "Domain_range": "33-55",
+    "Domain_Name": "REV",
+    "PFAM_ID": "PF00424",
+    "UniProt_ID": "P05866"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "M",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "V",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "C",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "E",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "T",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "U",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "K",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "N",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "I",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "Q",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "A",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "J",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "F",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "P",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "B",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "S",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "H",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "R",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "O",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "L",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "D",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTF",
+    "Chain": "G",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "S",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "M",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "E",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "O",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "L",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "U",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "J",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "P",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "N",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "C",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "G",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "I",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "T",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "Q",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "K",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "V",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "F",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "B",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "A",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "D",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "R",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1GTN",
+    "Chain": "H",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "1L1C",
+    "Chain": "B",
+    "Domain_range": "1-55",
+    "Domain_Name": "CAT_RBD",
+    "PFAM_ID": "PF03123",
+    "UniProt_ID": "P39805"
+  },
+  {
+    "PDB ID": "1L1C",
+    "Chain": "A",
+    "Domain_range": "1-55",
+    "Domain_Name": "CAT_RBD",
+    "PFAM_ID": "PF03123",
+    "UniProt_ID": "P39805"
+  },
+  {
+    "PDB ID": "1OOA",
+    "Chain": "A",
+    "Domain_range": "42-240",
+    "Domain_Name": "RHD_DNA_bind",
+    "PFAM_ID": "PF00554",
+    "UniProt_ID": "P25799"
+  },
+  {
+    "PDB ID": "1OOA",
+    "Chain": "B",
+    "Domain_range": "42-240",
+    "Domain_Name": "RHD_DNA_bind",
+    "PFAM_ID": "PF00554",
+    "UniProt_ID": "P25799"
+  },
+  {
+    "PDB ID": "1OOA",
+    "Chain": "A",
+    "Domain_range": "249-350",
+    "Domain_Name": "RHD_dimer",
+    "PFAM_ID": "PF16179",
+    "UniProt_ID": "P25799"
+  },
+  {
+    "PDB ID": "1OOA",
+    "Chain": "B",
+    "Domain_range": "249-350",
+    "Domain_Name": "RHD_dimer",
+    "PFAM_ID": "PF16179",
+    "UniProt_ID": "P25799"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "D",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "F",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "C",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "A",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "E",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "B",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "D",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "C",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "F",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "A",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "E",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "A",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "C",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "E",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "D",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "F",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1PVO",
+    "Chain": "B",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "1QFQ",
+    "Chain": "B",
+    "Domain_range": "2-36",
+    "Domain_Name": "N36",
+    "PFAM_ID": "PF11438",
+    "UniProt_ID": "P03045"
+  },
+  {
+    "PDB ID": "1ULL",
+    "Chain": "B",
+    "Domain_range": "1-17",
+    "Domain_Name": "REV",
+    "PFAM_ID": "PF00424",
+    "UniProt_ID": "P05866"
+  },
+  {
+    "PDB ID": "1WMQ",
+    "Chain": "A",
+    "Domain_range": "9-146",
+    "Domain_Name": "HutP",
+    "PFAM_ID": "PF09021",
+    "UniProt_ID": "P10943"
+  },
+  {
+    "PDB ID": "1WMQ",
+    "Chain": "B",
+    "Domain_range": "9-146",
+    "Domain_Name": "HutP",
+    "PFAM_ID": "PF09021",
+    "UniProt_ID": "P10943"
+  },
+  {
+    "PDB ID": "1WPU",
+    "Chain": "A",
+    "Domain_range": "9-146",
+    "Domain_Name": "HutP",
+    "PFAM_ID": "PF09021",
+    "UniProt_ID": "P10943"
+  },
+  {
+    "PDB ID": "1WPU",
+    "Chain": "B",
+    "Domain_range": "9-146",
+    "Domain_Name": "HutP",
+    "PFAM_ID": "PF09021",
+    "UniProt_ID": "P10943"
+  },
+  {
+    "PDB ID": "1WRQ",
+    "Chain": "A",
+    "Domain_range": "9-146",
+    "Domain_Name": "HutP",
+    "PFAM_ID": "PF09021",
+    "UniProt_ID": "P10943"
+  },
+  {
+    "PDB ID": "1WRQ",
+    "Chain": "B",
+    "Domain_range": "9-146",
+    "Domain_Name": "HutP",
+    "PFAM_ID": "PF09021",
+    "UniProt_ID": "P10943"
+  },
+  {
+    "PDB ID": "2A8V",
+    "Chain": "C",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "2A8V",
+    "Chain": "B",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "2A8V",
+    "Chain": "A",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "2A8V",
+    "Chain": "A",
+    "Domain_range": "51-118",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "2A8V",
+    "Chain": "B",
+    "Domain_range": "51-118",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "2A8V",
+    "Chain": "C",
+    "Domain_range": "51-118",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "2HGH",
+    "Chain": "A",
+    "Domain_range": "151-183",
+    "Domain_Name": "TFIIIA_zf-C2H2",
+    "PFAM_ID": "PF22110",
+    "UniProt_ID": "P03001"
+  },
+  {
+    "PDB ID": "2HGH",
+    "Chain": "A",
+    "Domain_range": "105-129",
+    "Domain_Name": "zf-C2H2",
+    "PFAM_ID": "PF00096",
+    "UniProt_ID": "P03001"
+  },
+  {
+    "PDB ID": "3BOY",
+    "Chain": "C",
+    "Domain_range": "9-146",
+    "Domain_Name": "HutP",
+    "PFAM_ID": "PF09021",
+    "UniProt_ID": "P10943"
+  },
+  {
+    "PDB ID": "3BOY",
+    "Chain": "B",
+    "Domain_range": "9-146",
+    "Domain_Name": "HutP",
+    "PFAM_ID": "PF09021",
+    "UniProt_ID": "P10943"
+  },
+  {
+    "PDB ID": "3BOY",
+    "Chain": "A",
+    "Domain_range": "9-146",
+    "Domain_Name": "HutP",
+    "PFAM_ID": "PF09021",
+    "UniProt_ID": "P10943"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "B",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "C",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "D",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "E",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "A",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "F",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "B",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "A",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "C",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "E",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "F",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "D",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "B",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "D",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "A",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "F",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "E",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3ICE",
+    "Chain": "C",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "3KS8",
+    "Chain": "A",
+    "Domain_range": "208-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q8JPY0"
+  },
+  {
+    "PDB ID": "3KS8",
+    "Chain": "D",
+    "Domain_range": "206-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q8JPY0"
+  },
+  {
+    "PDB ID": "3KS8",
+    "Chain": "C",
+    "Domain_range": "208-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q8JPY0"
+  },
+  {
+    "PDB ID": "3KS8",
+    "Chain": "B",
+    "Domain_range": "206-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q8JPY0"
+  },
+  {
+    "PDB ID": "3L25",
+    "Chain": "D",
+    "Domain_range": "218-340",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q05127"
+  },
+  {
+    "PDB ID": "3L25",
+    "Chain": "B",
+    "Domain_range": "218-340",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q05127"
+  },
+  {
+    "PDB ID": "3L25",
+    "Chain": "A",
+    "Domain_range": "218-340",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q05127"
+  },
+  {
+    "PDB ID": "3L25",
+    "Chain": "E",
+    "Domain_range": "218-340",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q05127"
+  },
+  {
+    "PDB ID": "3L26",
+    "Chain": "A",
+    "Domain_range": "218-340",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q05127"
+  },
+  {
+    "PDB ID": "3L26",
+    "Chain": "B",
+    "Domain_range": "218-340",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q05127"
+  },
+  {
+    "PDB ID": "3PF4",
+    "Chain": "A",
+    "Domain_range": "2-66",
+    "Domain_Name": "CSD",
+    "PFAM_ID": "PF00313",
+    "UniProt_ID": "P32081"
+  },
+  {
+    "PDB ID": "3PF4",
+    "Chain": "B",
+    "Domain_range": "2-66",
+    "Domain_Name": "CSD",
+    "PFAM_ID": "PF00313",
+    "UniProt_ID": "P32081"
+  },
+  {
+    "PDB ID": "3PF5",
+    "Chain": "A",
+    "Domain_range": "2-66",
+    "Domain_Name": "CSD",
+    "PFAM_ID": "PF00313",
+    "UniProt_ID": "P32081"
+  },
+  {
+    "PDB ID": "3PF5",
+    "Chain": "B",
+    "Domain_range": "2-66",
+    "Domain_Name": "CSD",
+    "PFAM_ID": "PF00313",
+    "UniProt_ID": "P32081"
+  },
+  {
+    "PDB ID": "3R2C",
+    "Chain": "B",
+    "Domain_range": "5-132",
+    "Domain_Name": "NusB",
+    "PFAM_ID": "PF01029",
+    "UniProt_ID": "O66530"
+  },
+  {
+    "PDB ID": "3R2C",
+    "Chain": "A",
+    "Domain_range": "5-132",
+    "Domain_Name": "NusB",
+    "PFAM_ID": "PF01029",
+    "UniProt_ID": "O66530"
+  },
+  {
+    "PDB ID": "3R2C",
+    "Chain": "K",
+    "Domain_range": "7-80",
+    "Domain_Name": "Ribosomal_S10",
+    "PFAM_ID": "PF00338",
+    "UniProt_ID": "O66430"
+  },
+  {
+    "PDB ID": "3R2C",
+    "Chain": "J",
+    "Domain_range": "7-80",
+    "Domain_Name": "Ribosomal_S10",
+    "PFAM_ID": "PF00338",
+    "UniProt_ID": "O66430"
+  },
+  {
+    "PDB ID": "3R2D",
+    "Chain": "A",
+    "Domain_range": "5-132",
+    "Domain_Name": "NusB",
+    "PFAM_ID": "PF01029",
+    "UniProt_ID": "O66530"
+  },
+  {
+    "PDB ID": "3R2D",
+    "Chain": "B",
+    "Domain_range": "5-132",
+    "Domain_Name": "NusB",
+    "PFAM_ID": "PF01029",
+    "UniProt_ID": "O66530"
+  },
+  {
+    "PDB ID": "3R2D",
+    "Chain": "K",
+    "Domain_range": "7-80",
+    "Domain_Name": "Ribosomal_S10",
+    "PFAM_ID": "PF00338",
+    "UniProt_ID": "O66430"
+  },
+  {
+    "PDB ID": "3R2D",
+    "Chain": "J",
+    "Domain_range": "7-80",
+    "Domain_Name": "Ribosomal_S10",
+    "PFAM_ID": "PF00338",
+    "UniProt_ID": "O66430"
+  },
+  {
+    "PDB ID": "484D",
+    "Chain": "A",
+    "Domain_range": "34-50",
+    "Domain_Name": "REV",
+    "PFAM_ID": "PF00424",
+    "UniProt_ID": "Q79994"
+  },
+  {
+    "PDB ID": "4EJT",
+    "Chain": "B",
+    "Domain_range": "34-85",
+    "Domain_Name": "MarR_2",
+    "PFAM_ID": "PF12802",
+    "UniProt_ID": "Q5HLN6"
+  },
+  {
+    "PDB ID": "4EJT",
+    "Chain": "A",
+    "Domain_range": "34-85",
+    "Domain_Name": "MarR_2",
+    "PFAM_ID": "PF12802",
+    "UniProt_ID": "Q5HLN6"
+  },
+  {
+    "PDB ID": "4GHA",
+    "Chain": "E",
+    "Domain_range": "208-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "P35259"
+  },
+  {
+    "PDB ID": "4GHA",
+    "Chain": "A",
+    "Domain_range": "208-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "P35259"
+  },
+  {
+    "PDB ID": "4GHA",
+    "Chain": "G",
+    "Domain_range": "208-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "P35259"
+  },
+  {
+    "PDB ID": "4GHA",
+    "Chain": "C",
+    "Domain_range": "208-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "P35259"
+  },
+  {
+    "PDB ID": "4GHL",
+    "Chain": "A",
+    "Domain_range": "200-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q03039"
+  },
+  {
+    "PDB ID": "4GHL",
+    "Chain": "D",
+    "Domain_range": "208-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q03039"
+  },
+  {
+    "PDB ID": "4GHL",
+    "Chain": "B",
+    "Domain_range": "208-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q03039"
+  },
+  {
+    "PDB ID": "4GHL",
+    "Chain": "C",
+    "Domain_range": "208-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q03039"
+  },
+  {
+    "PDB ID": "4LG2",
+    "Chain": "D",
+    "Domain_range": "208-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q8JPY0"
+  },
+  {
+    "PDB ID": "4LG2",
+    "Chain": "B",
+    "Domain_range": "208-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q8JPY0"
+  },
+  {
+    "PDB ID": "4LG2",
+    "Chain": "C",
+    "Domain_range": "208-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q8JPY0"
+  },
+  {
+    "PDB ID": "4LG2",
+    "Chain": "A",
+    "Domain_range": "208-329",
+    "Domain_Name": "Filo_VP35",
+    "PFAM_ID": "PF02097",
+    "UniProt_ID": "Q8JPY0"
+  },
+  {
+    "PDB ID": "4WRT",
+    "Chain": "A",
+    "Domain_range": "21-711",
+    "Domain_Name": "Flu_PA",
+    "PFAM_ID": "PF00603",
+    "UniProt_ID": "Q5V8Z9"
+  },
+  {
+    "PDB ID": "4WRT",
+    "Chain": "C",
+    "Domain_range": "108-249",
+    "Domain_Name": "Flu_PB2_3rd",
+    "PFAM_ID": "PF20949",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "4WRT",
+    "Chain": "C",
+    "Domain_range": "39-107",
+    "Domain_Name": "Flu_PB2_2nd",
+    "PFAM_ID": "PF20948",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "4WRT",
+    "Chain": "C",
+    "Domain_range": "3-38",
+    "Domain_Name": "Flu_PB2_1st",
+    "PFAM_ID": "PF20947",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "4WRT",
+    "Chain": "B",
+    "Domain_range": "1-741",
+    "Domain_Name": "Flu_PB1",
+    "PFAM_ID": "PF00602",
+    "UniProt_ID": "Q5V8Y6"
+  },
+  {
+    "PDB ID": "4WSB",
+    "Chain": "A",
+    "Domain_range": "21-710",
+    "Domain_Name": "Flu_PA",
+    "PFAM_ID": "PF00603",
+    "UniProt_ID": "H6QM92"
+  },
+  {
+    "PDB ID": "4WSB",
+    "Chain": "C",
+    "Domain_range": "531-678",
+    "Domain_Name": "Flu_PB2_6th",
+    "PFAM_ID": "PF20951",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "4WSB",
+    "Chain": "C",
+    "Domain_range": "682-741",
+    "Domain_Name": "Flu_PB2_7th",
+    "PFAM_ID": "PF20952",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "4WSB",
+    "Chain": "C",
+    "Domain_range": "250-319",
+    "Domain_Name": "Flu_PB2_4th",
+    "PFAM_ID": "PF20950",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "4WSB",
+    "Chain": "C",
+    "Domain_range": "106-248",
+    "Domain_Name": "Flu_PB2_3rd",
+    "PFAM_ID": "PF20949",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "4WSB",
+    "Chain": "C",
+    "Domain_range": "37-105",
+    "Domain_Name": "Flu_PB2_2nd",
+    "PFAM_ID": "PF20948",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "4WSB",
+    "Chain": "C",
+    "Domain_range": "1-36",
+    "Domain_Name": "Flu_PB2_1st",
+    "PFAM_ID": "PF20947",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "4WSB",
+    "Chain": "B",
+    "Domain_range": "1-742",
+    "Domain_Name": "Flu_PB1",
+    "PFAM_ID": "PF00602",
+    "UniProt_ID": "H6QM91"
+  },
+  {
+    "PDB ID": "4WSB",
+    "Chain": "C",
+    "Domain_range": "320-530",
+    "Domain_Name": "Flu_PB2_5th",
+    "PFAM_ID": "PF00604",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "4XBF",
+    "Chain": "B",
+    "Domain_range": "308-372",
+    "Domain_Name": "REST_helical",
+    "PFAM_ID": "PF20878",
+    "UniProt_ID": "Q9UKL0"
+  },
+  {
+    "PDB ID": "4XBF",
+    "Chain": "A",
+    "Domain_range": "181-264",
+    "Domain_Name": "SWIRM",
+    "PFAM_ID": "PF04433",
+    "UniProt_ID": "O60341"
+  },
+  {
+    "PDB ID": "4XBF",
+    "Chain": "B",
+    "Domain_range": "381-425",
+    "Domain_Name": "Myb_DNA-binding",
+    "PFAM_ID": "PF00249",
+    "UniProt_ID": "Q9UKL0"
+  },
+  {
+    "PDB ID": "4XBF",
+    "Chain": "A",
+    "Domain_range": "288-826",
+    "Domain_Name": "Amino_oxidase",
+    "PFAM_ID": "PF01593",
+    "UniProt_ID": "O60341"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "Q",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "D",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "K",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "T",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "R",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "L",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "N",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "C",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "M",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "V",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "E",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "O",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "I",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "H",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "F",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "P",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "A",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "S",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "B",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "J",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "U",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEU",
+    "Chain": "G",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "F",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "A",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "H",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "C",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "P",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "S",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "O",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "K",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "I",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "M",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "G",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "B",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "U",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "E",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "L",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "R",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "D",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "J",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "Q",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "V",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "T",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEV",
+    "Chain": "N",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "E",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "O",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "P",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "N",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "B",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "Q",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "T",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "L",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "V",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "K",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "A",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "G",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "U",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "C",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "I",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "S",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "H",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "D",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "J",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "R",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "F",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEW",
+    "Chain": "M",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "J",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "O",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "S",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "F",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "R",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "D",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "U",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "P",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "N",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "L",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "V",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "C",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "A",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "Q",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "E",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "I",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "H",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "B",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "T",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "M",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "G",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEX",
+    "Chain": "K",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "F",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "D",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "O",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "N",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "L",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "E",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "J",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "A",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "V",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "K",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "I",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "T",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "B",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "P",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "M",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "C",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "Q",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "H",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "U",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "R",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "S",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEY",
+    "Chain": "G",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "B",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "D",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "A",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "C",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "J",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "P",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "S",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "I",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "N",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "Q",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "T",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "U",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "O",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "H",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "L",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "G",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "E",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "V",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "K",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "F",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "R",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EEZ",
+    "Chain": "M",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "P",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "G",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "F",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "S",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "K",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "R",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "I",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "L",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "T",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "V",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "J",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "N",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "B",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "O",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "C",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "E",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "U",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "M",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "Q",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "H",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "A",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF0",
+    "Chain": "D",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "O",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "C",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "B",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "E",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "M",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "P",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "N",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "V",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "G",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "F",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "D",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "H",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "J",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "R",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "A",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "T",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "I",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "Q",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "L",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "U",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "K",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF1",
+    "Chain": "S",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "M",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "G",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "D",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "J",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "B",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "T",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "U",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "Q",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "K",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "V",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "F",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "E",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "L",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "H",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "N",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "I",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "R",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "P",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "O",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "S",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "A",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF2",
+    "Chain": "C",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "S",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "M",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "B",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "I",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "K",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "C",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "E",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "U",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "O",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "H",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "F",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "J",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "D",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "R",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "P",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "G",
+    "Domain_range": "7-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "L",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "N",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "T",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "V",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "Q",
+    "Domain_range": "5-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5EF3",
+    "Chain": "A",
+    "Domain_range": "6-73",
+    "Domain_Name": "TrpBP",
+    "PFAM_ID": "PF02081",
+    "UniProt_ID": "Q9X6J6"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "E",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "B",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "C",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "F",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "D",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "A",
+    "Domain_range": "5-47",
+    "Domain_Name": "Rho_N",
+    "PFAM_ID": "PF07498",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "E",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "D",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "F",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "B",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "C",
+    "Domain_range": "51-125",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "A",
+    "Domain_range": "51-124",
+    "Domain_Name": "Rho_RNA_bind",
+    "PFAM_ID": "PF07497",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "D",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "E",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "C",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "A",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "B",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5JJI",
+    "Chain": "F",
+    "Domain_range": "158-365",
+    "Domain_Name": "ATP-synt_ab",
+    "PFAM_ID": "PF00006",
+    "UniProt_ID": "P0AG30"
+  },
+  {
+    "PDB ID": "5M3H",
+    "Chain": "A",
+    "Domain_range": "21-710",
+    "Domain_Name": "Flu_PA",
+    "PFAM_ID": "PF00603",
+    "UniProt_ID": "H6QM92"
+  },
+  {
+    "PDB ID": "5M3H",
+    "Chain": "C",
+    "Domain_range": "531-678",
+    "Domain_Name": "Flu_PB2_6th",
+    "PFAM_ID": "PF20951",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "5M3H",
+    "Chain": "C",
+    "Domain_range": "682-742",
+    "Domain_Name": "Flu_PB2_7th",
+    "PFAM_ID": "PF20952",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "5M3H",
+    "Chain": "C",
+    "Domain_range": "250-319",
+    "Domain_Name": "Flu_PB2_4th",
+    "PFAM_ID": "PF20950",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "5M3H",
+    "Chain": "C",
+    "Domain_range": "106-248",
+    "Domain_Name": "Flu_PB2_3rd",
+    "PFAM_ID": "PF20949",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "5M3H",
+    "Chain": "C",
+    "Domain_range": "37-105",
+    "Domain_Name": "Flu_PB2_2nd",
+    "PFAM_ID": "PF20948",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "5M3H",
+    "Chain": "C",
+    "Domain_range": "1-36",
+    "Domain_Name": "Flu_PB2_1st",
+    "PFAM_ID": "PF20947",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "5M3H",
+    "Chain": "B",
+    "Domain_range": "1-742",
+    "Domain_Name": "Flu_PB1",
+    "PFAM_ID": "PF00602",
+    "UniProt_ID": "H6QM91"
+  },
+  {
+    "PDB ID": "5M3H",
+    "Chain": "C",
+    "Domain_range": "320-530",
+    "Domain_Name": "Flu_PB2_5th",
+    "PFAM_ID": "PF00604",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "5M3H",
+    "Chain": "X",
+    "Domain_range": "1-1",
+    "Domain_Name": "RNA_pol_Rpb1_R",
+    "PFAM_ID": "PF05001",
+    "UniProt_ID": "P24928"
+  },
+  {
+    "PDB ID": "5M3H",
+    "Chain": "Y",
+    "Domain_range": "13-22",
+    "Domain_Name": "RNA_pol_Rpb1_R",
+    "PFAM_ID": "PF05001",
+    "UniProt_ID": "P24928"
+  },
+  {
+    "PDB ID": "5M3H",
+    "Chain": "X",
+    "Domain_range": "2-6",
+    "Domain_Name": "RNA_pol_Rpb1_R",
+    "PFAM_ID": "PF05001",
+    "UniProt_ID": "P24928"
+  },
+  {
+    "PDB ID": "5O1Y",
+    "Chain": "A",
+    "Domain_range": "341-400",
+    "Domain_Name": "RRM_1",
+    "PFAM_ID": "PF00076",
+    "UniProt_ID": "P53617"
+  },
+  {
+    "PDB ID": "5O1Y",
+    "Chain": "A",
+    "Domain_range": "407-463",
+    "Domain_Name": "Nrd1-Seb1_dom2",
+    "PFAM_ID": "PF21380",
+    "UniProt_ID": "P53617"
+  },
+  {
+    "PDB ID": "6EVK",
+    "Chain": "A",
+    "Domain_range": "21-710",
+    "Domain_Name": "Flu_PA",
+    "PFAM_ID": "PF00603",
+    "UniProt_ID": "H6QM92"
+  },
+  {
+    "PDB ID": "6EVK",
+    "Chain": "C",
+    "Domain_range": "531-678",
+    "Domain_Name": "Flu_PB2_6th",
+    "PFAM_ID": "PF20951",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6EVK",
+    "Chain": "C",
+    "Domain_range": "682-741",
+    "Domain_Name": "Flu_PB2_7th",
+    "PFAM_ID": "PF20952",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6EVK",
+    "Chain": "C",
+    "Domain_range": "250-319",
+    "Domain_Name": "Flu_PB2_4th",
+    "PFAM_ID": "PF20950",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6EVK",
+    "Chain": "C",
+    "Domain_range": "106-248",
+    "Domain_Name": "Flu_PB2_3rd",
+    "PFAM_ID": "PF20949",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6EVK",
+    "Chain": "C",
+    "Domain_range": "37-105",
+    "Domain_Name": "Flu_PB2_2nd",
+    "PFAM_ID": "PF20948",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6EVK",
+    "Chain": "C",
+    "Domain_range": "1-36",
+    "Domain_Name": "Flu_PB2_1st",
+    "PFAM_ID": "PF20947",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6EVK",
+    "Chain": "B",
+    "Domain_range": "1-742",
+    "Domain_Name": "Flu_PB1",
+    "PFAM_ID": "PF00602",
+    "UniProt_ID": "H6QM91"
+  },
+  {
+    "PDB ID": "6EVK",
+    "Chain": "C",
+    "Domain_range": "320-530",
+    "Domain_Name": "Flu_PB2_5th",
+    "PFAM_ID": "PF00604",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6FHH",
+    "Chain": "A",
+    "Domain_range": "21-710",
+    "Domain_Name": "Flu_PA",
+    "PFAM_ID": "PF00603",
+    "UniProt_ID": "H6QM92"
+  },
+  {
+    "PDB ID": "6FHH",
+    "Chain": "C",
+    "Domain_range": "531-678",
+    "Domain_Name": "Flu_PB2_6th",
+    "PFAM_ID": "PF20951",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6FHH",
+    "Chain": "C",
+    "Domain_range": "682-742",
+    "Domain_Name": "Flu_PB2_7th",
+    "PFAM_ID": "PF20952",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6FHH",
+    "Chain": "C",
+    "Domain_range": "250-319",
+    "Domain_Name": "Flu_PB2_4th",
+    "PFAM_ID": "PF20950",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6FHH",
+    "Chain": "C",
+    "Domain_range": "106-248",
+    "Domain_Name": "Flu_PB2_3rd",
+    "PFAM_ID": "PF20949",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6FHH",
+    "Chain": "C",
+    "Domain_range": "37-105",
+    "Domain_Name": "Flu_PB2_2nd",
+    "PFAM_ID": "PF20948",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6FHH",
+    "Chain": "C",
+    "Domain_range": "1-36",
+    "Domain_Name": "Flu_PB2_1st",
+    "PFAM_ID": "PF20947",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6FHH",
+    "Chain": "B",
+    "Domain_range": "1-742",
+    "Domain_Name": "Flu_PB1",
+    "PFAM_ID": "PF00602",
+    "UniProt_ID": "H6QM91"
+  },
+  {
+    "PDB ID": "6FHH",
+    "Chain": "C",
+    "Domain_range": "320-530",
+    "Domain_Name": "Flu_PB2_5th",
+    "PFAM_ID": "PF00604",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6FHI",
+    "Chain": "A",
+    "Domain_range": "21-710",
+    "Domain_Name": "Flu_PA",
+    "PFAM_ID": "PF00603",
+    "UniProt_ID": "H6QM92"
+  },
+  {
+    "PDB ID": "6FHI",
+    "Chain": "C",
+    "Domain_range": "531-678",
+    "Domain_Name": "Flu_PB2_6th",
+    "PFAM_ID": "PF20951",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6FHI",
+    "Chain": "C",
+    "Domain_range": "682-742",
+    "Domain_Name": "Flu_PB2_7th",
+    "PFAM_ID": "PF20952",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6FHI",
+    "Chain": "C",
+    "Domain_range": "250-319",
+    "Domain_Name": "Flu_PB2_4th",
+    "PFAM_ID": "PF20950",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6FHI",
+    "Chain": "C",
+    "Domain_range": "106-248",
+    "Domain_Name": "Flu_PB2_3rd",
+    "PFAM_ID": "PF20949",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6FHI",
+    "Chain": "C",
+    "Domain_range": "37-105",
+    "Domain_Name": "Flu_PB2_2nd",
+    "PFAM_ID": "PF20948",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6FHI",
+    "Chain": "C",
+    "Domain_range": "1-36",
+    "Domain_Name": "Flu_PB2_1st",
+    "PFAM_ID": "PF20947",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6FHI",
+    "Chain": "B",
+    "Domain_range": "1-742",
+    "Domain_Name": "Flu_PB1",
+    "PFAM_ID": "PF00602",
+    "UniProt_ID": "H6QM91"
+  },
+  {
+    "PDB ID": "6FHI",
+    "Chain": "C",
+    "Domain_range": "320-530",
+    "Domain_Name": "Flu_PB2_5th",
+    "PFAM_ID": "PF00604",
+    "UniProt_ID": "H6QM90"
+  },
+  {
+    "PDB ID": "6PZQ",
+    "Chain": "A",
+    "Domain_range": "29-174",
+    "Domain_Name": "Pneumovirus_M2",
+    "PFAM_ID": "PF06436",
+    "UniProt_ID": "P04545"
+  },
+  {
+    "PDB ID": "6PZQ",
+    "Chain": "B",
+    "Domain_range": "29-174",
+    "Domain_Name": "Pneumovirus_M2",
+    "PFAM_ID": "PF06436",
+    "UniProt_ID": "P04545"
+  },
+  {
+    "PDB ID": "6PZQ",
+    "Chain": "C",
+    "Domain_range": "29-174",
+    "Domain_Name": "Pneumovirus_M2",
+    "PFAM_ID": "PF06436",
+    "UniProt_ID": "P04545"
+  },
+  {
+    "PDB ID": "6PZQ",
+    "Chain": "D",
+    "Domain_range": "29-175",
+    "Domain_Name": "Pneumovirus_M2",
+    "PFAM_ID": "PF06436",
+    "UniProt_ID": "P04545"
+  },
+  {
+    "PDB ID": "6QCW",
+    "Chain": "A",
+    "Domain_range": "21-711",
+    "Domain_Name": "Flu_PA",
+    "PFAM_ID": "PF00603",
+    "UniProt_ID": "Q5V8Z9"
+  },
+  {
+    "PDB ID": "6QCW",
+    "Chain": "C",
+    "Domain_range": "532-685",
+    "Domain_Name": "Flu_PB2_6th",
+    "PFAM_ID": "PF20951",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "6QCW",
+    "Chain": "C",
+    "Domain_range": "686-740",
+    "Domain_Name": "Flu_PB2_7th",
+    "PFAM_ID": "PF20952",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "6QCW",
+    "Chain": "C",
+    "Domain_range": "252-321",
+    "Domain_Name": "Flu_PB2_4th",
+    "PFAM_ID": "PF20950",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "6QCW",
+    "Chain": "C",
+    "Domain_range": "108-250",
+    "Domain_Name": "Flu_PB2_3rd",
+    "PFAM_ID": "PF20949",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "6QCW",
+    "Chain": "C",
+    "Domain_range": "39-107",
+    "Domain_Name": "Flu_PB2_2nd",
+    "PFAM_ID": "PF20948",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "6QCW",
+    "Chain": "C",
+    "Domain_range": "3-38",
+    "Domain_Name": "Flu_PB2_1st",
+    "PFAM_ID": "PF20947",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "6QCW",
+    "Chain": "B",
+    "Domain_range": "1-741",
+    "Domain_Name": "Flu_PB1",
+    "PFAM_ID": "PF00602",
+    "UniProt_ID": "Q5V8Y6"
+  },
+  {
+    "PDB ID": "6QCW",
+    "Chain": "C",
+    "Domain_range": "322-531",
+    "Domain_Name": "Flu_PB2_5th",
+    "PFAM_ID": "PF00604",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "6SY4",
+    "Chain": "B",
+    "Domain_range": "68-201",
+    "Domain_Name": "TetR_C_1",
+    "PFAM_ID": "PF02909",
+    "UniProt_ID": "P04483"
+  },
+  {
+    "PDB ID": "6SY4",
+    "Chain": "A",
+    "Domain_range": "68-201",
+    "Domain_Name": "TetR_C_1",
+    "PFAM_ID": "PF02909",
+    "UniProt_ID": "P04483"
+  },
+  {
+    "PDB ID": "6SY4",
+    "Chain": "B",
+    "Domain_range": "9-55",
+    "Domain_Name": "TetR_N",
+    "PFAM_ID": "PF00440",
+    "UniProt_ID": "P04483"
+  },
+  {
+    "PDB ID": "6SY4",
+    "Chain": "A",
+    "Domain_range": "9-55",
+    "Domain_Name": "TetR_N",
+    "PFAM_ID": "PF00440",
+    "UniProt_ID": "P04483"
+  },
+  {
+    "PDB ID": "6SY6",
+    "Chain": "A",
+    "Domain_range": "68-201",
+    "Domain_Name": "TetR_C_1",
+    "PFAM_ID": "PF02909",
+    "UniProt_ID": "P04483"
+  },
+  {
+    "PDB ID": "6SY6",
+    "Chain": "B",
+    "Domain_range": "68-201",
+    "Domain_Name": "TetR_C_1",
+    "PFAM_ID": "PF02909",
+    "UniProt_ID": "P04483"
+  },
+  {
+    "PDB ID": "6SY6",
+    "Chain": "A",
+    "Domain_range": "9-55",
+    "Domain_Name": "TetR_N",
+    "PFAM_ID": "PF00440",
+    "UniProt_ID": "P04483"
+  },
+  {
+    "PDB ID": "6SY6",
+    "Chain": "B",
+    "Domain_range": "9-55",
+    "Domain_Name": "TetR_N",
+    "PFAM_ID": "PF00440",
+    "UniProt_ID": "P04483"
+  },
+  {
+    "PDB ID": "6WLH",
+    "Chain": "A",
+    "Domain_range": "1-4",
+    "Domain_Name": "WT1",
+    "PFAM_ID": "PF02165",
+    "UniProt_ID": "P19544"
+  },
+  {
+    "PDB ID": "6WLH",
+    "Chain": "A",
+    "Domain_range": "36-60",
+    "Domain_Name": "zf-C2H2",
+    "PFAM_ID": "PF00096",
+    "UniProt_ID": "P19544"
+  },
+  {
+    "PDB ID": "6WLH",
+    "Chain": "A",
+    "Domain_range": "66-88",
+    "Domain_Name": "zf-C2H2",
+    "PFAM_ID": "PF00096",
+    "UniProt_ID": "P19544"
+  },
+  {
+    "PDB ID": "7JYY",
+    "Chain": "D",
+    "Domain_range": "4270-4384",
+    "Domain_Name": "CoV_NSP10",
+    "PFAM_ID": "PF09401",
+    "UniProt_ID": "P0DTD1"
+  },
+  {
+    "PDB ID": "7JYY",
+    "Chain": "B",
+    "Domain_range": "4264-4384",
+    "Domain_Name": "CoV_NSP10",
+    "PFAM_ID": "PF09401",
+    "UniProt_ID": "P0DTD1"
+  },
+  {
+    "PDB ID": "7JZ0",
+    "Chain": "D",
+    "Domain_range": "4271-4384",
+    "Domain_Name": "CoV_NSP10",
+    "PFAM_ID": "PF09401",
+    "UniProt_ID": "P0DTD1"
+  },
+  {
+    "PDB ID": "7JZ0",
+    "Chain": "B",
+    "Domain_range": "4264-4384",
+    "Domain_Name": "CoV_NSP10",
+    "PFAM_ID": "PF09401",
+    "UniProt_ID": "P0DTD1"
+  },
+  {
+    "PDB ID": "7L6R",
+    "Chain": "B",
+    "Domain_range": "4272-4383",
+    "Domain_Name": "CoV_NSP10",
+    "PFAM_ID": "PF09401",
+    "UniProt_ID": "P0DTD1"
+  },
+  {
+    "PDB ID": "7L6T",
+    "Chain": "B",
+    "Domain_range": "4272-4384",
+    "Domain_Name": "CoV_NSP10",
+    "PFAM_ID": "PF09401",
+    "UniProt_ID": "P0DTD1"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "D",
+    "Domain_range": "21-711",
+    "Domain_Name": "Flu_PA",
+    "PFAM_ID": "PF00603",
+    "UniProt_ID": "Q5V8Z9"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "A",
+    "Domain_range": "21-711",
+    "Domain_Name": "Flu_PA",
+    "PFAM_ID": "PF00603",
+    "UniProt_ID": "Q5V8Z9"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "F",
+    "Domain_range": "532-685",
+    "Domain_Name": "Flu_PB2_6th",
+    "PFAM_ID": "PF20951",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "C",
+    "Domain_range": "532-685",
+    "Domain_Name": "Flu_PB2_6th",
+    "PFAM_ID": "PF20951",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "F",
+    "Domain_range": "686-740",
+    "Domain_Name": "Flu_PB2_7th",
+    "PFAM_ID": "PF20952",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "C",
+    "Domain_range": "686-740",
+    "Domain_Name": "Flu_PB2_7th",
+    "PFAM_ID": "PF20952",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "F",
+    "Domain_range": "252-321",
+    "Domain_Name": "Flu_PB2_4th",
+    "PFAM_ID": "PF20950",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "C",
+    "Domain_range": "252-321",
+    "Domain_Name": "Flu_PB2_4th",
+    "PFAM_ID": "PF20950",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "F",
+    "Domain_range": "108-250",
+    "Domain_Name": "Flu_PB2_3rd",
+    "PFAM_ID": "PF20949",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "C",
+    "Domain_range": "108-250",
+    "Domain_Name": "Flu_PB2_3rd",
+    "PFAM_ID": "PF20949",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "F",
+    "Domain_range": "39-107",
+    "Domain_Name": "Flu_PB2_2nd",
+    "PFAM_ID": "PF20948",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "C",
+    "Domain_range": "39-107",
+    "Domain_Name": "Flu_PB2_2nd",
+    "PFAM_ID": "PF20948",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "F",
+    "Domain_range": "3-38",
+    "Domain_Name": "Flu_PB2_1st",
+    "PFAM_ID": "PF20947",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "C",
+    "Domain_range": "3-38",
+    "Domain_Name": "Flu_PB2_1st",
+    "PFAM_ID": "PF20947",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "E",
+    "Domain_range": "1-741",
+    "Domain_Name": "Flu_PB1",
+    "PFAM_ID": "PF00602",
+    "UniProt_ID": "Q5V8Y6"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "B",
+    "Domain_range": "1-741",
+    "Domain_Name": "Flu_PB1",
+    "PFAM_ID": "PF00602",
+    "UniProt_ID": "Q5V8Y6"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "F",
+    "Domain_range": "322-531",
+    "Domain_Name": "Flu_PB2_5th",
+    "PFAM_ID": "PF00604",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "C",
+    "Domain_range": "322-531",
+    "Domain_Name": "Flu_PB2_5th",
+    "PFAM_ID": "PF00604",
+    "UniProt_ID": "Q5V8X3"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "I",
+    "Domain_range": "29-29",
+    "Domain_Name": "RNA_pol_Rpb1_R",
+    "PFAM_ID": "PF05001",
+    "UniProt_ID": "P24928"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "G",
+    "Domain_range": "29-29",
+    "Domain_Name": "RNA_pol_Rpb1_R",
+    "PFAM_ID": "PF05001",
+    "UniProt_ID": "P24928"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "G",
+    "Domain_range": "30-43",
+    "Domain_Name": "RNA_pol_Rpb1_R",
+    "PFAM_ID": "PF05001",
+    "UniProt_ID": "P24928"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "I",
+    "Domain_range": "30-43",
+    "Domain_Name": "RNA_pol_Rpb1_R",
+    "PFAM_ID": "PF05001",
+    "UniProt_ID": "P24928"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "Y",
+    "Domain_range": "24-26",
+    "Domain_Name": "RNA_pol_Rpb1_R",
+    "PFAM_ID": "PF05001",
+    "UniProt_ID": "P24928"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "X",
+    "Domain_range": "23-26",
+    "Domain_Name": "RNA_pol_Rpb1_R",
+    "PFAM_ID": "PF05001",
+    "UniProt_ID": "P24928"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "G",
+    "Domain_range": "44-49",
+    "Domain_Name": "RNA_pol_Rpb1_R",
+    "PFAM_ID": "PF05001",
+    "UniProt_ID": "P24928"
+  },
+  {
+    "PDB ID": "7Z42",
+    "Chain": "I",
+    "Domain_range": "44-46",
+    "Domain_Name": "RNA_pol_Rpb1_R",
+    "PFAM_ID": "PF05001",
+    "UniProt_ID": "P24928"
+  }
+]

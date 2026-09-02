@@ -1,0 +1,2288 @@
+[
+  {
+    "File1": "check/1DP7_P_AD/1DP7_PAD.int",
+    "File2": "check/1DP7_B_AD/1DP7_BAD.int",
+    "Total_Common_Atoms": 202,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 202,
+    "Percentage_Identity": 100
+  },
+  {
+    "File1": "check/1EXJ_A_CM/1EXJ_ACM.int",
+    "File2": "check/1EXJ_B_CM/1EXJ_BCM.int",
+    "Total_Common_Atoms": 122,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 122,
+    "Percentage_Identity": 100
+  },
+  {
+    "File1": "check/1QPI_A_CM/1QPI_ACM.int",
+    "File2": "check/1QPI_B_CM/1QPI_BCM.int",
+    "Total_Common_Atoms": 115,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 115,
+    "Percentage_Identity": 100
+  },
+  {
+    "File1": "check/2BOP_A_B/2BOP_AB.int",
+    "File2": "check/2BOP_C_D/2BOP_CD.int",
+    "Total_Common_Atoms": 75,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 75,
+    "Percentage_Identity": 100
+  },
+  {
+    "File1": "check/2ZHG_A_BD/2ZHG_ABD.int",
+    "File2": "check/2ZHG_C_BD/2ZHG_CBD.int",
+    "Total_Common_Atoms": 118,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 118,
+    "Percentage_Identity": 100
+  },
+  {
+    "File1": "check/3DNV_B_TE/3DNV_BTE.int",
+    "File2": "check/3DNV_D_TE/3DNV_DTE.int",
+    "Total_Common_Atoms": 133,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 133,
+    "Percentage_Identity": 100
+  },
+  {
+    "File1": "check/3E6C_C_ABDE/3E6C_CABDE.int",
+    "File2": "check/3E6C_F_ABDE/3E6C_FABDE.int",
+    "Total_Common_Atoms": 142,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 142,
+    "Percentage_Identity": 100
+  },
+  {
+    "File1": "check/3KET_A_BCEF/3KET_ABCEF.int",
+    "File2": "check/3KET_D_BCEF/3KET_DBCEF.int",
+    "Total_Common_Atoms": 207,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 207,
+    "Percentage_Identity": 100
+  },
+  {
+    "File1": "check/3LSP_A_BD/3LSP_ABD.int",
+    "File2": "check/3LSP_C_BD/3LSP_CBD.int",
+    "Total_Common_Atoms": 170,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 170,
+    "Percentage_Identity": 100
+  },
+  {
+    "File1": "check/4R22_A_CG/4R22_ACG.int",
+    "File2": "check/4R22_B_CG/4R22_BCG.int",
+    "Total_Common_Atoms": 156,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 156,
+    "Percentage_Identity": 100
+  },
+  {
+    "File1": "unique_interface/4HQU_AB_C/4HQU_ABC.int",
+    "File2": "unique_interface/4HQU_AB_D/4HQU_ABD.int",
+    "Total_Common_Atoms": 18,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 18,
+    "Percentage_Identity": 100
+  },
+  {
+    "File1": "check/1SVC_P_AD/1SVC_PAD.int",
+    "File2": "check/1SVC_B_AD/1SVC_BAD.int",
+    "Total_Common_Atoms": 208,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 211,
+    "Percentage_Identity": 98.5781990521327
+  },
+  {
+    "File1": "unique_interface/8YEY_A_B/8YEY_AB.int",
+    "File2": "unique_interface/8YEY_C_D/8YEY_CD.int",
+    "Total_Common_Atoms": 61,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 1,
+    "Max_Lines": 62,
+    "Percentage_Identity": 98.38709677
+  },
+  {
+    "File1": "check/3VOK_A_UC/3VOK_AUC.int",
+    "File2": "check/3VOK_B_UC/3VOK_BUC.int",
+    "Total_Common_Atoms": 115,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 117,
+    "Percentage_Identity": 98.2905982905983
+  },
+  {
+    "File1": "check/8EB5_A_CE/8EB5_ACE.int",
+    "File2": "check/8EB5_B_CE/8EB5_BCE.int",
+    "Total_Common_Atoms": 170,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 173,
+    "Percentage_Identity": 98.2658959537572
+  },
+  {
+    "File1": "check/3HTS_D_AC/3HTS_DAC.int",
+    "File2": "check/3HTS_B_AC/3HTS_BAC.int",
+    "Total_Common_Atoms": 130,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 133,
+    "Percentage_Identity": 97.7443609022556
+  },
+  {
+    "File1": "check/1BVO_A_CD/1BVO_ACD.int",
+    "File2": "check/1BVO_B_CD/1BVO_BCD.int",
+    "Total_Common_Atoms": 145,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 149,
+    "Percentage_Identity": 97.3154362416107
+  },
+  {
+    "File1": "check/1XBR_A_CD/1XBR_ACD.int",
+    "File2": "check/1XBR_B_CD/1XBR_BCD.int",
+    "Total_Common_Atoms": 212,
+    "Unique_to_File1": 5,
+    "Unique_to_File2": 6,
+    "Max_Lines": 218,
+    "Percentage_Identity": 97.2477064220184
+  },
+  {
+    "File1": "check/3GNA_A_DECF/3GNA_ADECF.int",
+    "File2": "check/3GNA_B_DECF/3GNA_BDECF.int",
+    "Total_Common_Atoms": 102,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 106,
+    "Percentage_Identity": 96.2264150943396
+  },
+  {
+    "File1": "check/1PNR_A_BD/1PNR_ABD.int",
+    "File2": "check/1PNR_C_BD/1PNR_CBD.int",
+    "Total_Common_Atoms": 198,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 206,
+    "Percentage_Identity": 96.1165048543689
+  },
+  {
+    "File1": "check/1AN2_A_BD/1AN2_ABD.int",
+    "File2": "check/1AN2_C_BD/1AN2_CBD.int",
+    "Total_Common_Atoms": 147,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 153,
+    "Percentage_Identity": 96.078431372549
+  },
+  {
+    "File1": "check/3GZ6_B_CD/3GZ6_BCD.int",
+    "File2": "check/3GZ6_A_CD/3GZ6_ACD.int",
+    "Total_Common_Atoms": 234,
+    "Unique_to_File1": 8,
+    "Unique_to_File2": 7,
+    "Max_Lines": 245,
+    "Percentage_Identity": 95.5102040816327
+  },
+  {
+    "File1": "check/7VJQ_A_CD/7VJQ_ACD.int",
+    "File2": "check/7VJQ_B_CD/7VJQ_BCD.int",
+    "Total_Common_Atoms": 117,
+    "Unique_to_File1": 4,
+    "Unique_to_File2": 5,
+    "Max_Lines": 123,
+    "Percentage_Identity": 95.1219512195122
+  },
+  {
+    "File1": "check/8PW0_A_BD/8PW0_ABD.int",
+    "File2": "check/8PW0_C_BD/8PW0_CBD.int",
+    "Total_Common_Atoms": 177,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 187,
+    "Percentage_Identity": 94.6524064171123
+  },
+  {
+    "File1": "check/6JGW_A_CD/6JGW_ACD.int",
+    "File2": "check/6JGW_B_CD/6JGW_BCD.int",
+    "Total_Common_Atoms": 165,
+    "Unique_to_File1": 7,
+    "Unique_to_File2": 10,
+    "Max_Lines": 175,
+    "Percentage_Identity": 94.2857142857143
+  },
+  {
+    "File1": "check/5FMP_A_CD/5FMP_ACD.int",
+    "File2": "check/5FMP_B_CD/5FMP_BCD.int",
+    "Total_Common_Atoms": 113,
+    "Unique_to_File1": 5,
+    "Unique_to_File2": 7,
+    "Max_Lines": 120,
+    "Percentage_Identity": 94.1666666666667
+  },
+  {
+    "File1": "check/5D8C_A_CD/5D8C_ACD.int",
+    "File2": "check/5D8C_B_CD/5D8C_BCD.int",
+    "Total_Common_Atoms": 138,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 9,
+    "Max_Lines": 147,
+    "Percentage_Identity": 93.8775510204082
+  },
+  {
+    "File1": "check/1CJG_A_CD/1CJG_ACD.int",
+    "File2": "check/1CJG_B_CD/1CJG_BCD.int",
+    "Total_Common_Atoms": 207,
+    "Unique_to_File1": 4,
+    "Unique_to_File2": 9,
+    "Max_Lines": 222,
+    "Percentage_Identity": 93.2432432432432
+  },
+  {
+    "File1": "unique_interface/7F9H_A_CD/7F9H_ACD.int",
+    "File2": "unique_interface/7F9H_B_CD/7F9H_BCD.int",
+    "Total_Common_Atoms": 149,
+    "Unique_to_File1": 5,
+    "Unique_to_File2": 7,
+    "Max_Lines": 160,
+    "Percentage_Identity": 93.125
+  },
+  {
+    "File1": "check/2VY1_A_WC/2VY1_AWC.int",
+    "File2": "check/2VY1_B_WC/2VY1_BWC.int",
+    "Total_Common_Atoms": 194,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 209,
+    "Percentage_Identity": 92.822966507177
+  },
+  {
+    "File1": "check/6ON0_A_CN/6ON0_ACN.int",
+    "File2": "check/6ON0_B_CN/6ON0_BCN.int",
+    "Total_Common_Atoms": 103,
+    "Unique_to_File1": 5,
+    "Unique_to_File2": 2,
+    "Max_Lines": 111,
+    "Percentage_Identity": 92.7927927927928
+  },
+  {
+    "File1": "check/3U3W_A_YZ/3U3W_AYZ.int",
+    "File2": "check/3U3W_B_YZ/3U3W_BYZ.int",
+    "Total_Common_Atoms": 125,
+    "Unique_to_File1": 9,
+    "Unique_to_File2": 9,
+    "Max_Lines": 135,
+    "Percentage_Identity": 92.5925925925926
+  },
+  {
+    "File1": "check/4I2O_A_WX/4I2O_AWX.int",
+    "File2": "check/4I2O_B_WX/4I2O_BWX.int",
+    "Total_Common_Atoms": 124,
+    "Unique_to_File1": 9,
+    "Unique_to_File2": 6,
+    "Max_Lines": 134,
+    "Percentage_Identity": 92.5373134328358
+  },
+  {
+    "File1": "check/5ZD4_C_GH/5ZD4_CGH.int",
+    "File2": "check/5ZD4_D_GH/5ZD4_DGH.int",
+    "Total_Common_Atoms": 173,
+    "Unique_to_File1": 8,
+    "Unique_to_File2": 7,
+    "Max_Lines": 187,
+    "Percentage_Identity": 92.5133689839572
+  },
+  {
+    "File1": "check/1R8D_A_CD/1R8D_ACD.int",
+    "File2": "check/1R8D_B_CD/1R8D_BCD.int",
+    "Total_Common_Atoms": 162,
+    "Unique_to_File1": 10,
+    "Unique_to_File2": 14,
+    "Max_Lines": 176,
+    "Percentage_Identity": 92.0454545454545
+  },
+  {
+    "File1": "check/3MLN_A_CD/3MLN_ACD.int",
+    "File2": "check/3MLN_B_CD/3MLN_BCD.int",
+    "Total_Common_Atoms": 265,
+    "Unique_to_File1": 13,
+    "Unique_to_File2": 21,
+    "Max_Lines": 288,
+    "Percentage_Identity": 92.0138888888889
+  },
+  {
+    "File1": "check/3ZPL_A_CD/3ZPL_ACD.int",
+    "File2": "check/3ZPL_B_CD/3ZPL_BCD.int",
+    "Total_Common_Atoms": 199,
+    "Unique_to_File1": 6,
+    "Unique_to_File2": 16,
+    "Max_Lines": 217,
+    "Percentage_Identity": 91.705069124424
+  },
+  {
+    "File1": "check/5HLG_A_IJ/5HLG_AIJ.int",
+    "File2": "check/5HLG_B_IJ/5HLG_BIJ.int",
+    "Total_Common_Atoms": 209,
+    "Unique_to_File1": 13,
+    "Unique_to_File2": 8,
+    "Max_Lines": 228,
+    "Percentage_Identity": 91.6666666666667
+  },
+  {
+    "File1": "check/1GD2_E_AB/1GD2_EAB.int",
+    "File2": "check/1GD2_F_AB/1GD2_FAB.int",
+    "Total_Common_Atoms": 131,
+    "Unique_to_File1": 11,
+    "Unique_to_File2": 10,
+    "Max_Lines": 143,
+    "Percentage_Identity": 91.6083916083916
+  },
+  {
+    "File1": "check/7BZG_A_CD/7BZG_ACD.int",
+    "File2": "check/7BZG_B_CD/7BZG_BCD.int",
+    "Total_Common_Atoms": 140,
+    "Unique_to_File1": 13,
+    "Unique_to_File2": 11,
+    "Max_Lines": 153,
+    "Percentage_Identity": 91.5032679738562
+  },
+  {
+    "File1": "check/3JSO_A_CD/3JSO_ACD.int",
+    "File2": "check/3JSO_B_CD/3JSO_BCD.int",
+    "Total_Common_Atoms": 188,
+    "Unique_to_File1": 6,
+    "Unique_to_File2": 13,
+    "Max_Lines": 206,
+    "Percentage_Identity": 91.2621359223301
+  },
+  {
+    "File1": "check/4JCX_B_CD/4JCX_BCD.int",
+    "File2": "check/4JCX_A_CD/4JCX_ACD.int",
+    "Total_Common_Atoms": 145,
+    "Unique_to_File1": 14,
+    "Unique_to_File2": 10,
+    "Max_Lines": 159,
+    "Percentage_Identity": 91.1949685534591
+  },
+  {
+    "File1": "check/5LEJ_A_CD/5LEJ_ACD.int",
+    "File2": "check/5LEJ_B_CD/5LEJ_BCD.int",
+    "Total_Common_Atoms": 133,
+    "Unique_to_File1": 12,
+    "Unique_to_File2": 10,
+    "Max_Lines": 146,
+    "Percentage_Identity": 91.0958904109589
+  },
+  {
+    "File1": "check/5MPF_A_EF/5MPF_AEF.int",
+    "File2": "check/5MPF_B_EF/5MPF_BEF.int",
+    "Total_Common_Atoms": 129,
+    "Unique_to_File1": 5,
+    "Unique_to_File2": 13,
+    "Max_Lines": 143,
+    "Percentage_Identity": 90.2097902097902
+  },
+  {
+    "File1": "check/2H27_A_BCEF/2H27_ABCEF.int",
+    "File2": "check/2H27_D_BCEF/2H27_DBCEF.int",
+    "Total_Common_Atoms": 146,
+    "Unique_to_File1": 13,
+    "Unique_to_File2": 5,
+    "Max_Lines": 162,
+    "Percentage_Identity": 90.1234567901235
+  },
+  {
+    "File1": "check/6CHV_A_IJ/6CHV_AIJ.int",
+    "File2": "check/6CHV_C_IJ/6CHV_CIJ.int",
+    "Total_Common_Atoms": 124,
+    "Unique_to_File1": 9,
+    "Unique_to_File2": 14,
+    "Max_Lines": 138,
+    "Percentage_Identity": 89.8550724637681
+  },
+  {
+    "File1": "check/3ZKC_A_CD/3ZKC_ACD.int",
+    "File2": "check/3ZKC_B_CD/3ZKC_BCD.int",
+    "Total_Common_Atoms": 135,
+    "Unique_to_File1": 11,
+    "Unique_to_File2": 15,
+    "Max_Lines": 152,
+    "Percentage_Identity": 88.8157894736842
+  },
+  {
+    "File1": "check/4LDX_A_CD/4LDX_ACD.int",
+    "File2": "check/4LDX_B_CD/4LDX_BCD.int",
+    "Total_Common_Atoms": 157,
+    "Unique_to_File1": 16,
+    "Unique_to_File2": 20,
+    "Max_Lines": 177,
+    "Percentage_Identity": 88.7005649717514
+  },
+  {
+    "File1": "check/3Q5F_A_CD/3Q5F_ACD.int",
+    "File2": "check/3Q5F_B_CD/3Q5F_BCD.int",
+    "Total_Common_Atoms": 196,
+    "Unique_to_File1": 20,
+    "Unique_to_File2": 16,
+    "Max_Lines": 222,
+    "Percentage_Identity": 88.2882882882883
+  },
+  {
+    "File1": "check/6C2S_A_UV/6C2S_AUV.int",
+    "File2": "check/6C2S_D_UV/6C2S_DUV.int",
+    "Total_Common_Atoms": 154,
+    "Unique_to_File1": 10,
+    "Unique_to_File2": 21,
+    "Max_Lines": 175,
+    "Percentage_Identity": 88
+  },
+  {
+    "File1": "check/3IV5_A_CD/3IV5_ACD.int",
+    "File2": "check/3IV5_B_CD/3IV5_BCD.int",
+    "Total_Common_Atoms": 91,
+    "Unique_to_File1": 12,
+    "Unique_to_File2": 13,
+    "Max_Lines": 104,
+    "Percentage_Identity": 87.5
+  },
+  {
+    "File1": "check/6JBX_A_CD/6JBX_ACD.int",
+    "File2": "check/6JBX_B_CD/6JBX_BCD.int",
+    "Total_Common_Atoms": 182,
+    "Unique_to_File1": 26,
+    "Unique_to_File2": 6,
+    "Max_Lines": 209,
+    "Percentage_Identity": 87.0813397129187
+  },
+  {
+    "File1": "check/1EGW_A_EF/1EGW_AEF.int",
+    "File2": "check/1EGW_B_EF/1EGW_BEF.int",
+    "Total_Common_Atoms": 152,
+    "Unique_to_File1": 10,
+    "Unique_to_File2": 13,
+    "Max_Lines": 175,
+    "Percentage_Identity": 86.8571428571429
+  },
+  {
+    "File1": "check/7B0C_A_CD/7B0C_ACD.int",
+    "File2": "check/7B0C_B_CD/7B0C_BCD.int",
+    "Total_Common_Atoms": 170,
+    "Unique_to_File1": 24,
+    "Unique_to_File2": 19,
+    "Max_Lines": 196,
+    "Percentage_Identity": 86.734693877551
+  },
+  {
+    "File1": "check/1Z9C_A_GH/1Z9C_AGH.int",
+    "File2": "check/1Z9C_B_GH/1Z9C_BGH.int",
+    "Total_Common_Atoms": 202,
+    "Unique_to_File1": 23,
+    "Unique_to_File2": 21,
+    "Max_Lines": 233,
+    "Percentage_Identity": 86.6952789699571
+  },
+  {
+    "File1": "check/5JUB_A_XZ/5JUB_AXZ.int",
+    "File2": "check/5JUB_B_XZ/5JUB_BXZ.int",
+    "Total_Common_Atoms": 104,
+    "Unique_to_File1": 11,
+    "Unique_to_File2": 14,
+    "Max_Lines": 120,
+    "Percentage_Identity": 86.6666666666667
+  },
+  {
+    "File1": "check/5H3R_A_CD/5H3R_ACD.int",
+    "File2": "check/5H3R_B_CD/5H3R_BCD.int",
+    "Total_Common_Atoms": 164,
+    "Unique_to_File1": 22,
+    "Unique_to_File2": 15,
+    "Max_Lines": 190,
+    "Percentage_Identity": 86.3157894736842
+  },
+  {
+    "File1": "check/6ZA3_A_EF/6ZA3_AEF.int",
+    "File2": "check/6ZA3_B_EF/6ZA3_BEF.int",
+    "Total_Common_Atoms": 112,
+    "Unique_to_File1": 5,
+    "Unique_to_File2": 12,
+    "Max_Lines": 130,
+    "Percentage_Identity": 86.1538461538462
+  },
+  {
+    "File1": "check/5X11_A_IJ/5X11_AIJ.int",
+    "File2": "check/5X11_B_IJ/5X11_BIJ.int",
+    "Total_Common_Atoms": 211,
+    "Unique_to_File1": 28,
+    "Unique_to_File2": 19,
+    "Max_Lines": 246,
+    "Percentage_Identity": 85.7723577235772
+  },
+  {
+    "File1": "check/8J0K_A_CD/8J0K_ACD.int",
+    "File2": "check/8J0K_B_CD/8J0K_BCD.int",
+    "Total_Common_Atoms": 114,
+    "Unique_to_File1": 9,
+    "Unique_to_File2": 13,
+    "Max_Lines": 133,
+    "Percentage_Identity": 85.7142857142857
+  },
+  {
+    "File1": "check/6Q2B_A_CD/6Q2B_ACD.int",
+    "File2": "check/6Q2B_B_CD/6Q2B_BCD.int",
+    "Total_Common_Atoms": 211,
+    "Unique_to_File1": 31,
+    "Unique_to_File2": 17,
+    "Max_Lines": 247,
+    "Percentage_Identity": 85.4251012145749
+  },
+  {
+    "File1": "check/6QFD_A_EF/6QFD_AEF.int",
+    "File2": "check/6QFD_B_EF/6QFD_BEF.int",
+    "Total_Common_Atoms": 175,
+    "Unique_to_File1": 30,
+    "Unique_to_File2": 14,
+    "Max_Lines": 205,
+    "Percentage_Identity": 85.3658536585366
+  },
+  {
+    "File1": "check/4HQE_A_CD/4HQE_ACD.int",
+    "File2": "check/4HQE_B_CD/4HQE_BCD.int",
+    "Total_Common_Atoms": 118,
+    "Unique_to_File1": 9,
+    "Unique_to_File2": 18,
+    "Max_Lines": 139,
+    "Percentage_Identity": 84.8920863309353
+  },
+  {
+    "File1": "check/4HF1_A_CD/4HF1_ACD.int",
+    "File2": "check/4HF1_B_CD/4HF1_BCD.int",
+    "Total_Common_Atoms": 195,
+    "Unique_to_File1": 35,
+    "Unique_to_File2": 19,
+    "Max_Lines": 230,
+    "Percentage_Identity": 84.7826086956522
+  },
+  {
+    "File1": "check/1L3L_B_EG/1L3L_BEG.int",
+    "File2": "check/1L3L_D_EG/1L3L_DEG.int",
+    "Total_Common_Atoms": 116,
+    "Unique_to_File1": 21,
+    "Unique_to_File2": 11,
+    "Max_Lines": 137,
+    "Percentage_Identity": 84.6715328467153
+  },
+  {
+    "File1": "unique_interface/3UK3_C_AB/3UK3_CAB.int",
+    "File2": "unique_interface/3UK3_D_AB/3UK3_DAB.int",
+    "Total_Common_Atoms": 156,
+    "Unique_to_File1": 29,
+    "Unique_to_File2": 12,
+    "Max_Lines": 185,
+    "Percentage_Identity": 84.32432432
+  },
+  {
+    "File1": "check/1P51_A_EF/1P51_AEF.int",
+    "File2": "check/1P51_B_EF/1P51_BEF.int",
+    "Total_Common_Atoms": 154,
+    "Unique_to_File1": 28,
+    "Unique_to_File2": 25,
+    "Max_Lines": 183,
+    "Percentage_Identity": 84.1530054644809
+  },
+  {
+    "File1": "check/1R71_A_EF/1R71_AEF.int",
+    "File2": "check/1R71_B_EF/1R71_BEF.int",
+    "Total_Common_Atoms": 168,
+    "Unique_to_File1": 12,
+    "Unique_to_File2": 33,
+    "Max_Lines": 201,
+    "Percentage_Identity": 83.5820895522388
+  },
+  {
+    "File1": "check/7DVV_A_LM/7DVV_ALM.int",
+    "File2": "check/7DVV_B_LM/7DVV_BLM.int",
+    "Total_Common_Atoms": 213,
+    "Unique_to_File1": 31,
+    "Unique_to_File2": 35,
+    "Max_Lines": 255,
+    "Percentage_Identity": 83.5294117647059
+  },
+  {
+    "File1": "check/2P5L_C_AB/2P5L_CAB.int",
+    "File2": "check/2P5L_D_AB/2P5L_DAB.int",
+    "Total_Common_Atoms": 125,
+    "Unique_to_File1": 17,
+    "Unique_to_File2": 12,
+    "Max_Lines": 150,
+    "Percentage_Identity": 83.3333333333333
+  },
+  {
+    "File1": "check/7PZA_A_CDEF/7PZA_ACDEF.int",
+    "File2": "check/7PZA_B_CDEF/7PZA_BCDEF.int",
+    "Total_Common_Atoms": 121,
+    "Unique_to_File1": 25,
+    "Unique_to_File2": 10,
+    "Max_Lines": 146,
+    "Percentage_Identity": 82.8767123287671
+  },
+  {
+    "File1": "unique_interface/4RB1_AB_DF/4RB1_ABDF.int",
+    "File2": "unique_interface/4RB1_CE_DF/4RB1_CEDF.int",
+    "Total_Common_Atoms": 251,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 305,
+    "Percentage_Identity": 82.29508197
+  },
+  {
+    "File1": "check/8EJO_A_CD/8EJO_ACD.int",
+    "File2": "check/8EJO_B_CD/8EJO_BCD.int",
+    "Total_Common_Atoms": 174,
+    "Unique_to_File1": 34,
+    "Unique_to_File2": 24,
+    "Max_Lines": 212,
+    "Percentage_Identity": 82.0754716981132
+  },
+  {
+    "File1": "check/6CRO_A_RUCD/6CRO_ARUCD.int",
+    "File2": "check/6CRO_B_RUCD/6CRO_BRUCD.int",
+    "Total_Common_Atoms": 164,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 200,
+    "Percentage_Identity": 82
+  },
+  {
+    "File1": "check/6NSM_B_CD/6NSM_BCD.int",
+    "File2": "check/6NSM_A_CD/6NSM_ACD.int",
+    "Total_Common_Atoms": 168,
+    "Unique_to_File1": 17,
+    "Unique_to_File2": 36,
+    "Max_Lines": 205,
+    "Percentage_Identity": 81.9512195121951
+  },
+  {
+    "File1": "check/7T8K_A_CD/7T8K_ACD.int",
+    "File2": "check/7T8K_B_CD/7T8K_BCD.int",
+    "Total_Common_Atoms": 149,
+    "Unique_to_File1": 20,
+    "Unique_to_File2": 32,
+    "Max_Lines": 182,
+    "Percentage_Identity": 81.8681318681319
+  },
+  {
+    "File1": "check/3A5T_A_CD/3A5T_ACD.int",
+    "File2": "check/3A5T_B_CD/3A5T_BCD.int",
+    "Total_Common_Atoms": 121,
+    "Unique_to_File1": 9,
+    "Unique_to_File2": 25,
+    "Max_Lines": 148,
+    "Percentage_Identity": 81.7567567567568
+  },
+  {
+    "File1": "check/3FDQ_A_CD/3FDQ_ACD.int",
+    "File2": "check/3FDQ_B_CD/3FDQ_BCD.int",
+    "Total_Common_Atoms": 198,
+    "Unique_to_File1": 45,
+    "Unique_to_File2": 27,
+    "Max_Lines": 243,
+    "Percentage_Identity": 81.4814814814815
+  },
+  {
+    "File1": "check/1CGP_AB_DE/1CGP_ABDE.int",
+    "File2": "check/1CGP_AB_CF/1CGP_ABCF.int",
+    "Total_Common_Atoms": 142,
+    "Unique_to_File1": 14,
+    "Unique_to_File2": 28,
+    "Max_Lines": 176,
+    "Percentage_Identity": 80.6818181818182
+  },
+  {
+    "File1": "check/1B01_AB_EF/1B01_ABEF.int",
+    "File2": "check/1B01_CD_GH/1B01_CDGH.int",
+    "Total_Common_Atoms": 126,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 157,
+    "Percentage_Identity": 80.2547770700637
+  },
+  {
+    "File1": "check/1N6J_A_CD/1N6J_ACD.int",
+    "File2": "check/1N6J_B_CD/1N6J_BCD.int",
+    "Total_Common_Atoms": 137,
+    "Unique_to_File1": 14,
+    "Unique_to_File2": 25,
+    "Max_Lines": 171,
+    "Percentage_Identity": 80.1169590643275
+  },
+  {
+    "File1": "check/1EFA_A_DE/1EFA_ADE.int",
+    "File2": "check/1EFA_B_DE/1EFA_BDE.int",
+    "Total_Common_Atoms": 180,
+    "Unique_to_File1": 13,
+    "Unique_to_File2": 32,
+    "Max_Lines": 225,
+    "Percentage_Identity": 80
+  },
+  {
+    "File1": "check/1DH3_A_BD/1DH3_ABD.int",
+    "File2": "check/1DH3_C_BD/1DH3_CBD.int",
+    "Total_Common_Atoms": 105,
+    "Unique_to_File1": 26,
+    "Unique_to_File2": 12,
+    "Max_Lines": 132,
+    "Percentage_Identity": 79.5454545454545
+  },
+  {
+    "File1": "check/4LLN_A_GH/4LLN_AGH.int",
+    "File2": "check/4LLN_B_GH/4LLN_BGH.int",
+    "Total_Common_Atoms": 189,
+    "Unique_to_File1": 18,
+    "Unique_to_File2": 40,
+    "Max_Lines": 238,
+    "Percentage_Identity": 79.4117647058823
+  },
+  {
+    "File1": "check/1CMA_AB_CD/1CMA_ABCD.int",
+    "File2": "check/1CMA_EF_GH/1CMA_EFGH.int",
+    "Total_Common_Atoms": 139,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 0,
+    "Max_Lines": 177,
+    "Percentage_Identity": 78.5310734463277
+  },
+  {
+    "File1": "unique_interface/1TRR_AB_CI/1TRR_ABCI.int",
+    "File2": "unique_interface/1TRR_GH_CI/1TRR_GHCI.int",
+    "Total_Common_Atoms": 251,
+    "Unique_to_File1": 3,
+    "Unique_to_File2": 1,
+    "Max_Lines": 322,
+    "Percentage_Identity": 77.95031056
+  },
+  {
+    "File1": "check/3GXQ_A_CD/3GXQ_ACD.int",
+    "File2": "check/3GXQ_B_CD/3GXQ_BCD.int",
+    "Total_Common_Atoms": 81,
+    "Unique_to_File1": 14,
+    "Unique_to_File2": 13,
+    "Max_Lines": 104,
+    "Percentage_Identity": 77.8846153846154
+  },
+  {
+    "File1": "check/4IHT_A_EF/4IHT_AEF.int",
+    "File2": "check/4IHT_B_EF/4IHT_BEF.int",
+    "Total_Common_Atoms": 149,
+    "Unique_to_File1": 34,
+    "Unique_to_File2": 44,
+    "Max_Lines": 193,
+    "Percentage_Identity": 77.2020725388601
+  },
+  {
+    "File1": "check/1TQE_P_CD/1TQE_PCD.int",
+    "File2": "check/1TQE_Q_CD/1TQE_QCD.int",
+    "Total_Common_Atoms": 148,
+    "Unique_to_File1": 36,
+    "Unique_to_File2": 28,
+    "Max_Lines": 193,
+    "Percentage_Identity": 76.6839378238342
+  },
+  {
+    "File1": "check/7F2F_A_EH/7F2F_AEH.int",
+    "File2": "check/7F2F_B_EH/7F2F_BEH.int",
+    "Total_Common_Atoms": 124,
+    "Unique_to_File1": 33,
+    "Unique_to_File2": 32,
+    "Max_Lines": 164,
+    "Percentage_Identity": 75.609756097561
+  },
+  {
+    "File1": "unique_interface/5F7Q_CE_FK/5F7Q_CEFK.int",
+    "File2": "unique_interface/5F7Q_JL_FK/5F7Q_JLFK.int",
+    "Total_Common_Atoms": 386,
+    "Unique_to_File1": 16,
+    "Unique_to_File2": 14,
+    "Max_Lines": 519,
+    "Percentage_Identity": 74.37379576
+  },
+  {
+    "File1": "unique_interface/5I44_AB_UW/5I44_ABUW.int",
+    "File2": "unique_interface/5I44_DE_UW/5I44_DEUW.int",
+    "Total_Common_Atoms": 174,
+    "Unique_to_File1": 7,
+    "Unique_to_File2": 11,
+    "Max_Lines": 234,
+    "Percentage_Identity": 74.35897436
+  },
+  {
+    "File1": "unique_interface/2YVH_AB_EFGH/2YVH_ABEFGH.int",
+    "File2": "unique_interface/2YVH_CD_EFGH/2YVH_CDEFGH.int",
+    "Total_Common_Atoms": 201,
+    "Unique_to_File1": 12,
+    "Unique_to_File2": 24,
+    "Max_Lines": 271,
+    "Percentage_Identity": 74.1697417
+  },
+  {
+    "File1": "check/3O9X_A_FE/3O9X_AFE.int",
+    "File2": "check/3O9X_B_FE/3O9X_BFE.int",
+    "Total_Common_Atoms": 129,
+    "Unique_to_File1": 35,
+    "Unique_to_File2": 37,
+    "Max_Lines": 174,
+    "Percentage_Identity": 74.1379310344828
+  },
+  {
+    "File1": "unique_interface/1JT0_AC_EF/1JT0_ACEF.int",
+    "File2": "unique_interface/1JT0_BD_EF/1JT0_BDEF.int",
+    "Total_Common_Atoms": 206,
+    "Unique_to_File1": 9,
+    "Unique_to_File2": 16,
+    "Max_Lines": 278,
+    "Percentage_Identity": 74.10071942
+  },
+  {
+    "File1": "unique_interface/6LB3_AB_IJ/6LB3_ABIJ.int",
+    "File2": "unique_interface/6LB3_GH_IJ/6LB3_GHIJ.int",
+    "Total_Common_Atoms": 140,
+    "Unique_to_File1": 16,
+    "Unique_to_File2": 16,
+    "Max_Lines": 189,
+    "Percentage_Identity": 74.07407407
+  },
+  {
+    "File1": "check/2W7N_A_EFGH/2W7N_AEFGH.int",
+    "File2": "check/2W7N_B_EFGH/2W7N_BEFGH.int",
+    "Total_Common_Atoms": 144,
+    "Unique_to_File1": 13,
+    "Unique_to_File2": 7,
+    "Max_Lines": 196,
+    "Percentage_Identity": 73.469387755102
+  },
+  {
+    "File1": "check/8K86_A_CD/8K86_ACD.int",
+    "File2": "check/8K86_B_CD/8K86_BCD.int",
+    "Total_Common_Atoms": 105,
+    "Unique_to_File1": 38,
+    "Unique_to_File2": 16,
+    "Max_Lines": 144,
+    "Percentage_Identity": 72.9166666666667
+  },
+  {
+    "File1": "check/6P0S_A_CD/6P0S_ACD.int",
+    "File2": "check/6P0S_B_CD/6P0S_BCD.int",
+    "Total_Common_Atoms": 86,
+    "Unique_to_File1": 22,
+    "Unique_to_File2": 32,
+    "Max_Lines": 118,
+    "Percentage_Identity": 72.8813559322034
+  },
+  {
+    "File1": "check/7EL3_A_CD/7EL3_ACD.int",
+    "File2": "check/7EL3_B_CD/7EL3_BCD.int",
+    "Total_Common_Atoms": 171,
+    "Unique_to_File1": 63,
+    "Unique_to_File2": 52,
+    "Max_Lines": 235,
+    "Percentage_Identity": 72.7659574468085
+  },
+  {
+    "File1": "check/8K4L_A_CD/8K4L_ACD.int",
+    "File2": "check/8K4L_B_CD/8K4L_BCD.int",
+    "Total_Common_Atoms": 135,
+    "Unique_to_File1": 53,
+    "Unique_to_File2": 10,
+    "Max_Lines": 188,
+    "Percentage_Identity": 71.8085106382979
+  },
+  {
+    "File1": "check/6W1A_A_EF/6W1A_AEF.int",
+    "File2": "check/6W1A_B_EF/6W1A_BEF.int",
+    "Total_Common_Atoms": 104,
+    "Unique_to_File1": 31,
+    "Unique_to_File2": 39,
+    "Max_Lines": 145,
+    "Percentage_Identity": 71.7241379310345
+  },
+  {
+    "File1": "unique_interface/5GPC_AB_EG/5GPC_ABEG.int",
+    "File2": "unique_interface/5GPC_CD_EG/5GPC_CDEG.int",
+    "Total_Common_Atoms": 168,
+    "Unique_to_File1": 16,
+    "Unique_to_File2": 16,
+    "Max_Lines": 239,
+    "Percentage_Identity": 70.29288703
+  },
+  {
+    "File1": "unique_interface/3IGM_AB_CD/3IGM_ABCD.int",
+    "File2": "unique_interface/3IGM_AB_WX/3IGM_ABWX.int",
+    "Total_Common_Atoms": 110,
+    "Unique_to_File1": 19,
+    "Unique_to_File2": 14,
+    "Max_Lines": 157,
+    "Percentage_Identity": 70.06369427
+  },
+  {
+    "File1": "unique_interface/3CLC_AB_EF/3CLC_ABEF.int",
+    "File2": "unique_interface/3CLC_CD_EF/3CLC_CDEF.int",
+    "Total_Common_Atoms": 196,
+    "Unique_to_File1": 27,
+    "Unique_to_File2": 30,
+    "Max_Lines": 280,
+    "Percentage_Identity": 70
+  },
+  {
+    "File1": "check/3IKT_A_CD/3IKT_ACD.int",
+    "File2": "check/3IKT_B_CD/3IKT_BCD.int",
+    "Total_Common_Atoms": 144,
+    "Unique_to_File1": 27,
+    "Unique_to_File2": 62,
+    "Max_Lines": 206,
+    "Percentage_Identity": 69.9029126213592
+  },
+  {
+    "File1": "check/5YI2_A_CD/5YI2_ACD.int",
+    "File2": "check/5YI2_B_CD/5YI2_BCD.int",
+    "Total_Common_Atoms": 112,
+    "Unique_to_File1": 48,
+    "Unique_to_File2": 8,
+    "Max_Lines": 161,
+    "Percentage_Identity": 69.5652173913043
+  },
+  {
+    "File1": "unique_interface/5VL9_AB_EFGH/5VL9_ABEFGH.int",
+    "File2": "unique_interface/5VL9_CD_EFGH/5VL9_CDEFGH.int",
+    "Total_Common_Atoms": 196,
+    "Unique_to_File1": 9,
+    "Unique_to_File2": 14,
+    "Max_Lines": 284,
+    "Percentage_Identity": 69.01408451
+  },
+  {
+    "File1": "check/7BHY_A_EG/7BHY_AEG.int",
+    "File2": "check/7BHY_B_EG/7BHY_BEG.int",
+    "Total_Common_Atoms": 69,
+    "Unique_to_File1": 26,
+    "Unique_to_File2": 32,
+    "Max_Lines": 101,
+    "Percentage_Identity": 68.3168316831683
+  },
+  {
+    "File1": "check/4WLS_A_XY/4WLS_AXY.int",
+    "File2": "check/4WLS_B_XY/4WLS_BXY.int",
+    "Total_Common_Atoms": 107,
+    "Unique_to_File1": 48,
+    "Unique_to_File2": 51,
+    "Max_Lines": 158,
+    "Percentage_Identity": 67.7215189873418
+  },
+  {
+    "File1": "unique_interface/3EYI_A_CD/3EYI_ACD.int",
+    "File2": "unique_interface/3EYI_B_CD/3EYI_BCD.int",
+    "Total_Common_Atoms": 65,
+    "Unique_to_File1": 29,
+    "Unique_to_File2": 5,
+    "Max_Lines": 96,
+    "Percentage_Identity": 67.70833333
+  },
+  {
+    "File1": "check/3DFX_A_XY/3DFX_AXY.int",
+    "File2": "check/3DFX_B_XY/3DFX_BXY.int",
+    "Total_Common_Atoms": 127,
+    "Unique_to_File1": 62,
+    "Unique_to_File2": 61,
+    "Max_Lines": 189,
+    "Percentage_Identity": 67.1957671957672
+  },
+  {
+    "File1": "check/7JNP_A_CD/7JNP_ACD.int",
+    "File2": "check/7JNP_B_CD/7JNP_BCD.int",
+    "Total_Common_Atoms": 93,
+    "Unique_to_File1": 46,
+    "Unique_to_File2": 38,
+    "Max_Lines": 139,
+    "Percentage_Identity": 66.9064748201439
+  },
+  {
+    "File1": "unique_interface/1PAR_AB_EF/1PAR_ABEF.int",
+    "File2": "unique_interface/1PAR_CD_EF/1PAR_CDEF.int",
+    "Total_Common_Atoms": 151,
+    "Unique_to_File1": 18,
+    "Unique_to_File2": 30,
+    "Max_Lines": 227,
+    "Percentage_Identity": 66.51982379
+  },
+  {
+    "File1": "check/7AMN_B_EF/7AMN_BEF.int",
+    "File2": "check/7AMN_A_EF/7AMN_AEF.int",
+    "Total_Common_Atoms": 124,
+    "Unique_to_File1": 43,
+    "Unique_to_File2": 66,
+    "Max_Lines": 194,
+    "Percentage_Identity": 63.9175257731959
+  },
+  {
+    "File1": "check/2OR1_R_AB/2OR1_RAB.int",
+    "File2": "check/2OR1_L_AB/2OR1_LAB.int",
+    "Total_Common_Atoms": 101,
+    "Unique_to_File1": 38,
+    "Unique_to_File2": 57,
+    "Max_Lines": 160,
+    "Percentage_Identity": 63.125
+  },
+  {
+    "File1": "check/8HML_A_CD/8HML_ACD.int",
+    "File2": "check/8HML_B_CD/8HML_BCD.int",
+    "Total_Common_Atoms": 116,
+    "Unique_to_File1": 41,
+    "Unique_to_File2": 66,
+    "Max_Lines": 186,
+    "Percentage_Identity": 62.3655913978495
+  },
+  {
+    "File1": "check/7PRV_A_CD/7PRV_ACD.int",
+    "File2": "check/7PRV_B_CD/7PRV_BCD.int",
+    "Total_Common_Atoms": 86,
+    "Unique_to_File1": 53,
+    "Unique_to_File2": 51,
+    "Max_Lines": 140,
+    "Percentage_Identity": 61.4285714285714
+  },
+  {
+    "File1": "check/3ZVK_E_XY/3ZVK_EXY.int",
+    "File2": "check/3ZVK_H_XY/3ZVK_HXY.int",
+    "Total_Common_Atoms": 70,
+    "Unique_to_File1": 39,
+    "Unique_to_File2": 43,
+    "Max_Lines": 115,
+    "Percentage_Identity": 60.8695652173913
+  },
+  {
+    "File1": "check/1RAM_A_CD/1RAM_ACD.int",
+    "File2": "check/1RAM_B_CD/1RAM_BCD.int",
+    "Total_Common_Atoms": 105,
+    "Unique_to_File1": 70,
+    "Unique_to_File2": 49,
+    "Max_Lines": 175,
+    "Percentage_Identity": 60
+  },
+  {
+    "File1": "check/7V6W_A_GH/7V6W_AGH.int",
+    "File2": "check/7V6W_B_GH/7V6W_BGH.int",
+    "Total_Common_Atoms": 74,
+    "Unique_to_File1": 49,
+    "Unique_to_File2": 32,
+    "Max_Lines": 126,
+    "Percentage_Identity": 58.7301587301587
+  },
+  {
+    "File1": "check/1CMA_A_CD/1CMA_ACD.int",
+    "File2": "check/1CMA_B_CD/1CMA_BCD.int",
+    "Total_Common_Atoms": 67,
+    "Unique_to_File1": 24,
+    "Unique_to_File2": 49,
+    "Max_Lines": 116,
+    "Percentage_Identity": 57.7586206896552
+  },
+  {
+    "File1": "unique_interface/1W0T_A_CD/1W0T_ACD.int",
+    "File2": "unique_interface/1W0T_B_CD/1W0T_BCD.int",
+    "Total_Common_Atoms": 102,
+    "Unique_to_File1": 66,
+    "Unique_to_File2": 73,
+    "Max_Lines": 177,
+    "Percentage_Identity": 57.62711864
+  },
+  {
+    "File1": "check/7VP1_A_CD/7VP1_ACD.int",
+    "File2": "check/7VP1_B_CD/7VP1_BCD.int",
+    "Total_Common_Atoms": 104,
+    "Unique_to_File1": 55,
+    "Unique_to_File2": 26,
+    "Max_Lines": 181,
+    "Percentage_Identity": 57.4585635359116
+  },
+  {
+    "File1": "check/2MRU_A_XY/2MRU_AXY.int",
+    "File2": "check/2MRU_B_XY/2MRU_BXY.int",
+    "Total_Common_Atoms": 74,
+    "Unique_to_File1": 42,
+    "Unique_to_File2": 40,
+    "Max_Lines": 130,
+    "Percentage_Identity": 56.9230769230769
+  },
+  {
+    "File1": "check/3H0D_A_CD/3H0D_ACD.int",
+    "File2": "check/3H0D_B_CD/3H0D_BCD.int",
+    "Total_Common_Atoms": 119,
+    "Unique_to_File1": 87,
+    "Unique_to_File2": 95,
+    "Max_Lines": 214,
+    "Percentage_Identity": 55.607476635514
+  },
+  {
+    "File1": "check/2RBF_A_CD/2RBF_ACD.int",
+    "File2": "check/2RBF_B_CD/2RBF_BCD.int",
+    "Total_Common_Atoms": 59,
+    "Unique_to_File1": 49,
+    "Unique_to_File2": 29,
+    "Max_Lines": 108,
+    "Percentage_Identity": 54.6296296296296
+  },
+  {
+    "File1": "check/8UVK_A_CD/8UVK_ACD.int",
+    "File2": "check/8UVK_B_CD/8UVK_BCD.int",
+    "Total_Common_Atoms": 91,
+    "Unique_to_File1": 40,
+    "Unique_to_File2": 73,
+    "Max_Lines": 168,
+    "Percentage_Identity": 54.1666666666667
+  },
+  {
+    "File1": "check/1GXP_A_CD/1GXP_ACD.int",
+    "File2": "check/1GXP_B_CD/1GXP_BCD.int",
+    "Total_Common_Atoms": 104,
+    "Unique_to_File1": 71,
+    "Unique_to_File2": 89,
+    "Max_Lines": 193,
+    "Percentage_Identity": 53.8860103626943
+  },
+  {
+    "File1": "check/3MZH_A_CD/3MZH_ACD.int",
+    "File2": "check/3MZH_B_CD/3MZH_BCD.int",
+    "Total_Common_Atoms": 70,
+    "Unique_to_File1": 56,
+    "Unique_to_File2": 61,
+    "Max_Lines": 131,
+    "Percentage_Identity": 53.4351145038168
+  },
+  {
+    "File1": "check/2R1J_L_BA/2R1J_LBA.int",
+    "File2": "check/2R1J_R_BA/2R1J_RBA.int",
+    "Total_Common_Atoms": 73,
+    "Unique_to_File1": 65,
+    "Unique_to_File2": 64,
+    "Max_Lines": 138,
+    "Percentage_Identity": 52.8985507246377
+  },
+  {
+    "File1": "check/1ZME_C_AB/1ZME_CAB.int",
+    "File2": "check/1ZME_D_AB/1ZME_DAB.int",
+    "Total_Common_Atoms": 97,
+    "Unique_to_File1": 23,
+    "Unique_to_File2": 79,
+    "Max_Lines": 190,
+    "Percentage_Identity": 51.0526315789474
+  },
+  {
+    "File1": "unique_interface/2H27_A_BC/2H27_BC.int",
+    "File2": "unique_interface/2H27_D_EF/2H27_DEF.int",
+    "Total_Common_Atoms": 75,
+    "Unique_to_File1": 5,
+    "Unique_to_File2": 73,
+    "Max_Lines": 148,
+    "Percentage_Identity": 50.67567568
+  },
+  {
+    "File1": "check/1B3T_A_CD/1B3T_ACD.int",
+    "File2": "check/1B3T_B_CD/1B3T_BCD.int",
+    "Total_Common_Atoms": 154,
+    "Unique_to_File1": 153,
+    "Unique_to_File2": 146,
+    "Max_Lines": 307,
+    "Percentage_Identity": 50.1628664495114
+  },
+  {
+    "File1": "check/5DY0_A_EF/5DY0_AEF.int",
+    "File2": "check/5DY0_B_EF/5DY0_BEF.int",
+    "Total_Common_Atoms": 116,
+    "Unique_to_File1": 116,
+    "Unique_to_File2": 12,
+    "Max_Lines": 232,
+    "Percentage_Identity": 50
+  },
+  {
+    "File1": "check/6RYD_E_GH/6RYD_EGH.int",
+    "File2": "check/6RYD_F_GH/6RYD_FGH.int",
+    "Total_Common_Atoms": 81,
+    "Unique_to_File1": 71,
+    "Unique_to_File2": 80,
+    "Max_Lines": 163,
+    "Percentage_Identity": 49.6932515337423
+  },
+  {
+    "File1": "check/1GLU_A_CD/1GLU_ACD.int",
+    "File2": "check/1GLU_B_CD/1GLU_BCD.int",
+    "Total_Common_Atoms": 87,
+    "Unique_to_File1": 90,
+    "Unique_to_File2": 25,
+    "Max_Lines": 177,
+    "Percentage_Identity": 49.1525423728814
+  },
+  {
+    "File1": "check/1D66_A_DE/1D66_ADE.int",
+    "File2": "check/1D66_B_DE/1D66_BDE.int",
+    "Total_Common_Atoms": 71,
+    "Unique_to_File1": 74,
+    "Unique_to_File2": 76,
+    "Max_Lines": 147,
+    "Percentage_Identity": 48.2993197278912
+  },
+  {
+    "File1": "check/5X5L_B_CD/5X5L_BCD.int",
+    "File2": "check/5X5L_H_CD/5X5L_HCD.int",
+    "Total_Common_Atoms": 95,
+    "Unique_to_File1": 101,
+    "Unique_to_File2": 91,
+    "Max_Lines": 197,
+    "Percentage_Identity": 48.2233502538071
+  },
+  {
+    "File1": "check/1JE8_A_CD/1JE8_ACD.int",
+    "File2": "check/1JE8_B_CD/1JE8_BCD.int",
+    "Total_Common_Atoms": 77,
+    "Unique_to_File1": 84,
+    "Unique_to_File2": 85,
+    "Max_Lines": 162,
+    "Percentage_Identity": 47.5308641975309
+  },
+  {
+    "File1": "check/1L1C_A_CD/1L1C_ACD.int",
+    "File2": "check/1L1C_B_CD/1L1C_BCD.int",
+    "Total_Common_Atoms": 73,
+    "Unique_to_File1": 81,
+    "Unique_to_File2": 72,
+    "Max_Lines": 154,
+    "Percentage_Identity": 47.4025974025974
+  },
+  {
+    "File1": "check/3RN2_A_KL/3RN2_AKL.int",
+    "File2": "check/3RN2_B_KL/3RN2_BKL.int",
+    "Total_Common_Atoms": 53,
+    "Unique_to_File1": 57,
+    "Unique_to_File2": 59,
+    "Max_Lines": 112,
+    "Percentage_Identity": 47.3214285714286
+  },
+  {
+    "File1": "check/1A0A_A_CD/1A0A_ACD.int",
+    "File2": "check/1A0A_B_CD/1A0A_BCD.int",
+    "Total_Common_Atoms": 79,
+    "Unique_to_File1": 73,
+    "Unique_to_File2": 69,
+    "Max_Lines": 169,
+    "Percentage_Identity": 46.7455621301775
+  },
+  {
+    "File1": "check/1CO0_A_EF/1CO0_AEF.int",
+    "File2": "check/1CO0_B_EF/1CO0_BEF.int",
+    "Total_Common_Atoms": 93,
+    "Unique_to_File1": 98,
+    "Unique_to_File2": 34,
+    "Max_Lines": 199,
+    "Percentage_Identity": 46.7336683417085
+  },
+  {
+    "File1": "unique_interface/4MTD_AD_YZ/4MTD_ADYZ.int",
+    "File2": "unique_interface/4MTD_BC_YZ/4MTD_BCYZ.int",
+    "Total_Common_Atoms": 155,
+    "Unique_to_File1": 96,
+    "Unique_to_File2": 99,
+    "Max_Lines": 333,
+    "Percentage_Identity": 46.54654655
+  },
+  {
+    "File1": "unique_interface/4EGY_A_TU/4EGY_ATU.int",
+    "File2": "unique_interface/4EGY_B_TU/4EGY_BTU.int",
+    "Total_Common_Atoms": 99,
+    "Unique_to_File1": 116,
+    "Unique_to_File2": 109,
+    "Max_Lines": 215,
+    "Percentage_Identity": 46.04651163
+  },
+  {
+    "File1": "check/3CLC_A_EF/3CLC_AEF.int",
+    "File2": "check/3CLC_B_EF/3CLC_BEF.int",
+    "Total_Common_Atoms": 69,
+    "Unique_to_File1": 76,
+    "Unique_to_File2": 80,
+    "Max_Lines": 151,
+    "Percentage_Identity": 45.6953642384106
+  },
+  {
+    "File1": "check/2C62_A_C/2C62_AC.int",
+    "File2": "check/2C62_B_C/2C62_BC.int",
+    "Total_Common_Atoms": 88,
+    "Unique_to_File1": 81,
+    "Unique_to_File2": 107,
+    "Max_Lines": 195,
+    "Percentage_Identity": 45.1282051282051
+  },
+  {
+    "File1": "check/1SAX_A_CD/1SAX_ACD.int",
+    "File2": "check/1SAX_B_CD/1SAX_BCD.int",
+    "Total_Common_Atoms": 76,
+    "Unique_to_File1": 93,
+    "Unique_to_File2": 83,
+    "Max_Lines": 169,
+    "Percentage_Identity": 44.9704142011834
+  },
+  {
+    "File1": "unique_interface/4XRM_A_ML/4XRM_AML.int",
+    "File2": "unique_interface/4XRM_B_ML/4XRM_BML.int",
+    "Total_Common_Atoms": 59,
+    "Unique_to_File1": 73,
+    "Unique_to_File2": 73,
+    "Max_Lines": 132,
+    "Percentage_Identity": 44.6969697
+  },
+  {
+    "File1": "check/4JL3_AB_EF/4JL3_ABEF.int",
+    "File2": "check/4JL3_CD_EF/4JL3_CDEF.int",
+    "Total_Common_Atoms": 167,
+    "Unique_to_File1": 76,
+    "Unique_to_File2": 113,
+    "Max_Lines": 375,
+    "Percentage_Identity": 44.5333333333333
+  },
+  {
+    "File1": "check/4KFC_A_YZ/4KFC_AYZ.int",
+    "File2": "check/4KFC_B_YZ/4KFC_BYZ.int",
+    "Total_Common_Atoms": 73,
+    "Unique_to_File1": 92,
+    "Unique_to_File2": 78,
+    "Max_Lines": 165,
+    "Percentage_Identity": 44.2424242424242
+  },
+  {
+    "File1": "check/5MHJ_A_EF/5MHJ_AEF.int",
+    "File2": "check/5MHJ_B_EF/5MHJ_BEF.int",
+    "Total_Common_Atoms": 46,
+    "Unique_to_File1": 59,
+    "Unique_to_File2": 46,
+    "Max_Lines": 105,
+    "Percentage_Identity": 43.8095238095238
+  },
+  {
+    "File1": "check/1IC8_A_EF/1IC8_AEF.int",
+    "File2": "check/1IC8_B_EF/1IC8_BEF.int",
+    "Total_Common_Atoms": 119,
+    "Unique_to_File1": 156,
+    "Unique_to_File2": 152,
+    "Max_Lines": 275,
+    "Percentage_Identity": 43.2727272727273
+  },
+  {
+    "File1": "check/6LXN_A_CD/6LXN_ACD.int",
+    "File2": "check/6LXN_B_CD/6LXN_BCD.int",
+    "Total_Common_Atoms": 79,
+    "Unique_to_File1": 105,
+    "Unique_to_File2": 107,
+    "Max_Lines": 186,
+    "Percentage_Identity": 42.4731182795699
+  },
+  {
+    "File1": "check/5K7Z_A_EF/5K7Z_AEF.int",
+    "File2": "check/5K7Z_B_EF/5K7Z_BEF.int",
+    "Total_Common_Atoms": 62,
+    "Unique_to_File1": 84,
+    "Unique_to_File2": 54,
+    "Max_Lines": 146,
+    "Percentage_Identity": 42.4657534246575
+  },
+  {
+    "File1": "check/4NHJ_A_CD/4NHJ_ACD.int",
+    "File2": "check/4NHJ_B_CD/4NHJ_BCD.int",
+    "Total_Common_Atoms": 79,
+    "Unique_to_File1": 98,
+    "Unique_to_File2": 109,
+    "Max_Lines": 188,
+    "Percentage_Identity": 42.0212765957447
+  },
+  {
+    "File1": "check/4UX5_A_CD/4UX5_ACD.int",
+    "File2": "check/4UX5_B_CD/4UX5_BCD.int",
+    "Total_Common_Atoms": 76,
+    "Unique_to_File1": 79,
+    "Unique_to_File2": 91,
+    "Max_Lines": 181,
+    "Percentage_Identity": 41.9889502762431
+  },
+  {
+    "File1": "unique_interface/1IF1_A_C/1IF1_AC.int",
+    "File2": "unique_interface/1IF1_B_D/1IF1_BD.int",
+    "Total_Common_Atoms": 91,
+    "Unique_to_File1": 119,
+    "Unique_to_File2": 128,
+    "Max_Lines": 219,
+    "Percentage_Identity": 41.55251142
+  },
+  {
+    "File1": "check/2C9L_Z_AB/2C9L_ZAB.int",
+    "File2": "check/2C9L_Y_AB/2C9L_YAB.int",
+    "Total_Common_Atoms": 51,
+    "Unique_to_File1": 67,
+    "Unique_to_File2": 72,
+    "Max_Lines": 123,
+    "Percentage_Identity": 41.4634146341463
+  },
+  {
+    "File1": "check/1BF5_A_CD/1BF5_ACD.int",
+    "File2": "check/1BF5_B_CD/1BF5_BCD.int",
+    "Total_Common_Atoms": 70,
+    "Unique_to_File1": 85,
+    "Unique_to_File2": 99,
+    "Max_Lines": 169,
+    "Percentage_Identity": 41.4201183431953
+  },
+  {
+    "File1": "check/5YEJ_B_DF/5YEJ_BDF.int",
+    "File2": "check/5YEJ_C_DF/5YEJ_CDF.int",
+    "Total_Common_Atoms": 62,
+    "Unique_to_File1": 86,
+    "Unique_to_File2": 88,
+    "Max_Lines": 150,
+    "Percentage_Identity": 41.3333333333333
+  },
+  {
+    "File1": "unique_interface/5JGH_A_BCEF/5JGH_ABCEF.int",
+    "File2": "unique_interface/5JGH_D_BCEF/5JGH_BCEF.int",
+    "Total_Common_Atoms": 206,
+    "Unique_to_File1": 242,
+    "Unique_to_File2": 19,
+    "Max_Lines": 505,
+    "Percentage_Identity": 40.79207921
+  },
+  {
+    "File1": "check/7X5G_A_CD/7X5G_ACD.int",
+    "File2": "check/7X5G_B_CD/7X5G_BCD.int",
+    "Total_Common_Atoms": 63,
+    "Unique_to_File1": 85,
+    "Unique_to_File2": 89,
+    "Max_Lines": 156,
+    "Percentage_Identity": 40.3846153846154
+  },
+  {
+    "File1": "check/5GNJ_G_KL/5GNJ_GKL.int",
+    "File2": "check/5GNJ_I_KL/5GNJ_IKL.int",
+    "Total_Common_Atoms": 54,
+    "Unique_to_File1": 81,
+    "Unique_to_File2": 62,
+    "Max_Lines": 135,
+    "Percentage_Identity": 40
+  },
+  {
+    "File1": "check/2K1N_AB_EF/2K1N_ABEF.int",
+    "File2": "check/2K1N_CD_EF/2K1N_CDEF.int",
+    "Total_Common_Atoms": 68,
+    "Unique_to_File1": 74,
+    "Unique_to_File2": 67,
+    "Max_Lines": 171,
+    "Percentage_Identity": 39.766081871345
+  },
+  {
+    "File1": "check/1HJB_A_GH/1HJB_AGH.int",
+    "File2": "check/1HJB_B_GH/1HJB_BGH.int",
+    "Total_Common_Atoms": 50,
+    "Unique_to_File1": 69,
+    "Unique_to_File2": 74,
+    "Max_Lines": 126,
+    "Percentage_Identity": 39.6825396825397
+  },
+  {
+    "File1": "unique_interface/6P1A_A_DE/6P1A_ADE.int",
+    "File2": "unique_interface/6P1A_B_DE/6P1A_BDE.int",
+    "Total_Common_Atoms": 75,
+    "Unique_to_File1": 112,
+    "Unique_to_File2": 114,
+    "Max_Lines": 189,
+    "Percentage_Identity": 39.68253968
+  },
+  {
+    "File1": "check/2ER8_A_EF/2ER8_AEF.int",
+    "File2": "check/2ER8_B_EF/2ER8_BEF.int",
+    "Total_Common_Atoms": 61,
+    "Unique_to_File1": 94,
+    "Unique_to_File2": 92,
+    "Max_Lines": 155,
+    "Percentage_Identity": 39.3548387096774
+  },
+  {
+    "File1": "check/7XQ5_A_CD/7XQ5_ACD.int",
+    "File2": "check/7XQ5_B_CD/7XQ5_BCD.int",
+    "Total_Common_Atoms": 73,
+    "Unique_to_File1": 75,
+    "Unique_to_File2": 114,
+    "Max_Lines": 187,
+    "Percentage_Identity": 39.0374331550802
+  },
+  {
+    "File1": "unique_interface/1MHD_A_CD/1MHD_ACD.int",
+    "File2": "unique_interface/1MHD_B_CD/1MHD_BCD.int",
+    "Total_Common_Atoms": 44,
+    "Unique_to_File1": 70,
+    "Unique_to_File2": 49,
+    "Max_Lines": 114,
+    "Percentage_Identity": 38.59649123
+  },
+  {
+    "File1": "check/6MRJ_AB_LM/6MRJ_ABLM.int",
+    "File2": "check/6MRJ_CD_LM/6MRJ_CDLM.int",
+    "Total_Common_Atoms": 77,
+    "Unique_to_File1": 75,
+    "Unique_to_File2": 92,
+    "Max_Lines": 206,
+    "Percentage_Identity": 37.378640776699
+  },
+  {
+    "File1": "check/1H88_A_DE/1H88_ADE.int",
+    "File2": "check/1H88_B_DE/1H88_BDE.int",
+    "Total_Common_Atoms": 52,
+    "Unique_to_File1": 89,
+    "Unique_to_File2": 76,
+    "Max_Lines": 141,
+    "Percentage_Identity": 36.8794326241135
+  },
+  {
+    "File1": "check/1YSA_C_AB/1YSA_CAB.int",
+    "File2": "check/1YSA_D_AB/1YSA_DAB.int",
+    "Total_Common_Atoms": 42,
+    "Unique_to_File1": 75,
+    "Unique_to_File2": 80,
+    "Max_Lines": 122,
+    "Percentage_Identity": 34.4262295081967
+  },
+  {
+    "File1": "check/4ON0_A_EF/4ON0_AEF.int",
+    "File2": "check/4ON0_B_EF/4ON0_BEF.int",
+    "Total_Common_Atoms": 60,
+    "Unique_to_File1": 66,
+    "Unique_to_File2": 118,
+    "Max_Lines": 178,
+    "Percentage_Identity": 33.7078651685393
+  },
+  {
+    "File1": "check/4IQR_A_CD/4IQR_ACD.int",
+    "File2": "check/4IQR_B_CD/4IQR_BCD.int",
+    "Total_Common_Atoms": 75,
+    "Unique_to_File1": 81,
+    "Unique_to_File2": 153,
+    "Max_Lines": 228,
+    "Percentage_Identity": 32.8947368421053
+  },
+  {
+    "File1": "unique_interface/1APL_C_AB/1APL_CAB.int",
+    "File2": "unique_interface/1APL_D_AB/1APL_DAB.int",
+    "Total_Common_Atoms": 69,
+    "Unique_to_File1": 144,
+    "Unique_to_File2": 103,
+    "Max_Lines": 213,
+    "Percentage_Identity": 32.3943662
+  },
+  {
+    "File1": "unique_interface/4L62_AB_QR/4L62_ABQR.int",
+    "File2": "unique_interface/4L62_CD_QR/4L62_CDQR.int",
+    "Total_Common_Atoms": 79,
+    "Unique_to_File1": 78,
+    "Unique_to_File2": 100,
+    "Max_Lines": 246,
+    "Percentage_Identity": 32.11382114
+  },
+  {
+    "File1": "check/8B4B_W_LM/8B4B_WLM.int",
+    "File2": "check/8B4B_X_LM/8B4B_XLM.int",
+    "Total_Common_Atoms": 47,
+    "Unique_to_File1": 104,
+    "Unique_to_File2": 57,
+    "Max_Lines": 151,
+    "Percentage_Identity": 31.1258278145695
+  },
+  {
+    "File1": "check/8B4B_Z_LM/8B4B_ZLM.int",
+    "File2": "check/8B4B_Y_LM/8B4B_YLM.int",
+    "Total_Common_Atoms": 52,
+    "Unique_to_File1": 116,
+    "Unique_to_File2": 56,
+    "Max_Lines": 168,
+    "Percentage_Identity": 30.952380952381
+  },
+  {
+    "File1": "unique_interface/4J19_A_CD/4J19_ACD.int",
+    "File2": "unique_interface/4J19_B_CD/4J19_BCD.int",
+    "Total_Common_Atoms": 65,
+    "Unique_to_File1": 76,
+    "Unique_to_File2": 140,
+    "Max_Lines": 219,
+    "Percentage_Identity": 29.6803653
+  },
+  {
+    "File1": "check/1LMB_3_12/1LMB_312.int",
+    "File2": "check/1LMB_4_12/1LMB_412.int",
+    "Total_Common_Atoms": 52,
+    "Unique_to_File1": 68,
+    "Unique_to_File2": 127,
+    "Max_Lines": 179,
+    "Percentage_Identity": 29.0502793296089
+  },
+  {
+    "File1": "unique_interface/4LMG_A_GH/4LMG_AGH.int",
+    "File2": "unique_interface/4LMG_D_GH/4LMG_DGH.int",
+    "Total_Common_Atoms": 49,
+    "Unique_to_File1": 103,
+    "Unique_to_File2": 121,
+    "Max_Lines": 170,
+    "Percentage_Identity": 28.82352941
+  },
+  {
+    "File1": "check/3KS8_A_EF/3KS8_AEF.int",
+    "File2": "check/3KS8_B_EF/3KS8_BEF.int",
+    "Total_Common_Atoms": 32,
+    "Unique_to_File1": 82,
+    "Unique_to_File2": 54,
+    "Max_Lines": 115,
+    "Percentage_Identity": 27.8260869565217
+  },
+  {
+    "File1": "check/6CG8_AB_CF/6CG8_ABCF.int",
+    "File2": "check/6CG8_DE_CF/6CG8_DECF.int",
+    "Total_Common_Atoms": 23,
+    "Unique_to_File1": 49,
+    "Unique_to_File2": 46,
+    "Max_Lines": 85,
+    "Percentage_Identity": 27.0588235294118
+  },
+  {
+    "File1": "check/2BSQ_EH_IJ/2BSQ_EHIJ.int",
+    "File2": "check/2BSQ_FG_IJ/2BSQ_FGIJ.int",
+    "Total_Common_Atoms": 42,
+    "Unique_to_File1": 87,
+    "Unique_to_File2": 86,
+    "Max_Lines": 158,
+    "Percentage_Identity": 26.5822784810127
+  },
+  {
+    "File1": "check/1MNM_C_EF/1MNM_CEF.int",
+    "File2": "check/1MNM_D_EF/1MNM_DEF.int",
+    "Total_Common_Atoms": 60,
+    "Unique_to_File1": 166,
+    "Unique_to_File2": 95,
+    "Max_Lines": 226,
+    "Percentage_Identity": 26.5486725663717
+  },
+  {
+    "File1": "check/1TUP_B_EF/1TUP_BEF.int",
+    "File2": "check/1TUP_C_EF/1TUP_CEF.int",
+    "Total_Common_Atoms": 34,
+    "Unique_to_File1": 96,
+    "Unique_to_File2": 47,
+    "Max_Lines": 130,
+    "Percentage_Identity": 26.1538461538462
+  },
+  {
+    "File1": "check/1AN4_A_CD/1AN4_ACD.int",
+    "File2": "check/1AN4_B_CD/1AN4_BCD.int",
+    "Total_Common_Atoms": 43,
+    "Unique_to_File1": 120,
+    "Unique_to_File2": 122,
+    "Max_Lines": 165,
+    "Percentage_Identity": 26.0606060606061
+  },
+  {
+    "File1": "check/1DDN_AB_EF/1DDN_ABEF.int",
+    "File2": "check/1DDN_CD_EF/1DDN_CDEF.int",
+    "Total_Common_Atoms": 77,
+    "Unique_to_File1": 158,
+    "Unique_to_File2": 153,
+    "Max_Lines": 298,
+    "Percentage_Identity": 25.8389261744966
+  },
+  {
+    "File1": "check/6C31_AD_KL/6C31_ADKL.int",
+    "File2": "check/6C31_BC_KL/6C31_BCKL.int",
+    "Total_Common_Atoms": 86,
+    "Unique_to_File1": 110,
+    "Unique_to_File2": 128,
+    "Max_Lines": 334,
+    "Percentage_Identity": 25.748502994012
+  },
+  {
+    "File1": "unique_interface/2BNW_AB_EF/2BNW_ABEF.int",
+    "File2": "unique_interface/2BNW_CD_EF/2BNW_CDEF.int",
+    "Total_Common_Atoms": 41,
+    "Unique_to_File1": 81,
+    "Unique_to_File2": 85,
+    "Max_Lines": 161,
+    "Percentage_Identity": 25.46583851
+  },
+  {
+    "File1": "check/1AM9_AB_FG/1AM9_ABFG.int",
+    "File2": "check/1AM9_CD_EH/1AM9_CDEH.int",
+    "Total_Common_Atoms": 75,
+    "Unique_to_File1": 162,
+    "Unique_to_File2": 161,
+    "Max_Lines": 296,
+    "Percentage_Identity": 25.3378378378378
+  },
+  {
+    "File1": "check/7BCB_A_CD/7BCB_ACD.int",
+    "File2": "check/7BCB_B_CD/7BCB_BCD.int",
+    "Total_Common_Atoms": 38,
+    "Unique_to_File1": 58,
+    "Unique_to_File2": 111,
+    "Max_Lines": 150,
+    "Percentage_Identity": 25.3333333333333
+  },
+  {
+    "File1": "check/5K5Q_AB_PN/5K5Q_ABPN.int",
+    "File2": "check/5K5Q_EF_PN/5K5Q_EFPN.int",
+    "Total_Common_Atoms": 89,
+    "Unique_to_File1": 201,
+    "Unique_to_File2": 163,
+    "Max_Lines": 355,
+    "Percentage_Identity": 25.0704225352113
+  },
+  {
+    "File1": "check/4WU4_A_GH/4WU4_AGH.int",
+    "File2": "check/4WU4_B_GH/4WU4_BGH.int",
+    "Total_Common_Atoms": 37,
+    "Unique_to_File1": 46,
+    "Unique_to_File2": 113,
+    "Max_Lines": 151,
+    "Percentage_Identity": 24.5033112582781
+  },
+  {
+    "File1": "check/1HWT_C_AB/1HWT_CAB.int",
+    "File2": "check/1HWT_D_AB/1HWT_DAB.int",
+    "Total_Common_Atoms": 46,
+    "Unique_to_File1": 49,
+    "Unique_to_File2": 141,
+    "Max_Lines": 191,
+    "Percentage_Identity": 24.0837696335079
+  },
+  {
+    "File1": "check/4MTD_AB_YZ/4MTD_ABYZ.int",
+    "File2": "check/4MTD_CD_YZ/4MTD_CDYZ.int",
+    "Total_Common_Atoms": 84,
+    "Unique_to_File1": 108,
+    "Unique_to_File2": 158,
+    "Max_Lines": 352,
+    "Percentage_Identity": 23.8636363636364
+  },
+  {
+    "File1": "check/4LMG_B_EF/4LMG_BEF.int",
+    "File2": "check/4LMG_C_EF/4LMG_CEF.int",
+    "Total_Common_Atoms": 41,
+    "Unique_to_File1": 66,
+    "Unique_to_File2": 132,
+    "Max_Lines": 173,
+    "Percentage_Identity": 23.6994219653179
+  },
+  {
+    "File1": "unique_interface/1HDD_C_AB/1HDD_CAB.int",
+    "File2": "unique_interface/1HDD_D_AB/1HDD_DAB.int",
+    "Total_Common_Atoms": 43,
+    "Unique_to_File1": 143,
+    "Unique_to_File2": 53,
+    "Max_Lines": 186,
+    "Percentage_Identity": 23.11827957
+  },
+  {
+    "File1": "check/1MDY_AB_EF/1MDY_ABEF.int",
+    "File2": "check/1MDY_CD_GH/1MDY_CDGH.int",
+    "Total_Common_Atoms": 66,
+    "Unique_to_File1": 174,
+    "Unique_to_File2": 182,
+    "Max_Lines": 303,
+    "Percentage_Identity": 21.7821782178218
+  },
+  {
+    "File1": "check/7ET6_A_EF/7ET6_AEF.int",
+    "File2": "check/7ET6_D_EF/7ET6_DEF.int",
+    "Total_Common_Atoms": 43,
+    "Unique_to_File1": 131,
+    "Unique_to_File2": 36,
+    "Max_Lines": 202,
+    "Percentage_Identity": 21.2871287128713
+  },
+  {
+    "File1": "check/5HSO_AB_EF/5HSO_ABEF.int",
+    "File2": "check/5HSO_CD_EF/5HSO_CDEF.int",
+    "Total_Common_Atoms": 23,
+    "Unique_to_File1": 51,
+    "Unique_to_File2": 66,
+    "Max_Lines": 111,
+    "Percentage_Identity": 20.7207207207207
+  },
+  {
+    "File1": "check/1LQ1_C_EF/1LQ1_CEF.int",
+    "File2": "check/1LQ1_D_EF/1LQ1_DEF.int",
+    "Total_Common_Atoms": 38,
+    "Unique_to_File1": 40,
+    "Unique_to_File2": 151,
+    "Max_Lines": 189,
+    "Percentage_Identity": 20.1058201058201
+  },
+  {
+    "File1": "check/7C0G_A_CD/7C0G_ACD.int",
+    "File2": "check/7C0G_B_CD/7C0G_BCD.int",
+    "Total_Common_Atoms": 14,
+    "Unique_to_File1": 11,
+    "Unique_to_File2": 61,
+    "Max_Lines": 75,
+    "Percentage_Identity": 18.6666666666667
+  },
+  {
+    "File1": "check/7C9O_B_DE/7C9O_BDE.int",
+    "File2": "check/7C9O_C_DE/7C9O_CDE.int",
+    "Total_Common_Atoms": 20,
+    "Unique_to_File1": 83,
+    "Unique_to_File2": 82,
+    "Max_Lines": 109,
+    "Percentage_Identity": 18.348623853211
+  },
+  {
+    "File1": "check/5XOG_A_NT/5XOG_ANT.int",
+    "File2": "check/5XOG_B_NT/5XOG_BNT.int",
+    "Total_Common_Atoms": 45,
+    "Unique_to_File1": 214,
+    "Unique_to_File2": 151,
+    "Max_Lines": 261,
+    "Percentage_Identity": 17.2413793103448
+  },
+  {
+    "File1": "check/1HJB_C_GH/1HJB_CGH.int",
+    "File2": "check/1HJB_A_GH/1HJB_AGH.int",
+    "Total_Common_Atoms": 22,
+    "Unique_to_File1": 140,
+    "Unique_to_File2": 97,
+    "Max_Lines": 162,
+    "Percentage_Identity": 13.5802469135802
+  },
+  {
+    "File1": "check/5M3H_A_RV/5M3H_ARV.int",
+    "File2": "check/5M3H_B_RV/5M3H_BRV.int",
+    "Total_Common_Atoms": 46,
+    "Unique_to_File1": 279,
+    "Unique_to_File2": 191,
+    "Max_Lines": 350,
+    "Percentage_Identity": 13.1428571428571
+  },
+  {
+    "File1": "check/1QRV_A_CD/1QRV_ACD.int",
+    "File2": "check/1QRV_B_CD/1QRV_BCD.int",
+    "Total_Common_Atoms": 22,
+    "Unique_to_File1": 180,
+    "Unique_to_File2": 50,
+    "Max_Lines": 202,
+    "Percentage_Identity": 10.8910891089109
+  },
+  {
+    "File1": "check/1IHF_A_CDE/1IHF_ACDE.int",
+    "File2": "check/1IHF_B_CDE/1IHF_BCDE.int",
+    "Total_Common_Atoms": 30,
+    "Unique_to_File1": 273,
+    "Unique_to_File2": 224,
+    "Max_Lines": 303,
+    "Percentage_Identity": 9.9009900990099
+  },
+  {
+    "File1": "check/5XSK_B_DF/5XSK_BDF.int",
+    "File2": "check/5XSK_A_DF/5XSK_ADF.int",
+    "Total_Common_Atoms": 5,
+    "Unique_to_File1": 30,
+    "Unique_to_File2": 46,
+    "Max_Lines": 51,
+    "Percentage_Identity": 9.80392156862745
+  },
+  {
+    "File1": "unique_interface/1CF7_A_CD/1CF7_ACD.int",
+    "File2": "unique_interface/1CF7_B_CD/1CF7_BCD.int",
+    "Total_Common_Atoms": 15,
+    "Unique_to_File1": 154,
+    "Unique_to_File2": 116,
+    "Max_Lines": 169,
+    "Percentage_Identity": 8.875739645
+  },
+  {
+    "File1": "check/4ROC_A_NT/4ROC_ANT.int",
+    "File2": "check/4ROC_B_NT/4ROC_BNT.int",
+    "Total_Common_Atoms": 26,
+    "Unique_to_File1": 222,
+    "Unique_to_File2": 215,
+    "Max_Lines": 308,
+    "Percentage_Identity": 8.44155844155844
+  },
+  {
+    "File1": "check/1H88_A_DE/1H88_ADE.int",
+    "File2": "check/1H88_C_DE/1H88_CDE.int",
+    "Total_Common_Atoms": 17,
+    "Unique_to_File1": 124,
+    "Unique_to_File2": 194,
+    "Max_Lines": 211,
+    "Percentage_Identity": 8.05687203791469
+  },
+  {
+    "File1": "check/4H10_A_CD/4H10_ACD.int",
+    "File2": "check/4H10_B_CD/4H10_BCD.int",
+    "Total_Common_Atoms": 10,
+    "Unique_to_File1": 129,
+    "Unique_to_File2": 109,
+    "Max_Lines": 139,
+    "Percentage_Identity": 7.19424460431655
+  },
+  {
+    "File1": "check/5ZX2_C_I/5ZX2_CI.int",
+    "File2": "check/5ZX2_D_I/5ZX2_DI.int",
+    "Total_Common_Atoms": 6,
+    "Unique_to_File1": 89,
+    "Unique_to_File2": 40,
+    "Max_Lines": 95,
+    "Percentage_Identity": 6.31578947368421
+  },
+  {
+    "File1": "check/2A07_J_AB/2A07_JAB.int",
+    "File2": "check/2A07_J_CD/2A07_JCD.int",
+    "Total_Common_Atoms": 10,
+    "Unique_to_File1": 137,
+    "Unique_to_File2": 42,
+    "Max_Lines": 164,
+    "Percentage_Identity": 6.09756097560976
+  },
+  {
+    "File1": "check/1JFI_A_DE/1JFI_ADE.int",
+    "File2": "check/1JFI_B_DE/1JFI_BDE.int",
+    "Total_Common_Atoms": 8,
+    "Unique_to_File1": 48,
+    "Unique_to_File2": 127,
+    "Max_Lines": 135,
+    "Percentage_Identity": 5.92592592592593
+  },
+  {
+    "File1": "check/5ZX2_C_GH/5ZX2_CGH.int",
+    "File2": "check/5ZX2_D_GH/5ZX2_DGH.int",
+    "Total_Common_Atoms": 22,
+    "Unique_to_File1": 391,
+    "Unique_to_File2": 320,
+    "Max_Lines": 413,
+    "Percentage_Identity": 5.32687651331719
+  },
+  {
+    "File1": "check/6P0S_E_CD/6P0S_ECD.int",
+    "File2": "check/6P0S_A_CD/6P0S_ACD.int",
+    "Total_Common_Atoms": 8,
+    "Unique_to_File1": 161,
+    "Unique_to_File2": 100,
+    "Max_Lines": 169,
+    "Percentage_Identity": 4.73372781065089
+  },
+  {
+    "File1": "unique_interface/1NLW_A_FG/1NLW_AFG.int",
+    "File2": "unique_interface/1NLW_B_FG/1NLW_BFG.int",
+    "Total_Common_Atoms": 7,
+    "Unique_to_File1": 132,
+    "Unique_to_File2": 150,
+    "Max_Lines": 157,
+    "Percentage_Identity": 4.458598726
+  },
+  {
+    "File1": "check/2QL2_A_EF/2QL2_AEF.int",
+    "File2": "check/2QL2_B_EF/2QL2_BEF.int",
+    "Total_Common_Atoms": 6,
+    "Unique_to_File1": 132,
+    "Unique_to_File2": 100,
+    "Max_Lines": 138,
+    "Percentage_Identity": 4.34782608695652
+  },
+  {
+    "File1": "check/1NVP_A_EF/1NVP_AEF.int",
+    "File2": "check/1NVP_C_EF/1NVP_CEF.int",
+    "Total_Common_Atoms": 13,
+    "Unique_to_File1": 284,
+    "Unique_to_File2": 26,
+    "Max_Lines": 310,
+    "Percentage_Identity": 4.19354838709677
+  },
+  {
+    "File1": "check/7C9O_A_DE/7C9O_ADE.int",
+    "File2": "check/7C9O_B_DE/7C9O_BDE.int",
+    "Total_Common_Atoms": 9,
+    "Unique_to_File1": 191,
+    "Unique_to_File2": 94,
+    "Max_Lines": 215,
+    "Percentage_Identity": 4.18604651162791
+  },
+  {
+    "File1": "check/1YTF_A_EF/1YTF_AEF.int",
+    "File2": "check/1YTF_C_EF/1YTF_CEF.int",
+    "Total_Common_Atoms": 12,
+    "Unique_to_File1": 291,
+    "Unique_to_File2": 23,
+    "Max_Lines": 306,
+    "Percentage_Identity": 3.92156862745098
+  },
+  {
+    "File1": "check/1NKP_A_FG/1NKP_AFG.int",
+    "File2": "check/1NKP_B_FG/1NKP_BFG.int",
+    "Total_Common_Atoms": 6,
+    "Unique_to_File1": 148,
+    "Unique_to_File2": 154,
+    "Max_Lines": 160,
+    "Percentage_Identity": 3.75
+  },
+  {
+    "File1": "check/1VOL_A_CD/1VOL_ACD.int",
+    "File2": "check/1VOL_B_CD/1VOL_BCD.int",
+    "Total_Common_Atoms": 11,
+    "Unique_to_File1": 113,
+    "Unique_to_File2": 292,
+    "Max_Lines": 303,
+    "Percentage_Identity": 3.63036303630363
+  },
+  {
+    "File1": "check/5XOG_A_P/5XOG_AP.int",
+    "File2": "check/5XOG_B_P/5XOG_BP.int",
+    "Total_Common_Atoms": 5,
+    "Unique_to_File1": 77,
+    "Unique_to_File2": 134,
+    "Max_Lines": 139,
+    "Percentage_Identity": 3.59712230215827
+  },
+  {
+    "File1": "unique_interface/1B72_A_DE/1B72_ADE.int",
+    "File2": "unique_interface/1B72_B_DE/1B72_BDE.int",
+    "Total_Common_Atoms": 7,
+    "Unique_to_File1": 171,
+    "Unique_to_File2": 188,
+    "Max_Lines": 195,
+    "Percentage_Identity": 3.58974359
+  },
+  {
+    "File1": "check/1C7U_A_CD/1C7U_ACD.int",
+    "File2": "check/1C7U_B_CD/1C7U_BCD.int",
+    "Total_Common_Atoms": 7,
+    "Unique_to_File1": 188,
+    "Unique_to_File2": 191,
+    "Max_Lines": 198,
+    "Percentage_Identity": 3.53535353535354
+  },
+  {
+    "File1": "check/4G92_C_DE/4G92_CDE.int",
+    "File2": "check/4G92_A_DE/4G92_ADE.int",
+    "Total_Common_Atoms": 7,
+    "Unique_to_File1": 92,
+    "Unique_to_File2": 198,
+    "Max_Lines": 205,
+    "Percentage_Identity": 3.41463414634146
+  },
+  {
+    "File1": "check/3R2C_A_R/3R2C_AR.int",
+    "File2": "check/3R2C_J_R/3R2C_JR.int",
+    "Total_Common_Atoms": 8,
+    "Unique_to_File1": 242,
+    "Unique_to_File2": 9,
+    "Max_Lines": 250,
+    "Percentage_Identity": 3.2
+  },
+  {
+    "File1": "check/4G92_A_DE/4G92_ADE.int",
+    "File2": "check/4G92_B_DE/4G92_BDE.int",
+    "Total_Common_Atoms": 6,
+    "Unique_to_File1": 199,
+    "Unique_to_File2": 90,
+    "Max_Lines": 205,
+    "Percentage_Identity": 2.92682926829268
+  },
+  {
+    "File1": "check/1O4X_A_CD/1O4X_ACD.int",
+    "File2": "check/1O4X_B_CD/1O4X_BCD.int",
+    "Total_Common_Atoms": 8,
+    "Unique_to_File1": 215,
+    "Unique_to_File2": 290,
+    "Max_Lines": 298,
+    "Percentage_Identity": 2.68456375838926
+  },
+  {
+    "File1": "check/5TW1_F_OP/5TW1_FOP.int",
+    "File2": "check/5TW1_J_OP/5TW1_JOP.int",
+    "Total_Common_Atoms": 8,
+    "Unique_to_File1": 378,
+    "Unique_to_File2": 17,
+    "Max_Lines": 408,
+    "Percentage_Identity": 1.96078431372549
+  },
+  {
+    "File1": "check/1GT0_C_AB/1GT0_CAB.int",
+    "File2": "check/1GT0_D_AB/1GT0_DAB.int",
+    "Total_Common_Atoms": 6,
+    "Unique_to_File1": 301,
+    "Unique_to_File2": 307,
+    "Max_Lines": 313,
+    "Percentage_Identity": 1.91693290734824
+  },
+  {
+    "File1": "check/4G7H_D_GH/4G7H_DGH.int",
+    "File2": "check/4G7H_F_GH/4G7H_FGH.int",
+    "Total_Common_Atoms": 5,
+    "Unique_to_File1": 217,
+    "Unique_to_File2": 272,
+    "Max_Lines": 277,
+    "Percentage_Identity": 1.80505415162455
+  },
+  {
+    "File1": "check/1T2K_C_EF/1T2K_CEF.int",
+    "File2": "check/1T2K_D_EF/1T2K_DEF.int",
+    "Total_Common_Atoms": 2,
+    "Unique_to_File1": 74,
+    "Unique_to_File2": 120,
+    "Max_Lines": 122,
+    "Percentage_Identity": 1.63934426229508
+  },
+  {
+    "File1": "check/1AWC_B_DE/1AWC_BDE.int",
+    "File2": "check/1AWC_A_DE/1AWC_ADE.int",
+    "Total_Common_Atoms": 2,
+    "Unique_to_File1": 4,
+    "Unique_to_File2": 165,
+    "Max_Lines": 167,
+    "Percentage_Identity": 1.19760479041916
+  },
+  {
+    "File1": "check/2NLL_A_CD/2NLL_ACD.int",
+    "File2": "check/2NLL_B_CD/2NLL_BCD.int",
+    "Total_Common_Atoms": 1,
+    "Unique_to_File1": 125,
+    "Unique_to_File2": 212,
+    "Max_Lines": 213,
+    "Percentage_Identity": 0.469483568075117
+  },
+  {
+    "File1": "check/1YRN_A_CD/1YRN_ACD.int",
+    "File2": "check/1YRN_B_CD/1YRN_BCD.int",
+    "Total_Common_Atoms": 1,
+    "Unique_to_File1": 141,
+    "Unique_to_File2": 220,
+    "Max_Lines": 221,
+    "Percentage_Identity": 0.452488687782805
+  },
+  {
+    "File1": "check/1KU7_A_BC/1KU7_ABC.int",
+    "File2": "check/1KU7_D_BC/1KU7_DBC.int",
+    "Total_Common_Atoms": 0,
+    "Unique_to_File1": 124,
+    "Unique_to_File2": 0,
+    "Max_Lines": 124,
+    "Percentage_Identity": 0
+  },
+  {
+    "File1": "check/1RZR_CG_HR/1RZR_CGHR.int",
+    "File2": "check/1RZR_LT_HR/1RZR_LTHR.int",
+    "Total_Common_Atoms": 0,
+    "Unique_to_File1": 216,
+    "Unique_to_File2": 0,
+    "Max_Lines": 374,
+    "Percentage_Identity": 0
+  },
+  {
+    "File1": "check/2YPA_AB_EF/2YPA_ABEF.int",
+    "File2": "check/2YPA_CD_EF/2YPA_CDEF.int",
+    "Total_Common_Atoms": 0,
+    "Unique_to_File1": 246,
+    "Unique_to_File2": 0,
+    "Max_Lines": 246,
+    "Percentage_Identity": 0
+  },
+  {
+    "File1": "check/3GFI_A_DE/3GFI_ADE.int",
+    "File2": "check/3GFI_C_DE/3GFI_CDE.int",
+    "Total_Common_Atoms": 0,
+    "Unique_to_File1": 82,
+    "Unique_to_File2": 0,
+    "Max_Lines": 94,
+    "Percentage_Identity": 0
+  },
+  {
+    "File1": "check/3IGM_A_CD/3IGM_ACD.int",
+    "File2": "check/3IGM_B_CD/3IGM_BCD.int",
+    "Total_Common_Atoms": 0,
+    "Unique_to_File1": 129,
+    "Unique_to_File2": 0,
+    "Max_Lines": 157,
+    "Percentage_Identity": 0
+  },
+  {
+    "File1": "check/3N4M_A_DE/3N4M_ADE.int",
+    "File2": "check/3N4M_B_DE/3N4M_BDE.int",
+    "Total_Common_Atoms": 0,
+    "Unique_to_File1": 156,
+    "Unique_to_File2": 90,
+    "Max_Lines": 156,
+    "Percentage_Identity": 0
+  },
+  {
+    "File1": "check/3N4M_C_DE/3N4M_CDE.int",
+    "File2": "check/3N4M_A_DE/3N4M_ADE.int",
+    "Total_Common_Atoms": 0,
+    "Unique_to_File1": 92,
+    "Unique_to_File2": 156,
+    "Max_Lines": 156,
+    "Percentage_Identity": 0
+  },
+  {
+    "File1": "check/4HLY_A_CD/4HLY_ACD.int",
+    "File2": "check/4HLY_B_CD/4HLY_BCD.int",
+    "Total_Common_Atoms": 0,
+    "Unique_to_File1": 0,
+    "Unique_to_File2": 104,
+    "Max_Lines": 104,
+    "Percentage_Identity": 0
+  },
+  {
+    "File1": "check/5EG6_C_AB/5EG6_CAB.int",
+    "File2": "check/5EG6_R_AB/5EG6_RAB.int",
+    "Total_Common_Atoms": 0,
+    "Unique_to_File1": 149,
+    "Unique_to_File2": 0,
+    "Max_Lines": 165,
+    "Percentage_Identity": 0
+  },
+  {
+    "File1": "check/5TW1_C_OP/5TW1_COP.int",
+    "File2": "check/5TW1_D_OP/5TW1_DOP.int",
+    "Total_Common_Atoms": 0,
+    "Unique_to_File1": 3,
+    "Unique_to_File2": 27,
+    "Max_Lines": 27,
+    "Percentage_Identity": 0
+  },
+  {
+    "File1": "check/7ZG5_C_EF/7ZG5_CEF.int",
+    "File2": "check/7ZG5_D_EF/7ZG5_DEF.int",
+    "Total_Common_Atoms": 0,
+    "Unique_to_File1": 58,
+    "Unique_to_File2": 0,
+    "Max_Lines": 58,
+    "Percentage_Identity": 0
+  },
+  {
+    "File1": "unique_interface/4JL3_AB_EF/4JL3_ABEF.int",
+    "File2": "unique_interface/4JL3_CD_EF/4JL3_CDEF.int",
+    "Total_Common_Atoms": "ERROR",
+    "Unique_to_File1": "-",
+    "Unique_to_File2": "-",
+    "Max_Lines": "-",
+    "Percentage_Identity": 0
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Experimental Methods": "X-Ray",
+    "Number of PDB IDs (TF-DNA)": 1312,
+    "Number of PDB IDs (TF-RNA)": 58,
+    "Number of PDB IDs (TF-DNA-RNA)": 20
+  },
+  {
+    "Experimental Methods": "NMR",
+    "Number of PDB IDs (TF-DNA)": 91,
+    "Number of PDB IDs (TF-RNA)": 15,
+    "Number of PDB IDs (TF-DNA-RNA)": 0
+  },
+  {
+    "Experimental Methods": "Cryo-EM",
+    "Number of PDB IDs (TF-DNA)": 103,
+    "Number of PDB IDs (TF-RNA)": 120,
+    "Number of PDB IDs (TF-DNA-RNA)": 59
+  },
+  {
+    "Experimental Methods": "Total",
+    "Number of PDB IDs (TF-DNA)": 1506,
+    "Number of PDB IDs (TF-RNA)": 193,
+    "Number of PDB IDs (TF-DNA-RNA)": 79
+  }
+]

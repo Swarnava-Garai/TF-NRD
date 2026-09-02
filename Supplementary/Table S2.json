@@ -1,0 +1,26 @@
+[
+  {
+    "Previous studies": "Lambert et al.",
+    "Ensemble (Total)": 2765,
+    "Uniprot (Total)": 12235,
+    "Uniprot (Rev)": 2718,
+    "Human (Rev)": 2718,
+    "PDB": 1251
+  },
+  {
+    "Previous studies": "Oksuz et al.",
+    "Ensemble (Total)": "557 (285+272)",
+    "Uniprot (Total)": 2228,
+    "Uniprot (Rev)": 489,
+    "Human (Rev)": 269,
+    "PDB": 200
+  },
+  {
+    "Previous studies": "Unique",
+    "Ensemble (Total)": 2989,
+    "Uniprot (Total)": 13046,
+    "Uniprot (Rev)": 2942,
+    "Human (Rev)": 2722,
+    "PDB": 1289
+  }
+]

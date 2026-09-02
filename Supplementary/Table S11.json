@@ -1,0 +1,972 @@
+[
+  {
+    "KEGG_ID": "hsa05203",
+    "Pathway_Name": "Viral carcinogenesis",
+    "Number_of_TFs": 28
+  },
+  {
+    "KEGG_ID": "hsa04613",
+    "Pathway_Name": "Neutrophil extracellular trap formation",
+    "Number_of_TFs": 28
+  },
+  {
+    "KEGG_ID": "hsa05322",
+    "Pathway_Name": "Systemic lupus erythematosus",
+    "Number_of_TFs": 27
+  },
+  {
+    "KEGG_ID": "hsa05034",
+    "Pathway_Name": "Alcoholism",
+    "Number_of_TFs": 26
+  },
+  {
+    "KEGG_ID": "hsa05202",
+    "Pathway_Name": "Transcriptional misregulation in cancer",
+    "Number_of_TFs": 26
+  },
+  {
+    "KEGG_ID": "hsa05131",
+    "Pathway_Name": "Shigellosis",
+    "Number_of_TFs": 17
+  },
+  {
+    "KEGG_ID": "hsa05200",
+    "Pathway_Name": "Pathways in cancer",
+    "Number_of_TFs": 16
+  },
+  {
+    "KEGG_ID": "hsa05161",
+    "Pathway_Name": "Hepatitis B",
+    "Number_of_TFs": 12
+  },
+  {
+    "KEGG_ID": "hsa05167",
+    "Pathway_Name": "Kaposi sarcoma-associated herpesvirus infection",
+    "Number_of_TFs": 10
+  },
+  {
+    "KEGG_ID": "hsa04623",
+    "Pathway_Name": "Cytosolic DNA-sensing pathway",
+    "Number_of_TFs": 10
+  },
+  {
+    "KEGG_ID": "hsa05169",
+    "Pathway_Name": "Epstein-Barr virus infection",
+    "Number_of_TFs": 10
+  },
+  {
+    "KEGG_ID": "hsa05160",
+    "Pathway_Name": "Hepatitis C",
+    "Number_of_TFs": 9
+  },
+  {
+    "KEGG_ID": "hsa05165",
+    "Pathway_Name": "Human papillomavirus infection",
+    "Number_of_TFs": 9
+  },
+  {
+    "KEGG_ID": "hsa05164",
+    "Pathway_Name": "Influenza A",
+    "Number_of_TFs": 8
+  },
+  {
+    "KEGG_ID": "hsa05166",
+    "Pathway_Name": "Human T-cell leukemia virus 1 infection",
+    "Number_of_TFs": 8
+  },
+  {
+    "KEGG_ID": "hsa04621",
+    "Pathway_Name": "NOD-like receptor signaling pathway",
+    "Number_of_TFs": 8
+  },
+  {
+    "KEGG_ID": "hsa05163",
+    "Pathway_Name": "Human cytomegalovirus infection",
+    "Number_of_TFs": 8
+  },
+  {
+    "KEGG_ID": "hsa03022",
+    "Pathway_Name": "Basal transcription factors",
+    "Number_of_TFs": 8
+  },
+  {
+    "KEGG_ID": "hsa05171",
+    "Pathway_Name": "Coronavirus disease",
+    "Number_of_TFs": 8
+  },
+  {
+    "KEGG_ID": "hsa05206",
+    "Pathway_Name": "MicroRNAs in cancer",
+    "Number_of_TFs": 8
+  },
+  {
+    "KEGG_ID": "hsa05417",
+    "Pathway_Name": "Lipid and atherosclerosis",
+    "Number_of_TFs": 8
+  },
+  {
+    "KEGG_ID": "hsa04625",
+    "Pathway_Name": "C-type lectin receptor signaling pathway",
+    "Number_of_TFs": 8
+  },
+  {
+    "KEGG_ID": "hsa05225",
+    "Pathway_Name": "Hepatocellular carcinoma",
+    "Number_of_TFs": 8
+  },
+  {
+    "KEGG_ID": "hsa04550",
+    "Pathway_Name": "Signaling pathways regulating pluripotency of stem cells",
+    "Number_of_TFs": 8
+  },
+  {
+    "KEGG_ID": "hsa05168",
+    "Pathway_Name": "Herpes simplex virus 1 infection",
+    "Number_of_TFs": 7
+  },
+  {
+    "KEGG_ID": "hsa03082",
+    "Pathway_Name": "ATP-dependent chromatin remodeling",
+    "Number_of_TFs": 7
+  },
+  {
+    "KEGG_ID": "hsa05162",
+    "Pathway_Name": "Measles",
+    "Number_of_TFs": 7
+  },
+  {
+    "KEGG_ID": "hsa04380",
+    "Pathway_Name": "Osteoclast differentiation",
+    "Number_of_TFs": 7
+  },
+  {
+    "KEGG_ID": "hsa04620",
+    "Pathway_Name": "Toll-like receptor signaling pathway",
+    "Number_of_TFs": 7
+  },
+  {
+    "KEGG_ID": "hsa04659",
+    "Pathway_Name": "Th17 cell differentiation",
+    "Number_of_TFs": 7
+  },
+  {
+    "KEGG_ID": "hsa03020",
+    "Pathway_Name": "RNA polymerase",
+    "Number_of_TFs": 6
+  },
+  {
+    "KEGG_ID": "hsa04010",
+    "Pathway_Name": "MAPK signaling pathway",
+    "Number_of_TFs": 6
+  },
+  {
+    "KEGG_ID": "hsa05321",
+    "Pathway_Name": "Inflammatory bowel disease",
+    "Number_of_TFs": 6
+  },
+  {
+    "KEGG_ID": "hsa04919",
+    "Pathway_Name": "Thyroid hormone signaling pathway",
+    "Number_of_TFs": 6
+  },
+  {
+    "KEGG_ID": "hsa05152",
+    "Pathway_Name": "Tuberculosis",
+    "Number_of_TFs": 6
+  },
+  {
+    "KEGG_ID": "hsa04714",
+    "Pathway_Name": "Thermogenesis",
+    "Number_of_TFs": 6
+  },
+  {
+    "KEGG_ID": "hsa04936",
+    "Pathway_Name": "Alcoholic liver disease",
+    "Number_of_TFs": 6
+  },
+  {
+    "KEGG_ID": "hsa04217",
+    "Pathway_Name": "Necroptosis",
+    "Number_of_TFs": 6
+  },
+  {
+    "KEGG_ID": "hsa05135",
+    "Pathway_Name": "Yersinia infection",
+    "Number_of_TFs": 6
+  },
+  {
+    "KEGG_ID": "hsa04622",
+    "Pathway_Name": "RIG-I-like receptor signaling pathway",
+    "Number_of_TFs": 6
+  },
+  {
+    "KEGG_ID": "hsa05170",
+    "Pathway_Name": "Human immunodeficiency virus 1 infection",
+    "Number_of_TFs": 6
+  },
+  {
+    "KEGG_ID": "hsa05145",
+    "Pathway_Name": "Toxoplasmosis",
+    "Number_of_TFs": 6
+  },
+  {
+    "KEGG_ID": "hsa04630",
+    "Pathway_Name": "JAK-STAT signaling pathway",
+    "Number_of_TFs": 6
+  },
+  {
+    "KEGG_ID": "hsa05418",
+    "Pathway_Name": "Fluid shear stress and atherosclerosis",
+    "Number_of_TFs": 6
+  },
+  {
+    "KEGG_ID": "hsa05014",
+    "Pathway_Name": "Amyotrophic lateral sclerosis",
+    "Number_of_TFs": 6
+  },
+  {
+    "KEGG_ID": "hsa04658",
+    "Pathway_Name": "Th1 and Th2 cell differentiation",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa05212",
+    "Pathway_Name": "Pancreatic cancer",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa05215",
+    "Pathway_Name": "Prostate cancer",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa04917",
+    "Pathway_Name": "Prolactin signaling pathway",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa04931",
+    "Pathway_Name": "Insulin resistance",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa04064",
+    "Pathway_Name": "NF-kappa B signaling pathway",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa01100",
+    "Pathway_Name": "Metabolic pathways",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa05022",
+    "Pathway_Name": "Pathways of neurodegeneration - multiple diseases",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa04120",
+    "Pathway_Name": "Ubiquitin mediated proteolysis",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa05220",
+    "Pathway_Name": "Chronic myeloid leukemia",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa05235",
+    "Pathway_Name": "PD-L1 expression and PD-1 checkpoint pathway in cancer",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa04014",
+    "Pathway_Name": "Ras signaling pathway",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa04218",
+    "Pathway_Name": "Cellular senescence",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa04390",
+    "Pathway_Name": "Hippo signaling pathway",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa04933",
+    "Pathway_Name": "AGE-RAGE signaling pathway in diabetic complications",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa05205",
+    "Pathway_Name": "Proteoglycans in cancer",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa05207",
+    "Pathway_Name": "Chemical carcinogenesis - receptor activation",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa03420",
+    "Pathway_Name": "Nucleotide excision repair",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa04110",
+    "Pathway_Name": "Cell cycle",
+    "Number_of_TFs": 5
+  },
+  {
+    "KEGG_ID": "hsa05130",
+    "Pathway_Name": "Pathogenic Escherichia coli infection",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa04660",
+    "Pathway_Name": "T cell receptor signaling pathway",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa04668",
+    "Pathway_Name": "TNF signaling pathway",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa04934",
+    "Pathway_Name": "Cushing syndrome",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa05133",
+    "Pathway_Name": "Pertussis",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa05208",
+    "Pathway_Name": "Chemical carcinogenesis - reactive oxygen species",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa04920",
+    "Pathway_Name": "Adipocytokine signaling pathway",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa04657",
+    "Pathway_Name": "IL-17 signaling pathway",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa04141",
+    "Pathway_Name": "Protein processing in endoplasmic reticulum",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa04062",
+    "Pathway_Name": "Chemokine signaling pathway",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa04519",
+    "Pathway_Name": "Cadherin signaling",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa04081",
+    "Pathway_Name": "Hormone signaling",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa03083",
+    "Pathway_Name": "Polycomb repressive complex",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa04350",
+    "Pathway_Name": "TGF-beta signaling pathway",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa05222",
+    "Pathway_Name": "Small cell lung cancer",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa05140",
+    "Pathway_Name": "Leishmaniasis",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa04310",
+    "Pathway_Name": "Wnt signaling pathway",
+    "Number_of_TFs": 4
+  },
+  {
+    "KEGG_ID": "hsa04662",
+    "Pathway_Name": "B cell receptor signaling pathway",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04932",
+    "Pathway_Name": "Non-alcoholic fatty liver disease",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04024",
+    "Pathway_Name": "cAMP signaling pathway",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04950",
+    "Pathway_Name": "Maturity onset diabetes of the young",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa05146",
+    "Pathway_Name": "Amoebiasis",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa05142",
+    "Pathway_Name": "Chagas disease",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa05132",
+    "Pathway_Name": "Salmonella infection",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa05221",
+    "Pathway_Name": "Acute myeloid leukemia",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04020",
+    "Pathway_Name": "Calcium signaling pathway",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04066",
+    "Pathway_Name": "HIF-1 signaling pathway",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04210",
+    "Pathway_Name": "Apoptosis",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04371",
+    "Pathway_Name": "Apelin signaling pathway",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04612",
+    "Pathway_Name": "Antigen processing and presentation",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04520",
+    "Pathway_Name": "Adherens junction",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04517",
+    "Pathway_Name": "IgSF CAM signaling",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa05016",
+    "Pathway_Name": "Huntington disease",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04068",
+    "Pathway_Name": "FoxO signaling pathway",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04022",
+    "Pathway_Name": "cGMP-PKG signaling pathway",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04151",
+    "Pathway_Name": "PI3K-Akt signaling pathway",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa05340",
+    "Pathway_Name": "Primary immunodeficiency",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04722",
+    "Pathway_Name": "Neurotrophin signaling pathway",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa05134",
+    "Pathway_Name": "Legionellosis",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04360",
+    "Pathway_Name": "Axon guidance",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa04080",
+    "Pathway_Name": "Neuroactive ligand-receptor interaction",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa00310",
+    "Pathway_Name": "Lysine degradation",
+    "Number_of_TFs": 3
+  },
+  {
+    "KEGG_ID": "hsa05223",
+    "Pathway_Name": "Non-small cell lung cancer",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa05226",
+    "Pathway_Name": "Gastric cancer",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04810",
+    "Pathway_Name": "Regulation of actin cytoskeleton",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04650",
+    "Pathway_Name": "Natural killer cell mediated cytotoxicity",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04926",
+    "Pathway_Name": "Relaxin signaling pathway",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04510",
+    "Pathway_Name": "Focal adhesion",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa05214",
+    "Pathway_Name": "Glioma",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa05224",
+    "Pathway_Name": "Breast cancer",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa05211",
+    "Pathway_Name": "Renal cell carcinoma",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04071",
+    "Pathway_Name": "Sphingolipid signaling pathway",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04152",
+    "Pathway_Name": "AMPK signaling pathway",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa03040",
+    "Pathway_Name": "Spliceosome",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04518",
+    "Pathway_Name": "Integrin signaling",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa03440",
+    "Pathway_Name": "Homologous recombination",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04137",
+    "Pathway_Name": "Mitophagy - animal",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa01521",
+    "Pathway_Name": "EGFR tyrosine kinase inhibitor resistance",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04927",
+    "Pathway_Name": "Cortisol synthesis and secretion",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa05415",
+    "Pathway_Name": "Diabetic cardiomyopathy",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa01522",
+    "Pathway_Name": "Endocrine resistance",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa03018",
+    "Pathway_Name": "RNA degradation",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa05010",
+    "Pathway_Name": "Alzheimer disease",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa05120",
+    "Pathway_Name": "Epithelial cell signaling in Helicobacter pylori infection",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa03030",
+    "Pathway_Name": "DNA replication",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04928",
+    "Pathway_Name": "Parathyroid hormone synthesis, secretion and action",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa05218",
+    "Pathway_Name": "Melanoma",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04340",
+    "Pathway_Name": "Hedgehog signaling pathway",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa05012",
+    "Pathway_Name": "Parkinson disease",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa05217",
+    "Pathway_Name": "Basal cell carcinoma",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04148",
+    "Pathway_Name": "Efferocytosis",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04060",
+    "Pathway_Name": "Cytokine-cytokine receptor interaction",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04530",
+    "Pathway_Name": "Tight junction",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04961",
+    "Pathway_Name": "Endocrine and other factor-regulated calcium reabsorption",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04012",
+    "Pathway_Name": "ErbB signaling pathway",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04713",
+    "Pathway_Name": "Circadian entrainment",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04935",
+    "Pathway_Name": "Growth hormone synthesis, secretion and action",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa03430",
+    "Pathway_Name": "Mismatch repair",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa01523",
+    "Pathway_Name": "Antifolate resistance",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa04710",
+    "Pathway_Name": "Circadian rhythm",
+    "Number_of_TFs": 2
+  },
+  {
+    "KEGG_ID": "hsa05216",
+    "Pathway_Name": "Thyroid cancer",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04664",
+    "Pathway_Name": "Fc epsilon RI signaling pathway",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04978",
+    "Pathway_Name": "Mineral absorption",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04072",
+    "Pathway_Name": "Phospholipase D signaling pathway",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04156",
+    "Pathway_Name": "Integrated stress response (ISR) signaling pathway",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa03460",
+    "Pathway_Name": "Fanconi anemia pathway",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04142",
+    "Pathway_Name": "Lysosome biogenesis",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa03410",
+    "Pathway_Name": "Base excision repair",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04146",
+    "Pathway_Name": "Peroxisome",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04640",
+    "Pathway_Name": "Hematopoietic cell lineage",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04921",
+    "Pathway_Name": "Oxytocin signaling pathway",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa03250",
+    "Pathway_Name": "Viral life cycle - HIV-1",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa05410",
+    "Pathway_Name": "Hypertrophic cardiomyopathy",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa05017",
+    "Pathway_Name": "Spinocerebellar ataxia",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04918",
+    "Pathway_Name": "Thyroid hormone synthesis",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa05231",
+    "Pathway_Name": "Choline metabolism in cancer",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa05143",
+    "Pathway_Name": "African trypanosomiasis",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa03013",
+    "Pathway_Name": "Nucleocytoplasmic transport",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa05219",
+    "Pathway_Name": "Bladder cancer",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa00531",
+    "Pathway_Name": "Glycosaminoglycan degradation",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04061",
+    "Pathway_Name": "Viral protein interaction with cytokine and cytokine receptor",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04330",
+    "Pathway_Name": "Notch signaling pathway",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04140",
+    "Pathway_Name": "Autophagy - animal",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04930",
+    "Pathway_Name": "Type II diabetes mellitus",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04980",
+    "Pathway_Name": "Cobalamin transport and metabolism",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04015",
+    "Pathway_Name": "Rap1 signaling pathway",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04915",
+    "Pathway_Name": "Estrogen signaling pathway",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04144",
+    "Pathway_Name": "Endocytosis",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa05210",
+    "Pathway_Name": "Colorectal cancer",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa05416",
+    "Pathway_Name": "Viral myocarditis",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa05310",
+    "Pathway_Name": "Asthma",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04540",
+    "Pathway_Name": "Gap junction",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04211",
+    "Pathway_Name": "Longevity regulating pathway",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04150",
+    "Pathway_Name": "mTOR signaling pathway",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa05144",
+    "Pathway_Name": "Malaria",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa03015",
+    "Pathway_Name": "mRNA surveillance pathway",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04940",
+    "Pathway_Name": "Type I diabetes mellitus",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04370",
+    "Pathway_Name": "VEGF signaling pathway",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04145",
+    "Pathway_Name": "Phagocytosis",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa05330",
+    "Pathway_Name": "Allograft rejection",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa05020",
+    "Pathway_Name": "Prion disease",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04910",
+    "Pathway_Name": "Insulin signaling pathway",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa05030",
+    "Pathway_Name": "Cocaine addiction",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa05332",
+    "Pathway_Name": "Graft-versus-host disease",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04960",
+    "Pathway_Name": "Aldosterone-regulated sodium reabsorption",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04670",
+    "Pathway_Name": "Leukocyte transendothelial migration",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa05323",
+    "Pathway_Name": "Rheumatoid arthritis",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04392",
+    "Pathway_Name": "Hippo signaling pathway - multiple species",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa05414",
+    "Pathway_Name": "Dilated cardiomyopathy",
+    "Number_of_TFs": 1
+  },
+  {
+    "KEGG_ID": "hsa04115",
+    "Pathway_Name": "p53 signaling pathway",
+    "Number_of_TFs": 1
+  }
+]

@@ -1,0 +1,1814 @@
+[
+  {
+    "PFAM_ACCESSION": "PF00046",
+    "PFAM_NAME": "Homeodomain",
+    "Number_of_PDBs": 15,
+    "PDB_IDs": "1APL, 1B72, 1GT0, 1HDD, 1MNM, 1OCT, 1YRN, 2D5V, 4J19, 6RYD, 8EJO, 8IKE, 1O4X, 7U0G, 8G88"
+  },
+  {
+    "PFAM_ACCESSION": "PF00352",
+    "PFAM_NAME": "TBP",
+    "Number_of_PDBs": 13,
+    "PDB_IDs": "1JFI, 1NGM, 1NVP, 1VOL, 1YTB, 1YTF, 4ROC, 7ML0, 7NVS, 7O4J, 7OH9, 7Z0O, 7ZB5"
+  },
+  {
+    "PFAM_ACCESSION": "PF00010",
+    "PFAM_NAME": "HLH",
+    "Number_of_PDBs": 12,
+    "PDB_IDs": "1A0A, 1AM9, 1AN2, 1AN4, 1MDY, 1NKP, 1NLW, 2QL2, 2YPA, 4H10, 5GNJ, 7F2F"
+  },
+  {
+    "PFAM_ACCESSION": "PF00440",
+    "PFAM_NAME": "TetR_N",
+    "Number_of_PDBs": 11,
+    "PDB_IDs": "2YVH, 3LSP, 4JL3, 4L62, 5FMP, 5GPC, 5K7Z, 5VL9, 5YEJ, 6C31, 6NSM"
+  },
+  {
+    "PFAM_ACCESSION": "PF00249",
+    "PFAM_NAME": "Myb_DNA-binding",
+    "Number_of_PDBs": 7,
+    "PDB_IDs": "1H88, 1IGN, 1W0T, 5EYB, 5LXU, 1MSE, 9U9E"
+  },
+  {
+    "PFAM_ACCESSION": "PF00250",
+    "PFAM_NAME": "Forkhead",
+    "Number_of_PDBs": 7,
+    "PDB_IDs": "1VTN, 2A07, 2UZK, 6EL8, 7YZG, 2HDC, 9D22"
+  },
+  {
+    "PFAM_ACCESSION": "PF00486",
+    "PFAM_NAME": "Trans_reg_C",
+    "Number_of_PDBs": 7,
+    "PDB_IDs": "1GXP, 4KFC, 6LXN, 8B4B, 8HML, 2Z33, 9GDS"
+  },
+  {
+    "PFAM_ACCESSION": "PF00505",
+    "PFAM_NAME": "HMG_box",
+    "Number_of_PDBs": 7,
+    "PDB_IDs": "1GT0, 1QRV, 3TQ6, 5JGH, 1HRY, 1O4X, 2LEF"
+  },
+  {
+    "PFAM_ACCESSION": "PF01381",
+    "PFAM_NAME": "HTH_3",
+    "Number_of_PDBs": 7,
+    "PDB_IDs": "1LMB, 2R1J, 3DNV, 3U3W, 3ZHM, 3ZKC, 6LB3"
+  },
+  {
+    "PFAM_ACCESSION": "PF04542",
+    "PFAM_NAME": "Sigma70_r2",
+    "Number_of_PDBs": 7,
+    "PDB_IDs": "4G7H, 5TW1, 6PST, 6XL5, 7KIF, 9DVS, 5ZX2"
+  },
+  {
+    "PFAM_ACCESSION": "PF00140",
+    "PFAM_NAME": "Sigma70_r1_2",
+    "Number_of_PDBs": 6,
+    "PDB_IDs": "4G7H, 5TW1, 6PST, 6XL5, 7KIF, 9DVS"
+  },
+  {
+    "PFAM_ACCESSION": "PF01047",
+    "PFAM_NAME": "MarR",
+    "Number_of_PDBs": 6,
+    "PDB_IDs": "1Z9C, 3Q5F, 5H3R, 5HSO, 5YI2, 6Q2B"
+  },
+  {
+    "PFAM_ACCESSION": "PF03118",
+    "PFAM_NAME": "RNA_pol_A_CTD",
+    "Number_of_PDBs": 6,
+    "PDB_IDs": "3N4M, 4G7H, 5TW1, 1XS9, 5ZX2, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF04539",
+    "PFAM_NAME": "Sigma70_r3",
+    "Number_of_PDBs": 6,
+    "PDB_IDs": "4G7H, 5TW1, 6PST, 6XL5, 7KIF, 9DVS"
+  },
+  {
+    "PFAM_ACCESSION": "PF04545",
+    "PFAM_NAME": "Sigma70_r4",
+    "Number_of_PDBs": 6,
+    "PDB_IDs": "4G7H, 5TW1, 6PST, 6XL5, 7KIF, 9DVS"
+  },
+  {
+    "PFAM_ACCESSION": "PF00096",
+    "PFAM_NAME": "zf-C2H2",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "1ZAA, 2GLI, 3UK3, 1TF3, 2KMK"
+  },
+  {
+    "PFAM_ACCESSION": "PF00105",
+    "PFAM_NAME": "zf-C4",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "1GLU, 2NLL, 4IQR, 7PRV, 1LO1"
+  },
+  {
+    "PFAM_ACCESSION": "PF00157",
+    "PFAM_NAME": "Pou",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "1GT0, 1OCT, 1O4X, 7U0G, 8G88"
+  },
+  {
+    "PFAM_ACCESSION": "PF00319",
+    "PFAM_NAME": "SRF-TF",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "1EGW, 1MNM, 1N6J, 1TQE, 1C7U"
+  },
+  {
+    "PFAM_ACCESSION": "PF00376",
+    "PFAM_NAME": "MerR",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "1EXJ, 1R8D, 2ZHG, 4WLS, 5D8C"
+  },
+  {
+    "PFAM_ACCESSION": "PF00562",
+    "PFAM_NAME": "RNA_pol_Rpb2_6",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "4G7H, 5TW1, 5XOG, 5ZX2, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF00623",
+    "PFAM_NAME": "RNA_pol_Rpb1_2",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "4G7H, 5TW1, 5XOG, 5ZX2, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF01000",
+    "PFAM_NAME": "RNA_pol_A_bac",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "4G7H, 5TW1, 5XOG, 5ZX2, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF01192",
+    "PFAM_NAME": "RNA_pol_Rpb6",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "4G7H, 5TW1, 5XOG, 5ZX2, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF01193",
+    "PFAM_NAME": "RNA_pol_L",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "4G7H, 5TW1, 5XOG, 5ZX2, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF02268",
+    "PFAM_NAME": "TFIIA_gamma_N",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "1NVP, 1YTF, 7NVS, 7O4J, 7OH9"
+  },
+  {
+    "PFAM_ACCESSION": "PF02751",
+    "PFAM_NAME": "TFIIA_gamma_C",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "1NVP, 1YTF, 7NVS, 7O4J, 7OH9"
+  },
+  {
+    "PFAM_ACCESSION": "PF03153",
+    "PFAM_NAME": "TFIIA",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "1NVP, 1YTF, 7NVS, 7O4J, 7OH9"
+  },
+  {
+    "PFAM_ACCESSION": "PF04560",
+    "PFAM_NAME": "RNA_pol_Rpb2_7",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "4G7H, 5TW1, 5XOG, 5ZX2, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF04561",
+    "PFAM_NAME": "RNA_pol_Rpb2_2",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "4G7H, 5TW1, 5XOG, 5ZX2, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF04563",
+    "PFAM_NAME": "RNA_pol_Rpb2_1",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "4G7H, 5TW1, 5XOG, 5ZX2, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF04565",
+    "PFAM_NAME": "RNA_pol_Rpb2_3",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "4G7H, 5TW1, 5XOG, 5ZX2, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF04983",
+    "PFAM_NAME": "RNA_pol_Rpb1_3",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "4G7H, 5TW1, 5XOG, 5ZX2, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF04997",
+    "PFAM_NAME": "RNA_pol_Rpb1_1",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "4G7H, 5TW1, 5XOG, 5ZX2, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF04998",
+    "PFAM_NAME": "RNA_pol_Rpb1_5",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "4G7H, 5TW1, 5XOG, 5ZX2, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF05000",
+    "PFAM_NAME": "RNA_pol_Rpb1_4",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "4G7H, 5TW1, 5XOG, 5ZX2, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF07716",
+    "PFAM_NAME": "bZIP_2",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "1H88, 1HJB, 1IO4, 1YSA, 8K86"
+  },
+  {
+    "PFAM_ACCESSION": "PF08271",
+    "PFAM_NAME": "Zn_Ribbon_TF",
+    "Number_of_PDBs": 5,
+    "PDB_IDs": "7ML0, 7NVS, 7NVV, 7O4J, 9K2G"
+  },
+  {
+    "PFAM_ACCESSION": "PF00027",
+    "PFAM_NAME": "cNMP_binding",
+    "Number_of_PDBs": 4,
+    "PDB_IDs": "1CGP, 3MZH, 3N4M, 7PZA"
+  },
+  {
+    "PFAM_ACCESSION": "PF00170",
+    "PFAM_NAME": "bZIP_1",
+    "Number_of_PDBs": 4,
+    "PDB_IDs": "1A02, 1DH3, 1GD2, 1T2K"
+  },
+  {
+    "PFAM_ACCESSION": "PF00172",
+    "PFAM_NAME": "Zn_clus",
+    "Number_of_PDBs": 4,
+    "PDB_IDs": "1D66, 1ZME, 2ER8, 1F4S"
+  },
+  {
+    "PFAM_ACCESSION": "PF00178",
+    "PFAM_NAME": "Ets",
+    "Number_of_PDBs": 4,
+    "PDB_IDs": "1AWC, 1BC8, 1PUE, 2STT"
+  },
+  {
+    "PFAM_ACCESSION": "PF00382",
+    "PFAM_NAME": "TFIIB",
+    "Number_of_PDBs": 4,
+    "PDB_IDs": "1VOL, 7ML0, 7NVS, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF00554",
+    "PFAM_NAME": "RHD_DNA_bind",
+    "Number_of_PDBs": 4,
+    "PDB_IDs": "1A02, 1RAM, 1SVC, 1A66"
+  },
+  {
+    "PFAM_ACCESSION": "PF02002",
+    "PFAM_NAME": "TFIIE_alpha",
+    "Number_of_PDBs": 4,
+    "PDB_IDs": "7ML0, 7NVS, 7NVV, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF02008",
+    "PFAM_NAME": "zf-CXXC",
+    "Number_of_PDBs": 4,
+    "PDB_IDs": "3QMB, 4PZI, 6ASB, 2KKF"
+  },
+  {
+    "PFAM_ACCESSION": "PF02357",
+    "PFAM_NAME": "NusG",
+    "Number_of_PDBs": 4,
+    "PDB_IDs": "5OND, 8F5G, 8E74, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF09270",
+    "PFAM_NAME": "BTD",
+    "Number_of_PDBs": 4,
+    "PDB_IDs": "1TTU, 3BRD, 4J2X, 5EG6"
+  },
+  {
+    "PFAM_ACCESSION": "PF09271",
+    "PFAM_NAME": "LAG1-DNAbind",
+    "Number_of_PDBs": 4,
+    "PDB_IDs": "1TTU, 3BRD, 4J2X, 5EG6"
+  },
+  {
+    "PFAM_ACCESSION": "PF10385",
+    "PFAM_NAME": "RNA_pol_Rpb2_45",
+    "Number_of_PDBs": 4,
+    "PDB_IDs": "4G7H, 5TW1, 5ZX2, 8PIB"
+  },
+  {
+    "PFAM_ACCESSION": "PF13545",
+    "PFAM_NAME": "HTH_Crp_2",
+    "Number_of_PDBs": 4,
+    "PDB_IDs": "1CGP, 3MZH, 3N4M, 7PZA"
+  },
+  {
+    "PFAM_ACCESSION": "PF20144",
+    "PFAM_NAME": "TIG_SUH",
+    "Number_of_PDBs": 4,
+    "PDB_IDs": "1TTU, 3BRD, 4J2X, 5EG6"
+  },
+  {
+    "PFAM_ACCESSION": "PF00076",
+    "PFAM_NAME": "RRM_1",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "3D2W, 4Y00, 8UHD"
+  },
+  {
+    "PFAM_ACCESSION": "PF00216",
+    "PFAM_NAME": "Bac_DNA_binding",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "1IHF, 1P51, 9F10"
+  },
+  {
+    "PFAM_ACCESSION": "PF00356",
+    "PFAM_NAME": "LacI",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "1EFA, 1PNR, 1CJG"
+  },
+  {
+    "PFAM_ACCESSION": "PF00628",
+    "PFAM_NAME": "PHD",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "5XFP, 5XFQ, 8KD3"
+  },
+  {
+    "PFAM_ACCESSION": "PF00717",
+    "PFAM_NAME": "Peptidase_S24",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "3JSO, 8GMU, 8TRG"
+  },
+  {
+    "PFAM_ACCESSION": "PF00808",
+    "PFAM_NAME": "CBFD_NFYB_HMF",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "1JFI, 4G92, 7C9O"
+  },
+  {
+    "PFAM_ACCESSION": "PF00847",
+    "PFAM_NAME": "AP2",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "3IGM, 5WX9, 1GCC"
+  },
+  {
+    "PFAM_ACCESSION": "PF02186",
+    "PFAM_NAME": "TFIIE_beta",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "7ML0, 7NVS, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF02270",
+    "PFAM_NAME": "TFIIF_beta",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "7ML0, 7NVS, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF02362",
+    "PFAM_NAME": "B3",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "4LDX, 6FAS, 7ET6"
+  },
+  {
+    "PFAM_ACCESSION": "PF03131",
+    "PFAM_NAME": "bZIP_Maf",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "1SKN, 3A5T, 7X5G"
+  },
+  {
+    "PFAM_ACCESSION": "PF03849",
+    "PFAM_NAME": "Tfb2",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "7ML0, 7NVV, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF04851",
+    "PFAM_NAME": "ResIII",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "7ML0, 7NVV, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF05793",
+    "PFAM_NAME": "TFIIF_alpha",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "7ML0, 7NVS, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF06331",
+    "PFAM_NAME": "Tfb5",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "7ML0, 7NVV, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF09278",
+    "PFAM_NAME": "MerR-DNA-bind",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "1R8D, 2ZHG, 4WLS"
+  },
+  {
+    "PFAM_ACCESSION": "PF12802",
+    "PFAM_NAME": "MarR_2",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "3GFI, 3ZPL, 6JBX"
+  },
+  {
+    "PFAM_ACCESSION": "PF13625",
+    "PFAM_NAME": "Helicase_C_3",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "7ML0, 7NVV, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF16179",
+    "PFAM_NAME": "RHD_dimer",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "1A02, 1RAM, 1SVC"
+  },
+  {
+    "PFAM_ACCESSION": "PF16203",
+    "PFAM_NAME": "ERCC3_RAD25_C",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "7ML0, 7NVV, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF17683",
+    "PFAM_NAME": "TFIIF_beta_N",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "7ML0, 7NVS, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF18121",
+    "PFAM_NAME": "TFA2_Winged_2",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "7ML0, 7NVS, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF18307",
+    "PFAM_NAME": "Tfb2_C",
+    "Number_of_PDBs": 3,
+    "PDB_IDs": "7ML0, 7NVV, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF00104",
+    "PFAM_NAME": "Hormone_recep",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "4IQR, 7PRV"
+  },
+  {
+    "PFAM_ACCESSION": "PF00125",
+    "PFAM_NAME": "Histone",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "4G92, 7C9O"
+  },
+  {
+    "PFAM_ACCESSION": "PF00165",
+    "PFAM_NAME": "HTH_AraC",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "1U8B, 1ZGW"
+  },
+  {
+    "PFAM_ACCESSION": "PF00176",
+    "PFAM_NAME": "SNF2-rel_dom",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "7VDT, 7ZB5"
+  },
+  {
+    "PFAM_ACCESSION": "PF00271",
+    "PFAM_NAME": "Helicase_C",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "7VDT, 7ZB5"
+  },
+  {
+    "PFAM_ACCESSION": "PF00320",
+    "PFAM_NAME": "GATA",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "3DFX, 1GAT"
+  },
+  {
+    "PFAM_ACCESSION": "PF00392",
+    "PFAM_NAME": "GntR",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "4EGY, 6ZA3"
+  },
+  {
+    "PFAM_ACCESSION": "PF00467",
+    "PFAM_NAME": "KOW",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "8F5G, 8UHD"
+  },
+  {
+    "PFAM_ACCESSION": "PF00605",
+    "PFAM_NAME": "IRF",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "1IF1, 1T2K"
+  },
+  {
+    "PFAM_ACCESSION": "PF00853",
+    "PFAM_NAME": "Runt",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "1HJB, 1IO4"
+  },
+  {
+    "PFAM_ACCESSION": "PF01325",
+    "PFAM_NAME": "Fe_dep_repress",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "1DDN, 8PW0"
+  },
+  {
+    "PFAM_ACCESSION": "PF01371",
+    "PFAM_NAME": "Trp_repressor",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "1TRR, 1CO0"
+  },
+  {
+    "PFAM_ACCESSION": "PF01475",
+    "PFAM_NAME": "FUR",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "4MTD, 4RB1"
+  },
+  {
+    "PFAM_ACCESSION": "PF01547",
+    "PFAM_NAME": "SBP_bac_1",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "5ZD4, 7U0G"
+  },
+  {
+    "PFAM_ACCESSION": "PF01726",
+    "PFAM_NAME": "LexA_DNA_bind",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "3JSO, 8TRG"
+  },
+  {
+    "PFAM_ACCESSION": "PF02082",
+    "PFAM_NAME": "Rrf2",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "4HF1, 7B0C"
+  },
+  {
+    "PFAM_ACCESSION": "PF02312",
+    "PFAM_NAME": "CBF_beta",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "1IO4, 8CX0"
+  },
+  {
+    "PFAM_ACCESSION": "PF02376",
+    "PFAM_NAME": "CUT",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "2D5V, 2O49"
+  },
+  {
+    "PFAM_ACCESSION": "PF02742",
+    "PFAM_NAME": "Fe_dep_repr_C",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "1DDN, 8PW0"
+  },
+  {
+    "PFAM_ACCESSION": "PF02805",
+    "PFAM_NAME": "Ada_Zn_binding",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "1U8B, 1ZGW"
+  },
+  {
+    "PFAM_ACCESSION": "PF02954",
+    "PFAM_NAME": "HTH_8",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "3IV5, 6P0S"
+  },
+  {
+    "PFAM_ACCESSION": "PF03106",
+    "PFAM_NAME": "WRKY",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "6J4F, 2LEX"
+  },
+  {
+    "PFAM_ACCESSION": "PF03979",
+    "PFAM_NAME": "Sigma70_r1_1",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "6PST, 6XL5"
+  },
+  {
+    "PFAM_ACCESSION": "PF04014",
+    "PFAM_NAME": "MazE_antitoxin",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "2K1N, 2MRU"
+  },
+  {
+    "PFAM_ACCESSION": "PF04056",
+    "PFAM_NAME": "Ssl1",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "7ML0, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF04546",
+    "PFAM_NAME": "Sigma70_ner",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "6PST, 6XL5"
+  },
+  {
+    "PFAM_ACCESSION": "PF04552",
+    "PFAM_NAME": "Sigma54_DBD",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "2O8K, 8F1I"
+  },
+  {
+    "PFAM_ACCESSION": "PF05920",
+    "PFAM_NAME": "Homeobox_KN",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "4XRM, 1LFU"
+  },
+  {
+    "PFAM_ACCESSION": "PF06391",
+    "PFAM_NAME": "MAT1",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "7ML0, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF06733",
+    "PFAM_NAME": "DEAD_2",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "7ML0, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF06777",
+    "PFAM_NAME": "HBB",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "7ML0, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF07975",
+    "PFAM_NAME": "C1_4",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "7ML0, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF08281",
+    "PFAM_NAME": "Sigma70_r4_2",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "2H27, 5ZX2"
+  },
+  {
+    "PFAM_ACCESSION": "PF09011",
+    "PFAM_NAME": "HMG_box_2",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "1CKT, 3TQ6"
+  },
+  {
+    "PFAM_ACCESSION": "PF09729",
+    "PFAM_NAME": "Gti1_Pac2",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "4M8B, 4QTJ"
+  },
+  {
+    "PFAM_ACCESSION": "PF10523",
+    "PFAM_NAME": "BEN",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "7V9F, 7YUK"
+  },
+  {
+    "PFAM_ACCESSION": "PF11521",
+    "PFAM_NAME": "TFIIE-A_C",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "7NVS, 7NVV"
+  },
+  {
+    "PFAM_ACCESSION": "PF12833",
+    "PFAM_NAME": "HTH_18",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "1BL0, 1XS9"
+  },
+  {
+    "PFAM_ACCESSION": "PF13307",
+    "PFAM_NAME": "Helicase_C_2",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "7ML0, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF13377",
+    "PFAM_NAME": "Peripla_BP_3",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "1EFA, 1PNR"
+  },
+  {
+    "PFAM_ACCESSION": "PF13397",
+    "PFAM_NAME": "RbpA",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "5TW1, 7KIF"
+  },
+  {
+    "PFAM_ACCESSION": "PF16925",
+    "PFAM_NAME": "TetR_C_13",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "4L62, 6NSM"
+  },
+  {
+    "PFAM_ACCESSION": "PF17121",
+    "PFAM_NAME": "zf-C3HC4_5",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "7ML0, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF18104",
+    "PFAM_NAME": "Tudor_2",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "5XFP, 5XFQ"
+  },
+  {
+    "PFAM_ACCESSION": "PF21351",
+    "PFAM_NAME": "TetR_C_41",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "5K7Z, 6C31"
+  },
+  {
+    "PFAM_ACCESSION": "PF21886",
+    "PFAM_NAME": "BRF2-like_C_cyclin_rpt",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "4ROC, 9K2G"
+  },
+  {
+    "PFAM_ACCESSION": "PF22254",
+    "PFAM_NAME": "TFA2_E-tether",
+    "Number_of_PDBs": 2,
+    "PDB_IDs": "7ML0, 7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF00013",
+    "PFAM_NAME": "KH_1",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1J4W"
+  },
+  {
+    "PFAM_ACCESSION": "PF00017",
+    "PFAM_NAME": "SH2",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1BF5"
+  },
+  {
+    "PFAM_ACCESSION": "PF00023",
+    "PFAM_NAME": "Ank",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1AWC"
+  },
+  {
+    "PFAM_ACCESSION": "PF00072",
+    "PFAM_NAME": "Response_reg",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "4KFC"
+  },
+  {
+    "PFAM_ACCESSION": "PF00196",
+    "PFAM_NAME": "GerE",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1JE8"
+  },
+  {
+    "PFAM_ACCESSION": "PF00240",
+    "PFAM_NAME": "ubiquitin",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8CX0"
+  },
+  {
+    "PFAM_ACCESSION": "PF00292",
+    "PFAM_NAME": "PAX",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1PDN"
+  },
+  {
+    "PFAM_ACCESSION": "PF00293",
+    "PFAM_NAME": "NUDIX",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3GZ6"
+  },
+  {
+    "PFAM_ACCESSION": "PF00309",
+    "PFAM_NAME": "Sigma54_AID",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8F1I"
+  },
+  {
+    "PFAM_ACCESSION": "PF00338",
+    "PFAM_NAME": "Ribosomal_S10",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3R2C"
+  },
+  {
+    "PFAM_ACCESSION": "PF00341",
+    "PFAM_NAME": "PDGF",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "4HQU"
+  },
+  {
+    "PFAM_ACCESSION": "PF00412",
+    "PFAM_NAME": "LIM",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2YPA"
+  },
+  {
+    "PFAM_ACCESSION": "PF00439",
+    "PFAM_NAME": "Bromodomain",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7VDT"
+  },
+  {
+    "PFAM_ACCESSION": "PF00447",
+    "PFAM_NAME": "HSF_DNA-bind",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3HTS"
+  },
+  {
+    "PFAM_ACCESSION": "PF00480",
+    "PFAM_NAME": "ROK",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5F7Q"
+  },
+  {
+    "PFAM_ACCESSION": "PF00511",
+    "PFAM_NAME": "PPV_E2_C",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2BOP"
+  },
+  {
+    "PFAM_ACCESSION": "PF00575",
+    "PFAM_NAME": "S1",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5XOG"
+  },
+  {
+    "PFAM_ACCESSION": "PF00816",
+    "PFAM_NAME": "Histone_HNS",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2LEV"
+  },
+  {
+    "PFAM_ACCESSION": "PF00855",
+    "PFAM_NAME": "PWWP",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5XSK"
+  },
+  {
+    "PFAM_ACCESSION": "PF00870",
+    "PFAM_NAME": "P53",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1TUP"
+  },
+  {
+    "PFAM_ACCESSION": "PF00875",
+    "PFAM_NAME": "DNA_photolyase",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6FN0"
+  },
+  {
+    "PFAM_ACCESSION": "PF00907",
+    "PFAM_NAME": "T-box",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1XBR"
+  },
+  {
+    "PFAM_ACCESSION": "PF01017",
+    "PFAM_NAME": "STAT_alpha",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1BF5"
+  },
+  {
+    "PFAM_ACCESSION": "PF01029",
+    "PFAM_NAME": "NusB",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3R2C"
+  },
+  {
+    "PFAM_ACCESSION": "PF01191",
+    "PFAM_NAME": "RNA_pol_Rpb5_C",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5XOG"
+  },
+  {
+    "PFAM_ACCESSION": "PF01194",
+    "PFAM_NAME": "RNA_pol_N",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5XOG"
+  },
+  {
+    "PFAM_ACCESSION": "PF01285",
+    "PFAM_NAME": "TEA",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5GZB"
+  },
+  {
+    "PFAM_ACCESSION": "PF01316",
+    "PFAM_NAME": "Arg_repressor",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2P5L"
+  },
+  {
+    "PFAM_ACCESSION": "PF01336",
+    "PFAM_NAME": "tRNA_anti-codon",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1JMC"
+  },
+  {
+    "PFAM_ACCESSION": "PF01340",
+    "PFAM_NAME": "MetJ",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1CMA"
+  },
+  {
+    "PFAM_ACCESSION": "PF01388",
+    "PFAM_NAME": "ARID",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1KQQ"
+  },
+  {
+    "PFAM_ACCESSION": "PF01402",
+    "PFAM_NAME": "RHH_1",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6MRJ"
+  },
+  {
+    "PFAM_ACCESSION": "PF01638",
+    "PFAM_NAME": "HxlR",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7BZG"
+  },
+  {
+    "PFAM_ACCESSION": "PF01878",
+    "PFAM_NAME": "EVE",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5J3E"
+  },
+  {
+    "PFAM_ACCESSION": "PF02178",
+    "PFAM_NAME": "AT_hook",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7KIF"
+  },
+  {
+    "PFAM_ACCESSION": "PF02201",
+    "PFAM_NAME": "SWIB",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7Z0O"
+  },
+  {
+    "PFAM_ACCESSION": "PF02229",
+    "PFAM_NAME": "PC4",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2C62"
+  },
+  {
+    "PFAM_ACCESSION": "PF02257",
+    "PFAM_NAME": "RFX_DNA_binding",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1DP7"
+  },
+  {
+    "PFAM_ACCESSION": "PF02316",
+    "PFAM_NAME": "HTH_Tnp_Mu_1",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1G4D"
+  },
+  {
+    "PFAM_ACCESSION": "PF02319",
+    "PFAM_NAME": "WHD_E2F_TDP",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1CF7"
+  },
+  {
+    "PFAM_ACCESSION": "PF02344",
+    "PFAM_NAME": "Myc-LZ",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1NKP"
+  },
+  {
+    "PFAM_ACCESSION": "PF02467",
+    "PFAM_NAME": "Whib",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7KIF"
+  },
+  {
+    "PFAM_ACCESSION": "PF02536",
+    "PFAM_NAME": "mTERF",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3N7Q"
+  },
+  {
+    "PFAM_ACCESSION": "PF02559",
+    "PFAM_NAME": "CarD_TRCF_RID",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7KIF"
+  },
+  {
+    "PFAM_ACCESSION": "PF02604",
+    "PFAM_NAME": "PhdYeFM_antitox",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7V6W"
+  },
+  {
+    "PFAM_ACCESSION": "PF02671",
+    "PFAM_NAME": "PAH",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8KD3"
+  },
+  {
+    "PFAM_ACCESSION": "PF02864",
+    "PFAM_NAME": "STAT_bind",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1BF5"
+  },
+  {
+    "PFAM_ACCESSION": "PF02905",
+    "PFAM_NAME": "EBV-NA1",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1B3T"
+  },
+  {
+    "PFAM_ACCESSION": "PF02909",
+    "PFAM_NAME": "TetR_C_1",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5YEJ"
+  },
+  {
+    "PFAM_ACCESSION": "PF03123",
+    "PFAM_NAME": "CAT_RBD",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1L1C"
+  },
+  {
+    "PFAM_ACCESSION": "PF03165",
+    "PFAM_NAME": "MH1",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1MHD"
+  },
+  {
+    "PFAM_ACCESSION": "PF03286",
+    "PFAM_NAME": "Pox_Ag35",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8WPE"
+  },
+  {
+    "PFAM_ACCESSION": "PF03299",
+    "PFAM_NAME": "TF_AP-2",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8J0K"
+  },
+  {
+    "PFAM_ACCESSION": "PF03439",
+    "PFAM_NAME": "Spt5-NGN",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8UHD"
+  },
+  {
+    "PFAM_ACCESSION": "PF03441",
+    "PFAM_NAME": "FAD_binding_7",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6FN0"
+  },
+  {
+    "PFAM_ACCESSION": "PF03551",
+    "PFAM_NAME": "PadR",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6QFD"
+  },
+  {
+    "PFAM_ACCESSION": "PF03584",
+    "PFAM_NAME": "Herpes_ICP4_N",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5MHJ"
+  },
+  {
+    "PFAM_ACCESSION": "PF03615",
+    "PFAM_NAME": "GCM",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1ODH"
+  },
+  {
+    "PFAM_ACCESSION": "PF03634",
+    "PFAM_NAME": "TCP",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7VP1"
+  },
+  {
+    "PFAM_ACCESSION": "PF03638",
+    "PFAM_NAME": "TCR",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5FD3"
+  },
+  {
+    "PFAM_ACCESSION": "PF03850",
+    "PFAM_NAME": "Tfb4",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF03869",
+    "PFAM_NAME": "Arc",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1PAR"
+  },
+  {
+    "PFAM_ACCESSION": "PF03870",
+    "PFAM_NAME": "RNA_pol_Rpb8",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5XOG"
+  },
+  {
+    "PFAM_ACCESSION": "PF03871",
+    "PFAM_NAME": "RNA_pol_Rpb5_N",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5XOG"
+  },
+  {
+    "PFAM_ACCESSION": "PF03874",
+    "PFAM_NAME": "RNA_pol_Rpb4",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5XOG"
+  },
+  {
+    "PFAM_ACCESSION": "PF03876",
+    "PFAM_NAME": "SHS2_Rpb7-N",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5XOG"
+  },
+  {
+    "PFAM_ACCESSION": "PF03909",
+    "PFAM_NAME": "BSD",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF03931",
+    "PFAM_NAME": "Skp1_POZ",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8CX0"
+  },
+  {
+    "PFAM_ACCESSION": "PF04090",
+    "PFAM_NAME": "Rrn11",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6RQL"
+  },
+  {
+    "PFAM_ACCESSION": "PF04182",
+    "PFAM_NAME": "B-block_TFIIIC",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "9GC3"
+  },
+  {
+    "PFAM_ACCESSION": "PF04266",
+    "PFAM_NAME": "ASCH",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8YEY"
+  },
+  {
+    "PFAM_ACCESSION": "PF04383",
+    "PFAM_NAME": "KilA-N",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "4UX5"
+  },
+  {
+    "PFAM_ACCESSION": "PF04516",
+    "PFAM_NAME": "CP2",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5MPF"
+  },
+  {
+    "PFAM_ACCESSION": "PF04566",
+    "PFAM_NAME": "RNA_pol_Rpb2_4",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5XOG"
+  },
+  {
+    "PFAM_ACCESSION": "PF04567",
+    "PFAM_NAME": "RNA_pol_Rpb2_5",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5XOG"
+  },
+  {
+    "PFAM_ACCESSION": "PF04814",
+    "PFAM_NAME": "HNF-1_N",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1IC8"
+  },
+  {
+    "PFAM_ACCESSION": "PF04852",
+    "PFAM_NAME": "ALOG_dom",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8P5Q"
+  },
+  {
+    "PFAM_ACCESSION": "PF04858",
+    "PFAM_NAME": "TH1",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8UHD"
+  },
+  {
+    "PFAM_ACCESSION": "PF04963",
+    "PFAM_NAME": "Sigma54_CBD",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8F1I"
+  },
+  {
+    "PFAM_ACCESSION": "PF04990",
+    "PFAM_NAME": "RNA_pol_Rpb1_7",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5XOG"
+  },
+  {
+    "PFAM_ACCESSION": "PF04992",
+    "PFAM_NAME": "RNA_pol_Rpb1_6",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5XOG"
+  },
+  {
+    "PFAM_ACCESSION": "PF05001",
+    "PFAM_NAME": "RNA_pol_Rpb1_R",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5XOG"
+  },
+  {
+    "PFAM_ACCESSION": "PF05044",
+    "PFAM_NAME": "HPD",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1XPX"
+  },
+  {
+    "PFAM_ACCESSION": "PF05224",
+    "PFAM_NAME": "NDT80_PhoG",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1MNN"
+  },
+  {
+    "PFAM_ACCESSION": "PF05234",
+    "PFAM_NAME": "UAF_Rrn10",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7Z0O"
+  },
+  {
+    "PFAM_ACCESSION": "PF05485",
+    "PFAM_NAME": "THAP",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2KO0"
+  },
+  {
+    "PFAM_ACCESSION": "PF05670",
+    "PFAM_NAME": "NFACT-R_1",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7EOF"
+  },
+  {
+    "PFAM_ACCESSION": "PF05687",
+    "PFAM_NAME": "BES1_N",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5ZD4"
+  },
+  {
+    "PFAM_ACCESSION": "PF05712",
+    "PFAM_NAME": "MRG",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8KD3"
+  },
+  {
+    "PFAM_ACCESSION": "PF05941",
+    "PFAM_NAME": "Chordopox_A20R",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8WPE"
+  },
+  {
+    "PFAM_ACCESSION": "PF06093",
+    "PFAM_NAME": "Spt4",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8UHD"
+  },
+  {
+    "PFAM_ACCESSION": "PF06203",
+    "PFAM_NAME": "CCT",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7C9O"
+  },
+  {
+    "PFAM_ACCESSION": "PF06209",
+    "PFAM_NAME": "COBRA1",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8UHD"
+  },
+  {
+    "PFAM_ACCESSION": "PF06445",
+    "PFAM_NAME": "GyrI-like",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1EXJ"
+  },
+  {
+    "PFAM_ACCESSION": "PF06507",
+    "PFAM_NAME": "ARF_AD",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "4LDX"
+  },
+  {
+    "PFAM_ACCESSION": "PF06769",
+    "PFAM_NAME": "YoeB_toxin",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7V6W"
+  },
+  {
+    "PFAM_ACCESSION": "PF07497",
+    "PFAM_NAME": "Rho_RNA_bind",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2A8V"
+  },
+  {
+    "PFAM_ACCESSION": "PF07498",
+    "PFAM_NAME": "Rho_N",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2A8V"
+  },
+  {
+    "PFAM_ACCESSION": "PF07529",
+    "PFAM_NAME": "HSA",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7VDT"
+  },
+  {
+    "PFAM_ACCESSION": "PF07533",
+    "PFAM_NAME": "BRK",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7VDT"
+  },
+  {
+    "PFAM_ACCESSION": "PF07729",
+    "PFAM_NAME": "FCD",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6ZA3"
+  },
+  {
+    "PFAM_ACCESSION": "PF07741",
+    "PFAM_NAME": "BRF1",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1NGM"
+  },
+  {
+    "PFAM_ACCESSION": "PF07804",
+    "PFAM_NAME": "HipA_C",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3DNV"
+  },
+  {
+    "PFAM_ACCESSION": "PF07825",
+    "PFAM_NAME": "Exc",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6P0S"
+  },
+  {
+    "PFAM_ACCESSION": "PF08295",
+    "PFAM_NAME": "Sin3_corepress",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8KD3"
+  },
+  {
+    "PFAM_ACCESSION": "PF08359",
+    "PFAM_NAME": "TetR_C_4",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5GPC"
+  },
+  {
+    "PFAM_ACCESSION": "PF08567",
+    "PFAM_NAME": "PH_TFIIH",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7O4J"
+  },
+  {
+    "PFAM_ACCESSION": "PF08671",
+    "PFAM_NAME": "SinI",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3ZKC"
+  },
+  {
+    "PFAM_ACCESSION": "PF08731",
+    "PFAM_NAME": "AFT",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "4LMG"
+  },
+  {
+    "PFAM_ACCESSION": "PF08753",
+    "PFAM_NAME": "NikR_C",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6MRJ"
+  },
+  {
+    "PFAM_ACCESSION": "PF08766",
+    "PFAM_NAME": "DEK_C",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7Z0O"
+  },
+  {
+    "PFAM_ACCESSION": "PF08769",
+    "PFAM_NAME": "Spo0A_C",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1LQ1"
+  },
+  {
+    "PFAM_ACCESSION": "PF08775",
+    "PFAM_NAME": "ParB",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3VWB"
+  },
+  {
+    "PFAM_ACCESSION": "PF08880",
+    "PFAM_NAME": "QLQ",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7VDT"
+  },
+  {
+    "PFAM_ACCESSION": "PF08965",
+    "PFAM_NAME": "Aca2_YdiL",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7VJQ"
+  },
+  {
+    "PFAM_ACCESSION": "PF09047",
+    "PFAM_NAME": "MEF2_binding",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1N6J"
+  },
+  {
+    "PFAM_ACCESSION": "PF09048",
+    "PFAM_NAME": "Cro",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6CRO"
+  },
+  {
+    "PFAM_ACCESSION": "PF09158",
+    "PFAM_NAME": "MotCF",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5JLT"
+  },
+  {
+    "PFAM_ACCESSION": "PF09197",
+    "PFAM_NAME": "Rap1-DNA-bind",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1IGN"
+  },
+  {
+    "PFAM_ACCESSION": "PF09237",
+    "PFAM_NAME": "GAGA",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1YUI"
+  },
+  {
+    "PFAM_ACCESSION": "PF10214",
+    "PFAM_NAME": "Rrn6_beta-prop",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6RQL"
+  },
+  {
+    "PFAM_ACCESSION": "PF10491",
+    "PFAM_NAME": "Nrf1_DNA-bind",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8K4L"
+  },
+  {
+    "PFAM_ACCESSION": "PF10680",
+    "PFAM_NAME": "RRN9",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7Z0O"
+  },
+  {
+    "PFAM_ACCESSION": "PF11438",
+    "PFAM_NAME": "N36",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1QFQ"
+  },
+  {
+    "PFAM_ACCESSION": "PF11781",
+    "PFAM_NAME": "Zn_ribbon_RRN7",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6RQL"
+  },
+  {
+    "PFAM_ACCESSION": "PF11942",
+    "PFAM_NAME": "Spt5_N",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8UHD"
+  },
+  {
+    "PFAM_ACCESSION": "PF12054",
+    "PFAM_NAME": "DUF3535",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7ZB5"
+  },
+  {
+    "PFAM_ACCESSION": "PF12181",
+    "PFAM_NAME": "MogR_DNAbind",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3FDQ"
+  },
+  {
+    "PFAM_ACCESSION": "PF12660",
+    "PFAM_NAME": "zf-TFIIIC",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "9GC3"
+  },
+  {
+    "PFAM_ACCESSION": "PF12796",
+    "PFAM_NAME": "Ank_2",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1AWC"
+  },
+  {
+    "PFAM_ACCESSION": "PF12940",
+    "PFAM_NAME": "RAG1",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3GNA"
+  },
+  {
+    "PFAM_ACCESSION": "PF13184",
+    "PFAM_NAME": "KH_NusA_1st",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2ASB"
+  },
+  {
+    "PFAM_ACCESSION": "PF13384",
+    "PFAM_NAME": "HTH_23",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7BHY"
+  },
+  {
+    "PFAM_ACCESSION": "PF13411",
+    "PFAM_NAME": "MerR_1",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5I44"
+  },
+  {
+    "PFAM_ACCESSION": "PF13412",
+    "PFAM_NAME": "HTH_24",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5F7Q"
+  },
+  {
+    "PFAM_ACCESSION": "PF13656",
+    "PFAM_NAME": "RNA_pol_L_2",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5XOG"
+  },
+  {
+    "PFAM_ACCESSION": "PF13657",
+    "PFAM_NAME": "Couple_hipA",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3DNV"
+  },
+  {
+    "PFAM_ACCESSION": "PF14619",
+    "PFAM_NAME": "SnAC",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7VDT"
+  },
+  {
+    "PFAM_ACCESSION": "PF15731",
+    "PFAM_NAME": "MqsA_antitoxin",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3O9X"
+  },
+  {
+    "PFAM_ACCESSION": "PF16159",
+    "PFAM_NAME": "FOXP-CC",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "9D22"
+  },
+  {
+    "PFAM_ACCESSION": "PF16422",
+    "PFAM_NAME": "COE1_DBD",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3MLN"
+  },
+  {
+    "PFAM_ACCESSION": "PF16859",
+    "PFAM_NAME": "TetR_C_11",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "4JL3"
+  },
+  {
+    "PFAM_ACCESSION": "PF16866",
+    "PFAM_NAME": "PHD_4",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6ASB"
+  },
+  {
+    "PFAM_ACCESSION": "PF16879",
+    "PFAM_NAME": "Sin3a_C",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8KD3"
+  },
+  {
+    "PFAM_ACCESSION": "PF16900",
+    "PFAM_NAME": "REPA_OB_2",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1JMC"
+  },
+  {
+    "PFAM_ACCESSION": "PF17538",
+    "PFAM_NAME": "C_LFY_FLO",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2VY1"
+  },
+  {
+    "PFAM_ACCESSION": "PF17916",
+    "PFAM_NAME": "LID",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2YPA"
+  },
+  {
+    "PFAM_ACCESSION": "PF17925",
+    "PFAM_NAME": "TetR_C_20",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5FMP"
+  },
+  {
+    "PFAM_ACCESSION": "PF17937",
+    "PFAM_NAME": "TetR_C_28",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2YVH"
+  },
+  {
+    "PFAM_ACCESSION": "PF18357",
+    "PFAM_NAME": "DtxR",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1DDN"
+  },
+  {
+    "PFAM_ACCESSION": "PF18768",
+    "PFAM_NAME": "RNPP_C",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3U3W"
+  },
+  {
+    "PFAM_ACCESSION": "PF20222",
+    "PFAM_NAME": "DUF6581",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "9GC3"
+  },
+  {
+    "PFAM_ACCESSION": "PF20639",
+    "PFAM_NAME": "Rrn6_K-rich",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6RQL"
+  },
+  {
+    "PFAM_ACCESSION": "PF20640",
+    "PFAM_NAME": "Rrn6_HB",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6RQL"
+  },
+  {
+    "PFAM_ACCESSION": "PF20644",
+    "PFAM_NAME": "Rrn7_cyclin_N",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6RQL"
+  },
+  {
+    "PFAM_ACCESSION": "PF20645",
+    "PFAM_NAME": "Rrn7_cyclin_C",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6RQL"
+  },
+  {
+    "PFAM_ACCESSION": "PF21095",
+    "PFAM_NAME": "CarD_C",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7KIF"
+  },
+  {
+    "PFAM_ACCESSION": "PF21107",
+    "PFAM_NAME": "STPRs",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5D23"
+  },
+  {
+    "PFAM_ACCESSION": "PF21354",
+    "PFAM_NAME": "STAT_linker",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "1BF5"
+  },
+  {
+    "PFAM_ACCESSION": "PF21524",
+    "PFAM_NAME": "SAMD1_WH",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6LUI"
+  },
+  {
+    "PFAM_ACCESSION": "PF21552",
+    "PFAM_NAME": "WHD_TFC3",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "9GC3"
+  },
+  {
+    "PFAM_ACCESSION": "PF21559",
+    "PFAM_NAME": "Reb1_MybAD",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5EYB"
+  },
+  {
+    "PFAM_ACCESSION": "PF21626",
+    "PFAM_NAME": "TetR-C_39",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3VOK"
+  },
+  {
+    "PFAM_ACCESSION": "PF21668",
+    "PFAM_NAME": "RPOC_hybrid",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "4G7H"
+  },
+  {
+    "PFAM_ACCESSION": "PF21715",
+    "PFAM_NAME": "CggR_N",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7OYK"
+  },
+  {
+    "PFAM_ACCESSION": "PF21775",
+    "PFAM_NAME": "PutA_1st",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2RBF"
+  },
+  {
+    "PFAM_ACCESSION": "PF21906",
+    "PFAM_NAME": "WHD_NrtR",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3GZ6"
+  },
+  {
+    "PFAM_ACCESSION": "PF21943",
+    "PFAM_NAME": "TetR_C_46",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "3LSP"
+  },
+  {
+    "PFAM_ACCESSION": "PF22055",
+    "PFAM_NAME": "MvaT_DBD",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2MXF"
+  },
+  {
+    "PFAM_ACCESSION": "PF22381",
+    "PFAM_NAME": "Staph_reg_Sar_Rot",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "5HLG"
+  },
+  {
+    "PFAM_ACCESSION": "PF22732",
+    "PFAM_NAME": "MSL3_chromo-like",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8KD3"
+  },
+  {
+    "PFAM_ACCESSION": "PF22871",
+    "PFAM_NAME": "AimR",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "6HP7"
+  },
+  {
+    "PFAM_ACCESSION": "PF23037",
+    "PFAM_NAME": "KOWx_SPT5",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8UHD"
+  },
+  {
+    "PFAM_ACCESSION": "PF23179",
+    "PFAM_NAME": "bHLH_INO2",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7XQ5"
+  },
+  {
+    "PFAM_ACCESSION": "PF23181",
+    "PFAM_NAME": "bHLH_INO4",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "7XQ5"
+  },
+  {
+    "PFAM_ACCESSION": "PF23287",
+    "PFAM_NAME": "KOW7_SPT5",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8UHD"
+  },
+  {
+    "PFAM_ACCESSION": "PF23288",
+    "PFAM_NAME": "KOW6_SPT5",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8UHD"
+  },
+  {
+    "PFAM_ACCESSION": "PF23553",
+    "PFAM_NAME": "NELF-A_N",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "8UHD"
+  },
+  {
+    "PFAM_ACCESSION": "PF23561",
+    "PFAM_NAME": "zf-C2H2_15",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2GLI"
+  },
+  {
+    "PFAM_ACCESSION": "PF26594",
+    "PFAM_NAME": "KH_NusA_2nd",
+    "Number_of_PDBs": 1,
+    "PDB_IDs": "2ASB"
+  }
+]

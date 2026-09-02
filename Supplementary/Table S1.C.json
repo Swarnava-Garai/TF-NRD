@@ -1,0 +1,4682 @@
+[
+  {
+    "PDB ID": "#DNA-binding Transcription Factors",
+    "Chain 1": null,
+    "Chain 2": null,
+    "BSA complex": null,
+    "Protein 1": null,
+    "protein 2": null
+  },
+  {
+    "PDB ID": "1A02",
+    "Chain 1": "F",
+    "Chain 2": "J",
+    "BSA complex": 2051.59,
+    "Protein 1": 1032.1,
+    "protein 2": 1019.49
+  },
+  {
+    "PDB ID": "1A02",
+    "Chain 1": "N",
+    "Chain 2": "FJ",
+    "BSA complex": 1402.22,
+    "Protein 1": 706.88,
+    "protein 2": 695.34
+  },
+  {
+    "PDB ID": "1A0A",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1859.83,
+    "Protein 1": 932.9,
+    "protein 2": 926.93
+  },
+  {
+    "PDB ID": "1AM9",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2838.55,
+    "Protein 1": 1421.74,
+    "protein 2": 1416.81
+  },
+  {
+    "PDB ID": "1AN2",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 918.72,
+    "Protein 1": 448.67,
+    "protein 2": 470.05
+  },
+  {
+    "PDB ID": "1AN4",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1535.06,
+    "Protein 1": 771.29,
+    "protein 2": 763.77
+  },
+  {
+    "PDB ID": "1AWC",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1653.76,
+    "Protein 1": 800.27,
+    "protein 2": 853.49
+  },
+  {
+    "PDB ID": "1B01",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3295.31,
+    "Protein 1": 1660.8,
+    "protein 2": 1634.51
+  },
+  {
+    "PDB ID": "1B3T",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4396.97,
+    "Protein 1": 2207.98,
+    "protein 2": 2188.99
+  },
+  {
+    "PDB ID": "1B72",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 762.72,
+    "Protein 1": 399.6,
+    "protein 2": 363.12
+  },
+  {
+    "PDB ID": "1BF5",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 2598.24,
+    "Protein 1": 1299.14,
+    "protein 2": 1299.1
+  },
+  {
+    "PDB ID": "1CF7",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1271.06,
+    "Protein 1": 636.41,
+    "protein 2": 634.65
+  },
+  {
+    "PDB ID": "1CGP",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3019.89,
+    "Protein 1": 1515.41,
+    "protein 2": 1504.48
+  },
+  {
+    "PDB ID": "1CMA",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3192.67,
+    "Protein 1": 1598.83,
+    "protein 2": 1593.84
+  },
+  {
+    "PDB ID": "1D66",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1294.97,
+    "Protein 1": 637.49,
+    "protein 2": 657.48
+  },
+  {
+    "PDB ID": "1DDN",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1654.42,
+    "Protein 1": 822.89,
+    "protein 2": 831.53
+  },
+  {
+    "PDB ID": "1DH3",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 1900.99,
+    "Protein 1": 921.45,
+    "protein 2": 979.54
+  },
+  {
+    "PDB ID": "1EFA",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4317.14,
+    "Protein 1": 2163.98,
+    "protein 2": 2153.16
+  },
+  {
+    "PDB ID": "1EFA",
+    "Chain 1": "AB",
+    "Chain 2": "C",
+    "BSA complex": 681.58,
+    "Protein 1": 342.41,
+    "protein 2": 339.17
+  },
+  {
+    "PDB ID": "1EGW",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3891.18,
+    "Protein 1": 1953.49,
+    "protein 2": 1937.69
+  },
+  {
+    "PDB ID": "1EXJ",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 5963.43,
+    "Protein 1": 2981.72,
+    "protein 2": 2981.71
+  },
+  {
+    "PDB ID": "1GD2",
+    "Chain 1": "E",
+    "Chain 2": "F",
+    "BSA complex": 2302.21,
+    "Protein 1": 1158.57,
+    "protein 2": 1143.64
+  },
+  {
+    "PDB ID": "1GLU",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1239.82,
+    "Protein 1": 611.32,
+    "protein 2": 628.5
+  },
+  {
+    "PDB ID": "1GT0",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 255.98,
+    "Protein 1": 128.99,
+    "protein 2": 126.99
+  },
+  {
+    "PDB ID": "1GXP",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 792.33,
+    "Protein 1": 378.68,
+    "protein 2": 413.65
+  },
+  {
+    "PDB ID": "1H88",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2014.53,
+    "Protein 1": 1005.52,
+    "protein 2": 1009.01
+  },
+  {
+    "PDB ID": "1HJB",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1941.33,
+    "Protein 1": 986.61,
+    "protein 2": 954.72
+  },
+  {
+    "PDB ID": "1HWT",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 2279.38,
+    "Protein 1": 1142.1,
+    "protein 2": 1137.28
+  },
+  {
+    "PDB ID": "1IC8",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 444.44,
+    "Protein 1": 211.45,
+    "protein 2": 232.99
+  },
+  {
+    "PDB ID": "1IHF",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4864.84,
+    "Protein 1": 2434.99,
+    "protein 2": 2429.85
+  },
+  {
+    "PDB ID": "1IO4",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1924.81,
+    "Protein 1": 968.78,
+    "protein 2": 956.03
+  },
+  {
+    "PDB ID": "1IO4",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 2153.52,
+    "Protein 1": 1085.19,
+    "protein 2": 1068.33
+  },
+  {
+    "PDB ID": "1JE8",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 809.04,
+    "Protein 1": 407.16,
+    "protein 2": 401.88
+  },
+  {
+    "PDB ID": "1JFI",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3988.24,
+    "Protein 1": 1978,
+    "protein 2": 2010.24
+  },
+  {
+    "PDB ID": "1JFI",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 429.34,
+    "Protein 1": 186.06,
+    "protein 2": 243.28
+  },
+  {
+    "PDB ID": "1JFI",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 1436.52,
+    "Protein 1": 749.49,
+    "protein 2": 687.03
+  },
+  {
+    "PDB ID": "1JT0",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 3045.38,
+    "Protein 1": 1521.72,
+    "protein 2": 1523.66
+  },
+  {
+    "PDB ID": "1JT0",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 3045.38,
+    "Protein 1": 1521.72,
+    "protein 2": 1523.66
+  },
+  {
+    "PDB ID": "1KU7",
+    "Chain 1": "A",
+    "Chain 2": "D",
+    "BSA complex": 1939.37,
+    "Protein 1": 1003.27,
+    "protein 2": 936.1
+  },
+  {
+    "PDB ID": "1L3L",
+    "Chain 1": "B",
+    "Chain 2": "D",
+    "BSA complex": 3251.17,
+    "Protein 1": 1646.98,
+    "protein 2": 1604.19
+  },
+  {
+    "PDB ID": "1LMB",
+    "Chain 1": 3,
+    "Chain 2": 4,
+    "BSA complex": 1462.56,
+    "Protein 1": 730.32,
+    "protein 2": 732.24
+  },
+  {
+    "PDB ID": "1LQ1",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 881.77,
+    "Protein 1": 436.4,
+    "protein 2": 445.37
+  },
+  {
+    "PDB ID": "1MDY",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1687.6,
+    "Protein 1": 848.11,
+    "protein 2": 839.49
+  },
+  {
+    "PDB ID": "1MNM",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3820.61,
+    "Protein 1": 1899.64,
+    "protein 2": 1920.97
+  },
+  {
+    "PDB ID": "1MNM",
+    "Chain 1": "AB",
+    "Chain 2": "C",
+    "BSA complex": 1390.28,
+    "Protein 1": 651.25,
+    "protein 2": 739.03
+  },
+  {
+    "PDB ID": "1MNM",
+    "Chain 1": "AB",
+    "Chain 2": "D",
+    "BSA complex": 521.89,
+    "Protein 1": 267.59,
+    "protein 2": 254.3
+  },
+  {
+    "PDB ID": "1N6J",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 6236.13,
+    "Protein 1": 3111.91,
+    "protein 2": 3124.22
+  },
+  {
+    "PDB ID": "1N6J",
+    "Chain 1": "AB",
+    "Chain 2": "G",
+    "BSA complex": 1760.95,
+    "Protein 1": 837.49,
+    "protein 2": 923.46
+  },
+  {
+    "PDB ID": "1NGM",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3800.17,
+    "Protein 1": 1864.9,
+    "protein 2": 1935.27
+  },
+  {
+    "PDB ID": "1NKP",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3367.59,
+    "Protein 1": 1686.93,
+    "protein 2": 1680.66
+  },
+  {
+    "PDB ID": "1NLW",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2983,
+    "Protein 1": 1500.01,
+    "protein 2": 1482.99
+  },
+  {
+    "PDB ID": "1NVP",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 501.23,
+    "Protein 1": 230.39,
+    "protein 2": 270.84
+  },
+  {
+    "PDB ID": "1NVP",
+    "Chain 1": "A",
+    "Chain 2": "D",
+    "BSA complex": 1041.63,
+    "Protein 1": 479.11,
+    "protein 2": 562.52
+  },
+  {
+    "PDB ID": "1NVP",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 263.65,
+    "Protein 1": 131.37,
+    "protein 2": 132.28
+  },
+  {
+    "PDB ID": "1NVP",
+    "Chain 1": "B",
+    "Chain 2": "D",
+    "BSA complex": 1817.08,
+    "Protein 1": 908.93,
+    "protein 2": 908.15
+  },
+  {
+    "PDB ID": "1NVP",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 3222.53,
+    "Protein 1": 1677.33,
+    "protein 2": 1545.2
+  },
+  {
+    "PDB ID": "1P51",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4012.63,
+    "Protein 1": 1998.56,
+    "protein 2": 2014.07
+  },
+  {
+    "PDB ID": "1PAR",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3603.35,
+    "Protein 1": 1811.42,
+    "protein 2": 1791.93
+  },
+  {
+    "PDB ID": "1PNR",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 5157.37,
+    "Protein 1": 2578.68,
+    "protein 2": 2578.69
+  },
+  {
+    "PDB ID": "1QPI",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 4733.46,
+    "Protein 1": 2366.73,
+    "protein 2": 2366.73
+  },
+  {
+    "PDB ID": "1R71",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 303.7,
+    "Protein 1": 155.33,
+    "protein 2": 148.37
+  },
+  {
+    "PDB ID": "1R8D",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1979.54,
+    "Protein 1": 1000,
+    "protein 2": 979.54
+  },
+  {
+    "PDB ID": "1RAM",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1312.04,
+    "Protein 1": 652.88,
+    "protein 2": 659.16
+  },
+  {
+    "PDB ID": "1RZR",
+    "Chain 1": "C",
+    "Chain 2": "G",
+    "BSA complex": 4181.49,
+    "Protein 1": 2084.25,
+    "protein 2": 2097.24
+  },
+  {
+    "PDB ID": "1RZR",
+    "Chain 1": "CG",
+    "Chain 2": "L",
+    "BSA complex": 1365.61,
+    "Protein 1": 660.24,
+    "protein 2": 705.37
+  },
+  {
+    "PDB ID": "1RZR",
+    "Chain 1": "CG",
+    "Chain 2": "T",
+    "BSA complex": 1461.26,
+    "Protein 1": 692.3,
+    "protein 2": 768.96
+  },
+  {
+    "PDB ID": "1SAX",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4015.34,
+    "Protein 1": 1993.02,
+    "protein 2": 2022.32
+  },
+  {
+    "PDB ID": "1SVC",
+    "Chain 1": "P",
+    "Chain 2": "B",
+    "BSA complex": 1357.62,
+    "Protein 1": 678.81,
+    "protein 2": 678.81
+  },
+  {
+    "PDB ID": "1T2K",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 1975.54,
+    "Protein 1": 986.47,
+    "protein 2": 989.07
+  },
+  {
+    "PDB ID": "1T2K",
+    "Chain 1": "CD",
+    "Chain 2": "A",
+    "BSA complex": 347.67,
+    "Protein 1": 177.24,
+    "protein 2": 170.43
+  },
+  {
+    "PDB ID": "1TQE",
+    "Chain 1": "P",
+    "Chain 2": "Q",
+    "BSA complex": 6055.22,
+    "Protein 1": 3020.04,
+    "protein 2": 3035.18
+  },
+  {
+    "PDB ID": "1TQE",
+    "Chain 1": "PQ",
+    "Chain 2": "X",
+    "BSA complex": 1800.35,
+    "Protein 1": 851.17,
+    "protein 2": 949.18
+  },
+  {
+    "PDB ID": "1TRR",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4862.9,
+    "Protein 1": 2434.93,
+    "protein 2": 2427.97
+  },
+  {
+    "PDB ID": "1TRR",
+    "Chain 1": "G",
+    "Chain 2": "H",
+    "BSA complex": 4873.35,
+    "Protein 1": 2434.2,
+    "protein 2": 2439.15
+  },
+  {
+    "PDB ID": "1TUP",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1426.23,
+    "Protein 1": 714.22,
+    "protein 2": 712.01
+  },
+  {
+    "PDB ID": "1TUP",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 750.47,
+    "Protein 1": 377.6,
+    "protein 2": 372.87
+  },
+  {
+    "PDB ID": "1VOL",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1253.01,
+    "Protein 1": 589.95,
+    "protein 2": 663.06
+  },
+  {
+    "PDB ID": "1XBR",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 415.49,
+    "Protein 1": 206.21,
+    "protein 2": 209.28
+  },
+  {
+    "PDB ID": "1YRN",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1271.08,
+    "Protein 1": 614.53,
+    "protein 2": 656.55
+  },
+  {
+    "PDB ID": "1YSA",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 1828.37,
+    "Protein 1": 902.87,
+    "protein 2": 925.5
+  },
+  {
+    "PDB ID": "1YTF",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 528.27,
+    "Protein 1": 251.69,
+    "protein 2": 276.58
+  },
+  {
+    "PDB ID": "1YTF",
+    "Chain 1": "A",
+    "Chain 2": "D",
+    "BSA complex": 847.75,
+    "Protein 1": 395.07,
+    "protein 2": 452.68
+  },
+  {
+    "PDB ID": "1YTF",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 500.18,
+    "Protein 1": 251.11,
+    "protein 2": 249.07
+  },
+  {
+    "PDB ID": "1YTF",
+    "Chain 1": "B",
+    "Chain 2": "D",
+    "BSA complex": 2071.37,
+    "Protein 1": 1033.87,
+    "protein 2": 1037.5
+  },
+  {
+    "PDB ID": "1YTF",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 3338.98,
+    "Protein 1": 1731.64,
+    "protein 2": 1607.34
+  },
+  {
+    "PDB ID": "1Z9C",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4808.63,
+    "Protein 1": 2396.33,
+    "protein 2": 2412.3
+  },
+  {
+    "PDB ID": "1ZME",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 2205.86,
+    "Protein 1": 1113.54,
+    "protein 2": 1092.32
+  },
+  {
+    "PDB ID": "2A07",
+    "Chain 1": "F",
+    "Chain 2": "G",
+    "BSA complex": 4531.41,
+    "Protein 1": 2276.67,
+    "protein 2": 2254.74
+  },
+  {
+    "PDB ID": "2A07",
+    "Chain 1": "J",
+    "Chain 2": "K",
+    "BSA complex": 276.35,
+    "Protein 1": 138.5,
+    "protein 2": 137.85
+  },
+  {
+    "PDB ID": "2A07",
+    "Chain 1": "F",
+    "Chain 2": "G",
+    "BSA complex": 4531.41,
+    "Protein 1": 2276.67,
+    "protein 2": 2254.74
+  },
+  {
+    "PDB ID": "2BNW",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3642.09,
+    "Protein 1": 1838.22,
+    "protein 2": 1803.87
+  },
+  {
+    "PDB ID": "2BNW",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 497.66,
+    "Protein 1": 245.85,
+    "protein 2": 251.81
+  },
+  {
+    "PDB ID": "2BNW",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 3810.41,
+    "Protein 1": 1890.18,
+    "protein 2": 1920.23
+  },
+  {
+    "PDB ID": "2BOP",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 2427.54,
+    "Protein 1": 1213.77,
+    "protein 2": 1213.77
+  },
+  {
+    "PDB ID": "2C62",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2872.02,
+    "Protein 1": 1433.72,
+    "protein 2": 1438.3
+  },
+  {
+    "PDB ID": "2C9L",
+    "Chain 1": "Y",
+    "Chain 2": "Z",
+    "BSA complex": 2868.99,
+    "Protein 1": 1394.69,
+    "protein 2": 1474.3
+  },
+  {
+    "PDB ID": "2NLL",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 505.36,
+    "Protein 1": 288.33,
+    "protein 2": 217.03
+  },
+  {
+    "PDB ID": "2OR1",
+    "Chain 1": "L",
+    "Chain 2": "R",
+    "BSA complex": 648.12,
+    "Protein 1": 334.82,
+    "protein 2": 313.3
+  },
+  {
+    "PDB ID": "2P5L",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 1002.62,
+    "Protein 1": 504.44,
+    "protein 2": 498.18
+  },
+  {
+    "PDB ID": "2QL2",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1890.76,
+    "Protein 1": 947.16,
+    "protein 2": 943.6
+  },
+  {
+    "PDB ID": "2R1J",
+    "Chain 1": "L",
+    "Chain 2": "R",
+    "BSA complex": 731.57,
+    "Protein 1": 367.41,
+    "protein 2": 364.16
+  },
+  {
+    "PDB ID": "2RBF",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3239.64,
+    "Protein 1": 1591.23,
+    "protein 2": 1648.41
+  },
+  {
+    "PDB ID": "2VY1",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 649.63,
+    "Protein 1": 324.81,
+    "protein 2": 324.82
+  },
+  {
+    "PDB ID": "2W7N",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2117.83,
+    "Protein 1": 1079.92,
+    "protein 2": 1037.91
+  },
+  {
+    "PDB ID": "2YPA",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2207.95,
+    "Protein 1": 1129.8,
+    "protein 2": 1078.15
+  },
+  {
+    "PDB ID": "2YPA",
+    "Chain 1": "AB",
+    "Chain 2": "C",
+    "BSA complex": 1251.21,
+    "Protein 1": 615.77,
+    "protein 2": 635.44
+  },
+  {
+    "PDB ID": "2YPA",
+    "Chain 1": "AB",
+    "Chain 2": "D",
+    "BSA complex": 670.56,
+    "Protein 1": 354.12,
+    "protein 2": 316.44
+  },
+  {
+    "PDB ID": "2YPA",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 3372.03,
+    "Protein 1": 1574.85,
+    "protein 2": 1797.18
+  },
+  {
+    "PDB ID": "2YVH",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3710.78,
+    "Protein 1": 1886.39,
+    "protein 2": 1824.39
+  },
+  {
+    "PDB ID": "2ZHG",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 3213.27,
+    "Protein 1": 1606.61,
+    "protein 2": 1606.66
+  },
+  {
+    "PDB ID": "3A5T",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1786.11,
+    "Protein 1": 855.9,
+    "protein 2": 930.21
+  },
+  {
+    "PDB ID": "3CLC",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1895.23,
+    "Protein 1": 964.73,
+    "protein 2": 930.5
+  },
+  {
+    "PDB ID": "3CLC",
+    "Chain 1": "AB",
+    "Chain 2": "CD",
+    "BSA complex": 181.01,
+    "Protein 1": 90.24,
+    "protein 2": 90.77
+  },
+  {
+    "PDB ID": "3CLC",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 1912.71,
+    "Protein 1": 937.22,
+    "protein 2": 975.49
+  },
+  {
+    "PDB ID": "3D2W",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 663.92,
+    "Protein 1": 331.96,
+    "protein 2": 331.96
+  },
+  {
+    "PDB ID": "3DNV",
+    "Chain 1": "B",
+    "Chain 2": "B'",
+    "BSA complex": 2803.84,
+    "Protein 1": 1401.92,
+    "protein 2": 1401.92
+  },
+  {
+    "PDB ID": "3DNV",
+    "Chain 1": "BB'",
+    "Chain 2": "AA'",
+    "BSA complex": 3313.18,
+    "Protein 1": 1624.34,
+    "protein 2": 1688.84
+  },
+  {
+    "PDB ID": "3E6C",
+    "Chain 1": "C",
+    "Chain 2": "C'",
+    "BSA complex": 4649.12,
+    "Protein 1": 2324.56,
+    "protein 2": 2324.56
+  },
+  {
+    "PDB ID": "3FDQ",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 307.03,
+    "Protein 1": 153.72,
+    "protein 2": 153.31
+  },
+  {
+    "PDB ID": "3GFI",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 5630.67,
+    "Protein 1": 2831.54,
+    "protein 2": 2799.13
+  },
+  {
+    "PDB ID": "3GNA",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 3722.72,
+    "Protein 1": 1861.36,
+    "protein 2": 1861.36
+  },
+  {
+    "PDB ID": "3GXQ",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3304.61,
+    "Protein 1": 1641.25,
+    "protein 2": 1663.36
+  },
+  {
+    "PDB ID": "3GZ6",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1986.88,
+    "Protein 1": 991.77,
+    "protein 2": 995.11
+  },
+  {
+    "PDB ID": "3H0D",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2165.93,
+    "Protein 1": 1061.88,
+    "protein 2": 1104.05
+  },
+  {
+    "PDB ID": "3HTS",
+    "Chain 1": "B",
+    "Chain 2": "B'",
+    "BSA complex": 763.6,
+    "Protein 1": 381.8,
+    "protein 2": 381.8
+  },
+  {
+    "PDB ID": "3IGM",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3100.15,
+    "Protein 1": 1555.72,
+    "protein 2": 1544.43
+  },
+  {
+    "PDB ID": "3IKT",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 5174.2,
+    "Protein 1": 2566.9,
+    "protein 2": 2607.3
+  },
+  {
+    "PDB ID": "3IV5",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4445.61,
+    "Protein 1": 2219.83,
+    "protein 2": 2225.78
+  },
+  {
+    "PDB ID": "3JSO",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2809.99,
+    "Protein 1": 1382.21,
+    "protein 2": 1427.78
+  },
+  {
+    "PDB ID": "3KET",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 5056.34,
+    "Protein 1": 2528.17,
+    "protein 2": 2528.17
+  },
+  {
+    "PDB ID": "3LSP",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 3083.2,
+    "Protein 1": 1541.6,
+    "protein 2": 1541.6
+  },
+  {
+    "PDB ID": "3MLN",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 583.57,
+    "Protein 1": 290.04,
+    "protein 2": 293.53
+  },
+  {
+    "PDB ID": "3MZH",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3442.37,
+    "Protein 1": 1717.04,
+    "protein 2": 1725.33
+  },
+  {
+    "PDB ID": "3N4M",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 3047.8,
+    "Protein 1": 1523.86,
+    "protein 2": 1523.94
+  },
+  {
+    "PDB ID": "3N4M",
+    "Chain 1": "A",
+    "Chain 2": "BC",
+    "BSA complex": 697,
+    "Protein 1": 330.87,
+    "protein 2": 366.13
+  },
+  {
+    "PDB ID": "3N4M",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 319.3,
+    "Protein 1": 138.2,
+    "protein 2": 181.1
+  },
+  {
+    "PDB ID": "3O9X",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1614.97,
+    "Protein 1": 804.09,
+    "protein 2": 810.88
+  },
+  {
+    "PDB ID": "3ON0",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1230.75,
+    "Protein 1": 615.9,
+    "protein 2": 614.85
+  },
+  {
+    "PDB ID": "3ON0",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 2703.37,
+    "Protein 1": 1319.32,
+    "protein 2": 1384.05
+  },
+  {
+    "PDB ID": "3ON0",
+    "Chain 1": "A",
+    "Chain 2": "D",
+    "BSA complex": 5588.53,
+    "Protein 1": 2819.72,
+    "protein 2": 2768.81
+  },
+  {
+    "PDB ID": "3ON0",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 5742.7,
+    "Protein 1": 2900.68,
+    "protein 2": 2842.02
+  },
+  {
+    "PDB ID": "3ON0",
+    "Chain 1": "B",
+    "Chain 2": "D",
+    "BSA complex": 2535.43,
+    "Protein 1": 1244.78,
+    "protein 2": 1290.65
+  },
+  {
+    "PDB ID": "3ON0",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 919.95,
+    "Protein 1": 466.13,
+    "protein 2": 453.82
+  },
+  {
+    "PDB ID": "3Q5F",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4248.02,
+    "Protein 1": 2106.85,
+    "protein 2": 2141.17
+  },
+  {
+    "PDB ID": "3R2C",
+    "Chain 1": "A",
+    "Chain 2": "J",
+    "BSA complex": 1681.87,
+    "Protein 1": 854.59,
+    "protein 2": 827.28
+  },
+  {
+    "PDB ID": "3U3W",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3782.43,
+    "Protein 1": 1885.84,
+    "protein 2": 1896.59
+  },
+  {
+    "PDB ID": "3VOK",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 3147.25,
+    "Protein 1": 1573.6,
+    "protein 2": 1573.65
+  },
+  {
+    "PDB ID": "3ZKC",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1038.02,
+    "Protein 1": 525.07,
+    "protein 2": 512.95
+  },
+  {
+    "PDB ID": "3ZPL",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 5267.58,
+    "Protein 1": 2631.23,
+    "protein 2": 2636.35
+  },
+  {
+    "PDB ID": "3ZQL",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 5201.05,
+    "Protein 1": 2588.48,
+    "protein 2": 2612.57
+  },
+  {
+    "PDB ID": "4G7H",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 3878.34,
+    "Protein 1": 1980.83,
+    "protein 2": 1897.51
+  },
+  {
+    "PDB ID": "4G7H",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 507.79,
+    "Protein 1": 265.96,
+    "protein 2": 241.83
+  },
+  {
+    "PDB ID": "4G7H",
+    "Chain 1": "B",
+    "Chain 2": "D",
+    "BSA complex": 2347.42,
+    "Protein 1": 1136.76,
+    "protein 2": 1210.66
+  },
+  {
+    "PDB ID": "4G7H",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 17343.56,
+    "Protein 1": 8786.96,
+    "protein 2": 8556.6
+  },
+  {
+    "PDB ID": "4G7H",
+    "Chain 1": "C",
+    "Chain 2": "F",
+    "BSA complex": 4745.52,
+    "Protein 1": 2408.96,
+    "protein 2": 2336.56
+  },
+  {
+    "PDB ID": "4G7H",
+    "Chain 1": "D",
+    "Chain 2": "E",
+    "BSA complex": 4564.54,
+    "Protein 1": 2358.4,
+    "protein 2": 2206.14
+  },
+  {
+    "PDB ID": "4G7H",
+    "Chain 1": "D",
+    "Chain 2": "F",
+    "BSA complex": 7636.12,
+    "Protein 1": 3834.38,
+    "protein 2": 3801.74
+  },
+  {
+    "PDB ID": "4G92",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1629.81,
+    "Protein 1": 866.75,
+    "protein 2": 763.06
+  },
+  {
+    "PDB ID": "4G92",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 787.35,
+    "Protein 1": 390.07,
+    "protein 2": 397.28
+  },
+  {
+    "PDB ID": "4G92",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 5744.01,
+    "Protein 1": 2893.3,
+    "protein 2": 2850.71
+  },
+  {
+    "PDB ID": "4H10",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2004.93,
+    "Protein 1": 1014.34,
+    "protein 2": 990.59
+  },
+  {
+    "PDB ID": "4HF1",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3424.06,
+    "Protein 1": 1724.09,
+    "protein 2": 1699.97
+  },
+  {
+    "PDB ID": "4HQE",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4508.64,
+    "Protein 1": 2250.06,
+    "protein 2": 2258.58
+  },
+  {
+    "PDB ID": "4HQU",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 2205.89,
+    "Protein 1": 1102.94,
+    "protein 2": 1102.95
+  },
+  {
+    "PDB ID": "4I2O",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4251.88,
+    "Protein 1": 2119.36,
+    "protein 2": 2132.52
+  },
+  {
+    "PDB ID": "4IHT",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2377.54,
+    "Protein 1": 1213.82,
+    "protein 2": 1163.72
+  },
+  {
+    "PDB ID": "4IQR",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3813.45,
+    "Protein 1": 1845.09,
+    "protein 2": 1968.36
+  },
+  {
+    "PDB ID": "4IZZ",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 14328.36,
+    "Protein 1": 7138.73,
+    "protein 2": 7189.63
+  },
+  {
+    "PDB ID": "4J19",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 189.44,
+    "Protein 1": 93.47,
+    "protein 2": 95.97
+  },
+  {
+    "PDB ID": "4JCX",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2336.61,
+    "Protein 1": 1163.83,
+    "protein 2": 1172.78
+  },
+  {
+    "PDB ID": "4JL3",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 2740.46,
+    "Protein 1": 1357.35,
+    "protein 2": 1383.11
+  },
+  {
+    "PDB ID": "4KFC",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2200.5,
+    "Protein 1": 1088.66,
+    "protein 2": 1111.84
+  },
+  {
+    "PDB ID": "4L62",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3613.44,
+    "Protein 1": 1822.75,
+    "protein 2": 1790.69
+  },
+  {
+    "PDB ID": "4LDX",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2378.72,
+    "Protein 1": 1181.39,
+    "protein 2": 1197.33
+  },
+  {
+    "PDB ID": "4LLN",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4218.06,
+    "Protein 1": 2081.9,
+    "protein 2": 2136.16
+  },
+  {
+    "PDB ID": "4MTD",
+    "Chain 1": "A",
+    "Chain 2": "D",
+    "BSA complex": 2821.39,
+    "Protein 1": 1417.22,
+    "protein 2": 1404.17
+  },
+  {
+    "PDB ID": "4MTD",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 2763.3,
+    "Protein 1": 1380.82,
+    "protein 2": 1382.48
+  },
+  {
+    "PDB ID": "4NHJ",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 723.32,
+    "Protein 1": 334.4,
+    "protein 2": 388.92
+  },
+  {
+    "PDB ID": "4ON0",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2766.49,
+    "Protein 1": 1371.89,
+    "protein 2": 1394.6
+  },
+  {
+    "PDB ID": "4R22",
+    "Chain 1": "B",
+    "Chain 2": "B'",
+    "BSA complex": 987.72,
+    "Protein 1": 493.86,
+    "protein 2": 493.86
+  },
+  {
+    "PDB ID": "4RB1",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2215.37,
+    "Protein 1": 1114.18,
+    "protein 2": 1101.19
+  },
+  {
+    "PDB ID": "4ROC",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3991.39,
+    "Protein 1": 1966.11,
+    "protein 2": 2025.28
+  },
+  {
+    "PDB ID": "4WLS",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3248.01,
+    "Protein 1": 1625.64,
+    "protein 2": 1622.37
+  },
+  {
+    "PDB ID": "4WU4",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 871.65,
+    "Protein 1": 436.57,
+    "protein 2": 435.08
+  },
+  {
+    "PDB ID": "5D8C",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3464.45,
+    "Protein 1": 1727.62,
+    "protein 2": 1736.83
+  },
+  {
+    "PDB ID": "5DY0",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1617.03,
+    "Protein 1": 802.89,
+    "protein 2": 814.14
+  },
+  {
+    "PDB ID": "5F7Q",
+    "Chain 1": "C",
+    "Chain 2": "E",
+    "BSA complex": 4297.95,
+    "Protein 1": 2151.83,
+    "protein 2": 2146.12
+  },
+  {
+    "PDB ID": "5FMP",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2735.87,
+    "Protein 1": 1368.51,
+    "protein 2": 1367.36
+  },
+  {
+    "PDB ID": "5GNJ",
+    "Chain 1": "G",
+    "Chain 2": "I",
+    "BSA complex": 3212.86,
+    "Protein 1": 1605.22,
+    "protein 2": 1607.64
+  },
+  {
+    "PDB ID": "5GPC",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3523.33,
+    "Protein 1": 1759.06,
+    "protein 2": 1764.27
+  },
+  {
+    "PDB ID": "5H3R",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 5782.71,
+    "Protein 1": 2889.63,
+    "protein 2": 2893.08
+  },
+  {
+    "PDB ID": "5HLG",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 5295.27,
+    "Protein 1": 2669.35,
+    "protein 2": 2625.92
+  },
+  {
+    "PDB ID": "5HSO",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3811.05,
+    "Protein 1": 1910.2,
+    "protein 2": 1900.85
+  },
+  {
+    "PDB ID": "5I44",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 279.69,
+    "Protein 1": 139.99,
+    "protein 2": 139.7
+  },
+  {
+    "PDB ID": "5JUB",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3749.52,
+    "Protein 1": 1897.3,
+    "protein 2": 1852.22
+  },
+  {
+    "PDB ID": "5K5Q",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2927.17,
+    "Protein 1": 1467.93,
+    "protein 2": 1459.24
+  },
+  {
+    "PDB ID": "5K7Z",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2885.46,
+    "Protein 1": 1435.75,
+    "protein 2": 1449.71
+  },
+  {
+    "PDB ID": "5LEJ",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4920.74,
+    "Protein 1": 2469.44,
+    "protein 2": 2451.3
+  },
+  {
+    "PDB ID": "5MHJ",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 5692.92,
+    "Protein 1": 2855.56,
+    "protein 2": 2837.36
+  },
+  {
+    "PDB ID": "5MPF",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 432.12,
+    "Protein 1": 215.84,
+    "protein 2": 216.28
+  },
+  {
+    "PDB ID": "5TW1",
+    "Chain 1": "J",
+    "Chain 2": "D",
+    "BSA complex": 1235.19,
+    "Protein 1": 641.65,
+    "protein 2": 593.54
+  },
+  {
+    "PDB ID": "5TW1",
+    "Chain 1": "J",
+    "Chain 2": "F",
+    "BSA complex": 1905.07,
+    "Protein 1": 997.54,
+    "protein 2": 907.53
+  },
+  {
+    "PDB ID": "5TW1",
+    "Chain 1": "C",
+    "Chain 2": "A",
+    "BSA complex": 3844.97,
+    "Protein 1": 1878.62,
+    "protein 2": 1966.35
+  },
+  {
+    "PDB ID": "5TW1",
+    "Chain 1": "C",
+    "Chain 2": "B",
+    "BSA complex": 440.52,
+    "Protein 1": 215.66,
+    "protein 2": 224.86
+  },
+  {
+    "PDB ID": "5TW1",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 15436.77,
+    "Protein 1": 7844.77,
+    "protein 2": 7592
+  },
+  {
+    "PDB ID": "5TW1",
+    "Chain 1": "C",
+    "Chain 2": "E",
+    "BSA complex": 496.4,
+    "Protein 1": 254.27,
+    "protein 2": 242.13
+  },
+  {
+    "PDB ID": "5TW1",
+    "Chain 1": "C",
+    "Chain 2": "F",
+    "BSA complex": 4042.45,
+    "Protein 1": 2048.05,
+    "protein 2": 1994.4
+  },
+  {
+    "PDB ID": "5TW1",
+    "Chain 1": "D",
+    "Chain 2": "B",
+    "BSA complex": 2266.15,
+    "Protein 1": 1176.38,
+    "protein 2": 1089.77
+  },
+  {
+    "PDB ID": "5TW1",
+    "Chain 1": "D",
+    "Chain 2": "E",
+    "BSA complex": 4149.99,
+    "Protein 1": 2061.47,
+    "protein 2": 2088.52
+  },
+  {
+    "PDB ID": "5TW1",
+    "Chain 1": "D",
+    "Chain 2": "F",
+    "BSA complex": 4500.31,
+    "Protein 1": 2257.41,
+    "protein 2": 2242.9
+  },
+  {
+    "PDB ID": "5TW1",
+    "Chain 1": "D",
+    "Chain 2": "B",
+    "BSA complex": 2266.15,
+    "Protein 1": 1176.38,
+    "protein 2": 1089.77
+  },
+  {
+    "PDB ID": "5VL9",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2981.14,
+    "Protein 1": 1478.54,
+    "protein 2": 1502.6
+  },
+  {
+    "PDB ID": "5X11",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 6854.94,
+    "Protein 1": 3432.7,
+    "protein 2": 3422.24
+  },
+  {
+    "PDB ID": "5X5L",
+    "Chain 1": "A",
+    "Chain 2": "E",
+    "BSA complex": 578.01,
+    "Protein 1": 273.07,
+    "protein 2": 304.94
+  },
+  {
+    "PDB ID": "5X5L",
+    "Chain 1": "AE",
+    "Chain 2": "BH",
+    "BSA complex": 1414.28,
+    "Protein 1": 704.09,
+    "protein 2": 710.19
+  },
+  {
+    "PDB ID": "5X5L",
+    "Chain 1": "B",
+    "Chain 2": "H",
+    "BSA complex": 725.48,
+    "Protein 1": 346.7,
+    "protein 2": 378.78
+  },
+  {
+    "PDB ID": "5XFQ",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1419.81,
+    "Protein 1": 721.5,
+    "protein 2": 698.31
+  },
+  {
+    "PDB ID": "5XSK",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 5390.27,
+    "Protein 1": 2690.38,
+    "protein 2": 2699.89
+  },
+  {
+    "PDB ID": "5YEJ",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 2017.2,
+    "Protein 1": 1019.9,
+    "protein 2": 997.3
+  },
+  {
+    "PDB ID": "5YI2",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4453.75,
+    "Protein 1": 2211.48,
+    "protein 2": 2242.27
+  },
+  {
+    "PDB ID": "5ZD4",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 3120.3,
+    "Protein 1": 1561.84,
+    "protein 2": 1558.46
+  },
+  {
+    "PDB ID": "6C2S",
+    "Chain 1": "A",
+    "Chain 2": "D",
+    "BSA complex": 5076.21,
+    "Protein 1": 2557.37,
+    "protein 2": 2518.84
+  },
+  {
+    "PDB ID": "6C31",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 3051.68,
+    "Protein 1": 1516.53,
+    "protein 2": 1535.15
+  },
+  {
+    "PDB ID": "6CHV",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 2693.35,
+    "Protein 1": 1333.01,
+    "protein 2": 1360.34
+  },
+  {
+    "PDB ID": "6CRO",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 1332.64,
+    "Protein 1": 666.31,
+    "protein 2": 666.33
+  },
+  {
+    "PDB ID": "6HP7",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2720.67,
+    "Protein 1": 1348.83,
+    "protein 2": 1371.84
+  },
+  {
+    "PDB ID": "6IDE",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 6521.82,
+    "Protein 1": 3251.47,
+    "protein 2": 3270.35
+  },
+  {
+    "PDB ID": "6JBX",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 5140.23,
+    "Protein 1": 2540.63,
+    "protein 2": 2599.6
+  },
+  {
+    "PDB ID": "6JGW",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3664.93,
+    "Protein 1": 1833.95,
+    "protein 2": 1830.98
+  },
+  {
+    "PDB ID": "6LB3",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2880.12,
+    "Protein 1": 1453.54,
+    "protein 2": 1426.58
+  },
+  {
+    "PDB ID": "6LXN",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 496.52,
+    "Protein 1": 265.93,
+    "protein 2": 230.59
+  },
+  {
+    "PDB ID": "6MRJ",
+    "Chain 1": "AB",
+    "Chain 2": "CD",
+    "BSA complex": 3632.91,
+    "Protein 1": 1792.87,
+    "protein 2": 1840.04
+  },
+  {
+    "PDB ID": "6MRJ",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 6165.54,
+    "Protein 1": 3114.04,
+    "protein 2": 3051.5
+  },
+  {
+    "PDB ID": "6MRJ",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 180.11,
+    "Protein 1": 90.36,
+    "protein 2": 89.75
+  },
+  {
+    "PDB ID": "6MRJ",
+    "Chain 1": "A",
+    "Chain 2": "D",
+    "BSA complex": 1852.51,
+    "Protein 1": 921.92,
+    "protein 2": 930.59
+  },
+  {
+    "PDB ID": "6MRJ",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 1793.73,
+    "Protein 1": 877.72,
+    "protein 2": 916.01
+  },
+  {
+    "PDB ID": "6MRJ",
+    "Chain 1": "B",
+    "Chain 2": "D",
+    "BSA complex": 155.59,
+    "Protein 1": 77.81,
+    "protein 2": 77.78
+  },
+  {
+    "PDB ID": "6MRJ",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 6556.65,
+    "Protein 1": 3235.77,
+    "protein 2": 3320.88
+  },
+  {
+    "PDB ID": "6NSM",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3549.39,
+    "Protein 1": 1768.77,
+    "protein 2": 1780.62
+  },
+  {
+    "PDB ID": "6ON0",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1389.2,
+    "Protein 1": 695.78,
+    "protein 2": 693.42
+  },
+  {
+    "PDB ID": "6P0S",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4071.9,
+    "Protein 1": 2013.06,
+    "protein 2": 2058.84
+  },
+  {
+    "PDB ID": "6P0S",
+    "Chain 1": "AB",
+    "Chain 2": "E",
+    "BSA complex": 143.3,
+    "Protein 1": 75.1,
+    "protein 2": 68.2
+  },
+  {
+    "PDB ID": "6P1A",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 312.4,
+    "Protein 1": 181.6,
+    "protein 2": 130.8
+  },
+  {
+    "PDB ID": "6Q2B",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 6601.52,
+    "Protein 1": 3313.29,
+    "protein 2": 3288.23
+  },
+  {
+    "PDB ID": "6QFD",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4144.25,
+    "Protein 1": 2066.91,
+    "protein 2": 2077.34
+  },
+  {
+    "PDB ID": "6RYD",
+    "Chain 1": "E",
+    "Chain 2": "F",
+    "BSA complex": 370.86,
+    "Protein 1": 191.47,
+    "protein 2": 179.39
+  },
+  {
+    "PDB ID": "6W1A",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 5332.48,
+    "Protein 1": 2636.32,
+    "protein 2": 2696.16
+  },
+  {
+    "PDB ID": "6ZA3",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2784.36,
+    "Protein 1": 1372.48,
+    "protein 2": 1411.88
+  },
+  {
+    "PDB ID": "7AMN",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3817.2,
+    "Protein 1": 1889.08,
+    "protein 2": 1928.12
+  },
+  {
+    "PDB ID": "7B0C",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4176.09,
+    "Protein 1": 2086.15,
+    "protein 2": 2089.94
+  },
+  {
+    "PDB ID": "7BCB",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2598.78,
+    "Protein 1": 1322.06,
+    "protein 2": 1276.72
+  },
+  {
+    "PDB ID": "7BHY",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1303.35,
+    "Protein 1": 645.1,
+    "protein 2": 658.25
+  },
+  {
+    "PDB ID": "7BZG",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3438.69,
+    "Protein 1": 1705.49,
+    "protein 2": 1733.2
+  },
+  {
+    "PDB ID": "7C0G",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1304.64,
+    "Protein 1": 655.02,
+    "protein 2": 649.62
+  },
+  {
+    "PDB ID": "7C9O",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 973.81,
+    "Protein 1": 490.74,
+    "protein 2": 483.07
+  },
+  {
+    "PDB ID": "7C9O",
+    "Chain 1": "BC",
+    "Chain 2": "A",
+    "BSA complex": 4679.63,
+    "Protein 1": 2323.17,
+    "protein 2": 2356.46
+  },
+  {
+    "PDB ID": "7DVV",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3753.18,
+    "Protein 1": 1851.48,
+    "protein 2": 1901.7
+  },
+  {
+    "PDB ID": "7EL3",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4540.73,
+    "Protein 1": 2275.94,
+    "protein 2": 2264.79
+  },
+  {
+    "PDB ID": "7EOF",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1855.48,
+    "Protein 1": 931.92,
+    "protein 2": 923.56
+  },
+  {
+    "PDB ID": "7F2F",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3119.04,
+    "Protein 1": 1581.31,
+    "protein 2": 1537.73
+  },
+  {
+    "PDB ID": "7F9H",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 273.43,
+    "Protein 1": 135.84,
+    "protein 2": 137.59
+  },
+  {
+    "PDB ID": "7JNP",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3461.14,
+    "Protein 1": 1737.05,
+    "protein 2": 1724.09
+  },
+  {
+    "PDB ID": "7OYK",
+    "Chain 1": "A",
+    "Chain 2": "D",
+    "BSA complex": 2536.27,
+    "Protein 1": 1244.55,
+    "protein 2": 1291.72
+  },
+  {
+    "PDB ID": "7PRV",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2896.07,
+    "Protein 1": 1382.05,
+    "protein 2": 1514.02
+  },
+  {
+    "PDB ID": "7PZA",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3806.82,
+    "Protein 1": 1908.63,
+    "protein 2": 1898.19
+  },
+  {
+    "PDB ID": "7T8K",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 8071.26,
+    "Protein 1": 4033.36,
+    "protein 2": 4037.9
+  },
+  {
+    "PDB ID": "7V6W",
+    "Chain 1": "ABCD",
+    "Chain 2": "EF",
+    "BSA complex": 7965.68,
+    "Protein 1": 4113.24,
+    "protein 2": 3852.44
+  },
+  {
+    "PDB ID": "7V6W",
+    "Chain 1": "AB",
+    "Chain 2": "CD",
+    "BSA complex": 1074.35,
+    "Protein 1": 539.16,
+    "protein 2": 535.19
+  },
+  {
+    "PDB ID": "7V6W",
+    "Chain 1": "E",
+    "Chain 2": "F",
+    "BSA complex": 120.85,
+    "Protein 1": 59.77,
+    "protein 2": 61.08
+  },
+  {
+    "PDB ID": "7V6W",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2797.84,
+    "Protein 1": 1401.59,
+    "protein 2": 1396.25
+  },
+  {
+    "PDB ID": "7V6W",
+    "Chain 1": "A",
+    "Chain 2": "D",
+    "BSA complex": 283.2,
+    "Protein 1": 135.48,
+    "protein 2": 147.72
+  },
+  {
+    "PDB ID": "7V6W",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 2799.62,
+    "Protein 1": 1399.34,
+    "protein 2": 1400.28
+  },
+  {
+    "PDB ID": "7V6W",
+    "Chain 1": "B",
+    "Chain 2": "D",
+    "BSA complex": 248.09,
+    "Protein 1": 123.86,
+    "protein 2": 124.23
+  },
+  {
+    "PDB ID": "7V6W",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 457.32,
+    "Protein 1": 232.76,
+    "protein 2": 224.56
+  },
+  {
+    "PDB ID": "7V6W",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 225.89,
+    "Protein 1": 117.47,
+    "protein 2": 108.42
+  },
+  {
+    "PDB ID": "7VJQ",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2306.24,
+    "Protein 1": 1154.02,
+    "protein 2": 1152.22
+  },
+  {
+    "PDB ID": "7VP1",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3906.15,
+    "Protein 1": 1921.77,
+    "protein 2": 1984.38
+  },
+  {
+    "PDB ID": "7X5G",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2136.29,
+    "Protein 1": 1071.74,
+    "protein 2": 1064.55
+  },
+  {
+    "PDB ID": "7XQ5",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2548.66,
+    "Protein 1": 1268.44,
+    "protein 2": 1280.22
+  },
+  {
+    "PDB ID": "7ZG5",
+    "Chain 1": "AB",
+    "Chain 2": "CD",
+    "BSA complex": 7959.32,
+    "Protein 1": 3806.76,
+    "protein 2": 4152.56
+  },
+  {
+    "PDB ID": "7ZG5",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 155.1,
+    "Protein 1": 78.65,
+    "protein 2": 76.45
+  },
+  {
+    "PDB ID": "7ZG5",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2370.39,
+    "Protein 1": 1182.22,
+    "protein 2": 1188.17
+  },
+  {
+    "PDB ID": "8B4B",
+    "Chain 1": "W",
+    "Chain 2": "X",
+    "BSA complex": 520.86,
+    "Protein 1": 262.14,
+    "protein 2": 258.72
+  },
+  {
+    "PDB ID": "8B4B",
+    "Chain 1": "Y",
+    "Chain 2": "Z",
+    "BSA complex": 600.39,
+    "Protein 1": 278.4,
+    "protein 2": 321.99
+  },
+  {
+    "PDB ID": "8EJO",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 664.38,
+    "Protein 1": 331.32,
+    "protein 2": 333.06
+  },
+  {
+    "PDB ID": "8HML",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 469.22,
+    "Protein 1": 234.28,
+    "protein 2": 234.94
+  },
+  {
+    "PDB ID": "8J0K",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 5937.59,
+    "Protein 1": 2982.02,
+    "protein 2": 2955.57
+  },
+  {
+    "PDB ID": "8K4L",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4780.71,
+    "Protein 1": 2360.68,
+    "protein 2": 2420.03
+  },
+  {
+    "PDB ID": "8K86",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1716.61,
+    "Protein 1": 861.43,
+    "protein 2": 855.18
+  },
+  {
+    "PDB ID": "8PW0",
+    "Chain 1": "A",
+    "Chain 2": "A'",
+    "BSA complex": 1631.56,
+    "Protein 1": 804.23,
+    "protein 2": 827.33
+  },
+  {
+    "PDB ID": "8UVK",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2428.42,
+    "Protein 1": 1210.49,
+    "protein 2": 1217.93
+  },
+  {
+    "PDB ID": "8YEY",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 1282.07,
+    "Protein 1": 640.11,
+    "protein 2": 641.96
+  },
+  {
+    "PDB ID": "1C7U",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3641.12,
+    "Protein 1": 1824.47,
+    "protein 2": 1816.65
+  },
+  {
+    "PDB ID": "1CJG",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 489.37,
+    "Protein 1": 243.9,
+    "protein 2": 245.47
+  },
+  {
+    "PDB ID": "1CO0",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4534.27,
+    "Protein 1": 2152.97,
+    "protein 2": 2381.3
+  },
+  {
+    "PDB ID": "1O4X",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 537.29,
+    "Protein 1": 256.64,
+    "protein 2": 280.65
+  },
+  {
+    "PDB ID": "1XS9",
+    "Chain 1": "A",
+    "Chain 2": "D",
+    "BSA complex": 1237.52,
+    "Protein 1": 632.14,
+    "protein 2": 605.38
+  },
+  {
+    "PDB ID": "2K1N",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 4204.61,
+    "Protein 1": 2053.54,
+    "protein 2": 2151.07
+  },
+  {
+    "PDB ID": "2K1N",
+    "Chain 1": "AB",
+    "Chain 2": "CD",
+    "BSA complex": 847.64,
+    "Protein 1": 437.67,
+    "protein 2": 409.97
+  },
+  {
+    "PDB ID": "2MRU",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3939.19,
+    "Protein 1": 1938.27,
+    "protein 2": 2000.92
+  },
+  {
+    "PDB ID": "6PST",
+    "Chain 1": "I",
+    "Chain 2": "J",
+    "BSA complex": 15735.35,
+    "Protein 1": 7979.66,
+    "protein 2": 7755.69
+  },
+  {
+    "PDB ID": "6PST",
+    "Chain 1": "I",
+    "Chain 2": "K",
+    "BSA complex": 441.04,
+    "Protein 1": 206.04,
+    "protein 2": 235
+  },
+  {
+    "PDB ID": "6PST",
+    "Chain 1": "I",
+    "Chain 2": "L",
+    "BSA complex": 4774.52,
+    "Protein 1": 2380.18,
+    "protein 2": 2394.34
+  },
+  {
+    "PDB ID": "6PST",
+    "Chain 1": "I",
+    "Chain 2": "N",
+    "BSA complex": 1849.9,
+    "Protein 1": 878.71,
+    "protein 2": 971.19
+  },
+  {
+    "PDB ID": "6RQL",
+    "Chain 1": "A",
+    "Chain 2": "O",
+    "BSA complex": 1448.9,
+    "Protein 1": 738.43,
+    "protein 2": 710.47
+  },
+  {
+    "PDB ID": "6RQL",
+    "Chain 1": "A",
+    "Chain 2": "Q",
+    "BSA complex": 2881.89,
+    "Protein 1": 1427.93,
+    "protein 2": 1453.96
+  },
+  {
+    "PDB ID": "6RQL",
+    "Chain 1": "B",
+    "Chain 2": "O",
+    "BSA complex": 535.59,
+    "Protein 1": 285.33,
+    "protein 2": 250.26
+  },
+  {
+    "PDB ID": "6RQL",
+    "Chain 1": "B",
+    "Chain 2": "Q",
+    "BSA complex": 1383.58,
+    "Protein 1": 682.27,
+    "protein 2": 701.31
+  },
+  {
+    "PDB ID": "6RQL",
+    "Chain 1": "B",
+    "Chain 2": "R",
+    "BSA complex": 918.69,
+    "Protein 1": 436.09,
+    "protein 2": 482.6
+  },
+  {
+    "PDB ID": "6RQL",
+    "Chain 1": "C",
+    "Chain 2": "O",
+    "BSA complex": 185.9,
+    "Protein 1": 99.18,
+    "protein 2": 86.72
+  },
+  {
+    "PDB ID": "6RQL",
+    "Chain 1": "D",
+    "Chain 2": "O",
+    "BSA complex": 765.27,
+    "Protein 1": 393.78,
+    "protein 2": 371.49
+  },
+  {
+    "PDB ID": "6RQL",
+    "Chain 1": "D",
+    "Chain 2": "Q",
+    "BSA complex": 400.35,
+    "Protein 1": 211.39,
+    "protein 2": 188.96
+  },
+  {
+    "PDB ID": "6RQL",
+    "Chain 1": "G",
+    "Chain 2": "O",
+    "BSA complex": 1992.22,
+    "Protein 1": 1005.01,
+    "protein 2": 987.21
+  },
+  {
+    "PDB ID": "6RQL",
+    "Chain 1": "K",
+    "Chain 2": "O",
+    "BSA complex": 191.89,
+    "Protein 1": 99.45,
+    "protein 2": 92.44
+  },
+  {
+    "PDB ID": "6RQL",
+    "Chain 1": "L",
+    "Chain 2": "Q",
+    "BSA complex": 256.62,
+    "Protein 1": 126.95,
+    "protein 2": 129.67
+  },
+  {
+    "PDB ID": "6RQL",
+    "Chain 1": "O",
+    "Chain 2": "Q",
+    "BSA complex": 972.28,
+    "Protein 1": 468.9,
+    "protein 2": 503.38
+  },
+  {
+    "PDB ID": "6RQL",
+    "Chain 1": "Q",
+    "Chain 2": "R",
+    "BSA complex": 3718.25,
+    "Protein 1": 1878.61,
+    "protein 2": 1839.64
+  },
+  {
+    "PDB ID": "6RQL",
+    "Chain 1": "Q",
+    "Chain 2": "S",
+    "BSA complex": 7989.36,
+    "Protein 1": 3892.73,
+    "protein 2": 4096.63
+  },
+  {
+    "PDB ID": "6RQL",
+    "Chain 1": "R",
+    "Chain 2": "S",
+    "BSA complex": 8304.11,
+    "Protein 1": 4163.44,
+    "protein 2": 4140.67
+  },
+  {
+    "PDB ID": "6XL5",
+    "Chain 1": "C",
+    "Chain 2": "F",
+    "BSA complex": 4612.98,
+    "Protein 1": 2319.82,
+    "protein 2": 2293.16
+  },
+  {
+    "PDB ID": "6XL5",
+    "Chain 1": "D",
+    "Chain 2": "F",
+    "BSA complex": 4949.41,
+    "Protein 1": 2452.2,
+    "protein 2": 2497.21
+  },
+  {
+    "PDB ID": "6XL5",
+    "Chain 1": "F",
+    "Chain 2": "GH",
+    "BSA complex": 466.3,
+    "Protein 1": 237.12,
+    "protein 2": 229.18
+  },
+  {
+    "PDB ID": "7AMV",
+    "Chain 1": "A",
+    "Chain 2": "K",
+    "BSA complex": 559.81,
+    "Protein 1": 299.57,
+    "protein 2": 260.24
+  },
+  {
+    "PDB ID": "7AMV",
+    "Chain 1": "A",
+    "Chain 2": "W",
+    "BSA complex": 285.29,
+    "Protein 1": 141.97,
+    "protein 2": 143.32
+  },
+  {
+    "PDB ID": "7AMV",
+    "Chain 1": "E",
+    "Chain 2": "W",
+    "BSA complex": 464.02,
+    "Protein 1": 238.2,
+    "protein 2": 225.82
+  },
+  {
+    "PDB ID": "7AMV",
+    "Chain 1": "I",
+    "Chain 2": "W",
+    "BSA complex": 760.47,
+    "Protein 1": 369.34,
+    "protein 2": 391.13
+  },
+  {
+    "PDB ID": "7AMV",
+    "Chain 1": "K",
+    "Chain 2": "W",
+    "BSA complex": 6163.24,
+    "Protein 1": 2952.42,
+    "protein 2": 3210.82
+  },
+  {
+    "PDB ID": "7AMV",
+    "Chain 1": "S",
+    "Chain 2": "W",
+    "BSA complex": 995.33,
+    "Protein 1": 511.51,
+    "protein 2": 483.82
+  },
+  {
+    "PDB ID": "7KIF",
+    "Chain 1": "C",
+    "Chain 2": "F",
+    "BSA complex": 4131.33,
+    "Protein 1": 2070.3,
+    "protein 2": 2061.03
+  },
+  {
+    "PDB ID": "7KIF",
+    "Chain 1": "C",
+    "Chain 2": "J",
+    "BSA complex": 376,
+    "Protein 1": 197.79,
+    "protein 2": 178.21
+  },
+  {
+    "PDB ID": "7KIF",
+    "Chain 1": "C",
+    "Chain 2": "M",
+    "BSA complex": 1116.24,
+    "Protein 1": 578.72,
+    "protein 2": 537.52
+  },
+  {
+    "PDB ID": "7KIF",
+    "Chain 1": "D",
+    "Chain 2": "F",
+    "BSA complex": 4587.73,
+    "Protein 1": 2278.9,
+    "protein 2": 2308.83
+  },
+  {
+    "PDB ID": "7KIF",
+    "Chain 1": "D",
+    "Chain 2": "J",
+    "BSA complex": 2848.05,
+    "Protein 1": 1387.23,
+    "protein 2": 1460.82
+  },
+  {
+    "PDB ID": "7KIF",
+    "Chain 1": "F",
+    "Chain 2": "J",
+    "BSA complex": 3357.31,
+    "Protein 1": 1632.23,
+    "protein 2": 1725.08
+  },
+  {
+    "PDB ID": "7KIF",
+    "Chain 1": "F",
+    "Chain 2": "M",
+    "BSA complex": 327.75,
+    "Protein 1": 159.63,
+    "protein 2": 168.12
+  },
+  {
+    "PDB ID": "7KIF",
+    "Chain 1": "F",
+    "Chain 2": "Z",
+    "BSA complex": 1266.87,
+    "Protein 1": 655.62,
+    "protein 2": 611.25
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "0",
+    "Chain 2": "1",
+    "BSA complex": 4693.82,
+    "Protein 1": 2232.2,
+    "protein 2": 2461.62
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "0",
+    "Chain 2": "3",
+    "BSA complex": 882.84,
+    "Protein 1": 446.77,
+    "protein 2": 436.07
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "0",
+    "Chain 2": "6",
+    "BSA complex": 1319.77,
+    "Protein 1": 668.21,
+    "protein 2": 651.56
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "0",
+    "Chain 2": "7",
+    "BSA complex": 121.67,
+    "Protein 1": 52.91,
+    "protein 2": 68.76
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "1",
+    "Chain 2": "2",
+    "BSA complex": 879.84,
+    "Protein 1": 441.66,
+    "protein 2": 438.18
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "1",
+    "Chain 2": "4",
+    "BSA complex": 1986.48,
+    "Protein 1": 973.41,
+    "protein 2": 1013.07
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "1",
+    "Chain 2": "6",
+    "BSA complex": 2193.57,
+    "Protein 1": 1146.95,
+    "protein 2": 1046.62
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "2",
+    "Chain 2": "4",
+    "BSA complex": 2010.38,
+    "Protein 1": 1013.42,
+    "protein 2": 996.96
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "2",
+    "Chain 2": "5",
+    "BSA complex": 1682.17,
+    "Protein 1": 860.24,
+    "protein 2": 821.93
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "2",
+    "Chain 2": "7",
+    "BSA complex": 1188.13,
+    "Protein 1": 612.75,
+    "protein 2": 575.38
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "3",
+    "Chain 2": "G",
+    "BSA complex": 456.83,
+    "Protein 1": 223.65,
+    "protein 2": 233.18
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "3",
+    "Chain 2": "W",
+    "BSA complex": 978.29,
+    "Protein 1": 509.96,
+    "protein 2": 468.33
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "3",
+    "Chain 2": "X",
+    "BSA complex": 160.59,
+    "Protein 1": 77.58,
+    "protein 2": 83.01
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "4",
+    "Chain 2": "6",
+    "BSA complex": 3850.03,
+    "Protein 1": 1936.23,
+    "protein 2": 1913.8
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "5",
+    "Chain 2": "7",
+    "BSA complex": 839.83,
+    "Protein 1": 437.78,
+    "protein 2": 402.05
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "A",
+    "Chain 2": "M",
+    "BSA complex": 4577.48,
+    "Protein 1": 2173.16,
+    "protein 2": 2404.32
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "A",
+    "Chain 2": "W",
+    "BSA complex": 160.52,
+    "Protein 1": 80.27,
+    "protein 2": 80.25
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "A",
+    "Chain 2": "X",
+    "BSA complex": 136.86,
+    "Protein 1": 67.79,
+    "protein 2": 69.07
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "B",
+    "Chain 2": "M",
+    "BSA complex": 2800.9,
+    "Protein 1": 1438.16,
+    "protein 2": 1362.74
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "B",
+    "Chain 2": "Q",
+    "BSA complex": 2904.12,
+    "Protein 1": 1389.89,
+    "protein 2": 1514.23
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "B",
+    "Chain 2": "R",
+    "BSA complex": 2950.87,
+    "Protein 1": 1359.33,
+    "protein 2": 1591.54
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "F",
+    "Chain 2": "G",
+    "BSA complex": 906.89,
+    "Protein 1": 467.47,
+    "protein 2": 439.42
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "G",
+    "Chain 2": "W",
+    "BSA complex": 1153.89,
+    "Protein 1": 552.29,
+    "protein 2": 601.6
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "I",
+    "Chain 2": "Q",
+    "BSA complex": 303.94,
+    "Protein 1": 154.07,
+    "protein 2": 149.87
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "L",
+    "Chain 2": "M",
+    "BSA complex": 172.85,
+    "Protein 1": 76.6,
+    "protein 2": 96.25
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "M",
+    "Chain 2": "O",
+    "BSA complex": 995.14,
+    "Protein 1": 488.45,
+    "protein 2": 506.69
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "M",
+    "Chain 2": "R",
+    "BSA complex": 1185.57,
+    "Protein 1": 558.81,
+    "protein 2": 626.76
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "M",
+    "Chain 2": "W",
+    "BSA complex": 176.08,
+    "Protein 1": 98.2,
+    "protein 2": 77.88
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "Q",
+    "Chain 2": "R",
+    "BSA complex": 4047.7,
+    "Protein 1": 1968.22,
+    "protein 2": 2079.48
+  },
+  {
+    "PDB ID": "7ML0",
+    "Chain 1": "W",
+    "Chain 2": "X",
+    "BSA complex": 2956.76,
+    "Protein 1": 1452.08,
+    "protein 2": 1504.68
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "A",
+    "Chain 2": "M",
+    "BSA complex": 1643.58,
+    "Protein 1": 822.17,
+    "protein 2": 821.41
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "A",
+    "Chain 2": "Q",
+    "BSA complex": 218.81,
+    "Protein 1": 106.05,
+    "protein 2": 112.76
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "A",
+    "Chain 2": "W",
+    "BSA complex": 123.57,
+    "Protein 1": 61.27,
+    "protein 2": 62.3
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "A",
+    "Chain 2": "X",
+    "BSA complex": 634.3,
+    "Protein 1": 301.44,
+    "protein 2": 332.86
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "B",
+    "Chain 2": "M",
+    "BSA complex": 4004.12,
+    "Protein 1": 1947.18,
+    "protein 2": 2056.94
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "B",
+    "Chain 2": "Q",
+    "BSA complex": 2849.29,
+    "Protein 1": 1433.09,
+    "protein 2": 1416.2
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "B",
+    "Chain 2": "R",
+    "BSA complex": 3458.19,
+    "Protein 1": 1609.3,
+    "protein 2": 1848.89
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "F",
+    "Chain 2": "G",
+    "BSA complex": 875.92,
+    "Protein 1": 448.69,
+    "protein 2": 427.23
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "G",
+    "Chain 2": "W",
+    "BSA complex": 707.05,
+    "Protein 1": 326.39,
+    "protein 2": 380.66
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "I",
+    "Chain 2": "Q",
+    "BSA complex": 756.98,
+    "Protein 1": 370.66,
+    "protein 2": 386.32
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "M",
+    "Chain 2": "O",
+    "BSA complex": 1405.4,
+    "Protein 1": 669.07,
+    "protein 2": 736.33
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "M",
+    "Chain 2": "R",
+    "BSA complex": 1178.71,
+    "Protein 1": 547,
+    "protein 2": 631.71
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "O",
+    "Chain 2": "R",
+    "BSA complex": 318.66,
+    "Protein 1": 155.79,
+    "protein 2": 162.87
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "O",
+    "Chain 2": "U",
+    "BSA complex": 1613.66,
+    "Protein 1": 807.99,
+    "protein 2": 805.67
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "O",
+    "Chain 2": "V",
+    "BSA complex": 969.82,
+    "Protein 1": 447.04,
+    "protein 2": 522.78
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "Q",
+    "Chain 2": "R",
+    "BSA complex": 4573.23,
+    "Protein 1": 2259.11,
+    "protein 2": 2314.12
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "R",
+    "Chain 2": "X",
+    "BSA complex": 621.47,
+    "Protein 1": 312.35,
+    "protein 2": 309.12
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "U",
+    "Chain 2": "V",
+    "BSA complex": 5269.86,
+    "Protein 1": 2677.81,
+    "protein 2": 2592.05
+  },
+  {
+    "PDB ID": "7NVS",
+    "Chain 1": "W",
+    "Chain 2": "X",
+    "BSA complex": 2833.67,
+    "Protein 1": 1408.69,
+    "protein 2": 1424.98
+  },
+  {
+    "PDB ID": "7NVV",
+    "Chain 1": "2",
+    "Chain 2": "5",
+    "BSA complex": 2432.87,
+    "Protein 1": 1252.73,
+    "protein 2": 1180.14
+  },
+  {
+    "PDB ID": "7NVV",
+    "Chain 1": "2",
+    "Chain 2": "7",
+    "BSA complex": 2636.4,
+    "Protein 1": 1370.46,
+    "protein 2": 1265.94
+  },
+  {
+    "PDB ID": "7NVV",
+    "Chain 1": "2",
+    "Chain 2": "W",
+    "BSA complex": 360.03,
+    "Protein 1": 170.4,
+    "protein 2": 189.63
+  },
+  {
+    "PDB ID": "7NVV",
+    "Chain 1": "5",
+    "Chain 2": "7",
+    "BSA complex": 1342.95,
+    "Protein 1": 675.14,
+    "protein 2": 667.81
+  },
+  {
+    "PDB ID": "7NVV",
+    "Chain 1": "7",
+    "Chain 2": "W",
+    "BSA complex": 1166.35,
+    "Protein 1": 525.23,
+    "protein 2": 641.12
+  },
+  {
+    "PDB ID": "7NVV",
+    "Chain 1": "7",
+    "Chain 2": "Y",
+    "BSA complex": 626.34,
+    "Protein 1": 309.16,
+    "protein 2": 317.18
+  },
+  {
+    "PDB ID": "7NVV",
+    "Chain 1": "7",
+    "Chain 2": "Z",
+    "BSA complex": 952.43,
+    "Protein 1": 451.61,
+    "protein 2": 500.82
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "0",
+    "Chain 2": "1",
+    "BSA complex": 7920.04,
+    "Protein 1": 3732.49,
+    "protein 2": 4187.55
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "0",
+    "Chain 2": "3",
+    "BSA complex": 1823.79,
+    "Protein 1": 894.96,
+    "protein 2": 928.83
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "0",
+    "Chain 2": "6",
+    "BSA complex": 1533.19,
+    "Protein 1": 785.3,
+    "protein 2": 747.89
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "0",
+    "Chain 2": "7",
+    "BSA complex": 232.15,
+    "Protein 1": 108.77,
+    "protein 2": 123.38
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "1",
+    "Chain 2": "2",
+    "BSA complex": 1193.28,
+    "Protein 1": 594.59,
+    "protein 2": 598.69
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "1",
+    "Chain 2": "4",
+    "BSA complex": 6172.22,
+    "Protein 1": 3146.23,
+    "protein 2": 3025.99
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "1",
+    "Chain 2": "6",
+    "BSA complex": 4759.63,
+    "Protein 1": 2423.15,
+    "protein 2": 2336.48
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "1",
+    "Chain 2": "W",
+    "BSA complex": 4682.41,
+    "Protein 1": 2254.24,
+    "protein 2": 2428.17
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "1",
+    "Chain 2": "X",
+    "BSA complex": 139.27,
+    "Protein 1": 67.67,
+    "protein 2": 71.6
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "2",
+    "Chain 2": "4",
+    "BSA complex": 2748.89,
+    "Protein 1": 1356.99,
+    "protein 2": 1391.9
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "2",
+    "Chain 2": "5",
+    "BSA complex": 2169.64,
+    "Protein 1": 1075.08,
+    "protein 2": 1094.56
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "2",
+    "Chain 2": "7",
+    "BSA complex": 3274.3,
+    "Protein 1": 1655.23,
+    "protein 2": 1619.07
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "2",
+    "Chain 2": "W",
+    "BSA complex": 590.99,
+    "Protein 1": 276.94,
+    "protein 2": 314.05
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "3",
+    "Chain 2": "D",
+    "BSA complex": 147.85,
+    "Protein 1": 76.25,
+    "protein 2": 71.6
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "3",
+    "Chain 2": "G",
+    "BSA complex": 439.67,
+    "Protein 1": 222.53,
+    "protein 2": 217.14
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "3",
+    "Chain 2": "W",
+    "BSA complex": 1345.27,
+    "Protein 1": 706.16,
+    "protein 2": 639.11
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "3",
+    "Chain 2": "X",
+    "BSA complex": 225.4,
+    "Protein 1": 103.26,
+    "protein 2": 122.14
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "4",
+    "Chain 2": "6",
+    "BSA complex": 4926.02,
+    "Protein 1": 2392.57,
+    "protein 2": 2533.45
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "5",
+    "Chain 2": "7",
+    "BSA complex": 1005.3,
+    "Protein 1": 530.85,
+    "protein 2": 474.45
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "7",
+    "Chain 2": "A",
+    "BSA complex": 1002.65,
+    "Protein 1": 520.99,
+    "protein 2": 481.66
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "7",
+    "Chain 2": "E",
+    "BSA complex": 112.28,
+    "Protein 1": 57.18,
+    "protein 2": 55.1
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "7",
+    "Chain 2": "W",
+    "BSA complex": 2297.06,
+    "Protein 1": 1022.2,
+    "protein 2": 1274.86
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "7",
+    "Chain 2": "X",
+    "BSA complex": 1345.59,
+    "Protein 1": 637.76,
+    "protein 2": 707.83
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "B",
+    "Chain 2": "M",
+    "BSA complex": 3444.83,
+    "Protein 1": 1774.16,
+    "protein 2": 1670.67
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "B",
+    "Chain 2": "Q",
+    "BSA complex": 5516.53,
+    "Protein 1": 2622.69,
+    "protein 2": 2893.84
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "B",
+    "Chain 2": "R",
+    "BSA complex": 3769.18,
+    "Protein 1": 1788.38,
+    "protein 2": 1980.8
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "B",
+    "Chain 2": "W",
+    "BSA complex": 200.15,
+    "Protein 1": 105.05,
+    "protein 2": 95.1
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "G",
+    "Chain 2": "W",
+    "BSA complex": 1423,
+    "Protein 1": 694.96,
+    "protein 2": 728.04
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "I",
+    "Chain 2": "Q",
+    "BSA complex": 1039.44,
+    "Protein 1": 488.81,
+    "protein 2": 550.63
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "J",
+    "Chain 2": "Q",
+    "BSA complex": 210.68,
+    "Protein 1": 104.13,
+    "protein 2": 106.55
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "L",
+    "Chain 2": "M",
+    "BSA complex": 213.36,
+    "Protein 1": 104,
+    "protein 2": 109.36
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "M",
+    "Chain 2": "O",
+    "BSA complex": 1588.17,
+    "Protein 1": 757.41,
+    "protein 2": 830.76
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "M",
+    "Chain 2": "R",
+    "BSA complex": 1350.34,
+    "Protein 1": 577.26,
+    "protein 2": 773.08
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "M",
+    "Chain 2": "W",
+    "BSA complex": 318.17,
+    "Protein 1": 166.25,
+    "protein 2": 151.92
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "O",
+    "Chain 2": "R",
+    "BSA complex": 237.42,
+    "Protein 1": 122.09,
+    "protein 2": 115.33
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "O",
+    "Chain 2": "U",
+    "BSA complex": 1168.52,
+    "Protein 1": 556.19,
+    "protein 2": 612.33
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "O",
+    "Chain 2": "V",
+    "BSA complex": 954.06,
+    "Protein 1": 453.51,
+    "protein 2": 500.55
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "O",
+    "Chain 2": "X",
+    "BSA complex": 273.79,
+    "Protein 1": 128.33,
+    "protein 2": 145.46
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "Q",
+    "Chain 2": "R",
+    "BSA complex": 6733.36,
+    "Protein 1": 3266.95,
+    "protein 2": 3466.41
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "R",
+    "Chain 2": "X",
+    "BSA complex": 1390.68,
+    "Protein 1": 667.47,
+    "protein 2": 723.21
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "U",
+    "Chain 2": "V",
+    "BSA complex": 5504.54,
+    "Protein 1": 2763.81,
+    "protein 2": 2740.73
+  },
+  {
+    "PDB ID": "7O4J",
+    "Chain 1": "W",
+    "Chain 2": "X",
+    "BSA complex": 4524.04,
+    "Protein 1": 2193.04,
+    "protein 2": 2331
+  },
+  {
+    "PDB ID": "7OH9",
+    "Chain 1": "K",
+    "Chain 2": "L",
+    "BSA complex": 1142.86,
+    "Protein 1": 543.53,
+    "protein 2": 599.33
+  },
+  {
+    "PDB ID": "7OH9",
+    "Chain 1": "M",
+    "Chain 2": "K",
+    "BSA complex": 860.9,
+    "Protein 1": 446.67,
+    "protein 2": 414.23
+  },
+  {
+    "PDB ID": "7OH9",
+    "Chain 1": "M",
+    "Chain 2": "L",
+    "BSA complex": 4744.92,
+    "Protein 1": 2342.95,
+    "protein 2": 2401.97
+  },
+  {
+    "PDB ID": "7VDT",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 580.11,
+    "Protein 1": 277.2,
+    "protein 2": 302.91
+  },
+  {
+    "PDB ID": "7VDT",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 1107.24,
+    "Protein 1": 616.42,
+    "protein 2": 490.82
+  },
+  {
+    "PDB ID": "7VDT",
+    "Chain 1": "A",
+    "Chain 2": "D",
+    "BSA complex": 678.26,
+    "Protein 1": 316.56,
+    "protein 2": 361.7
+  },
+  {
+    "PDB ID": "7Z0O",
+    "Chain 1": "A",
+    "Chain 2": "D",
+    "BSA complex": 4227.48,
+    "Protein 1": 2175.56,
+    "protein 2": 2051.92
+  },
+  {
+    "PDB ID": "7Z0O",
+    "Chain 1": "A",
+    "Chain 2": "E",
+    "BSA complex": 339.67,
+    "Protein 1": 173.14,
+    "protein 2": 166.53
+  },
+  {
+    "PDB ID": "7Z0O",
+    "Chain 1": "A",
+    "Chain 2": "F",
+    "BSA complex": 109.59,
+    "Protein 1": 54.81,
+    "protein 2": 54.78
+  },
+  {
+    "PDB ID": "7Z0O",
+    "Chain 1": "B",
+    "Chain 2": "E",
+    "BSA complex": 930.48,
+    "Protein 1": 451.28,
+    "protein 2": 479.2
+  },
+  {
+    "PDB ID": "7Z0O",
+    "Chain 1": "B",
+    "Chain 2": "F",
+    "BSA complex": 262.12,
+    "Protein 1": 128.13,
+    "protein 2": 133.99
+  },
+  {
+    "PDB ID": "7Z0O",
+    "Chain 1": "B",
+    "Chain 2": "G",
+    "BSA complex": 220.93,
+    "Protein 1": 116.73,
+    "protein 2": 104.2
+  },
+  {
+    "PDB ID": "7Z0O",
+    "Chain 1": "D",
+    "Chain 2": "E",
+    "BSA complex": 5289.76,
+    "Protein 1": 2713.91,
+    "protein 2": 2575.85
+  },
+  {
+    "PDB ID": "7Z0O",
+    "Chain 1": "D",
+    "Chain 2": "F",
+    "BSA complex": 1344.35,
+    "Protein 1": 662.27,
+    "protein 2": 682.08
+  },
+  {
+    "PDB ID": "7Z0O",
+    "Chain 1": "D",
+    "Chain 2": "G",
+    "BSA complex": 2724.69,
+    "Protein 1": 1324.42,
+    "protein 2": 1400.27
+  },
+  {
+    "PDB ID": "7Z0O",
+    "Chain 1": "E",
+    "Chain 2": "F",
+    "BSA complex": 10151.26,
+    "Protein 1": 5045.85,
+    "protein 2": 5105.41
+  },
+  {
+    "PDB ID": "7Z0O",
+    "Chain 1": "E",
+    "Chain 2": "H",
+    "BSA complex": 2502.85,
+    "Protein 1": 1250.38,
+    "protein 2": 1252.47
+  },
+  {
+    "PDB ID": "7Z0O",
+    "Chain 1": "F",
+    "Chain 2": "H",
+    "BSA complex": 888.72,
+    "Protein 1": 463.73,
+    "protein 2": 424.99
+  },
+  {
+    "PDB ID": "7ZB5",
+    "Chain 1": "DG",
+    "Chain 2": "EH",
+    "BSA complex": 6499.86,
+    "Protein 1": 3162.74,
+    "protein 2": 3337.12
+  },
+  {
+    "PDB ID": "7ZB5",
+    "Chain 1": "E",
+    "Chain 2": "H",
+    "BSA complex": 670.7,
+    "Protein 1": 339.11,
+    "protein 2": 331.59
+  },
+  {
+    "PDB ID": "8F1I",
+    "Chain 1": "I",
+    "Chain 2": "M",
+    "BSA complex": 3227.53,
+    "Protein 1": 1621,
+    "protein 2": 1606.53
+  },
+  {
+    "PDB ID": "8F1I",
+    "Chain 1": "J",
+    "Chain 2": "M",
+    "BSA complex": 3483.14,
+    "Protein 1": 1745.34,
+    "protein 2": 1737.8
+  },
+  {
+    "PDB ID": "8GMU",
+    "Chain 1": "A",
+    "Chain 2": "F",
+    "BSA complex": 716.05,
+    "Protein 1": 297.72,
+    "protein 2": 418.33
+  },
+  {
+    "PDB ID": "8KD3",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 7284.8,
+    "Protein 1": 3595.47,
+    "protein 2": 3689.33
+  },
+  {
+    "PDB ID": "8KD3",
+    "Chain 1": "A",
+    "Chain 2": "DF",
+    "BSA complex": 567.58,
+    "Protein 1": 261.81,
+    "protein 2": 305.77
+  },
+  {
+    "PDB ID": "8KD3",
+    "Chain 1": "A",
+    "Chain 2": "EG",
+    "BSA complex": 1785.06,
+    "Protein 1": 905.91,
+    "protein 2": 879.15
+  },
+  {
+    "PDB ID": "8KD3",
+    "Chain 1": "B",
+    "Chain 2": "DF",
+    "BSA complex": 1135.58,
+    "Protein 1": 586.32,
+    "protein 2": 549.26
+  },
+  {
+    "PDB ID": "8KD3",
+    "Chain 1": "B",
+    "Chain 2": "EG",
+    "BSA complex": 8285.35,
+    "Protein 1": 4134.83,
+    "protein 2": 4150.52
+  },
+  {
+    "PDB ID": "8KD3",
+    "Chain 1": "DF",
+    "Chain 2": "EG",
+    "BSA complex": 10185.54,
+    "Protein 1": 5077.53,
+    "protein 2": 5108.01
+  },
+  {
+    "PDB ID": "8KD3",
+    "Chain 1": "DF",
+    "Chain 2": "O",
+    "BSA complex": 163.51,
+    "Protein 1": 86.18,
+    "protein 2": 77.33
+  },
+  {
+    "PDB ID": "8TRG",
+    "Chain 1": "A",
+    "Chain 2": "I",
+    "BSA complex": 253.79,
+    "Protein 1": 128.5,
+    "protein 2": 125.29
+  },
+  {
+    "PDB ID": "8TRG",
+    "Chain 1": "A",
+    "Chain 2": "I",
+    "BSA complex": 129.11,
+    "Protein 1": 62.54,
+    "protein 2": 66.57
+  },
+  {
+    "PDB ID": "8TRG",
+    "Chain 1": "A",
+    "Chain 2": "I",
+    "BSA complex": 797.25,
+    "Protein 1": 427.06,
+    "protein 2": 370.19
+  },
+  {
+    "PDB ID": "8TRG",
+    "Chain 1": "A",
+    "Chain 2": "I",
+    "BSA complex": 801.14,
+    "Protein 1": 432.24,
+    "protein 2": 368.9
+  },
+  {
+    "PDB ID": "8TRG",
+    "Chain 1": "A",
+    "Chain 2": "I",
+    "BSA complex": 494.18,
+    "Protein 1": 255.12,
+    "protein 2": 239.06
+  },
+  {
+    "PDB ID": "8WPE",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1382.12,
+    "Protein 1": 734.36,
+    "protein 2": 647.76
+  },
+  {
+    "PDB ID": "8WPE",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 1888.29,
+    "Protein 1": 974.44,
+    "protein 2": 913.85
+  },
+  {
+    "PDB ID": "8WPE",
+    "Chain 1": "B",
+    "Chain 2": "DE",
+    "BSA complex": 1592.65,
+    "Protein 1": 765.21,
+    "protein 2": 827.44
+  },
+  {
+    "PDB ID": "8WPE",
+    "Chain 1": "DE",
+    "Chain 2": "FG",
+    "BSA complex": 1611.64,
+    "Protein 1": 787.76,
+    "protein 2": 823.88
+  },
+  {
+    "PDB ID": "8WPE",
+    "Chain 1": "D",
+    "Chain 2": "E",
+    "BSA complex": 3767.53,
+    "Protein 1": 1927.45,
+    "protein 2": 1840.08
+  },
+  {
+    "PDB ID": "8WPE",
+    "Chain 1": "F",
+    "Chain 2": "G",
+    "BSA complex": 3259.8,
+    "Protein 1": 1665.39,
+    "protein 2": 1594.41
+  },
+  {
+    "PDB ID": "9DVS",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 3187.09,
+    "Protein 1": 1643.63,
+    "protein 2": 1543.46
+  },
+  {
+    "PDB ID": "9DVS",
+    "Chain 1": "C",
+    "Chain 2": "G",
+    "BSA complex": 2062.42,
+    "Protein 1": 1008.64,
+    "protein 2": 1053.78
+  },
+  {
+    "PDB ID": "9DVS",
+    "Chain 1": "D",
+    "Chain 2": "G",
+    "BSA complex": 3944.79,
+    "Protein 1": 1970.11,
+    "protein 2": 1974.68
+  },
+  {
+    "PDB ID": "9DVS",
+    "Chain 1": "F",
+    "Chain 2": "G",
+    "BSA complex": 797.42,
+    "Protein 1": 402.52,
+    "protein 2": 394.9
+  },
+  {
+    "PDB ID": "9F10",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 4947.73,
+    "Protein 1": 2452.85,
+    "protein 2": 2494.88
+  },
+  {
+    "PDB ID": "9F10",
+    "Chain 1": "C",
+    "Chain 2": "E",
+    "BSA complex": 271.75,
+    "Protein 1": 135.64,
+    "protein 2": 136.11
+  },
+  {
+    "PDB ID": "9F10",
+    "Chain 1": "C",
+    "Chain 2": "H",
+    "BSA complex": 383.24,
+    "Protein 1": 174.18,
+    "protein 2": 209.06
+  },
+  {
+    "PDB ID": "9F10",
+    "Chain 1": "D",
+    "Chain 2": "H",
+    "BSA complex": 405.71,
+    "Protein 1": 210.96,
+    "protein 2": 194.75
+  },
+  {
+    "PDB ID": "9F10",
+    "Chain 1": "E",
+    "Chain 2": "H",
+    "BSA complex": 769.28,
+    "Protein 1": 367.42,
+    "protein 2": 401.86
+  },
+  {
+    "PDB ID": "9FO6",
+    "Chain 1": "C",
+    "Chain 2": "F",
+    "BSA complex": 2615.05,
+    "Protein 1": 1263.48,
+    "protein 2": 1351.57
+  },
+  {
+    "PDB ID": "9FO6",
+    "Chain 1": "D",
+    "Chain 2": "F",
+    "BSA complex": 6414.84,
+    "Protein 1": 3206.59,
+    "protein 2": 3208.25
+  },
+  {
+    "PDB ID": "9GC3",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 6793.43,
+    "Protein 1": 3551.75,
+    "protein 2": 3241.68
+  },
+  {
+    "PDB ID": "9GC3",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 2958.85,
+    "Protein 1": 1512,
+    "protein 2": 1446.85
+  },
+  {
+    "PDB ID": "9GC3",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 5435.97,
+    "Protein 1": 2586.74,
+    "protein 2": 2849.23
+  },
+  {
+    "PDB ID": "9GDR",
+    "Chain 1": "C",
+    "Chain 2": "F",
+    "BSA complex": 3986.29,
+    "Protein 1": 2006.03,
+    "protein 2": 1980.26
+  },
+  {
+    "PDB ID": "9GDR",
+    "Chain 1": "D",
+    "Chain 2": "F",
+    "BSA complex": 4933.5,
+    "Protein 1": 2462.56,
+    "protein 2": 2470.94
+  },
+  {
+    "PDB ID": "9GDR",
+    "Chain 1": "G",
+    "Chain 2": "HK",
+    "BSA complex": 349.17,
+    "Protein 1": 179.13,
+    "protein 2": 170.04
+  },
+  {
+    "PDB ID": "9GDS",
+    "Chain 1": "C",
+    "Chain 2": "F",
+    "BSA complex": 4161.01,
+    "Protein 1": 2116.33,
+    "protein 2": 2044.68
+  },
+  {
+    "PDB ID": "9GDS",
+    "Chain 1": "D",
+    "Chain 2": "F",
+    "BSA complex": 4908.4,
+    "Protein 1": 2478.25,
+    "protein 2": 2430.15
+  },
+  {
+    "PDB ID": "9U9E",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 2676.26,
+    "Protein 1": 1301.6,
+    "protein 2": 1374.66
+  },
+  {
+    "PDB ID": "9U9E",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 406.34,
+    "Protein 1": 197.64,
+    "protein 2": 208.7
+  },
+  {
+    "PDB ID": "9U9E",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 968.21,
+    "Protein 1": 480.67,
+    "protein 2": 487.54
+  },
+  {
+    "PDB ID": "#RNA-binding Transcription Factors",
+    "Chain 1": null,
+    "Chain 2": null,
+    "BSA complex": null,
+    "Protein 1": null,
+    "protein 2": null
+  },
+  {
+    "PDB ID": "1C9S",
+    "Chain 1": "L",
+    "Chain 2": "W",
+    "BSA complex": 1050.02,
+    "Protein 1": 501.97,
+    "protein 2": 548.05
+  },
+  {
+    "PDB ID": "1L1C",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1563.71,
+    "Protein 1": 789.88,
+    "protein 2": 773.83
+  },
+  {
+    "PDB ID": "3R2C",
+    "Chain 1": "A",
+    "Chain 2": "J",
+    "BSA complex": 1681.87,
+    "Protein 1": 854.59,
+    "protein 2": 827.28
+  },
+  {
+    "PDB ID": "5M3H",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 17314.1,
+    "Protein 1": 8765.14,
+    "protein 2": 8548.96
+  },
+  {
+    "PDB ID": "5M3H",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 3034.97,
+    "Protein 1": 1486.3,
+    "protein 2": 1548.67
+  },
+  {
+    "PDB ID": "5M3H",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 14217.11,
+    "Protein 1": 6926.45,
+    "protein 2": 7290.66
+  },
+  {
+    "PDB ID": "6FHI",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 17535.42,
+    "Protein 1": 8868.26,
+    "protein 2": 8667.16
+  },
+  {
+    "PDB ID": "6FHI",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 3478.06,
+    "Protein 1": 1727.82,
+    "protein 2": 1750.24
+  },
+  {
+    "PDB ID": "6FHI",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 14327.24,
+    "Protein 1": 6973.09,
+    "protein 2": 7354.15
+  },
+  {
+    "PDB ID": "6RFL",
+    "Chain 1": "A",
+    "Chain 2": "I",
+    "BSA complex": 9403.74,
+    "Protein 1": 4652.84,
+    "protein 2": 4750.9
+  },
+  {
+    "PDB ID": "6RFL",
+    "Chain 1": "B",
+    "Chain 2": "I",
+    "BSA complex": 10925.79,
+    "Protein 1": 5351.68,
+    "protein 2": 5574.11
+  },
+  {
+    "PDB ID": "6RFL",
+    "Chain 1": "C",
+    "Chain 2": "I",
+    "BSA complex": 439.5,
+    "Protein 1": 239.64,
+    "protein 2": 199.86
+  },
+  {
+    "PDB ID": "6RFL",
+    "Chain 1": "F",
+    "Chain 2": "I",
+    "BSA complex": 528.97,
+    "Protein 1": 249.6,
+    "protein 2": 279.37
+  },
+  {
+    "PDB ID": "6RFL",
+    "Chain 1": "G",
+    "Chain 2": "I",
+    "BSA complex": 2724.44,
+    "Protein 1": 1345.1,
+    "protein 2": 1379.34
+  },
+  {
+    "PDB ID": "6RFL",
+    "Chain 1": "G",
+    "Chain 2": "K",
+    "BSA complex": 1406.4,
+    "Protein 1": 685.36,
+    "protein 2": 721.04
+  },
+  {
+    "PDB ID": "6RFL",
+    "Chain 1": "I",
+    "Chain 2": "J",
+    "BSA complex": 940.72,
+    "Protein 1": 471.64,
+    "protein 2": 469.08
+  },
+  {
+    "PDB ID": "6RFL",
+    "Chain 1": "I",
+    "Chain 2": "K",
+    "BSA complex": 156.54,
+    "Protein 1": 79.05,
+    "protein 2": 77.49
+  },
+  {
+    "PDB ID": "6RFL",
+    "Chain 1": "I",
+    "Chain 2": "O",
+    "BSA complex": 3525.78,
+    "Protein 1": 1797.22,
+    "protein 2": 1728.56
+  },
+  {
+    "PDB ID": "6RFL",
+    "Chain 1": "I",
+    "Chain 2": "R",
+    "BSA complex": 1509.24,
+    "Protein 1": 780.05,
+    "protein 2": 729.19
+  },
+  {
+    "PDB ID": "6RFL",
+    "Chain 1": "I",
+    "Chain 2": "S",
+    "BSA complex": 797.42,
+    "Protein 1": 365.35,
+    "protein 2": 432.07
+  },
+  {
+    "PDB ID": "6RFL",
+    "Chain 1": "I",
+    "Chain 2": "Y",
+    "BSA complex": 4518.19,
+    "Protein 1": 2279.89,
+    "protein 2": 2238.3
+  },
+  {
+    "PDB ID": "8CX0",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 1110.38,
+    "Protein 1": 555.84,
+    "protein 2": 554.54
+  },
+  {
+    "PDB ID": "8CX0",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 112.74,
+    "Protein 1": 55.16,
+    "protein 2": 57.58
+  },
+  {
+    "PDB ID": "8CX0",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 5583.88,
+    "Protein 1": 2777.32,
+    "protein 2": 2806.56
+  },
+  {
+    "PDB ID": "8CX0",
+    "Chain 1": "B",
+    "Chain 2": "E",
+    "BSA complex": 1459.55,
+    "Protein 1": 788.84,
+    "protein 2": 670.71
+  },
+  {
+    "PDB ID": "8CX0",
+    "Chain 1": "C",
+    "Chain 2": "E",
+    "BSA complex": 358.84,
+    "Protein 1": 183.97,
+    "protein 2": 174.87
+  },
+  {
+    "PDB ID": "8CX0",
+    "Chain 1": "D",
+    "Chain 2": "E",
+    "BSA complex": 2171.7,
+    "Protein 1": 1086.67,
+    "protein 2": 1085.03
+  },
+  {
+    "PDB ID": "#DNA-RNA-binding Transcription Factors",
+    "Chain 1": null,
+    "Chain 2": null,
+    "BSA complex": null,
+    "Protein 1": null,
+    "protein 2": null
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 19429.88,
+    "Protein 1": 9581.9,
+    "protein 2": 9847.98
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 689.59,
+    "Protein 1": 341.5,
+    "protein 2": 348.09
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "A",
+    "Chain 2": "D",
+    "BSA complex": 618.92,
+    "Protein 1": 311.59,
+    "protein 2": 307.33
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "A",
+    "Chain 2": "E",
+    "BSA complex": 4275.7,
+    "Protein 1": 2098.94,
+    "protein 2": 2176.76
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "A",
+    "Chain 2": "F",
+    "BSA complex": 3849.98,
+    "Protein 1": 1962.16,
+    "protein 2": 1887.82
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "A",
+    "Chain 2": "G",
+    "BSA complex": 1441.24,
+    "Protein 1": 745.37,
+    "protein 2": 695.87
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "A",
+    "Chain 2": "H",
+    "BSA complex": 3026.81,
+    "Protein 1": 1509.15,
+    "protein 2": 1517.66
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "A",
+    "Chain 2": "I",
+    "BSA complex": 3102.09,
+    "Protein 1": 1555.24,
+    "protein 2": 1546.85
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "A",
+    "Chain 2": "K",
+    "BSA complex": 1976.82,
+    "Protein 1": 980.19,
+    "protein 2": 996.63
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "A",
+    "Chain 2": "M",
+    "BSA complex": 189.02,
+    "Protein 1": 104.21,
+    "protein 2": 84.81
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "A",
+    "Chain 2": "W",
+    "BSA complex": 451.46,
+    "Protein 1": 229.9,
+    "protein 2": 221.56
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 3225.43,
+    "Protein 1": 1610.66,
+    "protein 2": 1614.77
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "B",
+    "Chain 2": "D",
+    "BSA complex": 564.78,
+    "Protein 1": 271.6,
+    "protein 2": 293.18
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "B",
+    "Chain 2": "I",
+    "BSA complex": 3017.81,
+    "Protein 1": 1545.08,
+    "protein 2": 1472.73
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "B",
+    "Chain 2": "J",
+    "BSA complex": 3142.77,
+    "Protein 1": 1452.36,
+    "protein 2": 1690.41
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "B",
+    "Chain 2": "K",
+    "BSA complex": 1033.21,
+    "Protein 1": 492.36,
+    "protein 2": 540.85
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "B",
+    "Chain 2": "L",
+    "BSA complex": 1958.86,
+    "Protein 1": 912.4,
+    "protein 2": 1046.46
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "B",
+    "Chain 2": "M",
+    "BSA complex": 1021.08,
+    "Protein 1": 499.85,
+    "protein 2": 521.23
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "B",
+    "Chain 2": "W",
+    "BSA complex": 730.45,
+    "Protein 1": 358.24,
+    "protein 2": 372.21
+  },
+  {
+    "PDB ID": "5XOG",
+    "Chain 1": "E",
+    "Chain 2": "F",
+    "BSA complex": 184.44,
+    "Protein 1": 102.76,
+    "protein 2": 81.68
+  },
+  {
+    "PDB ID": "5ZX2",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 3851.05,
+    "Protein 1": 1958.69,
+    "protein 2": 1892.36
+  },
+  {
+    "PDB ID": "5ZX2",
+    "Chain 1": "A",
+    "Chain 2": "D",
+    "BSA complex": 175.83,
+    "Protein 1": 84.11,
+    "protein 2": 91.72
+  },
+  {
+    "PDB ID": "5ZX2",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 3863.37,
+    "Protein 1": 1977.94,
+    "protein 2": 1885.43
+  },
+  {
+    "PDB ID": "5ZX2",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 17250.97,
+    "Protein 1": 8777.85,
+    "protein 2": 8473.12
+  },
+  {
+    "PDB ID": "5ZX2",
+    "Chain 1": "C",
+    "Chain 2": "F",
+    "BSA complex": 3777.44,
+    "Protein 1": 1836.38,
+    "protein 2": 1941.06
+  },
+  {
+    "PDB ID": "5ZX2",
+    "Chain 1": "C",
+    "Chain 2": "E",
+    "BSA complex": 526.37,
+    "Protein 1": 267.36,
+    "protein 2": 259.01
+  },
+  {
+    "PDB ID": "5ZX2",
+    "Chain 1": "D",
+    "Chain 2": "F",
+    "BSA complex": 3853.8,
+    "Protein 1": 1850.45,
+    "protein 2": 2003.35
+  },
+  {
+    "PDB ID": "5ZX2",
+    "Chain 1": "D",
+    "Chain 2": "E",
+    "BSA complex": 4262.95,
+    "Protein 1": 2089.33,
+    "protein 2": 2173.62
+  },
+  {
+    "PDB ID": "5ZX2",
+    "Chain 1": "B",
+    "Chain 2": "D",
+    "BSA complex": 2568.52,
+    "Protein 1": 1269.38,
+    "protein 2": 1299.14
+  },
+  {
+    "PDB ID": "5ZX2",
+    "Chain 1": "B",
+    "Chain 2": "C",
+    "BSA complex": 411.09,
+    "Protein 1": 207.98,
+    "protein 2": 203.11
+  },
+  {
+    "PDB ID": "8E74",
+    "Chain 1": "A",
+    "Chain 2": "C",
+    "BSA complex": 3460.39,
+    "Protein 1": 1777.03,
+    "protein 2": 1683.36
+  },
+  {
+    "PDB ID": "8E74",
+    "Chain 1": "A",
+    "Chain 2": "D",
+    "BSA complex": 197.21,
+    "Protein 1": 91.07,
+    "protein 2": 106.14
+  },
+  {
+    "PDB ID": "8E74",
+    "Chain 1": "C",
+    "Chain 2": "D",
+    "BSA complex": 16757.44,
+    "Protein 1": 8466.77,
+    "protein 2": 8290.67
+  },
+  {
+    "PDB ID": "8E74",
+    "Chain 1": "C",
+    "Chain 2": "E",
+    "BSA complex": 504.11,
+    "Protein 1": 261,
+    "protein 2": 243.11
+  },
+  {
+    "PDB ID": "8E74",
+    "Chain 1": "C",
+    "Chain 2": "Z",
+    "BSA complex": 445.25,
+    "Protein 1": 230.26,
+    "protein 2": 214.99
+  },
+  {
+    "PDB ID": "8E74",
+    "Chain 1": "D",
+    "Chain 2": "E",
+    "BSA complex": 4328.04,
+    "Protein 1": 2118.81,
+    "protein 2": 2209.23
+  },
+  {
+    "PDB ID": "8E74",
+    "Chain 1": "D",
+    "Chain 2": "Z",
+    "BSA complex": 1541.53,
+    "Protein 1": 777.56,
+    "protein 2": 763.97
+  },
+  {
+    "PDB ID": "8PIB",
+    "Chain 1": "I",
+    "Chain 2": "P",
+    "BSA complex": 877.29,
+    "Protein 1": 429.32,
+    "protein 2": 447.97
+  },
+  {
+    "PDB ID": "8PIB",
+    "Chain 1": "J",
+    "Chain 2": "P",
+    "BSA complex": 1121.19,
+    "Protein 1": 564.68,
+    "protein 2": 556.51
+  },
+  {
+    "PDB ID": "8U8U",
+    "Chain 1": "A",
+    "Chain 2": "B",
+    "BSA complex": 2185.08,
+    "Protein 1": 1084.45,
+    "protein 2": 1100.63
+  },
+  {
+    "PDB ID": "8U8U",
+    "Chain 1": "A",
+    "Chain 2": "E",
+    "BSA complex": 1287.53,
+    "Protein 1": 638.99,
+    "protein 2": 648.54
+  },
+  {
+    "PDB ID": "8UHD",
+    "Chain 1": "A",
+    "Chain 2": "W",
+    "BSA complex": 1890.91,
+    "Protein 1": 928.22,
+    "protein 2": 962.69
+  },
+  {
+    "PDB ID": "8UHD",
+    "Chain 1": "A",
+    "Chain 2": "Z",
+    "BSA complex": 773.82,
+    "Protein 1": 382.93,
+    "protein 2": 390.89
+  },
+  {
+    "PDB ID": "8UHD",
+    "Chain 1": "B",
+    "Chain 2": "U",
+    "BSA complex": 1371.15,
+    "Protein 1": 614.48,
+    "protein 2": 756.67
+  },
+  {
+    "PDB ID": "8UHD",
+    "Chain 1": "B",
+    "Chain 2": "Z",
+    "BSA complex": 761.53,
+    "Protein 1": 386.05,
+    "protein 2": 375.48
+  },
+  {
+    "PDB ID": "8UHD",
+    "Chain 1": "C",
+    "Chain 2": "Z",
+    "BSA complex": 694.51,
+    "Protein 1": 335.12,
+    "protein 2": 359.39
+  },
+  {
+    "PDB ID": "8UHD",
+    "Chain 1": "D",
+    "Chain 2": "G",
+    "BSA complex": 3434.28,
+    "Protein 1": 1744.82,
+    "protein 2": 1689.46
+  },
+  {
+    "PDB ID": "8UHD",
+    "Chain 1": "E",
+    "Chain 2": "V",
+    "BSA complex": 426.89,
+    "Protein 1": 223.11,
+    "protein 2": 203.78
+  },
+  {
+    "PDB ID": "8UHD",
+    "Chain 1": "G",
+    "Chain 2": "Z",
+    "BSA complex": 564.72,
+    "Protein 1": 290.26,
+    "protein 2": 274.46
+  },
+  {
+    "PDB ID": "8UHD",
+    "Chain 1": "H",
+    "Chain 2": "U",
+    "BSA complex": 368.83,
+    "Protein 1": 181.24,
+    "protein 2": 187.59
+  },
+  {
+    "PDB ID": "8UHD",
+    "Chain 1": "K",
+    "Chain 2": "Z",
+    "BSA complex": 327.04,
+    "Protein 1": 165.7,
+    "protein 2": 161.34
+  },
+  {
+    "PDB ID": "8UHD",
+    "Chain 1": "L",
+    "Chain 2": "Z",
+    "BSA complex": 545.83,
+    "Protein 1": 268.15,
+    "protein 2": 277.68
+  },
+  {
+    "PDB ID": "8UHD",
+    "Chain 1": "U",
+    "Chain 2": "W",
+    "BSA complex": 7923.41,
+    "Protein 1": 4134.41,
+    "protein 2": 3789
+  },
+  {
+    "PDB ID": "8UHD",
+    "Chain 1": "V",
+    "Chain 2": "W",
+    "BSA complex": 3834.39,
+    "Protein 1": 1902.1,
+    "protein 2": 1932.29
+  },
+  {
+    "PDB ID": "8UHD",
+    "Chain 1": "V",
+    "Chain 2": "X",
+    "BSA complex": 791.75,
+    "Protein 1": 358.71,
+    "protein 2": 433.04
+  },
+  {
+    "PDB ID": "8UHD",
+    "Chain 1": "Y",
+    "Chain 2": "Z",
+    "BSA complex": 1385.19,
+    "Protein 1": 747.99,
+    "protein 2": 637.2
+  },
+  {
+    "PDB ID": "9K2G",
+    "Chain 1": "A",
+    "Chain 2": "V",
+    "BSA complex": 919.97,
+    "Protein 1": 463.95,
+    "protein 2": 456.02
+  },
+  {
+    "PDB ID": "9K2G",
+    "Chain 1": "B",
+    "Chain 2": "V",
+    "BSA complex": 452.03,
+    "Protein 1": 229.12,
+    "protein 2": 222.91
+  }
+]

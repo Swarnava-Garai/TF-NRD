@@ -1,0 +1,622 @@
+[
+  {
+    "PDB_ID": "4G7O",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 7249.3,
+    "BSA_protein": 3278.44,
+    "BSA_RNA": 447.59,
+    "BSA_DNA": 3523.27
+  },
+  {
+    "PDB_ID": "4GG4",
+    "Protein_Chains": "A",
+    "RNA_Chains": "H",
+    "DNA_Chains": "G",
+    "BSA_complex": 5343.51,
+    "BSA_protein": 1797.77,
+    "BSA_RNA": 996.6,
+    "BSA_DNA": 2549.14
+  },
+  {
+    "PDB_ID": "4Q5S",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 6763.37,
+    "BSA_protein": 2950.39,
+    "BSA_RNA": 906.16,
+    "BSA_DNA": 2906.82
+  },
+  {
+    "PDB_ID": "5XOG",
+    "Protein_Chains": "ABCDEFGHIJKLMW",
+    "RNA_Chains": "P",
+    "DNA_Chains": "NT",
+    "BSA_complex": 6836.11,
+    "BSA_protein": 2896.39,
+    "BSA_RNA": 1335.13,
+    "BSA_DNA": 2604.59
+  },
+  {
+    "PDB_ID": "5ZX2",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 12387.15,
+    "BSA_protein": 5665.38,
+    "BSA_RNA": 1095.41,
+    "BSA_DNA": 5626.36
+  },
+  {
+    "PDB_ID": "6JCX",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 9072.27,
+    "BSA_protein": 4072.61,
+    "BSA_RNA": 927.42,
+    "BSA_DNA": 4072.24
+  },
+  {
+    "PDB_ID": "6KON",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 7526.2,
+    "BSA_protein": 3329.64,
+    "BSA_RNA": 879.1,
+    "BSA_DNA": 3317.46
+  },
+  {
+    "PDB_ID": "6KOO",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 9211.48,
+    "BSA_protein": 4048.07,
+    "BSA_RNA": 1112.55,
+    "BSA_DNA": 4050.86
+  },
+  {
+    "PDB_ID": "6KQF",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 8228.15,
+    "BSA_protein": 3634.07,
+    "BSA_RNA": 927.81,
+    "BSA_DNA": 3666.27
+  },
+  {
+    "PDB_ID": "6KQG",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 8230.97,
+    "BSA_protein": 3612.69,
+    "BSA_RNA": 899.98,
+    "BSA_DNA": 3718.3
+  },
+  {
+    "PDB_ID": "6KQL",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 7595.15,
+    "BSA_protein": 3422.15,
+    "BSA_RNA": 619.75,
+    "BSA_DNA": 3553.25
+  },
+  {
+    "PDB_ID": "6OVR",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 7688.51,
+    "BSA_protein": 3267.89,
+    "BSA_RNA": 1242.15,
+    "BSA_DNA": 3178.47
+  },
+  {
+    "PDB_ID": "6OVY",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 6238.44,
+    "BSA_protein": 2761.43,
+    "BSA_RNA": 612.03,
+    "BSA_DNA": 2864.98
+  },
+  {
+    "PDB_ID": "6OW3",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 6645.66,
+    "BSA_protein": 2983.87,
+    "BSA_RNA": 587.6,
+    "BSA_DNA": 3074.19
+  },
+  {
+    "PDB_ID": "6P71",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 6336.9,
+    "BSA_protein": 2783.13,
+    "BSA_RNA": 721.79,
+    "BSA_DNA": 2831.98
+  },
+  {
+    "PDB_ID": "6WOY",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 7480.83,
+    "BSA_protein": 3353.39,
+    "BSA_RNA": 529.53,
+    "BSA_DNA": 3597.91
+  },
+  {
+    "PDB_ID": "7EH0",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 7282.76,
+    "BSA_protein": 3339.14,
+    "BSA_RNA": 407.83,
+    "BSA_DNA": 3535.79
+  },
+  {
+    "PDB_ID": "7EH1",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 7187.86,
+    "BSA_protein": 3249.01,
+    "BSA_RNA": 433.74,
+    "BSA_DNA": 3505.11
+  },
+  {
+    "PDB_ID": "8W8N",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 6789.07,
+    "BSA_protein": 3159.83,
+    "BSA_RNA": 413.75,
+    "BSA_DNA": 3215.49
+  },
+  {
+    "PDB_ID": "8W8O",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 7462.5,
+    "BSA_protein": 3432.47,
+    "BSA_RNA": 441.48,
+    "BSA_DNA": 3588.55
+  },
+  {
+    "PDB_ID": "6XLJ",
+    "Protein_Chains": "ABCDEFGH",
+    "RNA_Chains": "R",
+    "DNA_Chains": "NT",
+    "BSA_complex": 14812.52,
+    "BSA_protein": 6940.34,
+    "BSA_RNA": 622.09,
+    "BSA_DNA": 7250.09
+  },
+  {
+    "PDB_ID": "6XLL",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "R",
+    "DNA_Chains": "NT",
+    "BSA_complex": 10585.19,
+    "BSA_protein": 4887.45,
+    "BSA_RNA": 775.87,
+    "BSA_DNA": 4921.87
+  },
+  {
+    "PDB_ID": "7AOH",
+    "Protein_Chains": "ABCEFGIJSY",
+    "RNA_Chains": "P",
+    "DNA_Chains": "NT",
+    "BSA_complex": 6997.72,
+    "BSA_protein": 3039.23,
+    "BSA_RNA": 1168.3,
+    "BSA_DNA": 2790.19
+  },
+  {
+    "PDB_ID": "7AOZ",
+    "Protein_Chains": "ABCEFGIJS",
+    "RNA_Chains": "P",
+    "DNA_Chains": "NT",
+    "BSA_complex": 2975.91,
+    "BSA_protein": 1208.92,
+    "BSA_RNA": 628.73,
+    "BSA_DNA": 1138.26
+  },
+  {
+    "PDB_ID": "7RDQ",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 12650.7,
+    "BSA_protein": 5613.13,
+    "BSA_RNA": 1850.16,
+    "BSA_DNA": 5187.41
+  },
+  {
+    "PDB_ID": "8A40",
+    "Protein_Chains": "ABCDEFGHIJKLU",
+    "RNA_Chains": "P",
+    "DNA_Chains": "NT",
+    "BSA_complex": 7237.34,
+    "BSA_protein": 3091.53,
+    "BSA_RNA": 1592.17,
+    "BSA_DNA": 2553.64
+  },
+  {
+    "PDB_ID": "8B3D",
+    "Protein_Chains": "ABCDEFGHIJKLMabcd",
+    "RNA_Chains": "P",
+    "DNA_Chains": "NT",
+    "BSA_complex": 10809.14,
+    "BSA_protein": 4722.83,
+    "BSA_RNA": 1287.89,
+    "BSA_DNA": 4798.42
+  },
+  {
+    "PDB_ID": "8EHQ",
+    "Protein_Chains": "ABCDEG",
+    "RNA_Chains": "R",
+    "DNA_Chains": "NT",
+    "BSA_complex": 8656.71,
+    "BSA_protein": 3895.6,
+    "BSA_RNA": 1576.88,
+    "BSA_DNA": 3184.23
+  },
+  {
+    "PDB_ID": "8GZH",
+    "Protein_Chains": "ABCDEFZ",
+    "RNA_Chains": 3,
+    "DNA_Chains": 12,
+    "BSA_complex": 11592.47,
+    "BSA_protein": 5349.04,
+    "BSA_RNA": 697.98,
+    "BSA_DNA": 5545.45
+  },
+  {
+    "PDB_ID": "8JCH",
+    "Protein_Chains": "ABCDEFGHIJKLMOW",
+    "RNA_Chains": "P",
+    "DNA_Chains": "NT",
+    "BSA_complex": 10380.55,
+    "BSA_protein": 4671.26,
+    "BSA_RNA": 2750.89,
+    "BSA_DNA": 2958.4
+  },
+  {
+    "PDB_ID": "8K5P",
+    "Protein_Chains": "ABCDEFGHIJKLMOW",
+    "RNA_Chains": "P",
+    "DNA_Chains": "NT",
+    "BSA_complex": 10561.87,
+    "BSA_protein": 4730.89,
+    "BSA_RNA": 2718.13,
+    "BSA_DNA": 3112.85
+  },
+  {
+    "PDB_ID": "8OEV",
+    "Protein_Chains": "ABCDEFGHIJKLMOQS",
+    "RNA_Chains": "P",
+    "DNA_Chains": "NT",
+    "BSA_complex": 7785.5,
+    "BSA_protein": 3323.46,
+    "BSA_RNA": 1690.05,
+    "BSA_DNA": 2771.99
+  },
+  {
+    "PDB_ID": "8OEW",
+    "Protein_Chains": "ABCDEFGHIJKLMOQ",
+    "RNA_Chains": "P",
+    "DNA_Chains": "NT",
+    "BSA_complex": 7785.07,
+    "BSA_protein": 3321.84,
+    "BSA_RNA": 1691.46,
+    "BSA_DNA": 2771.77
+  },
+  {
+    "PDB_ID": "8PIB",
+    "Protein_Chains": "GHIJKP",
+    "RNA_Chains": "R",
+    "DNA_Chains": "AB",
+    "BSA_complex": 11239.46,
+    "BSA_protein": 5008.57,
+    "BSA_RNA": 1622.43,
+    "BSA_DNA": 4608.46
+  },
+  {
+    "PDB_ID": "8PID",
+    "Protein_Chains": "GHIJKP",
+    "RNA_Chains": "R",
+    "DNA_Chains": "AB",
+    "BSA_complex": 11589.14,
+    "BSA_protein": 5180.47,
+    "BSA_RNA": 1820.5,
+    "BSA_DNA": 4588.17
+  },
+  {
+    "PDB_ID": "8S52",
+    "Protein_Chains": "ABCDEFGHIJKLMOQRUVWX",
+    "RNA_Chains": "P",
+    "DNA_Chains": "NT",
+    "BSA_complex": 14123.82,
+    "BSA_protein": 6293.81,
+    "BSA_RNA": 1415.01,
+    "BSA_DNA": 6415
+  },
+  {
+    "PDB_ID": "8U8U",
+    "Protein_Chains": "ABE",
+    "RNA_Chains": "R",
+    "DNA_Chains": "NT",
+    "BSA_complex": 5518.49,
+    "BSA_protein": 2326.2,
+    "BSA_RNA": 880.58,
+    "BSA_DNA": 2311.71
+  },
+  {
+    "PDB_ID": "8U8V",
+    "Protein_Chains": "ABE",
+    "RNA_Chains": "R",
+    "DNA_Chains": "NT",
+    "BSA_complex": 5514.04,
+    "BSA_protein": 2329.44,
+    "BSA_RNA": 861.15,
+    "BSA_DNA": 2323.45
+  },
+  {
+    "PDB_ID": "8UHD",
+    "Protein_Chains": "ABCDEFGHIJKLUVWXYZ",
+    "RNA_Chains": "P",
+    "DNA_Chains": "NT",
+    "BSA_complex": 7553.64,
+    "BSA_protein": 3295.25,
+    "BSA_RNA": 1695.49,
+    "BSA_DNA": 2562.9
+  },
+  {
+    "PDB_ID": "8UHG",
+    "Protein_Chains": "ABCDEFGHIJKLUVWXZ",
+    "RNA_Chains": "P",
+    "DNA_Chains": "NT",
+    "BSA_complex": 7002.28,
+    "BSA_protein": 2959.78,
+    "BSA_RNA": 1655.64,
+    "BSA_DNA": 2386.86
+  },
+  {
+    "PDB_ID": "8UI0",
+    "Protein_Chains": "ABCDEFGHIJKLUVWXZ",
+    "RNA_Chains": "P",
+    "DNA_Chains": "NT",
+    "BSA_complex": 7296.18,
+    "BSA_protein": 3080.41,
+    "BSA_RNA": 1842.51,
+    "BSA_DNA": 2373.26
+  },
+  {
+    "PDB_ID": "8WAT",
+    "Protein_Chains": "NSTopqrstuvwxyz",
+    "RNA_Chains": "Z",
+    "DNA_Chains": "XY",
+    "BSA_complex": 6055.32,
+    "BSA_protein": 2592.61,
+    "BSA_RNA": 878.07,
+    "BSA_DNA": 2584.64
+  },
+  {
+    "PDB_ID": "8WAU",
+    "Protein_Chains": "NSTopqrstuvwxyz",
+    "RNA_Chains": "Z",
+    "DNA_Chains": "XY",
+    "BSA_complex": 6299.15,
+    "BSA_protein": 2682.79,
+    "BSA_RNA": 994.56,
+    "BSA_DNA": 2621.8
+  },
+  {
+    "PDB_ID": "8WAV",
+    "Protein_Chains": "NSTopqrstuvwxyz",
+    "RNA_Chains": "Z",
+    "DNA_Chains": "XY",
+    "BSA_complex": 6443.43,
+    "BSA_protein": 2745.25,
+    "BSA_RNA": 1032.68,
+    "BSA_DNA": 2665.5
+  },
+  {
+    "PDB_ID": "8WAX",
+    "Protein_Chains": "NSTopqrstuvwxyz",
+    "RNA_Chains": "Z",
+    "DNA_Chains": "XY",
+    "BSA_complex": 6894.15,
+    "BSA_protein": 2955.53,
+    "BSA_RNA": 1288.28,
+    "BSA_DNA": 2650.34
+  },
+  {
+    "PDB_ID": "8WAY",
+    "Protein_Chains": "NSTopqrstuvwxyz",
+    "RNA_Chains": "Z",
+    "DNA_Chains": "XY",
+    "BSA_complex": 6973.43,
+    "BSA_protein": 2994.39,
+    "BSA_RNA": 1306.05,
+    "BSA_DNA": 2672.99
+  },
+  {
+    "PDB_ID": "8WAZ",
+    "Protein_Chains": "NSTopqrstuvwxyz",
+    "RNA_Chains": "Z",
+    "DNA_Chains": "XY",
+    "BSA_complex": 6873.12,
+    "BSA_protein": 2960.17,
+    "BSA_RNA": 1242.29,
+    "BSA_DNA": 2670.66
+  },
+  {
+    "PDB_ID": "8WB0",
+    "Protein_Chains": "NSTopqrstuvwxyz",
+    "RNA_Chains": "Z",
+    "DNA_Chains": "XY",
+    "BSA_complex": 6924.1,
+    "BSA_protein": 2992.78,
+    "BSA_RNA": 1230.24,
+    "BSA_DNA": 2701.08
+  },
+  {
+    "PDB_ID": "9BDC",
+    "Protein_Chains": "ABE",
+    "RNA_Chains": "R",
+    "DNA_Chains": "NT",
+    "BSA_complex": 6454.81,
+    "BSA_protein": 2809.9,
+    "BSA_RNA": 1001.76,
+    "BSA_DNA": 2643.15
+  },
+  {
+    "PDB_ID": "9BDD",
+    "Protein_Chains": "ABE",
+    "RNA_Chains": "R",
+    "DNA_Chains": "NT",
+    "BSA_complex": 6241.99,
+    "BSA_protein": 2673.1,
+    "BSA_RNA": 928.3,
+    "BSA_DNA": 2640.59
+  },
+  {
+    "PDB_ID": "9GDP",
+    "Protein_Chains": "ABCDEFG",
+    "RNA_Chains": "H",
+    "DNA_Chains": "LT",
+    "BSA_complex": 12574.24,
+    "BSA_protein": 5845.31,
+    "BSA_RNA": 953.5,
+    "BSA_DNA": 5775.43
+  },
+  {
+    "PDB_ID": "9K2G",
+    "Protein_Chains": "ABCDEFGHIJKLMNOPQV",
+    "RNA_Chains": "Z",
+    "DNA_Chains": "XY",
+    "BSA_complex": 8348.1,
+    "BSA_protein": 3652.79,
+    "BSA_RNA": 1237.33,
+    "BSA_DNA": 3457.98
+  },
+  {
+    "PDB_ID": "9K36",
+    "Protein_Chains": "ABCDEFGHIJKLMNOPQV",
+    "RNA_Chains": "Z",
+    "DNA_Chains": "XY",
+    "BSA_complex": 8444.68,
+    "BSA_protein": 3733.82,
+    "BSA_RNA": 1250.29,
+    "BSA_DNA": 3460.57
+  },
+  {
+    "PDB_ID": "9K39",
+    "Protein_Chains": "ABCDEFGHIJKLMNOPQV",
+    "RNA_Chains": "Z",
+    "DNA_Chains": "XY",
+    "BSA_complex": 7874.63,
+    "BSA_protein": 3536.18,
+    "BSA_RNA": 942.19,
+    "BSA_DNA": 3396.26
+  },
+  {
+    "PDB_ID": "9SV6",
+    "Protein_Chains": "ABCDEFGHIJKLU",
+    "RNA_Chains": "R",
+    "DNA_Chains": "NT",
+    "BSA_complex": 7432.6,
+    "BSA_protein": 3209.45,
+    "BSA_RNA": 1181.07,
+    "BSA_DNA": 3042.08
+  },
+  {
+    "PDB_ID": "9UKT",
+    "Protein_Chains": "ABCDEF",
+    "RNA_Chains": "I",
+    "DNA_Chains": "GH",
+    "BSA_complex": 10316.09,
+    "BSA_protein": 4824.37,
+    "BSA_RNA": 395.75,
+    "BSA_DNA": 5095.97
+  },
+  {
+    "PDB_ID": "9WQ7",
+    "Protein_Chains": "ABCDEFGHIJKLQ",
+    "RNA_Chains": "P",
+    "DNA_Chains": "NT",
+    "BSA_complex": 4410.1,
+    "BSA_protein": 1830,
+    "BSA_RNA": 753.94,
+    "BSA_DNA": 1826.16
+  },
+  {
+    "PDB_ID": "9YMU",
+    "Protein_Chains": "GHIJKL",
+    "RNA_Chains": "R",
+    "DNA_Chains": "PQ",
+    "BSA_complex": 10517.66,
+    "BSA_protein": 4982.47,
+    "BSA_RNA": 396.46,
+    "BSA_DNA": 5138.73
+  },
+  {
+    "PDB_ID": "9YMV",
+    "Protein_Chains": "GHIJKL",
+    "RNA_Chains": "R",
+    "DNA_Chains": "PQ",
+    "BSA_complex": 10184.12,
+    "BSA_protein": 4846.4,
+    "BSA_RNA": 366.17,
+    "BSA_DNA": 4971.55
+  },
+  {
+    "PDB_ID": "9YMW",
+    "Protein_Chains": "GHIJKL",
+    "RNA_Chains": "R",
+    "DNA_Chains": "PQ",
+    "BSA_complex": 11583.21,
+    "BSA_protein": 5346.88,
+    "BSA_RNA": 870.55,
+    "BSA_DNA": 5365.78
+  },
+  {
+    "PDB_ID": "9YMX",
+    "Protein_Chains": "GHIJKL",
+    "RNA_Chains": "R",
+    "DNA_Chains": "PQ",
+    "BSA_complex": 10080.24,
+    "BSA_protein": 4562.51,
+    "BSA_RNA": 908.69,
+    "BSA_DNA": 4609.04
+  },
+  {
+    "PDB_ID": "9YN0",
+    "Protein_Chains": "GHIJKL",
+    "RNA_Chains": "R",
+    "DNA_Chains": "PQ",
+    "BSA_complex": 9902.09,
+    "BSA_protein": 4647.72,
+    "BSA_RNA": 556.34,
+    "BSA_DNA": 4698.03
+  }
+]

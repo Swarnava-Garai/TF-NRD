@@ -1,0 +1,557 @@
+[
+  {
+    "Motif_Name": "Nuclear localization signal",
+    "Number_of_Uniprot_IDs": 163,
+    "Uniprot_IDs": "A0A0G2JTY4, A0A0G2JZ79, A0MES8, A0MLS5, A2VD12, A4L7N3, A8MTJ6, B7ZQJ9, D3Z9H7, E3VNM4, F4IRB4, O08785, O14776, O18805, O22763, O42202, O49403, O60356, O75475, O80982, O82132, O88942, P03069, P09874, P14404, P19838, P20823, P23615, P29590, P32182, P32259, P33308, P50462, P51612, P54258, P98149, P98152, Q01201, Q01663, Q01844, Q04864, Q0DAJ3, Q0J0G7, Q15303, Q16656, Q25C79, Q3UL53, Q3UR85, Q5HZ36, Q62315, Q64127, Q6IEQ7, Q6VMQ6, Q6Z2G7, Q7LFL8, Q7PCC6, Q7Z7C8, Q8GYC1, Q8VZ20, Q94527, Q96RN5, Q99459, Q9LL85, Q9LN09, Q9LY00, Q9LZP8, Q9M1G6, Q9NZC7, O80917, P69781, P93835, Q10PR4, Q61045, Q7XHZ0, Q93VB5, Q942D6, Q96320, Q9T0D3, Q9W6C7, Q9ZQH2, O49741, Q0DBL6, Q5Z6A4, Q652B0, Q67U94, Q6H6Q7, Q6K6S5, Q7XRX3, Q8L4M6, Q9FH57, Q9SV30, A9XMT3, F4KIX0, G5EFF5, O15226, O42250, O43829, O75398, O96006, P01129, P06748, P07664, P07903, P08153, P20240, P22148, P26370, P32494, P33400, P35251, P51858, Q01658, Q01722, Q03465, Q03933, Q07243, Q0JFZ0, Q13342, Q23272, Q24119, Q24180, Q2TQ34, Q5XI06, Q6DJT9, Q86T24, Q86VE0, Q86X95, Q8IMA8, Q8IX15, Q8N693, Q8NHV9, Q91ZP3, Q94FL9, Q96CK0, Q9BE45, Q9BQY4, Q9DGW5, Q9EQN5, Q9HB58, Q9LFG0, Q9NPI1, Q9SCQ6, Q9SI37, Q9SVY1, Q9UFW8, Q9UW14, Q9XIN0, P32805, Q58G01, Q76IQ7, Q7XC51, Q9LZJ8, Q9M9B9, F4JYZ8, G4MNH3, Q00453, Q3KRF1, Q8H181, Q8VCG9, Q9LRW7, Q9SLB8, O94983, Q01954"
+  },
+  {
+    "Motif_Name": "9aaTAD",
+    "Number_of_Uniprot_IDs": 39,
+    "Uniprot_IDs": "A1YG22, B7ZSG3, O00712, O18924, O42601, O43474, O45666, O70494, O89090, O97676, P04198, P04386, P07270, P08638, P10037, P11473, P12383, P17676, P20263, P22449, P33748, P33749, P35713, P38529, P39720, P41225, P46099, P78545, Q13887, Q3SY56, Q60843, Q61473, Q8TDD2, Q9EPW2, P18494, P47988, Q6P0J3, Q9JHX2, A8MZ59"
+  },
+  {
+    "Motif_Name": "Bipartite nuclear localization signal",
+    "Number_of_Uniprot_IDs": 30,
+    "Uniprot_IDs": "O09185, O14746, O80450, O81001, P03206, P24813, Q501B2, Q5AJU7, Q7EXZ2, Q8GYY1, Q8K1M4, Q9LZM8, Q9SJR5, Q9S7A9, P06400, P39956, Q03833, Q13627, Q5AW17, Q6DD04, Q6XP49, Q8C0D7, Q8RY95, Q9SMX9, Q9SYG2, Q700W2, Q8S9L0, B9DI20, Q8GUC3, Q94JW8"
+  },
+  {
+    "Motif_Name": "Nuclear export signal",
+    "Number_of_Uniprot_IDs": 22,
+    "Uniprot_IDs": "P0DOV2, P15330, P20067, P97303, P97769, Q157S1, Q5RJQ4, Q6U8D7, Q92750, Q9R210, Q67TP9, O00571, O14318, Q53ET0, Q9H8N7, Q9NR83, Q9NYF0, Q9UBN7, P06933, P03131, Q80928, Q8BDG6"
+  },
+  {
+    "Motif_Name": "VHIID",
+    "Number_of_Uniprot_IDs": 19,
+    "Uniprot_IDs": "Q5NE24, Q4VYC8, Q84MQ9, Q9LWU9, G7JMM0, O81316, Q53K16, Q8H2X8, Q9LPR8, Q9M0M5, Q9XE58, Q9ZWC5, O23210, Q6F368, Q84MM9, Q9FYR7, Q9LTI5, Q9SDQ3, Q9SN22"
+  },
+  {
+    "Motif_Name": "Antp-type hexapeptide",
+    "Number_of_Uniprot_IDs": 17,
+    "Uniprot_IDs": "P09085, P10038, P34684, A1YF08, O08656, O43364, O43365, P02830, P02833, P07548, P09016, P09021, P09077, P29555, P83949, Q90423, P09630"
+  },
+  {
+    "Motif_Name": "Nuclear localization signal 1",
+    "Number_of_Uniprot_IDs": 11,
+    "Uniprot_IDs": "F4IHY7, O44712, Q8GUI6, Q9C882, B1B534, F4K3G5, P30561, Q58DS6, Q700D2, Q9S7L2, P52739"
+  },
+  {
+    "Motif_Name": "Subunit association domain (SAD)",
+    "Number_of_Uniprot_IDs": 11,
+    "Uniprot_IDs": "Q9M9X4, G5EEG1, P06774, P18576, P24488, Q5ZEP9, Q9LXV5, Q9SYH4, Q84JP1, Q945M9, Q54S29"
+  },
+  {
+    "Motif_Name": "LXXLL motif",
+    "Number_of_Uniprot_IDs": 10,
+    "Uniprot_IDs": "O70260, P42226, Q71SY5, Q8N2W9, Q9JLI4, Q9VDR1, O43707, O70343, Q6PML9, Q9HCD5"
+  },
+  {
+    "Motif_Name": "LXXLL motif 1",
+    "Number_of_Uniprot_IDs": 10,
+    "Uniprot_IDs": "A2ABV5, O43889, O75448, P70365, Q811R2, D3ZEY4, O43918, P48552, P51843, O43593"
+  },
+  {
+    "Motif_Name": "WRPW motif",
+    "Number_of_Uniprot_IDs": 10,
+    "Uniprot_IDs": "B7XDF1, Q01070, Q04666, Q04667, Q96HZ4, P14003, P70120, Q00P32, Q26263, Q8BKT2"
+  },
+  {
+    "Motif_Name": "OAR",
+    "Number_of_Uniprot_IDs": 9,
+    "Uniprot_IDs": "P81062, A6YP92, O35137, P54821, Q06453, Q15699, Q5XKR4, Q8JI10, A6NNA5"
+  },
+  {
+    "Motif_Name": "EAR-like (transcriptional repression)",
+    "Number_of_Uniprot_IDs": 8,
+    "Uniprot_IDs": "O80340, Q38830, Q38832, Q9LDE4, Q9FFX4, Q9FKA9, Q9LHS9, Q9SR34"
+  },
+  {
+    "Motif_Name": "LHEQLE",
+    "Number_of_Uniprot_IDs": 8,
+    "Uniprot_IDs": "Q0J995, Q94A57, Q94CL7, C0SVS4, F4I274, Q0WVU3, Q949U2, Q9SJW0"
+  },
+  {
+    "Motif_Name": "DEAH box",
+    "Number_of_Uniprot_IDs": 7,
+    "Uniprot_IDs": "O70133, P32657, P38144, P26659, Q80VY9, Q99NG0, Q9H2U1"
+  },
+  {
+    "Motif_Name": "RPON box",
+    "Number_of_Uniprot_IDs": 6,
+    "Uniprot_IDs": "P0A171, D5ANH9, P24219, P56143, O83149, P38944"
+  },
+  {
+    "Motif_Name": "9aaTAD; inactive",
+    "Number_of_Uniprot_IDs": 5,
+    "Uniprot_IDs": "O35738, O75840, Q02086, Q02446, Q60980"
+  },
+  {
+    "Motif_Name": "DEF box",
+    "Number_of_Uniprot_IDs": 5,
+    "Uniprot_IDs": "O00716, Q08639, Q15329, Q61501, O54917"
+  },
+  {
+    "Motif_Name": "LXCXE motif; interaction with host RB1 and TMEM173/STING",
+    "Number_of_Uniprot_IDs": 5,
+    "Uniprot_IDs": "P17387, P03130, P06932, P08350, P27963"
+  },
+  {
+    "Motif_Name": "Nuclear export signal 1",
+    "Number_of_Uniprot_IDs": 5,
+    "Uniprot_IDs": "O15055, O15534, O35821, P56645, Q8LH59"
+  },
+  {
+    "Motif_Name": "HCFC1-binding motif (HBM)",
+    "Number_of_Uniprot_IDs": 4,
+    "Uniprot_IDs": "Q96EK4, Q9BT49, Q9NS37, Q9NVV9"
+  },
+  {
+    "Motif_Name": "9aaTAD 1",
+    "Number_of_Uniprot_IDs": 3,
+    "Uniprot_IDs": "B7ZR65, P32389, P38165"
+  },
+  {
+    "Motif_Name": "JAMM motif",
+    "Number_of_Uniprot_IDs": 3,
+    "Uniprot_IDs": "Q92905, Q5VVJ2, B6MUN4"
+  },
+  {
+    "Motif_Name": "LxCxE motif",
+    "Number_of_Uniprot_IDs": 3,
+    "Uniprot_IDs": "G7L166, Q56YJ8, Q9FHZ1"
+  },
+  {
+    "Motif_Name": "SH3-binding",
+    "Number_of_Uniprot_IDs": 3,
+    "Uniprot_IDs": "Q13330, O15266, Q86Y01"
+  },
+  {
+    "Motif_Name": "Bipartite nuclear localization signal 1",
+    "Number_of_Uniprot_IDs": 2,
+    "Uniprot_IDs": "Q9U405, Q9LX82"
+  },
+  {
+    "Motif_Name": "CDC [2Fe-2S] cluster binding motif",
+    "Number_of_Uniprot_IDs": 2,
+    "Uniprot_IDs": "Q08957, P22149"
+  },
+  {
+    "Motif_Name": "D-box",
+    "Number_of_Uniprot_IDs": 2,
+    "Uniprot_IDs": "Q9UBS8, Q8LEG1"
+  },
+  {
+    "Motif_Name": "DEVH box",
+    "Number_of_Uniprot_IDs": 2,
+    "Uniprot_IDs": "O13768, Q580W5"
+  },
+  {
+    "Motif_Name": "Nuclear localization signal (NLS)",
+    "Number_of_Uniprot_IDs": 2,
+    "Uniprot_IDs": "A1YFZ3, Q8QZV7"
+  },
+  {
+    "Motif_Name": "Octapeptide motif",
+    "Number_of_Uniprot_IDs": 2,
+    "Uniprot_IDs": "O42358, O42477"
+  },
+  {
+    "Motif_Name": "PDZ-binding",
+    "Number_of_Uniprot_IDs": 2,
+    "Uniprot_IDs": "A0A8I3PQN6, Q9NVW2"
+  },
+  {
+    "Motif_Name": "PPxY motif",
+    "Number_of_Uniprot_IDs": 2,
+    "Uniprot_IDs": "A1A4R9, P0C0T0"
+  },
+  {
+    "Motif_Name": "Polymerase core binding",
+    "Number_of_Uniprot_IDs": 2,
+    "Uniprot_IDs": "O24621, Q06198"
+  },
+  {
+    "Motif_Name": "PxLPxI/L motif; mediates interaction with RFXANK",
+    "Number_of_Uniprot_IDs": 2,
+    "Uniprot_IDs": "P48382, Q9JL61"
+  },
+  {
+    "Motif_Name": "Q motif",
+    "Number_of_Uniprot_IDs": 2,
+    "Uniprot_IDs": "Q92841, Q9JJY4"
+  },
+  {
+    "Motif_Name": "Required for homo- and heterodimerization",
+    "Number_of_Uniprot_IDs": 2,
+    "Uniprot_IDs": "K4B6C9, Q652K4"
+  },
+  {
+    "Motif_Name": "SPL",
+    "Number_of_Uniprot_IDs": 2,
+    "Uniprot_IDs": "Q6IDB0, F4IGU3"
+  },
+  {
+    "Motif_Name": "[KR]-[STA]-K motif",
+    "Number_of_Uniprot_IDs": 2,
+    "Uniprot_IDs": "Q12962, Q15545"
+  },
+  {
+    "Motif_Name": "pLxIS motif",
+    "Number_of_Uniprot_IDs": 2,
+    "Uniprot_IDs": "Q7Z434, F1M391"
+  },
+  {
+    "Motif_Name": "B30.2/SPRY domain-binding motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q96IZ0"
+  },
+  {
+    "Motif_Name": "BetaTrCP degron motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P18848"
+  },
+  {
+    "Motif_Name": "COP1-binding",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q8K4K4"
+  },
+  {
+    "Motif_Name": "CORNR box 1",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q9WUB5"
+  },
+  {
+    "Motif_Name": "CPLCP",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P97309"
+  },
+  {
+    "Motif_Name": "CR1",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q6ZNC4"
+  },
+  {
+    "Motif_Name": "CTBP-binding motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P70284"
+  },
+  {
+    "Motif_Name": "Cell attachment site",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "O95631"
+  },
+  {
+    "Motif_Name": "Cx9C motif 1",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q9Y6H1"
+  },
+  {
+    "Motif_Name": "DELLA motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q9LQT8"
+  },
+  {
+    "Motif_Name": "DLG motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "O54968"
+  },
+  {
+    "Motif_Name": "Degron",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q05738"
+  },
+  {
+    "Motif_Name": "Destruction motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P25963"
+  },
+  {
+    "Motif_Name": "EEXXXDL motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P13010"
+  },
+  {
+    "Motif_Name": "Engrailed homology 1 repressor",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "A0PJY2"
+  },
+  {
+    "Motif_Name": "Essential for nuclear import",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P40763"
+  },
+  {
+    "Motif_Name": "FFAT",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P21957"
+  },
+  {
+    "Motif_Name": "FTZ-F1 box",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "O00482"
+  },
+  {
+    "Motif_Name": "Fast/FoxH1 motif 1 (FM1)",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P70056"
+  },
+  {
+    "Motif_Name": "HMX family specific domain 1",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q9NP08"
+  },
+  {
+    "Motif_Name": "IQ motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "O60869"
+  },
+  {
+    "Motif_Name": "Interaction with GRB2",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P15941"
+  },
+  {
+    "Motif_Name": "Interaction with nuclear receptors",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q96JN0"
+  },
+  {
+    "Motif_Name": "Interaction with polymerase core subunit RpoC",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P0AGB3"
+  },
+  {
+    "Motif_Name": "KFERQ-like motif 1",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "A6QLE5"
+  },
+  {
+    "Motif_Name": "Kinase activation loop",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P00519"
+  },
+  {
+    "Motif_Name": "LD motif 1",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "O43294"
+  },
+  {
+    "Motif_Name": "LIR 1",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P97784"
+  },
+  {
+    "Motif_Name": "LRRLL",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q0VBL6"
+  },
+  {
+    "Motif_Name": "LXCXE motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q9DCR4"
+  },
+  {
+    "Motif_Name": "LXXL motif 1",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P06401"
+  },
+  {
+    "Motif_Name": "LYR motif; required for interaction with HSC20",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q99KN2"
+  },
+  {
+    "Motif_Name": "MEF2C-binding",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q8IZQ8"
+  },
+  {
+    "Motif_Name": "Menin-binding motif (MBM)",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "A7YY54"
+  },
+  {
+    "Motif_Name": "NuRD interaction motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q96KM6"
+  },
+  {
+    "Motif_Name": "Nuclear export signal (NES)",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q9JJG5"
+  },
+  {
+    "Motif_Name": "Nuclear export signal 1 (N-NES)",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P15336"
+  },
+  {
+    "Motif_Name": "Nuclear localization signal (NLS) 1",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P09429"
+  },
+  {
+    "Motif_Name": "Nuclear localization signal 1 (NLS 1)",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q61572"
+  },
+  {
+    "Motif_Name": "Nuclear localization signal 1 (NLS1)",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "O88904"
+  },
+  {
+    "Motif_Name": "Nuclear localization signal and RNA-binding (TAR)",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P19564"
+  },
+  {
+    "Motif_Name": "Nuclear localization signal(NLS)",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "C8VJW0"
+  },
+  {
+    "Motif_Name": "Nuclear localization signal, RNA-binding (TAR), and protein transduction",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "O12161"
+  },
+  {
+    "Motif_Name": "Nuclear localization signal, and interaction with Tat-TAR RNA",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "O60563"
+  },
+  {
+    "Motif_Name": "Nuclear receptor interaction motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q8VCQ3"
+  },
+  {
+    "Motif_Name": "PFVFL",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q9LRM4"
+  },
+  {
+    "Motif_Name": "PIP-box K+4 motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q27368"
+  },
+  {
+    "Motif_Name": "PLRP",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q8C0P7"
+  },
+  {
+    "Motif_Name": "POU-IV box",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "D3ZTL1"
+  },
+  {
+    "Motif_Name": "PTAP motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q99816"
+  },
+  {
+    "Motif_Name": "PXDLS",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q8N895"
+  },
+  {
+    "Motif_Name": "PXDLS motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q99708"
+  },
+  {
+    "Motif_Name": "PXLXP motif, interaction with host ZMYND11",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P03255"
+  },
+  {
+    "Motif_Name": "PXY motif 1",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q07279"
+  },
+  {
+    "Motif_Name": "PY-motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "O15105"
+  },
+  {
+    "Motif_Name": "PxLPxI/L motif; mediates interaction with ANKRA2 and 14-3-3 proteins",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P56524"
+  },
+  {
+    "Motif_Name": "PxLPxI/L motif; mediates interaction with ANKRA2 and RFXANK",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q2KHR2"
+  },
+  {
+    "Motif_Name": "PxVxL motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "O08629"
+  },
+  {
+    "Motif_Name": "RIP homotypic interaction motif (RHIM)",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q9Y572"
+  },
+  {
+    "Motif_Name": "RRIL cleavage motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "O22208"
+  },
+  {
+    "Motif_Name": "S1P recognition",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q70SY1"
+  },
+  {
+    "Motif_Name": "SH2-binding",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q8BW22"
+  },
+  {
+    "Motif_Name": "SH3-binding 1",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q9JJ00"
+  },
+  {
+    "Motif_Name": "SIM3, required fo binding to SUMO3 and subsequent sumoylation",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P93002"
+  },
+  {
+    "Motif_Name": "Selectivity filter",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "O35245"
+  },
+  {
+    "Motif_Name": "TQE",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "D3ZSZ3"
+  },
+  {
+    "Motif_Name": "TRAF6-binding",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q64337"
+  },
+  {
+    "Motif_Name": "TXY",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P21708"
+  },
+  {
+    "Motif_Name": "UBR5-degron",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "P10276"
+  },
+  {
+    "Motif_Name": "Ubiquitin-interacting",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q53GL7"
+  },
+  {
+    "Motif_Name": "YQPW motif",
+    "Number_of_Uniprot_IDs": 1,
+    "Uniprot_IDs": "Q9QUS4"
+  }
+]
