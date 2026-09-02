@@ -27,16 +27,29 @@ import numpy as np
 import pandas as pd
 from scipy.spatial import cKDTree
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-logger = logging.getLogger("TFInterfaceAnalyzer")
+SCRIPT_PATH = Path(__file__).resolve()
+SCRIPT_DIR = SCRIPT_PATH.parent
+PROJECT_ROOT = SCRIPT_DIR.parent
+LOG_FILE = SCRIPT_PATH.with_suffix(".log")
+
+# Configure logging to stdout and script-named log file
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%H:%M:%S",
+    handlers=[
+        logging.StreamHandler(sys.stdout),
+        logging.FileHandler(LOG_FILE, mode="a", encoding="utf-8")
+    ]
+)
+logger = logging.getLogger(SCRIPT_PATH.stem)
 
 # Default Global Directory Paths
-INTERFACE_BASE_DIR = Path("/home/labuser/Projects/PhD_projects/swarnava_TF_work/Interface")
+INTERFACE_BASE_DIR = PROJECT_ROOT.parent / "swarnava_TF_work" / "Interface"
 OLD_BASE_DIR = INTERFACE_BASE_DIR / "13.03.2026"
 REVISION_BASE_DIR = INTERFACE_BASE_DIR / "Revision"
 
-DEFAULT_OUTPUT_DIR = Path("/home/labuser/Projects/PhD_projects/TF-NRD/Supplementary")
-RESULTS_SUPPLEMENTARY_XLSX = Path("/home/labuser/Projects/PhD_projects/TF-NRD/results/Supplementary.xlsx")
+DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "Supplementary"
 
 # Standard Residue Sets & Backbone Identifier Atoms
 AA_LIST = {
@@ -661,22 +674,43 @@ def main():
         df_ml.to_json(ml_json_path, orient='records', indent=2)
         logger.info(f"[SUCCESS] Exported ML dataset JSON to: {ml_json_path}")
 
-    # 5. Export Supplementary Excel Workbook
-    supp_xlsx_path = out_dir / "Supplementary.xlsx"
-    supp_tables_xlsx_path = out_dir / "Supplementary_Tables.xlsx"
+    # 5. Export Structured JSON Datasets
+    logger.info("--- Exporting JSON Datasets ---")
+    consolidated_json = {
+        sname: df_sheet.to_dict(orient="records")
+        for sname, df_sheet in dfs_dict.items()
+        if not df_sheet.empty
+    }
+    all_json_path = out_dir / "interface_features_all_tables.json"
+    with open(all_json_path, "w", encoding="utf-8") as jf:
+        json.dump(consolidated_json, jf, indent=2, ensure_ascii=False)
+    logger.info(f"[SUCCESS] Exported all tables JSON to: {all_json_path}")
 
-    logger.info(f"--- Exporting Supplementary Excel Workbooks ---")
-    for target_xlsx in [supp_xlsx_path, supp_tables_xlsx_path, RESULTS_SUPPLEMENTARY_XLSX]:
-        target_xlsx.parent.mkdir(parents=True, exist_ok=True)
-        try:
-            with pd.ExcelWriter(target_xlsx, engine='openpyxl') as writer:
-                for sname, df_sheet in dfs_dict.items():
-                    if not df_sheet.empty:
-                        df_sheet.to_excel(writer, sheet_name=sname, index=False)
-                        logger.info(f"Wrote {len(df_sheet)} rows to sheet '{sname}' in {target_xlsx.name}")
-            print(f"[SUCCESS] Created/Updated Supplementary Excel workbook at: {target_xlsx}")
-        except Exception as e:
-            logger.warning(f"Could not write Excel file {target_xlsx}: {e}")
+    # Export individual table JSONs
+    table_json_mapping = {
+        'Table S1.A': out_dir / "table_s1_a_batch_interfaces.json",
+        'Table S1.B': out_dir / "table_s1_b_unique_na_interfaces.json",
+        'Table S1.C': out_dir / "table_s1_c_unique_pp_interfaces.json",
+        'Summary_Statistics': out_dir / "interface_summary_statistics.json"
+    }
+    for sname, json_path in table_json_mapping.items():
+        if sname in dfs_dict and not dfs_dict[sname].empty:
+            with open(json_path, "w", encoding="utf-8") as jf:
+                json.dump(dfs_dict[sname].to_dict(orient="records"), jf, indent=2, ensure_ascii=False)
+            logger.info(f"[SUCCESS] Exported {sname} JSON -> {json_path}")
+
+    # 6. Export Supplementary Tables Excel Workbook (Supplementary_Tables.xlsx only)
+    supp_tables_xlsx_path = out_dir / "Supplementary_Tables.xlsx"
+    logger.info("--- Exporting Supplementary Tables Excel Workbook ---")
+    try:
+        with pd.ExcelWriter(supp_tables_xlsx_path, engine='openpyxl') as writer:
+            for sname, df_sheet in dfs_dict.items():
+                if not df_sheet.empty:
+                    df_sheet.to_excel(writer, sheet_name=sname, index=False)
+                    logger.info(f"Wrote {len(df_sheet)} rows to sheet '{sname}' in {supp_tables_xlsx_path.name}")
+        logger.info(f"[SUCCESS] Created Supplementary Tables Excel workbook at: {supp_tables_xlsx_path}")
+    except Exception as e:
+        logger.warning(f"Could not write Excel file {supp_tables_xlsx_path}: {e}")
 
     print("\n" + "=" * 70)
     print("UNIFIED INTERFACE ANALYSIS PIPELINE COMPLETE")
