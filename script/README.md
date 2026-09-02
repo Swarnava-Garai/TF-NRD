@@ -9,10 +9,12 @@ This directory contains the core modular Python scripts for the **TF-NRD (Transc
 ```text
 TF-NRD/script/
 ├── README.md                    # Documentation for script directory
+├── generate_supplementary_json.py # Convert Supplementary XLSX tables to JSON files
 ├── sequence_curator.py          # Sequence curation & quality filtering suite (SequenceCurator class)
 ├── tf_feature_analysis.py       # Feature analysis & visualization suite (TFFeatureAnalyzer class)
 └── upset_analysis.py            # UpSet plot visualization suite (UpSetAnalyzer class)
 ```
+
 
 ---
 
