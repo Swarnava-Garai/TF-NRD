@@ -22,7 +22,7 @@ The **TF-NRD pipeline** provides standardized datasets, structural interface pro
 
 ## ✨ Key Highlights
 
-- **Comprehensive Multi-Entity Dataset**: Encompasses sequence-curated TFs ($n = 3,570$) and non-redundant structure complexes ($n = 367$).
+- **Comprehensive Multi-Entity Dataset**: Encompasses sequence-curated TFs ($n = 3,570$) and non-redundant structure complexes ($n = 377$).
 - **Interface Property Atlas**: Detailed metrics for Protein–Nucleic Acid (PNA) and Protein–Protein (PP) interfaces.
 - **Logomaker Sequence Logos**: Automated generation of publication-grade sequence logos for sequence motif signatures.
 - **UpSet Intersection Visualizations**: High-resolution UpSet plots displaying domain and motif co-occurrence across subcellular locations.
