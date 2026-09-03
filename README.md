@@ -147,8 +147,17 @@ Jupyter notebooks for interactive exploration, metadata validation, and suppleme
 
 ### Environment Requirements
 
-- Python 3.8+
-- `pandas`, `numpy`, `matplotlib`, `logomaker`, `upsetplot`, `openpyxl`
+- Python 3.9+ recommended
+- Installation via `pip`:
+  ```bash
+  pip install -r requirements.txt
+  ```
+- Or via `conda`:
+  ```bash
+  conda env create -f environment.yml
+  conda activate tfnrd_env
+  ```
+
 
 ### Execution Examples
 
