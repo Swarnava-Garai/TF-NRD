@@ -16,6 +16,7 @@ TF-NRD/script/
 ├── final_compare_difference_similarity.py # Interface commonality & uniqueness comparison script
 ├── generate_interface_file_path.py        # Path generator for interface calculation files
 ├── generate_supplementary_json.py         # Converts Supplementary XLSX tables to JSON
+├── generate_webpages.py                   # Generates modern interactive TF-NRD database webpages
 ├── Interface_calculations.py             # Atomic BSA calculation & interaction parser
 ├── Interface_features.py                 # Interface property metric extraction suite
 ├── kegg_classify.py                       # KEGG disease pathway classification script
@@ -137,9 +138,26 @@ TF-NRD/script/
 
 ---
 
-### 8. `Interface_calculations.py`
+### 8. `generate_webpages.py`
+
+[`generate_webpages.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/generate_webpages.py) parses the master supplementary Excel workbook ([`Supplementary.xlsx`](file:///home/labuser/Projects/PhD_projects/TF-NRD/Supplementary/Supplementary.xlsx)) and generates the modern, responsive, interactive HTML webpages for the TF-NRD database (`tfnrd.html`, `TFNRDv1.0.html`, `TFNRDv1.0_PNA.html`, `TFNRDv1.0_PP.html`, and `css/style.css`).
+
+- **Key Functions**:
+  - `parse_table_s1a()`: Extracts non-redundant complex biological assembly records for `TFNRDv1.0.html`.
+  - `parse_table_s1b()`: Extracts unique TF-nucleic acid interface records for `TFNRDv1.0_PNA.html`.
+  - `parse_table_s1c()`: Extracts protein-protein interface contact pairs for `TFNRDv1.0_PP.html`.
+  - `build_webpages()`: Compiles all self-contained interactive web applications with real-time search, category filtering, column sorting, data export, and PDB detail modals.
+- **CLI Usage**:
+  ```bash
+  python script/generate_webpages.py
+  ```
+
+---
+
+### 9. `Interface_calculations.py`
 
 [`Interface_calculations.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/Interface_calculations.py) calculates solvent-accessible surface area (ASA) differences and atomic interaction contact lines.
+
 
 - **Key Functions**:
   - `fetch_atomline()`: Extracts PDB atomic coordinates for specified protein and nucleic acid chain groups.
@@ -152,7 +170,7 @@ TF-NRD/script/
 
 ---
 
-### 9. `Interface_features.py`
+### 10. `Interface_features.py`
 
 [`Interface_features.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/Interface_features.py) serves as a multi-threaded batch runner for PRince interface feature extraction across structural datasets.
 
@@ -167,7 +185,7 @@ TF-NRD/script/
 
 ---
 
-### 10. `kegg_classify.py`
+### 11. `kegg_classify.py`
 
 [`kegg_classify.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/kegg_classify.py) categorizes TF disease associations into human disease pathway hierarchies using the KEGG REST API and BRITE database.
 
@@ -182,7 +200,7 @@ TF-NRD/script/
 
 ---
 
-### 11. `kingdom_domain_of_life_classification.py`
+### 12. `kingdom_domain_of_life_classification.py`
 
 [`kingdom_domain_of_life_classification.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/kingdom_domain_of_life_classification.py) classifies TF source organisms into biological domains of life.
 
@@ -196,7 +214,7 @@ TF-NRD/script/
 
 ---
 
-### 12. `mapper_TF_pdb_Pfam_Rfam.py`
+### 13. `mapper_TF_pdb_Pfam_Rfam.py`
 
 [`mapper_TF_pdb_Pfam_Rfam.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/mapper_TF_pdb_Pfam_Rfam.py) maps PDB structure chain identifiers to Pfam domain accessions (`PF00170`, etc.) and Rfam RNA family IDs.
 
@@ -210,7 +228,7 @@ TF-NRD/script/
 
 ---
 
-### 13. `pdb_generate_chain_details.py`
+### 14. `pdb_generate_chain_details.py`
 
 [`pdb_generate_chain_details.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/pdb_generate_chain_details.py) parses mmCIF structure files to determine physical chain interactions and experimental methods.
 
@@ -224,7 +242,7 @@ TF-NRD/script/
 
 ---
 
-### 14. `sequence_curator.py`
+### 15. `sequence_curator.py`
 
 [`sequence_curator.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/sequence_curator.py) provides the **`SequenceCurator`** static method class for dataset sequence quality control and metadata normalization.
 
@@ -236,7 +254,7 @@ TF-NRD/script/
 
 ---
 
-### 15. `sequence_dataset_motif_stat.py`
+### 16. `sequence_dataset_motif_stat.py`
 
 [`sequence_dataset_motif_stat.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/sequence_dataset_motif_stat.py) calculates sequence motif frequency statistics across sequence-curated TF datasets.
 
@@ -250,7 +268,7 @@ TF-NRD/script/
 
 ---
 
-### 16. `structural_dataset_domain_stat.py`
+### 17. `structural_dataset_domain_stat.py`
 
 [`structural_dataset_domain_stat.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/structural_dataset_domain_stat.py) calculates PFAM domain distribution statistics across non-redundant structural TF datasets.
 
@@ -263,7 +281,7 @@ TF-NRD/script/
 
 ---
 
-### 17. `subcellular_localization.py`
+### 18. `subcellular_localization.py`
 
 [`subcellular_localization.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/subcellular_localization.py) categorizes TF subcellular localization annotations into 6 detailed categories.
 
@@ -283,7 +301,7 @@ TF-NRD/script/
 
 ---
 
-### 18. `tf_feature_analysis.py`
+### 19. `tf_feature_analysis.py`
 
 [`tf_feature_analysis.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/tf_feature_analysis.py) provides the **`TFFeatureAnalyzer`** master class for generating feature plots and publication figures.
 
@@ -305,7 +323,7 @@ TF-NRD/script/
 
 ---
 
-### 19. `tf_interface_analysis.py`
+### 20. `tf_interface_analysis.py`
 
 [`tf_interface_analysis.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/tf_interface_analysis.py) provides the **`TFInterfaceAnalyzer`** class for extracting structural interface property metrics.
 
@@ -320,7 +338,7 @@ TF-NRD/script/
 
 ---
 
-### 20. `tf_interface_common_uniqueness.py`
+### 21. `tf_interface_common_uniqueness.py`
 
 [`tf_interface_common_uniqueness.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/tf_interface_common_uniqueness.py) identifies common and unique interacting interface residue atoms across structural assemblies.
 
@@ -335,7 +353,7 @@ TF-NRD/script/
 
 ---
 
-### 21. `upset_analysis.py`
+### 22. `upset_analysis.py`
 
 [`upset_analysis.py`](file:///home/labuser/Projects/PhD_projects/TF-NRD/script/upset_analysis.py) provides the **`UpSetAnalyzer`** class for generating publication-quality UpSet plots.
 
