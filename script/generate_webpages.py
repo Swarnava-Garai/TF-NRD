@@ -31,9 +31,11 @@ PROJECT_DIR = SCRIPT_DIR.parent
 SUPPLEMENTARY_DIR = PROJECT_DIR / "Supplementary"
 EXCEL_PATH = SUPPLEMENTARY_DIR / "Supplementary.xlsx"
 
-# Output target directory
+# Output target directories
 TARGET_DIRS = [
-    PROJECT_DIR / "TFNRDv1.0"
+    PROJECT_DIR / "TFNRDv1.0",
+    PROJECT_DIR.parent / "swarnava_TF_work" / "Interface" / "Revision" / "TFNRDv1.0_old",
+    PROJECT_DIR.parent / "swarnava_TF_work" / "Interface" / "Revision" / "TFNRDv1.0",
 ]
 
 logging.basicConfig(
@@ -279,106 +281,61 @@ body {
 /* ==========================================================================
    NAVIGATION & HEADER
    ========================================================================== */
-header.site-header {
-  background: #0f172a;
+header, header.site-header {
+  background: #003366;
   color: #ffffff;
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.3);
-  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 14px 0;
 }
 
-.header-container {
-  max-width: 1440px;
+.header-flex, .header-container {
+  max-width: 1200px;
+  width: 90%;
   margin: 0 auto;
-  padding: 0 24px;
-  height: 72px;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.brand-icon {
-  width: 40px;
-  height: 40px;
-  background: linear-gradient(135deg, #3b82f6, #06b6d4);
-  border-radius: var(--radius-md);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 800;
-  font-size: 18px;
-  color: white;
-  box-shadow: 0 2px 10px rgba(59, 130, 246, 0.4);
-}
-
-.brand-text h1 {
+header h1 {
   font-family: var(--font-heading);
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
-  letter-spacing: -0.5px;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.brand-text .version-tag {
-  font-size: 11px;
-  font-weight: 700;
-  background: rgba(59, 130, 246, 0.25);
-  color: #60a5fa;
-  padding: 2px 8px;
-  border-radius: var(--radius-full);
-  border: 1px solid rgba(96, 165, 250, 0.3);
-}
-
-.brand-text p {
-  font-size: 12px;
-  color: #94a3b8;
+  color: #ffffff;
   margin: 0;
 }
 
-nav.main-nav {
+nav#nav, nav.main-nav {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 18px;
+  flex-wrap: wrap;
 }
 
-nav.main-nav a {
-  color: #cbd5e1;
+nav#nav a, nav.main-nav a {
+  color: #ffffff;
   text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 8px 14px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 6px 10px;
   border-radius: var(--radius-sm);
   transition: all 0.2s ease;
-  display: flex;
-  align-items: center;
-  gap: 6px;
 }
 
-nav.main-nav a:hover {
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.08);
+nav#nav a:hover, nav.main-nav a:hover {
+  text-decoration: underline;
 }
 
-nav.main-nav a.active {
-  color: #ffffff;
-  background: #2563eb;
-  font-weight: 600;
-  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.4);
+nav#nav a.active, nav.main-nav a.active {
+  text-decoration: underline;
+  color: #90caf9;
 }
 
 .header-actions {
@@ -395,27 +352,127 @@ nav.main-nav a.active {
   align-items: center;
   gap: 6px;
   padding: 6px 12px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: var(--radius-sm);
   transition: all 0.2s;
 }
 
 .btn-header-link:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
   color: #ffffff;
 }
 
 /* ==========================================================================
-   PAGE HERO / BANNER
+   CLASSIC HERO & LANDING PAGE STYLES
+   ========================================================================== */
+.hero {
+  background: #e8f0fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  color: #003366;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 28px;
+  border-bottom: none;
+}
+
+.hero p {
+  color: #333333;
+  font-size: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 25px 20px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
+  margin: 0 0 8px 0;
+  font-size: 36px;
+  color: #003366;
+  font-weight: bold;
+}
+
+.card p {
+  margin: 0;
+  color: #555555;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.btn {
+  display: inline-block;
+  background: #0066cc;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #004c99;
+}
+
+footer, footer.site-footer {
+  background: #003366;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 20px;
+  margin-top: 50px;
+  line-height: 1.6;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* ==========================================================================
+   PAGE HERO / BANNER (SUBPAGES)
    ========================================================================== */
 .page-hero {
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  background: linear-gradient(135deg, #002244 0%, #003366 100%);
   color: #ffffff;
-  padding: 40px 0 36px 0;
+  padding: 36px 0 32px 0;
   border-bottom: 1px solid var(--border-color);
   position: relative;
   overflow: hidden;
 }
+
 
 .page-hero::after {
   content: '';
@@ -1389,200 +1446,123 @@ footer.site-footer {
 
 
 def generate_tfnrd_home_html(s1a_rows: list, s1b_rows: list, s1c_rows: list) -> str:
-    """Generates the modern landing/home page (tfnrd.html)."""
+    """Generates the clean classic CSB landing/home page (tfnrd.html)."""
     n_complexes = len(s1a_rows)
     n_dna = sum(1 for r in s1a_rows if r['category'] == 'DNA-binding')
-    n_rna = sum(1 for r in s1a_rows if r['category'] == 'RNA-binding')
-    n_dnarna = sum(1 for r in s1a_rows if r['category'] == 'DNA-RNA-binding')
-    n_pna_interfaces = len(s1b_rows)
-    n_pp_interfaces = len(s1c_rows)
+    n_rna_total = sum(1 for r in s1a_rows if r['category'] in ('RNA-binding', 'DNA-RNA-binding'))
 
     return f"""<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="TF-NRD: Transcription Factors Non-Redundant Dataset. Curated structural atlas of TF assemblies and macromolecular interaction interfaces across all domains of life.">
-  <title>TF-NRD: Transcription Factors Non-Redundant Dataset</title>
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TF-NRD Database</title>
+
+<link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
 
-  <!-- SITE HEADER -->
-  <header class="site-header">
-    <div class="header-container">
-      <a href="tfnrd.html" class="brand">
-        <div class="brand-icon">TF</div>
-        <div class="brand-text">
-          <h1>TF-NRD <span class="version-tag">v1.0</span></h1>
-          <p>Transcription Factors Non-Redundant Dataset</p>
-        </div>
-      </a>
-      <nav class="main-nav" id="main-nav">
-        <a href="tfnrd.html" class="active">Home</a>
-        <a href="TFNRDv1.0.html">Dataset (Table S1.A)</a>
-        <a href="TFNRDv1.0_PNA.html">TF-NA Interfaces (Table S1.B)</a>
-        <a href="TFNRDv1.0_PP.html">Protein-Protein (Table S1.C)</a>
-      </nav>
-      <div class="header-actions">
-        <a href="http://www.csb.iitkgp.ac.in/databases/TFNRDv1.0/tfnrd.html" target="_blank" rel="noopener" class="btn-header-link" title="Official Webserver">
-          <span>CSB Lab</span> ↗
-        </a>
-      </div>
-    </div>
-  </header>
+<header>
 
-  <!-- HERO BANNER -->
-  <section class="home-hero">
-    <div class="container">
-      <h1>An Atlas of <span class="highlight">Non-Redundant</span> Transcription Factor Assemblies</h1>
-      <p class="hero-subtitle">
-        A curated structural benchmark of multi-entity transcription factor assemblies, macromolecular interaction interfaces (Protein–DNA, Protein–RNA, Protein–Protein), and sequence motifs across all domains of life.
-      </p>
-      <div class="home-cta-buttons">
-        <a href="TFNRDv1.0.html" class="btn-hero-primary">
-          <span>Explore Main Dataset</span> →
-        </a>
-        <a href="TFNRDv1.0_PNA.html" class="btn-hero-secondary">
-          <span>TF-NA Interfaces</span>
-        </a>
-        <a href="TFNRDv1.0_PP.html" class="btn-hero-secondary">
-          <span>Protein-Protein Interfaces</span>
-        </a>
-      </div>
-    </div>
-  </section>
+<div class="container header-flex">
 
-  <!-- KEY METRICS GRID -->
-  <section class="container">
-    <div class="home-stats-grid">
-      <div class="home-stat-card">
-        <div class="stat-icon blue">🧬</div>
-        <h3>{n_complexes}</h3>
-        <p>Non-Redundant Structure Complexes</p>
-      </div>
-      <div class="home-stat-card">
-        <div class="stat-icon green">📊</div>
-        <h3>{n_pna_interfaces}</h3>
-        <p>Unique TF-NA Interaction Interfaces</p>
-      </div>
-      <div class="home-stat-card">
-        <div class="stat-icon purple">🤝</div>
-        <h3>{n_pp_interfaces}</h3>
-        <p>Protein-Protein Contact Interfaces</p>
-      </div>
-      <div class="home-stat-card">
-        <div class="stat-icon orange">🔬</div>
-        <h3>3,570</h3>
-        <p>Sequence-Curated TF Entries</p>
-      </div>
-    </div>
-  </section>
+<h1>TF-NRD Database</h1>
 
-  <!-- DATASETS EXPLORER SECTION -->
-  <section class="features-section container">
-    <div class="section-title-wrap">
-      <h2>Explore TF-NRD Benchmark Datasets</h2>
-      <p>Access structured datasets generated from the manuscript supplementary data with instant search, multi-column sorting, and export capabilities.</p>
-    </div>
+<nav id="nav">
+<a href="tfnrd.html" class="active">Home</a>
+<a href="TFNRDv1.0.html">Dataset</a>
+<a href="TFNRDv1.0_PNA.html">TF-NA Interfaces</a>
+<a href="TFNRDv1.0_PP.html">Protein-Protein</a>
+</nav>
 
-    <div class="dataset-cards-grid">
-      <!-- Card 1: Table S1.A -->
-      <div class="dataset-card">
-        <div class="card-top">
-          <span class="badge-category cat-dna" style="margin-bottom: 12px;">Table S1.A</span>
-          <h3>TF Biological Assemblies & Complexes</h3>
-          <p>
-            Complete non-redundant structural dataset of {n_complexes} transcription factor complexes. Includes biological assemblies, experimental methods, resolutions, oligomeric states, and complex BSA values.
-          </p>
-          <div class="meta-pills">
-            <span class="meta-pill">{n_dna} DNA-binding</span>
-            <span class="meta-pill">{n_rna} RNA-binding</span>
-            <span class="meta-pill">{n_dnarna} DNA-RNA-binding</span>
-          </div>
-        </div>
-        <a href="TFNRDv1.0.html" class="btn-card">Browse Dataset Table →</a>
-      </div>
+</div>
 
-      <!-- Card 2: Table S1.B -->
-      <div class="dataset-card">
-        <div class="card-top">
-          <span class="badge-category cat-rna" style="margin-bottom: 12px;">Table S1.B</span>
-          <h3>Unique TF-NA Interfaces</h3>
-          <p>
-            Detailed structural interfaces for {n_pna_interfaces} TF-nucleic acid interactions. Includes interacting chain IDs, nucleic acid types (DNA, RNA), and decomposed Buried Surface Area (BSA) for complex, protein, and nucleic acids.
-          </p>
-          <div class="meta-pills">
-            <span class="meta-pill">{n_pna_interfaces} Interfaces</span>
-            <span class="meta-pill">BSA Decompositions</span>
-            <span class="meta-pill">Chain Pairings</span>
-          </div>
-        </div>
-        <a href="TFNRDv1.0_PNA.html" class="btn-card">Browse TF-NA Interfaces →</a>
-      </div>
+</header>
 
-      <!-- Card 3: Table S1.C -->
-      <div class="dataset-card">
-        <div class="card-top">
-          <span class="badge-category cat-dnarna" style="margin-bottom: 12px;">Table S1.C</span>
-          <h3>Protein-Protein Interfaces of TFs</h3>
-          <p>
-            Atomic contact interfaces for {n_pp_interfaces} protein-protein interactions within TF assemblies. Characterizes homomeric and heteromeric co-factor interactions with Chain 1 and Chain 2 surface area contributions.
-          </p>
-          <div class="meta-pills">
-            <span class="meta-pill">{n_pp_interfaces} PP Interfaces</span>
-            <span class="meta-pill">Subunit BSA</span>
-            <span class="meta-pill">Oligomer Contacts</span>
-          </div>
-        </div>
-        <a href="TFNRDv1.0_PP.html" class="btn-card">Browse Protein-Protein Interfaces →</a>
-      </div>
-    </div>
-  </section>
 
-  <!-- CITATION & ABOUT -->
-  <section class="container" style="padding-bottom: 60px;">
-    <div style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 32px; box-shadow: var(--shadow-sm);">
-      <h3 style="font-family: var(--font-heading); font-size: 20px; font-weight: 700; margin-bottom: 12px;">Publication & Citation</h3>
-      <p style="color: var(--text-muted); font-size: 14px; line-height: 1.7; margin-bottom: 16px;">
-        Garai, S., Kant, S., & Bahadur, R. P. (2026).<br>
-        <strong>An atlas of non-redundant sequences and structures of transcription factor assemblies across domains of life.</strong><br>
-        <em>Computational Structural Biology Group, Department of Biotechnology, Indian Institute of Technology Kharagpur, West Bengal 721302, India.</em>
-      </p>
-      <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-        <a href="http://www.csb.iitkgp.ac.in/databases/TFNRDv1.0/tfnrd.html" target="_blank" rel="noopener" class="btn-action btn-primary">
-          <span>Visit CSB Webserver</span> ↗
-        </a>
-      </div>
-    </div>
-  </section>
 
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div class="footer-col">
-        <h4>TF-NRD Database</h4>
-        <p>Non-redundant structural atlas and interface benchmark for transcription factor macromolecular assemblies across domains of life.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Quick Links</h4>
-        <p><a href="TFNRDv1.0.html">Dataset Table (S1.A)</a></p>
-        <p><a href="TFNRDv1.0_PNA.html">TF-NA Interfaces (S1.B)</a></p>
-        <p><a href="TFNRDv1.0_PP.html">Protein-Protein (S1.C)</a></p>
-      </div>
-      <div class="footer-col">
-        <h4>Affiliation</h4>
-        <p>Computational Structural Biology Group<br>Department of Biotechnology<br>Indian Institute of Technology Kharagpur<br>Kharagpur - 721302, India</p>
-      </div>
-    </div>
-    <div class="container footer-bottom">
-      <p>&copy; 2026 Computational Structural Biology Group, IIT Kharagpur. Released under MIT License.</p>
-    </div>
-  </footer>
+<section class="hero">
+
+<div class="container">
+
+<h2>Transcription Factor Non-Redundant Dataset</h2>
+
+<p>
+Curated structural and sequence dataset of transcription factors
+for computational biology, machine learning and structural analysis.
+</p>
+
+</div>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Dataset Statistics</h2>
+
+<div class="stats">
+
+<div class="card">
+<h3>{n_complexes}</h3>
+<p>PDB Structures</p>
+</div>
+
+<div class="card">
+<h3>3570</h3>
+<p>TF Sequences</p>
+</div>
+
+<div class="card">
+<h3>{n_dna}</h3>
+<p>DNA Binding</p>
+</div>
+
+<div class="card">
+<h3>{n_rna_total}</h3>
+<p>RNA Binding</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Access the Dataset</h2>
+
+<div class="buttons">
+
+<a class="btn" href="TFNRDv1.0.html">TF-NRD v1.0 Dataset</a>
+<a class="btn" href="TFNRDv1.0_PNA.html">TF-NA Interface Dataset</a>
+<a class="btn" href="TFNRDv1.0_PP.html">Protein-Protein Dataset</a>
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+<p>
+Computational Structural Biology Group<br>
+Indian Institute of Technology Kharagpur
+</p>
+
+</footer>
 
 </body>
 </html>
 """
+
 
 
 def generate_table_s1a_html(records: list) -> str:
@@ -1605,26 +1585,18 @@ def generate_table_s1a_html(records: list) -> str:
 <body>
 
   <!-- SITE HEADER -->
-  <header class="site-header">
-    <div class="header-container">
-      <a href="tfnrd.html" class="brand">
-        <div class="brand-icon">TF</div>
-        <div class="brand-text">
-          <h1>TF-NRD <span class="version-tag">Table S1.A</span></h1>
-          <p>Biological Assemblies & Complex Interfaces</p>
-        </div>
-      </a>
-      <nav class="main-nav">
+  <header>
+    <div class="container header-flex">
+      <h1>TF-NRD Database</h1>
+      <nav id="nav">
         <a href="tfnrd.html">Home</a>
-        <a href="TFNRDv1.0.html" class="active">Dataset (Table S1.A)</a>
-        <a href="TFNRDv1.0_PNA.html">TF-NA Interfaces (Table S1.B)</a>
-        <a href="TFNRDv1.0_PP.html">Protein-Protein (Table S1.C)</a>
+        <a href="TFNRDv1.0.html" class="active">Dataset</a>
+        <a href="TFNRDv1.0_PNA.html">TF-NA Interfaces</a>
+        <a href="TFNRDv1.0_PP.html">Protein-Protein</a>
       </nav>
-      <div class="header-actions">
-        <a href="http://www.csb.iitkgp.ac.in/databases/TFNRDv1.0/tfnrd.html" target="_blank" rel="noopener" class="btn-header-link">CSB Lab ↗</a>
-      </div>
     </div>
   </header>
+
 
   <!-- PAGE HERO -->
   <section class="page-hero">
@@ -2097,8 +2069,16 @@ def generate_table_s1a_html(records: list) -> str:
     // Initial render
     applyFilterAndSearch();
   </script>
+
+  <footer>
+    <p>
+      Computational Structural Biology Group<br>
+      Indian Institute of Technology Kharagpur
+    </p>
+  </footer>
 </body>
 </html>
+
 """
 
 
@@ -2122,26 +2102,18 @@ def generate_table_s1b_html(records: list) -> str:
 <body>
 
   <!-- SITE HEADER -->
-  <header class="site-header">
-    <div class="header-container">
-      <a href="tfnrd.html" class="brand">
-        <div class="brand-icon">TF</div>
-        <div class="brand-text">
-          <h1>TF-NRD <span class="version-tag">Table S1.B</span></h1>
-          <p>Unique TF-NA Interface Dataset</p>
-        </div>
-      </a>
-      <nav class="main-nav">
+  <header>
+    <div class="container header-flex">
+      <h1>TF-NRD Database</h1>
+      <nav id="nav">
         <a href="tfnrd.html">Home</a>
-        <a href="TFNRDv1.0.html">Dataset (Table S1.A)</a>
-        <a href="TFNRDv1.0_PNA.html" class="active">TF-NA Interfaces (Table S1.B)</a>
-        <a href="TFNRDv1.0_PP.html">Protein-Protein (Table S1.C)</a>
+        <a href="TFNRDv1.0.html">Dataset</a>
+        <a href="TFNRDv1.0_PNA.html" class="active">TF-NA Interfaces</a>
+        <a href="TFNRDv1.0_PP.html">Protein-Protein</a>
       </nav>
-      <div class="header-actions">
-        <a href="http://www.csb.iitkgp.ac.in/databases/TFNRDv1.0/tfnrd.html" target="_blank" rel="noopener" class="btn-header-link">CSB Lab ↗</a>
-      </div>
     </div>
   </header>
+
 
   <!-- PAGE HERO -->
   <section class="page-hero">
@@ -2603,8 +2575,16 @@ def generate_table_s1b_html(records: list) -> str:
     // Initial render
     applyFilterAndSearch();
   </script>
+
+  <footer>
+    <p>
+      Computational Structural Biology Group<br>
+      Indian Institute of Technology Kharagpur
+    </p>
+  </footer>
 </body>
 </html>
+
 """
 
 
@@ -2628,26 +2608,18 @@ def generate_table_s1c_html(records: list) -> str:
 <body>
 
   <!-- SITE HEADER -->
-  <header class="site-header">
-    <div class="header-container">
-      <a href="tfnrd.html" class="brand">
-        <div class="brand-icon">TF</div>
-        <div class="brand-text">
-          <h1>TF-NRD <span class="version-tag">Table S1.C</span></h1>
-          <p>Protein-Protein Interface Dataset</p>
-        </div>
-      </a>
-      <nav class="main-nav">
+  <header>
+    <div class="container header-flex">
+      <h1>TF-NRD Database</h1>
+      <nav id="nav">
         <a href="tfnrd.html">Home</a>
-        <a href="TFNRDv1.0.html">Dataset (Table S1.A)</a>
-        <a href="TFNRDv1.0_PNA.html">TF-NA Interfaces (Table S1.B)</a>
-        <a href="TFNRDv1.0_PP.html" class="active">Protein-Protein (Table S1.C)</a>
+        <a href="TFNRDv1.0.html">Dataset</a>
+        <a href="TFNRDv1.0_PNA.html">TF-NA Interfaces</a>
+        <a href="TFNRDv1.0_PP.html" class="active">Protein-Protein</a>
       </nav>
-      <div class="header-actions">
-        <a href="http://www.csb.iitkgp.ac.in/databases/TFNRDv1.0/tfnrd.html" target="_blank" rel="noopener" class="btn-header-link">CSB Lab ↗</a>
-      </div>
     </div>
   </header>
+
 
   <!-- PAGE HERO -->
   <section class="page-hero">
@@ -3093,8 +3065,16 @@ def generate_table_s1c_html(records: list) -> str:
     // Initial render
     applyFilterAndSearch();
   </script>
+
+  <footer>
+    <p>
+      Computational Structural Biology Group<br>
+      Indian Institute of Technology Kharagpur
+    </p>
+  </footer>
 </body>
 </html>
+
 """
 
 

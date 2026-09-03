@@ -10,26 +10,18 @@
 <body>
 
   <!-- SITE HEADER -->
-  <header class="site-header">
-    <div class="header-container">
-      <a href="tfnrd.html" class="brand">
-        <div class="brand-icon">TF</div>
-        <div class="brand-text">
-          <h1>TF-NRD <span class="version-tag">Table S1.B</span></h1>
-          <p>Unique TF-NA Interface Dataset</p>
-        </div>
-      </a>
-      <nav class="main-nav">
+  <header>
+    <div class="container header-flex">
+      <h1>TF-NRD Database</h1>
+      <nav id="nav">
         <a href="tfnrd.html">Home</a>
-        <a href="TFNRDv1.0.html">Dataset (Table S1.A)</a>
-        <a href="TFNRDv1.0_PNA.html" class="active">TF-NA Interfaces (Table S1.B)</a>
-        <a href="TFNRDv1.0_PP.html">Protein-Protein (Table S1.C)</a>
+        <a href="TFNRDv1.0.html">Dataset</a>
+        <a href="TFNRDv1.0_PNA.html" class="active">TF-NA Interfaces</a>
+        <a href="TFNRDv1.0_PP.html">Protein-Protein</a>
       </nav>
-      <div class="header-actions">
-        <a href="http://www.csb.iitkgp.ac.in/databases/TFNRDv1.0/tfnrd.html" target="_blank" rel="noopener" class="btn-header-link">CSB Lab ↗</a>
-      </div>
     </div>
   </header>
+
 
   <!-- PAGE HERO -->
   <section class="page-hero">
@@ -491,5 +483,13 @@
     // Initial render
     applyFilterAndSearch();
   </script>
+
+  <footer>
+    <p>
+      Computational Structural Biology Group<br>
+      Indian Institute of Technology Kharagpur
+    </p>
+  </footer>
 </body>
 </html>
+

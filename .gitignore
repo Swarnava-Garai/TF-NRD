@@ -5,3 +5,4 @@ results/Motifs/
 *.log
 *.log.*
 __pycache__/
+*.zip
