@@ -31,10 +31,9 @@ PROJECT_DIR = SCRIPT_DIR.parent
 SUPPLEMENTARY_DIR = PROJECT_DIR / "Supplementary"
 EXCEL_PATH = SUPPLEMENTARY_DIR / "Supplementary.xlsx"
 
-# Output target directories
+# Output target directory
 TARGET_DIRS = [
-    PROJECT_DIR / "TFNRDv1.0",
-    PROJECT_DIR
+    PROJECT_DIR / "TFNRDv1.0"
 ]
 
 logging.basicConfig(
