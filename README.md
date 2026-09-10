@@ -2,6 +2,8 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI: 10.1016/j.jsb.2026.108369](https://img.shields.io/badge/DOI-10.1016%2Fj.jsb.2026.108369-blue.svg)](https://doi.org/10.1016/j.jsb.2026.108369)
+[![Journal: J. Struct. Biol.](https://img.shields.io/badge/Journal-J.%20Struct.%20Biol.%20(2026)-darkgreen.svg)](https://doi.org/10.1016/j.jsb.2026.108369)
 
 **TF-NRD (Transcription Factors Non-Redundant Dataset)** is a curated, non-redundant atlas of transcription factor (TF) sequences and multi-entity biological structures designed to support structural, functional, and evolutionary analysis of TF assemblies across all domains of life.
 
@@ -149,15 +151,17 @@ Jupyter notebooks for interactive exploration, metadata validation, and suppleme
 
 - Python 3.9+ recommended
 - Installation via `pip`:
+
   ```bash
   pip install -r requirements.txt
   ```
+
 - Or via `conda`:
+
   ```bash
   conda env create -f environment.yml
   conda activate tfnrd_env
   ```
-
 
 ### Execution Examples
 
@@ -187,10 +191,25 @@ The TF-NRD dataset and webserver interface are publicly available at:
 
 ## 📖 Reference & Citation
 
-Garai, S., Kant, S., & Bahadur, R. P. (2026).  
-**An atlas of non-redundant sequences and structures of transcription factor assemblies across domains of life.**
+If you use TF-NRD datasets, analysis pipelines in your research, please cite:
 
-If you use TF-NRD datasets or scripts in your research, please cite the reference above.
+> Garai, S., Kant, S., & Bahadur, R. P. (2026). **An atlas of non-redundant sequences and structures of transcription factor assemblies across domains of life.** *Journal of Structural Biology*, 108369. [https://doi.org/10.1016/j.jsb.2026.108369](https://doi.org/10.1016/j.jsb.2026.108369)
+
+### BibTeX
+
+```bibtex
+@article{GARAI2026108369,
+  title = {An atlas of non-redundant sequences and structures of transcription factor assemblies across domains of life},
+  journal = {Journal of Structural Biology},
+  pages = {108369},
+  year = {2026},
+  issn = {1047-8477},
+  doi = {https://doi.org/10.1016/j.jsb.2026.108369},
+  url = {https://www.sciencedirect.com/science/article/pii/S1047847726000857},
+  author = {Swarnava Garai and Shri Kant and Ranjit Prasad Bahadur},
+  keywords = {Transcription factors, Gene regulation, Non-redundant dataset, TF-DNA interface, TF-RNA interface, Unique interface, Sequence motif, Structure domains, Pathway enrichment}
+}
+```
 
 ---
 
