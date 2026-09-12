@@ -1,0 +1,2210 @@
+{
+  "summary": [
+    {
+      "Category": "Only_Nucleus",
+      "Count": 96,
+      "Percentage": 40.0
+    },
+    {
+      "Category": "Only_Cytoplasm",
+      "Count": 43,
+      "Percentage": 17.92
+    },
+    {
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Count": 60,
+      "Percentage": 25.0
+    },
+    {
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Count": 23,
+      "Percentage": 9.58
+    },
+    {
+      "Category": "Cytoplasm_with_Other_not_Nucleus",
+      "Count": 9,
+      "Percentage": 3.75
+    },
+    {
+      "Category": "Others",
+      "Count": 9,
+      "Percentage": 3.75
+    }
+  ],
+  "category_pdbs": {
+    "Only_Nucleus": [
+      "1AHD",
+      "1AN4",
+      "1APL",
+      "1AWC",
+      "1B3T",
+      "1B72",
+      "1BC8",
+      "1C7U",
+      "1CF7",
+      "1D66",
+      "1DH3",
+      "1DP7",
+      "1EGW",
+      "1F4S",
+      "1GAT",
+      "1GCC",
+      "1HDD",
+      "1HWT",
+      "1IC8",
+      "1J4W",
+      "1JFI",
+      "1KQQ",
+      "1LFU",
+      "1MDY",
+      "1MNM",
+      "1MNN",
+      "1MSE",
+      "1N6J",
+      "1NGM",
+      "1NVP",
+      "1OCT",
+      "1ODH",
+      "1PDN",
+      "1PUE",
+      "1TF3",
+      "1TQE",
+      "1TTU",
+      "1UUT",
+      "1VTN",
+      "1XBR",
+      "1YRN",
+      "1YSA",
+      "1YTB",
+      "1ZME",
+      "2A07",
+      "2BOP",
+      "2C62",
+      "2C9L",
+      "2D5V",
+      "2ER8",
+      "2HDC",
+      "2KMK",
+      "2LEF",
+      "2LEX",
+      "2VY1",
+      "2YPA",
+      "3A5T",
+      "3DFX",
+      "3GNA",
+      "3HTS",
+      "3IGM",
+      "3MLN",
+      "3UK3",
+      "4G92",
+      "4IQR",
+      "4LMG",
+      "4PZI",
+      "4QTJ",
+      "4ROC",
+      "4UX5",
+      "5EYB",
+      "5FD3",
+      "5GNJ",
+      "5GZB",
+      "5J3E",
+      "5LXU",
+      "5MPF",
+      "5WX9",
+      "6EL8",
+      "6FAS",
+      "6IR8",
+      "6J4F",
+      "6RYD",
+      "7ET4",
+      "7ET6",
+      "7F2F",
+      "7VP1",
+      "7XQ5",
+      "7YZG",
+      "7ZB5",
+      "8EJO",
+      "8IKE",
+      "8J0K",
+      "8K4L",
+      "8K86",
+      "8P5Q"
+    ],
+    "Only_Cytoplasm": [
+      "1CMA",
+      "1CO0",
+      "1DDN",
+      "1G4D",
+      "1GXP",
+      "1KU7",
+      "1LQ1",
+      "1R8D",
+      "1RZR",
+      "1SAX",
+      "1TRR",
+      "1Z9C",
+      "2ASB",
+      "2H27",
+      "2P5L",
+      "2P7C",
+      "2Z33",
+      "3BS1",
+      "3FDQ",
+      "3IKT",
+      "3KET",
+      "3ON0",
+      "3Q5F",
+      "3UGO",
+      "4EGY",
+      "4G7H",
+      "4KFC",
+      "4NHJ",
+      "4RB1",
+      "4WLS",
+      "5HLG",
+      "5I44",
+      "5TW1",
+      "6LXN",
+      "6PST",
+      "6XL5",
+      "7KIF",
+      "8GMU",
+      "8PW0",
+      "8TRG",
+      "9DVS",
+      "9FO6",
+      "9GDR"
+    ],
+    "Nucleus_Cytoplasm_Both": [
+      "1A02",
+      "1A0A",
+      "1A66",
+      "1BF5",
+      "1CKT",
+      "1GD2",
+      "1GLU",
+      "1GT0",
+      "1H88",
+      "1HJB",
+      "1HRY",
+      "1IF1",
+      "1IO4",
+      "1LO1",
+      "1MHD",
+      "1NKP",
+      "1O4X",
+      "1RAM",
+      "1SKN",
+      "1SVC",
+      "1T2K",
+      "1TUP",
+      "1W0T",
+      "1XPX",
+      "1YTF",
+      "1ZAA",
+      "2GLI",
+      "2NLL",
+      "2QL2",
+      "2STT",
+      "2UZK",
+      "3D2W",
+      "3EYI",
+      "4F6M",
+      "4H10",
+      "4J19",
+      "4J2X",
+      "4LDX",
+      "4XRM",
+      "4Y00",
+      "5EG6",
+      "5MHJ",
+      "5XFP",
+      "5XFQ",
+      "5XSK",
+      "6ASB",
+      "6RQL",
+      "7C9O",
+      "7ML0",
+      "7NVV",
+      "7O4J",
+      "7OH9",
+      "7PRV",
+      "7X5G",
+      "7YUK",
+      "8G88",
+      "8KD3",
+      "8YEY",
+      "9D22",
+      "9K2G"
+    ],
+    "Nucleus_with_Other_not_Cytoplasm": [
+      "1AN2",
+      "1IGN",
+      "1JMC",
+      "1NLW",
+      "1QRV",
+      "1VOL",
+      "1YUI",
+      "2KKF",
+      "2KO0",
+      "2O49",
+      "3QMB",
+      "3UGM",
+      "5JGH",
+      "5XOG",
+      "5ZD4",
+      "6LUI",
+      "7NVS",
+      "7U0G",
+      "7V9F",
+      "7VDT",
+      "7Z0O",
+      "8UHD",
+      "9GC3"
+    ],
+    "Cytoplasm_with_Other_not_Nucleus": [
+      "1AM9",
+      "1IHF",
+      "2LEV",
+      "3IV5",
+      "6P0S",
+      "8CX0",
+      "8WPE",
+      "9F10",
+      "9GDS"
+    ],
+    "Others": [
+      "3BRD",
+      "3N7Q",
+      "3TQ6",
+      "4HQU",
+      "6RFL",
+      "7AMV",
+      "7EOF",
+      "8B4B",
+      "8U8U"
+    ]
+  },
+  "detailed_per_entry": [
+    {
+      "From": "1A02",
+      "Subcellular_Location_Cleaned": "Nucleus, Endoplasmic reticulum, Cytoplasm, cytosol",
+      "Entry": "P01100, P05412, Q13469",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 4
+    },
+    {
+      "From": "1A0A",
+      "Subcellular_Location_Cleaned": "Cytoplasm, Nucleus",
+      "Entry": "P07270",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "1A66",
+      "Subcellular_Location_Cleaned": "Cytoplasm, Nucleus",
+      "Entry": "O95644",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "1AHD",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P02833",
+      "Organism": "Drosophila melanogaster (Fruit fly)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1AM9",
+      "Subcellular_Location_Cleaned": ": Endoplasmic reticulum membrane, Multi-pass membrane protein, Golgi apparatus membrane, Cytoplasmic vesicle, COPII-coated vesicle membrane",
+      "Entry": "P36956",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Cytoplasm_with_Other_not_Nucleus",
+      "Component_Count": 5
+    },
+    {
+      "From": "1AN2",
+      "Subcellular_Location_Cleaned": "Nucleus, Cell projection, dendrite",
+      "Entry": "P61244",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 3
+    },
+    {
+      "From": "1AN4",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P22415",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1APL",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P0CY08",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1AWC",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q00420, Q00422",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1B3T",
+      "Subcellular_Location_Cleaned": "Host nucleus",
+      "Entry": "P03211",
+      "Organism": "Epstein-Barr virus (strain B95-8) (HHV-4) (Human herpesvirus 4)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1B72",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P14653, P40424",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1BC8",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P28324",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1BF5",
+      "Subcellular_Location_Cleaned": "Cytoplasm, Nucleus",
+      "Entry": "P42224",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "1C7U",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q02078",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1CF7",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q14188, Q16254",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1CKT",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, Secreted, Chromosome, Cell membrane, Peripheral membrane protein, Extracellular side, Endosome, Endoplasmic reticulum-Golgi intermediate compartment",
+      "Entry": "P63159",
+      "Organism": "Rattus norvegicus (Rat)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 9
+    },
+    {
+      "From": "1CMA",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P0A8U6",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "1CO0",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P0A881",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "1D66",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P04386",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1DDN",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P0DJL7",
+      "Organism": "Corynebacterium diphtheriae (strain ATCC 700971 / NCTC 13129 / Biotype gravis)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "1DH3",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q01147",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1DP7",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P22670",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1EGW",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q02078",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1F4S",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P21228",
+      "Organism": "Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) (Aspergillus nidulans)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1G4D",
+      "Subcellular_Location_Cleaned": "Host cytoplasm",
+      "Entry": "P06019",
+      "Organism": "Escherichia phage Mu (Bacteriophage Mu)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "1GAT",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P17678",
+      "Organism": "Gallus gallus (Chicken)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1GCC",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "O80337",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1GD2",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "Q01663",
+      "Organism": "Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "1GLU",
+      "Subcellular_Location_Cleaned": ": Cytoplasm, Nucleus, Mitochondrion, Cytoplasm, cytoskeleton, spindle, microtubule organizing center, centrosome, Chromosome, nucleoplasm",
+      "Entry": "P06536",
+      "Organism": "Rattus norvegicus (Rat)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 10
+    },
+    {
+      "From": "1GT0",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "P14859, P48432",
+      "Organism": "Homo sapiens (Human), Mus musculus (Mouse)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "1GXP",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P0AFJ5",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "1H88",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "P06876, P17676",
+      "Organism": "Homo sapiens (Human), Mus musculus (Mouse)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "1HDD",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P02836",
+      "Organism": "Drosophila melanogaster (Fruit fly)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1HJB",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "P17676, Q03347",
+      "Organism": "Homo sapiens (Human), Mus musculus (Mouse)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "1HRY",
+      "Subcellular_Location_Cleaned": "Nucleus speckle, Cytoplasm, Nucleus",
+      "Entry": "Q05066",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "1HWT",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P0CS82",
+      "Organism": "Saccharomyces cerevisiae (Baker's yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1IC8",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P20823",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1IF1",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "P15314",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "1IGN",
+      "Subcellular_Location_Cleaned": "Nucleus, Chromosome, telomere",
+      "Entry": "P11938",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 3
+    },
+    {
+      "From": "1IHF",
+      "Subcellular_Location_Cleaned": "Cytoplasm, nucleoid",
+      "Entry": "P0A6X7, P0A6Y1",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Cytoplasm_with_Other_not_Nucleus",
+      "Component_Count": 2
+    },
+    {
+      "From": "1IO4",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "P17676, Q03347, Q08024",
+      "Organism": "Homo sapiens (Human), Mus musculus (Mouse)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "1J4W",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q96AE4",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1JFI",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P20226, Q01658, Q14919",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1JMC",
+      "Subcellular_Location_Cleaned": "Nucleus, PML body",
+      "Entry": "P27694",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 2
+    },
+    {
+      "From": "1KQQ",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q24573",
+      "Organism": "Drosophila melanogaster (Fruit fly)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1KU7",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "Q9EZJ8",
+      "Organism": "Thermus aquaticus",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "1LFU",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P41778",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1LO1",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, Chromosome",
+      "Entry": "O95718",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "1LQ1",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P06534",
+      "Organism": "Bacillus subtilis (strain 168)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "1MDY",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P10085",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1MHD",
+      "Subcellular_Location_Cleaned": "Cytoplasm, Nucleus",
+      "Entry": "P84022",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "1MNM",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P0CY08, P11746",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1MNN",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P38830",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1MSE",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P06876",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1N6J",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q02080, Q9Y6J0",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1NGM",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P13393, P29056",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1NKP",
+      "Subcellular_Location_Cleaned": "Nucleus, nucleoplasm, nucleolus, Cytoplasm, Chromosome",
+      "Entry": "P01106, P61244",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 5
+    },
+    {
+      "From": "1NLW",
+      "Subcellular_Location_Cleaned": "Nucleus, Cell projection, dendrite",
+      "Entry": "P61244, Q05195",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 3
+    },
+    {
+      "From": "1NVP",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P20226, P52655, P52657",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1O4X",
+      "Subcellular_Location_Cleaned": "Nucleus, Nucleus speckle, Cytoplasm",
+      "Entry": "P14859, P48431",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "1OCT",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P14859",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1ODH",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P70348",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1PDN",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P06601",
+      "Organism": "Drosophila melanogaster (Fruit fly)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1PUE",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P17433",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1QRV",
+      "Subcellular_Location_Cleaned": "Nucleus, Chromosome",
+      "Entry": "Q05783",
+      "Organism": "Drosophila melanogaster (Fruit fly)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 2
+    },
+    {
+      "From": "1R8D",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P71039",
+      "Organism": "Bacillus subtilis (strain 168)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "1RAM",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "Q04207",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "1RZR",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "O69250",
+      "Organism": "Priestia megaterium (Bacillus megaterium)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "1SAX",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P68261",
+      "Organism": "Staphylococcus aureus (strain N315)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "1SKN",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "P34707",
+      "Organism": "Caenorhabditis elegans",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "1SVC",
+      "Subcellular_Location_Cleaned": ": Cytoplasm, : Nucleus, Cytoplasm",
+      "Entry": "P19838",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "1T2K",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, Mitochondrion outer membrane",
+      "Entry": "P05412, P15336, Q14653",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "1TF3",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P03001",
+      "Organism": "Xenopus laevis (African clawed frog)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1TQE",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q02080, Q99N13",
+      "Organism": "Homo sapiens (Human), Mus musculus (Mouse)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1TRR",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P0A881",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "1TTU",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "V6CLJ5",
+      "Organism": "Caenorhabditis elegans",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1TUP",
+      "Subcellular_Location_Cleaned": "Cytoplasm, Nucleus, PML body, Endoplasmic reticulum, Mitochondrion matrix, cytoskeleton, microtubule organizing center, centrosome",
+      "Entry": "P04637",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 8
+    },
+    {
+      "From": "1UUT",
+      "Subcellular_Location_Cleaned": "Host nucleus",
+      "Entry": "Q9YJC1",
+      "Organism": "adeno-associated virus 5",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1VOL",
+      "Subcellular_Location_Cleaned": "Nucleus, Chromosome",
+      "Entry": "P28147, Q00403",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress), Homo sapiens (Human)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 2
+    },
+    {
+      "From": "1VTN",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P55318",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1W0T",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, cytoskeleton, spindle, Chromosome, telomere",
+      "Entry": "P54274",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 6
+    },
+    {
+      "From": "1XBR",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P24781",
+      "Organism": "Xenopus laevis (African clawed frog)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1XPX",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, cell cortex",
+      "Entry": "P29617",
+      "Organism": "Drosophila melanogaster (Fruit fly)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "1YRN",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P0CY08, P0CY10",
+      "Organism": "Saccharomyces cerevisiae (Baker's yeast), Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1YSA",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P03069",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1YTB",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P13393",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "1YTF",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "P13393, P32773, P32774",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "1YUI",
+      "Subcellular_Location_Cleaned": "Nucleus, Chromosome",
+      "Entry": "Q08605",
+      "Organism": "Drosophila melanogaster (Fruit fly)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 2
+    },
+    {
+      "From": "1Z9C",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "O34777",
+      "Organism": "Bacillus subtilis (strain 168)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "1ZAA",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "P08046",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "1ZME",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P25502",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "2A07",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "O15409",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "2ASB",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P9WIV3",
+      "Organism": "Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "2BOP",
+      "Subcellular_Location_Cleaned": "Host nucleus",
+      "Entry": "P03122",
+      "Organism": "Bovine papillomavirus type 1",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "2C62",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P53999",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "2C9L",
+      "Subcellular_Location_Cleaned": "Host nucleus",
+      "Entry": "P03206",
+      "Organism": "Epstein-Barr virus (strain B95-8) (HHV-4) (Human herpesvirus 4)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "2D5V",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P70512",
+      "Organism": "Rattus norvegicus (Rat)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "2ER8",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P08638",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "2GLI",
+      "Subcellular_Location_Cleaned": "Cytoplasm, Nucleus, Cell projection, cilium",
+      "Entry": "P08151",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 4
+    },
+    {
+      "From": "2H27",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P0AGB6",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "2HDC",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q63245",
+      "Organism": "Rattus norvegicus (Rat)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "2KKF",
+      "Subcellular_Location_Cleaned": "Nucleus, : Nucleus",
+      "Entry": "Q03164",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 2
+    },
+    {
+      "From": "2KMK",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q07120",
+      "Organism": "Rattus norvegicus (Rat)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "2KO0",
+      "Subcellular_Location_Cleaned": "Nucleus, nucleoplasm, PML body",
+      "Entry": "Q9NVV9",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 3
+    },
+    {
+      "From": "2LEF",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P27782",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "2LEV",
+      "Subcellular_Location_Cleaned": "Cytoplasm, nucleoid",
+      "Entry": "Q7DB51",
+      "Organism": "Escherichia coli O157:H7",
+      "Category": "Cytoplasm_with_Other_not_Nucleus",
+      "Component_Count": 2
+    },
+    {
+      "From": "2LEX",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q9XI90",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "2NLL",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, Mitochondrion",
+      "Entry": "P10828, P19793",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "2O49",
+      "Subcellular_Location_Cleaned": "Nucleus matrix, Nucleus, PML body",
+      "Entry": "Q01826",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 3
+    },
+    {
+      "From": "2P5L",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P17893",
+      "Organism": "Bacillus subtilis (strain 168)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "2P7C",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P06555",
+      "Organism": "Bacillus licheniformis",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "2QL2",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "P15806, Q60867",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "2STT",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "P14921",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "2UZK",
+      "Subcellular_Location_Cleaned": "Cytoplasm, cytosol, Nucleus, Mitochondrion matrix, Mitochondrion outer membrane, Peripheral membrane protein, Cytoplasmic side",
+      "Entry": "O43524",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 7
+    },
+    {
+      "From": "2VY1",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q00958",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "2YPA",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P15923, P17542, P25791, Q86U70",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "2Z33",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P0AFJ5",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "3A5T",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "O54790",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "3BRD",
+      "Subcellular_Location_Cleaned": "Apical cell membrane, Single-pass type I membrane protein",
+      "Entry": "P14585, V6CLJ5",
+      "Organism": "Caenorhabditis elegans",
+      "Category": "Others",
+      "Component_Count": 2
+    },
+    {
+      "From": "3BS1",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P0A0I7",
+      "Organism": "Staphylococcus aureus",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "3D2W",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, Stress granule, Mitochondrion",
+      "Entry": "Q921F2",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 4
+    },
+    {
+      "From": "3DFX",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P23772",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "3EYI",
+      "Subcellular_Location_Cleaned": "Cytoplasm, Nucleus",
+      "Entry": "Q9H171",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "3FDQ",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P0DJO8",
+      "Organism": "Listeria monocytogenes serovar 1/2a (strain ATCC BAA-679 / EGD-e)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "3GNA",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P15919",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "3HTS",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P22121",
+      "Organism": "Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37) (Yeast) (Candida sphaerica)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "3IGM",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q8IKH2",
+      "Organism": "Plasmodium falciparum (isolate 3D7)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "3IKT",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "Q72I39",
+      "Organism": "Thermus thermophilus (strain ATCC BAA-163 / DSM 7039 / HB27)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "3IV5",
+      "Subcellular_Location_Cleaned": "Cytoplasm, nucleoid",
+      "Entry": "P0A6R3",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Cytoplasm_with_Other_not_Nucleus",
+      "Component_Count": 2
+    },
+    {
+      "From": "3KET",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "Q8E565",
+      "Organism": "Streptococcus agalactiae serotype III (strain NEM316)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "3MLN",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q07802",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "3N7Q",
+      "Subcellular_Location_Cleaned": "Mitochondrion",
+      "Entry": "Q99551",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Others",
+      "Component_Count": 1
+    },
+    {
+      "From": "3ON0",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P33788",
+      "Organism": "Escherichia coli",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "3Q5F",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P40676",
+      "Organism": "Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "3QMB",
+      "Subcellular_Location_Cleaned": "Nucleus speckle, Nucleus",
+      "Entry": "Q9P0U4",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 2
+    },
+    {
+      "From": "3TQ6",
+      "Subcellular_Location_Cleaned": "Mitochondrion, Mitochondrion matrix, mitochondrion nucleoid",
+      "Entry": "Q00059",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Others",
+      "Component_Count": 3
+    },
+    {
+      "From": "3UGM",
+      "Subcellular_Location_Cleaned": "Secreted, Host nucleus",
+      "Entry": "B2SU53",
+      "Organism": "Xanthomonas oryzae pv. oryzae (strain PXO99A)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 2
+    },
+    {
+      "From": "3UGO",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "Q9EZJ8",
+      "Organism": "Thermus aquaticus",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "3UK3",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "O75362",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "4EGY",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P96711",
+      "Organism": "Bacillus subtilis (strain 168)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "4F6M",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "Q86T24",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "4G7H",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "Q5SKW1",
+      "Organism": "Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "4G92",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "C8V0B5, P87249",
+      "Organism": "Emericella nidulans (Aspergillus nidulans), Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) (Aspergillus nidulans)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "4H10",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, PML body",
+      "Entry": "O00327, O15516",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "4HQU",
+      "Subcellular_Location_Cleaned": "Secreted",
+      "Entry": "P01127",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Others",
+      "Component_Count": 1
+    },
+    {
+      "From": "4IQR",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P41235, Q15596",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "4J19",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, Chromosome, telomere, Cajal body, PML body",
+      "Entry": "Q6NT76",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 6
+    },
+    {
+      "From": "4J2X",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "P31266, P97447",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "4KFC",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P21866",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "4LDX",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "Q8L7G0",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "4LMG",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q08957",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "4NHJ",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "A6T8N1",
+      "Organism": "Klebsiella pneumoniae subsp. pneumoniae (strain ATCC 700721 / MGH 78578)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "4PZI",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q9UMN6",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "4QTJ",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q5AP80",
+      "Organism": "Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "4RB1",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "V6F4Q0",
+      "Organism": "Magnetospirillum gryphiswaldense (strain DSM 6361 / JCM 21280 / NBRC 15271 / MSR-1)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "4ROC",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P20226, Q9HAW0",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "4UX5",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "G4NA99",
+      "Organism": "Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) (Rice blast fungus) (Magnaporthe oryzae)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "4WLS",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P0A9G4",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "4XRM",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, perinuclear region",
+      "Entry": "O14770",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "4Y00",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, Stress granule, Mitochondrion",
+      "Entry": "Q13148",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 4
+    },
+    {
+      "From": "5EG6",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "P31266, Q96K30",
+      "Organism": "Homo sapiens (Human), Mus musculus (Mouse)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "5EYB",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q9P6H9",
+      "Organism": "Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "5FD3",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q6MZP7",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "5GNJ",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q39204",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "5GZB",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q15561",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "5HLG",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "Q5HKZ1",
+      "Organism": "Staphylococcus epidermidis (strain ATCC 35984 / DSM 28319 / BCRC 17069 / CCUG 31568 / BM 3577 / RP62A)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "5I44",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P45870",
+      "Organism": "Bacillus subtilis (strain 168)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "5J3E",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q9P016",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "5JGH",
+      "Subcellular_Location_Cleaned": "Mitochondrion, Nucleus",
+      "Entry": "Q02486",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 2
+    },
+    {
+      "From": "5LXU",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q9SNB4",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "5MHJ",
+      "Subcellular_Location_Cleaned": "Host nucleus, Host cytoplasm, Virion tegument",
+      "Entry": "P08392",
+      "Organism": "Human herpesvirus 1 (strain 17) (HHV-1) (Human herpes simplex virus 1)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "5MPF",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q9NZI5",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "5TW1",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "A0QW02",
+      "Organism": "Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium smegmatis)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "5WX9",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q9LSX0",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "5XFP",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, cytoskeleton, microtubule organizing center, centrosome",
+      "Entry": "O43189",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 5
+    },
+    {
+      "From": "5XFQ",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, cytoskeleton, microtubule organizing center, centrosome",
+      "Entry": "P68431, Q9Z1B8",
+      "Organism": "Homo sapiens (Human), Mus musculus (Mouse)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 5
+    },
+    {
+      "From": "5XOG",
+      "Subcellular_Location_Cleaned": "Nucleus, nucleolus",
+      "Entry": "A0A1B2JER8, C4QZQ7, C4R009, C4R1V1, C4R273, C4R2U9, C4R3P8, C4R3Z5, C4R4Y0, C4R7L2, C4R9A1, F2QMI1, F2QPE6, F2QUC3",
+      "Organism": "Komagataella pastoris (Yeast) (Pichia pastoris), Komagataella phaffii (strain ATCC 76273 / CBS 7435 / CECT 11047 / NRRL Y-11430 / Wegner 21-1) (Yeast) (Pichia pastoris), Komagataella phaffii (strain GS115 / ATCC 20864) (Yeast) (Pichia pastoris)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 2
+    },
+    {
+      "From": "5XSK",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, Secreted, extracellular exosome",
+      "Entry": "Q8VHK7",
+      "Organism": "Rattus norvegicus (Rat)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 4
+    },
+    {
+      "From": "5ZD4",
+      "Subcellular_Location_Cleaned": "Nucleus, Periplasm",
+      "Entry": "P0AEY0, Q8S307",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress), Escherichia coli O157:H7",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 2
+    },
+    {
+      "From": "6ASB",
+      "Subcellular_Location_Cleaned": "Cytoplasm, Nucleus",
+      "Entry": "Q6PCT2",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "6EL8",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "O15353",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "6FAS",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q8W4L5",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "6IR8",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "B9FNW2",
+      "Organism": "Oryza sativa subsp. japonica (Rice)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "6J4F",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q9FG77",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "6LUI",
+      "Subcellular_Location_Cleaned": "Nucleus, Chromosome, Secreted",
+      "Entry": "Q6SPF0",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 3
+    },
+    {
+      "From": "6LXN",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P0AA16",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "6P0S",
+      "Subcellular_Location_Cleaned": "Cytoplasm, nucleoid",
+      "Entry": "P0A6R3",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Cytoplasm_with_Other_not_Nucleus",
+      "Component_Count": 2
+    },
+    {
+      "From": "6PST",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P00579",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "6RFL",
+      "Subcellular_Location_Cleaned": "Virion",
+      "Entry": "Q1PIU7",
+      "Organism": "Vaccinia virus (VACV) (Orthopoxvirus vaccinia)",
+      "Category": "Others",
+      "Component_Count": 1
+    },
+    {
+      "From": "6RQL",
+      "Subcellular_Location_Cleaned": "Nucleus, nucleolus, Cytoplasm, Peroxisome",
+      "Entry": "P07703, P10964, P20434, P20435, P20436, P22138, P22139, P28000, P32529, P32786, P36070, P40422, P40992, P46669, P47006, P50106, Q01080, Q04712",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 4
+    },
+    {
+      "From": "6RYD",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q9SB92",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "6XL5",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P00579",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "7AMV",
+      "Subcellular_Location_Cleaned": "Virion",
+      "Entry": "A4GDF1, Q1PIU7, Q49PG1, Q49PH2, Q49PL6, Q49QC8, Q49QE8, Q49QI2",
+      "Organism": "Vaccinia virus (VACV) (Orthopoxvirus vaccinia), Vaccinia virus (strain LC16m0) (VACV), Vaccinia virus (strain LC16m8) (VACV), Vaccinia virus (strain Lister) (VACV)",
+      "Category": "Others",
+      "Component_Count": 1
+    },
+    {
+      "From": "7C9O",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "A6BLW4, Q0J7P4, Q9FDX8",
+      "Organism": "Oryza sativa subsp. japonica (Rice)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "7EOF",
+      "Subcellular_Location_Cleaned": "Cell membrane, Single-pass membrane protein, Endomembrane system",
+      "Entry": "Q86WR0",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Others",
+      "Component_Count": 3
+    },
+    {
+      "From": "7ET4",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q9C6M5",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "7ET6",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q9C6M5",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "7F2F",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P33122",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "7KIF",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P9WGI1, Q6MX01",
+      "Organism": "Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "7ML0",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, P-body",
+      "Entry": "P04050, P06839, P08518, P13393, P16370, P20433, P20434, P20435, P20436, P22139, P27999, P29055, P32776, P34087, P36100, P36145, P38902, P40422, P41895, P41896, Q00578, Q02939, Q03290, Q04673, Q12004, Q3E7C1",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "7NVS",
+      "Subcellular_Location_Cleaned": "Nucleus, Chromosome",
+      "Entry": "A0A287ADR4, A0A4X1TRS6, A0A4X1VEK9, A0A4X1VYD0, A0A7M4DUC2, A0A8D0TE17, A0A8D1AQR7, F1RKE4, I3LCB2, I3LCH3, I3LGP4, I3LSI7, P13984, P20226, P29083, P29084, P35269, P52655, P52657, P60899, Q00403",
+      "Organism": "Homo sapiens (Human), Sus scrofa (Pig)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 2
+    },
+    {
+      "From": "7NVV",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "P19447, P29083, Q6ZYL4, Q92759",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "7O4J",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, P-body",
+      "Entry": "P04050, P06839, P08518, P13393, P16370, P20433, P20434, P20435, P20436, P22139, P27999, P29055, P32773, P32774, P32776, P34087, P36100, P36145, P38902, P40422, P41895, P41896, Q00578, Q02939, Q03290, Q04673, Q12004, Q3E7C1",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "7OH9",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "P02281, P06897, P13393, P32773, P32774, P62799, P84233",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast), Xenopus laevis (African clawed frog)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "7PRV",
+      "Subcellular_Location_Cleaned": ": Cytoplasm, Nucleus, Mitochondrion, Cytoplasm, cytoskeleton, spindle, microtubule organizing center, centrosome, Chromosome, nucleoplasm",
+      "Entry": "P04150, Q9UBK2",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 10
+    },
+    {
+      "From": "7U0G",
+      "Subcellular_Location_Cleaned": "Periplasm, Nucleus, Chromosome",
+      "Entry": "P0AEX9, P62805, P68431, Q01860, Q16777, Q16778",
+      "Organism": "Escherichia coli (strain K12), Homo sapiens (Human)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 3
+    },
+    {
+      "From": "7V9F",
+      "Subcellular_Location_Cleaned": "Nucleus, nucleolus",
+      "Entry": "Q6PAL0",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 2
+    },
+    {
+      "From": "7VDT",
+      "Subcellular_Location_Cleaned": "Nucleus, Chromosome",
+      "Entry": "P02281, P06897, P51532, P62799, P84233",
+      "Organism": "Homo sapiens (Human), Xenopus laevis (African clawed frog)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 2
+    },
+    {
+      "From": "7VP1",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "O82277",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "7X5G",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, cytosol",
+      "Entry": "O15525, Q16236",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "7XQ5",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P13902, P26798",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "7YUK",
+      "Subcellular_Location_Cleaned": "Nucleus, Nucleus speckle, Cytoplasm",
+      "Entry": "Q8N9N5",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "7YZG",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P70056",
+      "Organism": "Xenopus laevis (African clawed frog)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "7Z0O",
+      "Subcellular_Location_Cleaned": "Nucleus, Chromosome, nucleolus",
+      "Entry": "P02309, P13393, P38204, P53437, P61830, Q02983, Q08747",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 3
+    },
+    {
+      "From": "7ZB5",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "G0S6C0, G0SAL6",
+      "Organism": "Thermochaetoides thermophila (strain DSM 1495 / CBS 144.50 / DAOM 24625 / IMI 039719) (Chaetomium thermophilum)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "8B4B",
+      "Subcellular_Location_Cleaned": "Cell membrane, Single-pass membrane protein",
+      "Entry": "P15795",
+      "Organism": "Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961)",
+      "Category": "Others",
+      "Component_Count": 2
+    },
+    {
+      "From": "8CX0",
+      "Subcellular_Location_Cleaned": "Host cytoplasm, Host cell membrane, Peripheral membrane protein, Cytoplasmic side, Virion",
+      "Entry": "P69723, Q13951, Q15369, Q15370, Q9HC16",
+      "Organism": "Homo sapiens (Human), Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) (HIV-1)",
+      "Category": "Cytoplasm_with_Other_not_Nucleus",
+      "Component_Count": 5
+    },
+    {
+      "From": "8EJO",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "A0A6I8NF41",
+      "Organism": "Ornithorhynchus anatinus (Duckbill platypus)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "8G88",
+      "Subcellular_Location_Cleaned": "Nucleus, Chromosome, Cytoplasm",
+      "Entry": "P02281, P62799, P84233, Q01860, Q6AZJ8",
+      "Organism": "Homo sapiens (Human), Xenopus laevis (African clawed frog)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "8GMU",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P0A7G6",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "8IKE",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q8TE12",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "8J0K",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "P05549",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "8K4L",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q16656",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "8K86",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "Q16649",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "8KD3",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, Chromosome",
+      "Entry": "A0A310TTQ1, P02281, P22579, P32561, P62799, Q04779, Q12432, Q6AZJ8",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast), Xenopus laevis (African clawed frog)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 3
+    },
+    {
+      "From": "8P5Q",
+      "Subcellular_Location_Cleaned": "Nucleus",
+      "Entry": "O82268",
+      "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+      "Category": "Only_Nucleus",
+      "Component_Count": 1
+    },
+    {
+      "From": "8PW0",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "Q9RRF3",
+      "Organism": "Deinococcus radiodurans (strain ATCC 13939 / DSM 20539 / JCM 16871 / CCUG 27074 / LMG 4051 / NBRC 15346 / NCIMB 9279 / VKM B-1422 / R1)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "8TRG",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P0A7G6",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "8U8U",
+      "Subcellular_Location_Cleaned": "Mitochondrion, Mitochondrion matrix, mitochondrion nucleoid",
+      "Entry": "O00411, Q96QE5",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Others",
+      "Component_Count": 3
+    },
+    {
+      "From": "8UHD",
+      "Subcellular_Location_Cleaned": "Nucleus, Chromosome",
+      "Entry": "A0A4X1TRS6, A0A4X1VEK9, A0A4X1VKG7, A0A8D0TE17, A0A8D1AQR7, A0A8D1DPV6, A0A8W4F9W9, I3LCH3, I3LGP4, I3LSI7, O00267, P18615, P60899, P63272, Q8IXH7, Q8WX92, Q9H3P2",
+      "Organism": "Homo sapiens (Human), Sus scrofa (Pig)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 2
+    },
+    {
+      "From": "8WPE",
+      "Subcellular_Location_Cleaned": "Virion, Host cytoplasm",
+      "Entry": "A0A7H0DN82",
+      "Organism": "Monkeypox virus (MPXV)",
+      "Category": "Cytoplasm_with_Other_not_Nucleus",
+      "Component_Count": 2
+    },
+    {
+      "From": "8YEY",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, cytosol, cytoskeleton, microtubule organizing center, centrosome",
+      "Entry": "Q15650",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 6
+    },
+    {
+      "From": "9D22",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm",
+      "Entry": "Q99JB6",
+      "Organism": "Mus musculus (Mouse)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 2
+    },
+    {
+      "From": "9DVS",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "P38023",
+      "Organism": "Synechococcus elongatus (strain ATCC 33912 / PCC 7942 / FACHB-805) (Anacystis nidulans R2)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "9F10",
+      "Subcellular_Location_Cleaned": "Cytoplasm, nucleoid",
+      "Entry": "P06627, P0A6X7, P0A6Y1, P14565",
+      "Organism": "Escherichia coli (strain K12)",
+      "Category": "Cytoplasm_with_Other_not_Nucleus",
+      "Component_Count": 2
+    },
+    {
+      "From": "9FO6",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "Q72L95",
+      "Organism": "Thermus thermophilus (strain ATCC BAA-163 / DSM 7039 / HB27)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "9GC3",
+      "Subcellular_Location_Cleaned": "Nucleus, Mitochondrion",
+      "Entry": "P34111, Q06339, Q12308",
+      "Organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "Category": "Nucleus_with_Other_not_Cytoplasm",
+      "Component_Count": 2
+    },
+    {
+      "From": "9GDR",
+      "Subcellular_Location_Cleaned": "Cytoplasm",
+      "Entry": "A0A0H3AJ64",
+      "Organism": "Vibrio cholerae serotype O1 (strain ATCC 39541 / Classical Ogawa 395 / O395)",
+      "Category": "Only_Cytoplasm",
+      "Component_Count": 1
+    },
+    {
+      "From": "9GDS",
+      "Subcellular_Location_Cleaned": "Cell membrane, Single-pass membrane protein, Cytoplasm",
+      "Entry": "A0A0H3AJ64, P15795",
+      "Organism": "Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961), Vibrio cholerae serotype O1 (strain ATCC 39541 / Classical Ogawa 395 / O395)",
+      "Category": "Cytoplasm_with_Other_not_Nucleus",
+      "Component_Count": 3
+    },
+    {
+      "From": "9K2G",
+      "Subcellular_Location_Cleaned": "Nucleus, Cytoplasm, cytosol, nucleolus",
+      "Entry": "O14802, O15160, O15318, O75575, P05423, P0DPB6, P19388, P52434, P53803, P61218, P62875, Q9BUI4, Q9H1D9, Q9HAW0, Q9NVU0, Q9NW08, Q9Y2Y1, Q9Y535",
+      "Organism": "Homo sapiens (Human)",
+      "Category": "Nucleus_Cytoplasm_Both",
+      "Component_Count": 4
+    }
+  ]
+}
